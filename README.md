@@ -1,14 +1,16 @@
-# PE crystal reconstruction and refinement workflow
+# Polymer crystal reconstruction and refinement workflow
 
-聚乙烯晶体结构重建、分层优化与独立数值验收的论文配套源码准备仓库。
+聚合物晶体结构重建、分层优化与独立数值验收的论文配套源码准备仓库。
+
+项目面向聚合物晶体，PE（聚乙烯）是当前已完成验证的典型实例，PA6 是计划中的扩展对象。具体材料的化学拓扑、对称性、搜索范围和收敛参数需分别确定。
 
 **当前版本：v0.1 准备快照，整理日期 2026-10-30。** 本仓库公开保存已完成 PE 主线的计算脚本、参数、结构与精选证据，用于后续论文写作和正式代码归档。它尚不是完成独立机器全流程重跑验证的正式论文 release；当前验证范围见[复现说明](docs/REPRODUCING.md)。
 
-English summary: This repository preserves the source code and selected evidence for prior-constrained polyethylene crystal reconstruction and hierarchical refinement. Four GFN2 representatives converge to one tolerance group after tight fixed-cell DFT refinement; its representative is subsequently relaxed at zero external pressure under orthorhombic and Pnam constraints. This v0.1 preparation snapshot is not a global crystal-prediction benchmark or a fully independently rerun computational release.
+English summary: This repository develops a workflow for prior-constrained polymer crystal reconstruction and hierarchical refinement, with polyethylene (PE) as the currently validated case study and PA6 as a planned extension. In the PE case, four GFN2 representatives converge to one tolerance group after tight fixed-cell DFT refinement; its representative is subsequently relaxed at zero external pressure under orthorhombic and Pnam constraints. This v0.1 preparation snapshot is not a global crystal-prediction benchmark or a fully independently rerun computational release.
 
-## 研究对象与流程
+## 计算流程与当前验证实例
 
-研究对象为含两条沿 c 轴全反式链的 C4H8 周期胞，共 12 原子、4 个 CH2。生成输入采用实验晶胞及 Pnam 对称性先验；候选坐标由化学几何构造，不读取文献精修坐标。
+当前 PE 验证实例为含两条沿 c 轴全反式链的 C4H8 周期胞，共 12 原子、4 个 CH2。生成输入采用实验晶胞及 Pnam 对称性先验；候选坐标由化学几何构造，不读取文献精修坐标。
 
 ```text
 输入与先验冻结
@@ -24,7 +26,7 @@ English summary: This repository preserves the source code and selected evidence
 
 DFT 方法和数值验证是正式标定及精修的前置条件。完整定义见[方法说明](docs/METHODS.md)及原始[PE 技术路线 v1.0](snapshot/reports/PE技术路线_v1_0_20261029/技术路线.md)。
 
-## 已完成结果
+## 当前 PE 实例的已完成结果
 
 | 项目 | 已验收结果 |
 | --- | --- |
