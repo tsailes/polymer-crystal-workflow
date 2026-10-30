@@ -1,0 +1,6105 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-21T04:31:01.601723+00:00",
+  "analyzer_sha256": "a1f4f44266e8ce9f118cd68c68d7f7f6fc57e61c0b769a35ea11e558b383b694",
+  "root": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020",
+  "status": "passed",
+  "data_status": "available",
+  "limits": {
+    "raw_force_eV_A": 0.002,
+    "raw_stress_kbar": 0.05,
+    "cell_relative_strict_upper": 0.005
+  },
+  "comparison": {
+    "status": "passed",
+    "cell_length_status": "passed",
+    "relative_tolerance": 0.005,
+    "relative_definition": "abs(candidate-reference)/reference for a,b,c",
+    "strict_inequality": true,
+    "cross_validation": {
+      "status": "verified",
+      "source_status": "verified",
+      "limits": {
+        "energy_meV_atom": 0.5,
+        "force_eV_A": 0.005,
+        "stress_kbar": 0.1
+      },
+      "note": "Actual point/input/snapshot files, exact geometry and all three differences independently verified; no SCF run by this analyzer.",
+      "checks": [
+        {
+          "relaxation_run_id": "cell_candidate",
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/cold_cell_candidate/result.json",
+          "point_result_sha256": "e2b060dff14206dcf4de818635cf0309fb27567902f29fa87e3fe664a3226302",
+          "differences": {
+            "energy_meV_atom": 0.04722212541707904,
+            "force_eV_A": 0.0002720770976622617,
+            "stress_kbar": 0.07453069448934561
+          },
+          "source_geometry_sha256": "2c9203bd6ba80bc42b98df59b05a761c20e8db1530b6e3751f14f03304965703",
+          "geometry_source": "trajectory.traj last frame (full precision)",
+          "threshold_pass": {
+            "energy_meV_atom": true,
+            "force_eV_A": true,
+            "stress_kbar": true
+          },
+          "all_pass": true,
+          "cold_start_evidence": "Actual frozen snapshot matches the independently audited fresh-GPAW runner SHA256"
+        },
+        {
+          "relaxation_run_id": "cell_reference_resume_02",
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/cold_cell_reference_resume_02/result.json",
+          "point_result_sha256": "986b1adc9ab3577b9aeb3958baad90b07cf06ae58cc1c24a01fc728ada08a065",
+          "differences": {
+            "energy_meV_atom": 1.4210854715202004e-11,
+            "force_eV_A": 2.2233382295396038e-13,
+            "stress_kbar": 8.445004515567761e-12
+          },
+          "source_geometry_sha256": "fc4aa2428f38142d1e91f8b6f8ab7ee768973a6437cf003b1cf00b4d9db7c86a",
+          "geometry_source": "trajectory.traj last frame (full precision)",
+          "threshold_pass": {
+            "energy_meV_atom": true,
+            "force_eV_A": true,
+            "stress_kbar": true
+          },
+          "all_pass": true,
+          "cold_start_evidence": "Actual frozen snapshot matches the independently audited fresh-GPAW runner SHA256"
+        }
+      ],
+      "report_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cross_precision_verification.json",
+      "report_sha256": "b25b7dcc7f9ae4c6c7ec711929b4637653ef41b67ba4e8fe2273cccd774b35e9"
+    },
+    "candidate_run": "cell_candidate",
+    "reference_run": "cell_reference_resume_02",
+    "candidate_cell_lengths_A": [
+      7.126716837357232,
+      4.903688407792296,
+      2.555564871975709
+    ],
+    "reference_cell_lengths_A": [
+      7.130067674412654,
+      4.906518983025813,
+      2.555613607573429
+    ],
+    "relative_differences": {
+      "a": 0.0004699586607638368,
+      "b": 0.0005769009033307678,
+      "c": 1.9070018087120904e-05
+    },
+    "max_relative_difference": 0.0005769009033307678,
+    "reason": "Cell agreement and bound cross-check evidence both pass"
+  },
+  "runs": [
+    {
+      "run_id": "cell_candidate",
+      "directory": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate",
+      "status": "passed_relaxation",
+      "acceptance": "verified_relaxation",
+      "errors": [],
+      "history_complete": true,
+      "evaluations_count": 34,
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/result.json",
+      "evaluations_sha256": "8605e9725ae177bfe14de542afaa98d44c5af3d3555c8f77c45c01a6d11011c6",
+      "input": {
+        "maxsteps": 200,
+        "scf_energy_eV_electron": 1e-09,
+        "xc_stencil": 4,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "ecut_eV": 1400,
+        "mpi_ranks": 4,
+        "method": "PBE-D3(BJ)",
+        "scf_density_electron_electron": 1e-09,
+        "gpts": [
+          96,
+          60,
+          36
+        ],
+        "point_group": true,
+        "maxstep": 0.05,
+        "kmesh": [
+          3,
+          6,
+          9
+        ],
+        "fmax_eV_A": 0.002,
+        "stress_max_kbar": 0.05,
+        "symprec_A": 1e-05,
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/reference/POSCAR"
+      },
+      "optimizer_steps": 33,
+      "final_geometry_sha256": "0fc0496b21dafcb3a1380872984d97e44fedc0bd5704b74387847eb3010d62f0",
+      "runner_sha256": "b5009e3d38d422643a39a04a10a7f22caad954b4509d204d75e5e1824898bea6",
+      "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+      "source_geometry_sha256": "e54173a343c8a1bac20d048fdeaa99241986ee699e9f4591d65fc0985b76ef73",
+      "final_metrics": {
+        "total_energy_extrapolated_eV": -66.78206623909374,
+        "total_energy_free_eV": -66.78206623909374,
+        "dft_energy_extrapolated_eV": -66.12555879861168,
+        "dft_energy_free_eV": -66.12555879861168,
+        "dispersion_energy_eV": -0.656507440482066,
+        "dispersion_free_energy_eV": -0.656507440482066,
+        "natoms": 12,
+        "raw_fmax_eV_A": 0.00019543871396679132,
+        "raw_stress_max_kbar": 0.028704362313392903,
+        "cell_A": [
+          [
+            7.126716837357232,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.903688407792296,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2.555564871975709
+          ]
+        ],
+        "cell_lengths_A": [
+          7.126716837357232,
+          4.903688407792296,
+          2.555564871975709
+        ],
+        "stress_kbar": [
+          -0.01304615442757612,
+          -0.028704362313392903,
+          -0.001677124496093261,
+          1.0658597973758343e-12,
+          2.493432700153119e-12,
+          2.1623668500057935e-11
+        ]
+      },
+      "final_geometry": {
+        "cell_A": [
+          [
+            7.126716837357232,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.903688407792296,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2.555564871975709
+          ]
+        ],
+        "positions_A": [
+          [
+            3.2709107606439494,
+            2.7504855807893005,
+            0.6388912179939273
+          ],
+          [
+            3.855806076713277,
+            2.1532028270029953,
+            1.9166736539817815
+          ],
+          [
+            6.834269179322561,
+            4.605047030899138,
+            0.6388912179939273
+          ],
+          [
+            0.29244765803466366,
+            0.29864137689315284,
+            1.9166736539817815
+          ],
+          [
+            2.1763259645701205,
+            2.6132686684559454,
+            0.6388912179939273
+          ],
+          [
+            4.950390872787106,
+            2.2904197393363486,
+            1.9166736539817815
+          ],
+          [
+            5.739684383248734,
+            4.7422639432325004,
+            0.6388912179939273
+          ],
+          [
+            1.3870324541084909,
+            0.16142446455979664,
+            1.9166736539817815
+          ],
+          [
+            3.4381076533845736,
+            3.8420961043381285,
+            0.6388912179939273
+          ],
+          [
+            3.6886091839726505,
+            1.0615923034541659,
+            1.9166736539817815
+          ],
+          [
+            7.001466072063187,
+            3.513436507350315,
+            0.6388912179939273
+          ],
+          [
+            0.12525076529403764,
+            1.3902519004419809,
+            1.9166736539817815
+          ]
+        ]
+      },
+      "final_raw_properties": {
+        "energy_extrapolated_eV": -66.78206623909374,
+        "energy_free_eV": -66.78206623909374,
+        "forces_eV_A": [
+          [
+            -9.238295757783236e-05,
+            0.00017222566610748148,
+            -1.2872148862614166e-13
+          ],
+          [
+            9.238295757786792e-05,
+            -0.00017222566610728025,
+            1.287191128444198e-13
+          ],
+          [
+            -9.238295654157708e-05,
+            -0.00017222566526809303,
+            1.5788563771462568e-13
+          ],
+          [
+            9.238295654166381e-05,
+            0.0001722256652679343,
+            -1.5788822438898707e-13
+          ],
+          [
+            -0.00015377286920805963,
+            5.066081309659635e-05,
+            -9.153674344775766e-15
+          ],
+          [
+            0.00015377286920803014,
+            -5.066081309661099e-05,
+            9.153306524688781e-15
+          ],
+          [
+            -0.00015377286916153608,
+            -5.066081288893125e-05,
+            7.809099984003963e-14
+          ],
+          [
+            0.00015377286916161935,
+            5.066081288896394e-05,
+            -7.808945066736443e-14
+          ],
+          [
+            -1.4089457453112805e-05,
+            0.00011398649987865231,
+            -2.0754840919234735e-14
+          ],
+          [
+            1.4089457453067404e-05,
+            -0.00011398649987874512,
+            2.0756969893763876e-14
+          ],
+          [
+            -1.4089457393381478e-05,
+            -0.00011398650013772892,
+            1.6160156264214607e-14
+          ],
+          [
+            1.4089457393345835e-05,
+            0.00011398650013782693,
+            -1.6159003164683117e-14
+          ]
+        ],
+        "stress_eV_A3": [
+          -8.142769191739861e-06,
+          -1.7915853933170127e-05,
+          -1.0467787847608448e-06,
+          6.65257365223335e-16,
+          1.5562782952781423e-15,
+          1.3496432427818594e-14
+        ],
+        "stress_kbar": [
+          -0.01304615442757612,
+          -0.028704362313392903,
+          -0.001677124496093261,
+          1.0658597973758343e-12,
+          2.493432700153119e-12,
+          2.1623668500057935e-11
+        ]
+      },
+      "full_precision_trajectory_sha256": "2c9203bd6ba80bc42b98df59b05a761c20e8db1530b6e3751f14f03304965703",
+      "source_lineage": {
+        "root_source_geometry_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/reference/POSCAR",
+        "root_source_geometry_sha256": "e54173a343c8a1bac20d048fdeaa99241986ee699e9f4591d65fc0985b76ef73",
+        "original_maxsteps": 200,
+        "completed_ancestor_steps": 0,
+        "ancestor_steps": [],
+        "continuations": []
+      },
+      "comparison_identity": {
+        "method": "PBE-D3(BJ)",
+        "paw": [
+          {
+            "symbol": "C",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+          },
+          {
+            "symbol": "C",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+          },
+          {
+            "symbol": "C",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+          },
+          {
+            "symbol": "C",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          }
+        ],
+        "runner_sha256": "b5009e3d38d422643a39a04a10a7f22caad954b4509d204d75e5e1824898bea6",
+        "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+        "software": {
+          "python": "3.12.15 (main, Oct 13 2026, 16:52:04) [GCC 15.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "gpaw": "26.7.0",
+          "ase": "3.29.0",
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "dftd3": "1.6.0",
+          "dftd4": "4.2.0",
+          "spglib": "2.7.0"
+        },
+        "source_geometry_sha256": "e54173a343c8a1bac20d048fdeaa99241986ee699e9f4591d65fc0985b76ef73",
+        "dispersion_parameters": {
+          "method": null,
+          "damping": "d3bj",
+          "params_tweaks": {
+            "method": "PBE",
+            "atm": true
+          },
+          "realspace_cutoff": {
+            "disp2": 31.75063263383047,
+            "disp3": 21.167088422553647,
+            "cn": 31.75063263383047,
+            "width2": 0.02645886052819206,
+            "width3": 0.02645886052819206
+          },
+          "ewald": null,
+          "ghost_atoms": null,
+          "cache_api": true
+        },
+        "fixed_numerical_parameters": {
+          "nbands": 16,
+          "point_group": true,
+          "scf_energy_eV_electron": 1e-09,
+          "scf_density_electron_electron": 1e-09,
+          "scf_eigenstates_eV2_electron": 1e-11
+        },
+        "mpi_ranks": 4,
+        "natoms": 12,
+        "symmetry": "#62 Pnam / Hall297 original axes"
+      },
+      "precision": {
+        "ecut_eV": 1400,
+        "kmesh": [
+          3,
+          6,
+          9
+        ],
+        "gpts": [
+          96,
+          60,
+          36
+        ],
+        "xc_stencil": 4
+      }
+    },
+    {
+      "run_id": "cell_reference",
+      "directory": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference",
+      "status": "pending",
+      "acceptance": "pending",
+      "errors": [],
+      "history_complete": true,
+      "evaluations_count": 4,
+      "evaluations_sha256": "a8b8f3fc823b7cf44a1856cb75163cad71934f8f5ef3664e7815130eea1ba36d"
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "directory": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01",
+      "status": "pending",
+      "acceptance": "pending",
+      "errors": [],
+      "history_complete": true,
+      "evaluations_count": 24,
+      "evaluations_sha256": "cc1accf9002fb69e603bec889f63d93872f2bd6626dbe80b2aa1b138c2d5d3e7"
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "directory": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02",
+      "status": "passed_relaxation",
+      "acceptance": "verified_relaxation",
+      "errors": [],
+      "history_complete": true,
+      "evaluations_count": 23,
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/result.json",
+      "evaluations_sha256": "647bd65b225ebca1386d0a9112cd7a300a8bf35ab1e13fd350fbf5d9a8bd1cfe",
+      "input": {
+        "maxsteps": 174,
+        "scf_energy_eV_electron": 1e-09,
+        "xc_stencil": 4,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "ecut_eV": 1800,
+        "mpi_ranks": 4,
+        "method": "PBE-D3(BJ)",
+        "scf_density_electron_electron": 1e-09,
+        "gpts": [
+          96,
+          60,
+          36
+        ],
+        "point_group": true,
+        "maxstep": 0.05,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "fmax_eV_A": 0.002,
+        "stress_max_kbar": 0.05,
+        "symprec_A": 1e-05,
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/restart_source.traj",
+        "continuation_manifest": "continuation_manifest.json",
+        "continuation_manifest_sha256": "6d007521de0e2c69b22059ead23c991fb02006973781249db243005a24fdf7ab"
+      },
+      "optimizer_steps": 22,
+      "final_geometry_sha256": "98c6f48561762b6cb23b531e7e828efd83dd6d825910e3e369e7566402c53604",
+      "runner_sha256": "b5009e3d38d422643a39a04a10a7f22caad954b4509d204d75e5e1824898bea6",
+      "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+      "source_geometry_sha256": "dad7ba2612251558ad1a86de4927b8da352ee1469e200f8539c5e6f8aa4c8733",
+      "final_metrics": {
+        "total_energy_extrapolated_eV": -66.78263584715239,
+        "total_energy_free_eV": -66.78263584715239,
+        "dft_energy_extrapolated_eV": -66.12687198999743,
+        "dft_energy_free_eV": -66.12687198999743,
+        "dispersion_energy_eV": -0.655763857154969,
+        "dispersion_free_energy_eV": -0.655763857154969,
+        "natoms": 12,
+        "raw_fmax_eV_A": 5.5841863836375284e-05,
+        "raw_stress_max_kbar": 0.004178558568389382,
+        "cell_A": [
+          [
+            7.130067674412654,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.906518983025813,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2.555613607573429
+          ]
+        ],
+        "cell_lengths_A": [
+          7.130067674412654,
+          4.906518983025813,
+          2.555613607573429
+        ],
+        "stress_kbar": [
+          0.00044471890574645584,
+          -0.0017745779342513287,
+          0.004178558568389382,
+          2.4038406038582203e-12,
+          -3.698863872377223e-12,
+          1.282095401541612e-12
+        ]
+      },
+      "final_geometry": {
+        "cell_A": [
+          [
+            7.130067674412654,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.906518983025813,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2.555613607573429
+          ]
+        ],
+        "positions_A": [
+          [
+            3.2726791436130815,
+            2.752009345680532,
+            0.6389034018933573
+          ],
+          [
+            3.8573885307995743,
+            2.1545096373452797,
+            1.916710205680072
+          ],
+          [
+            6.8377129808194095,
+            4.607769128858184,
+            0.6389034018933573
+          ],
+          [
+            0.2923546935932475,
+            0.2987498541676254,
+            1.916710205680072
+          ],
+          [
+            2.178038030586946,
+            2.6151388641044497,
+            0.6389034018933573
+          ],
+          [
+            4.952029643825711,
+            2.291380118921362,
+            1.916710205680072
+          ],
+          [
+            5.743071867793272,
+            4.74463961043427,
+            0.6389034018933573
+          ],
+          [
+            1.3869958066193855,
+            0.16187937259154314,
+            1.916710205680072
+          ],
+          [
+            3.440238569328737,
+            3.843572073347818,
+            0.6389034018933573
+          ],
+          [
+            3.689829105083919,
+            1.062946909677993,
+            1.916710205680072
+          ],
+          [
+            7.005272406535067,
+            3.5162064011908996,
+            0.6389034018933573
+          ],
+          [
+            0.12479526787759232,
+            1.3903125818349102,
+            1.916710205680072
+          ]
+        ]
+      },
+      "final_raw_properties": {
+        "energy_extrapolated_eV": -66.78263584715239,
+        "energy_free_eV": -66.78263584715239,
+        "forces_eV_A": [
+          [
+            3.3912198197493665e-06,
+            -1.5852101302505674e-05,
+            -4.264271282069069e-14
+          ],
+          [
+            -3.391219819925441e-06,
+            1.585210130254297e-05,
+            4.264840172115359e-14
+          ],
+          [
+            3.3912200042857804e-06,
+            1.5852101596281094e-05,
+            -8.993866737659751e-14
+          ],
+          [
+            -3.39122000421032e-06,
+            -1.5852101596342677e-05,
+            8.994271486049499e-14
+          ],
+          [
+            -5.371842748282032e-05,
+            1.525268178288752e-05,
+            -4.3391776077299275e-14
+          ],
+          [
+            5.371842748293047e-05,
+            -1.5252681782849356e-05,
+            4.339154979605983e-14
+          ],
+          [
+            -5.371842750481314e-05,
+            -1.525268183381152e-05,
+            2.6857657133341844e-14
+          ],
+          [
+            5.3718427504877327e-05,
+            1.5252681833812605e-05,
+            -2.6862030834309876e-14
+          ],
+          [
+            7.157550198561068e-06,
+            1.6196277097732352e-05,
+            1.5145617505379578e-14
+          ],
+          [
+            -7.157550198601427e-06,
+            -1.6196277097800874e-05,
+            -1.5149673011228276e-14
+          ],
+          [
+            7.157550261629054e-06,
+            -1.6196276996964e-05,
+            -1.6656267739053993e-14
+          ],
+          [
+            -7.1575502616403296e-06,
+            1.6196276997022113e-05,
+            1.6652813366086076e-14
+          ]
+        ],
+        "stress_eV_A3": [
+          2.7757171086693205e-07,
+          -1.1076044371220728e-06,
+          2.608051143764001e-06,
+          1.5003593066149804e-15,
+          -2.3086492614842322e-15,
+          8.002210148974931e-16
+        ],
+        "stress_kbar": [
+          0.00044471890574645584,
+          -0.0017745779342513287,
+          0.004178558568389382,
+          2.4038406038582203e-12,
+          -3.698863872377223e-12,
+          1.282095401541612e-12
+        ]
+      },
+      "full_precision_trajectory_sha256": "fc4aa2428f38142d1e91f8b6f8ab7ee768973a6437cf003b1cf00b4d9db7c86a",
+      "source_lineage": {
+        "root_source_geometry_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/reference/POSCAR",
+        "root_source_geometry_sha256": "e54173a343c8a1bac20d048fdeaa99241986ee699e9f4591d65fc0985b76ef73",
+        "original_maxsteps": 200,
+        "completed_ancestor_steps": 26,
+        "ancestor_steps": [
+          {
+            "run_id": "cell_reference",
+            "steps": 3
+          },
+          {
+            "run_id": "cell_reference_resume_01",
+            "steps": 23
+          }
+        ],
+        "continuations": [
+          {
+            "run_id": "cell_reference_resume_01",
+            "parent_run_id": "cell_reference",
+            "manifest_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/continuation_manifest.json",
+            "manifest_sha256": "d226fd077cf9c8ae13033dd3b6f969829d79b55a6fc420c9269e824861be63b9",
+            "direct_source_geometry_sha256": "002587c020c224dfe35060f0dda2975d00d51b3a1e8c838098975d89068bdc44",
+            "parent_last_evaluation_id": 3,
+            "parent_optimizer_step": 3,
+            "step_budget": null,
+            "restart_mode": "last_completed_geometry_electronic_cold_LBFGS_reinitialized"
+          },
+          {
+            "run_id": "cell_reference_resume_02",
+            "parent_run_id": "cell_reference_resume_01",
+            "manifest_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/continuation_manifest.json",
+            "manifest_sha256": "6d007521de0e2c69b22059ead23c991fb02006973781249db243005a24fdf7ab",
+            "direct_source_geometry_sha256": "dad7ba2612251558ad1a86de4927b8da352ee1469e200f8539c5e6f8aa4c8733",
+            "parent_last_evaluation_id": 23,
+            "parent_optimizer_step": 23,
+            "step_budget": {
+              "scope": "entire_reference_ancestry",
+              "original_maxsteps": 200,
+              "completed_ancestor_steps": 26,
+              "remaining_maxsteps": 174,
+              "ancestor_steps": [
+                {
+                  "run_id": "cell_reference",
+                  "steps": 3
+                },
+                {
+                  "run_id": "cell_reference_resume_01",
+                  "steps": 23
+                }
+              ]
+            },
+            "restart_mode": "last_completed_geometry_electronic_cold_LBFGS_reinitialized"
+          }
+        ]
+      },
+      "comparison_identity": {
+        "method": "PBE-D3(BJ)",
+        "paw": [
+          {
+            "symbol": "C",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+          },
+          {
+            "symbol": "C",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+          },
+          {
+            "symbol": "C",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+          },
+          {
+            "symbol": "C",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          },
+          {
+            "symbol": "H",
+            "type": "paw",
+            "setupname": "PBE",
+            "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+          }
+        ],
+        "runner_sha256": "b5009e3d38d422643a39a04a10a7f22caad954b4509d204d75e5e1824898bea6",
+        "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+        "software": {
+          "python": "3.12.15 (main, Oct 13 2026, 16:52:04) [GCC 15.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "gpaw": "26.7.0",
+          "ase": "3.29.0",
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "dftd3": "1.6.0",
+          "dftd4": "4.2.0",
+          "spglib": "2.7.0"
+        },
+        "source_geometry_sha256": "e54173a343c8a1bac20d048fdeaa99241986ee699e9f4591d65fc0985b76ef73",
+        "dispersion_parameters": {
+          "method": null,
+          "damping": "d3bj",
+          "params_tweaks": {
+            "method": "PBE",
+            "atm": true
+          },
+          "realspace_cutoff": {
+            "disp2": 31.75063263383047,
+            "disp3": 21.167088422553647,
+            "cn": 31.75063263383047,
+            "width2": 0.02645886052819206,
+            "width3": 0.02645886052819206
+          },
+          "ewald": null,
+          "ghost_atoms": null,
+          "cache_api": true
+        },
+        "fixed_numerical_parameters": {
+          "nbands": 16,
+          "point_group": true,
+          "scf_energy_eV_electron": 1e-09,
+          "scf_density_electron_electron": 1e-09,
+          "scf_eigenstates_eV2_electron": 1e-11
+        },
+        "mpi_ranks": 4,
+        "natoms": 12,
+        "symmetry": "#62 Pnam / Hall297 original axes"
+      },
+      "precision": {
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          96,
+          60,
+          36
+        ],
+        "xc_stencil": 4
+      }
+    }
+  ],
+  "evaluations": [
+    {
+      "run_id": "cell_candidate",
+      "line_number": 1,
+      "evaluation_id": 0,
+      "optimizer_step": 0,
+      "phase": "initial",
+      "wall_seconds": 135.94459438323975,
+      "SCF_iterations": 24,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.74466271211087,
+      "total_energy_free_eV": -66.74466271211087,
+      "dft_energy_extrapolated_eV": -66.11824333856701,
+      "dft_energy_free_eV": -66.11824333856701,
+      "dispersion_energy_eV": -0.6264193735438524,
+      "dispersion_free_energy_eV": -0.6264193735438524,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.9885892314034048,
+      "raw_stress_max_kbar": 6.632902878773704,
+      "cell_A": [
+        [
+          7.432,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.545
+        ]
+      ],
+      "cell_lengths_A": [
+        7.432,
+        4.929,
+        2.545
+      ],
+      "stress_kbar": [
+        -4.252173698037088,
+        -6.632902878773704,
+        -6.62803366908268,
+        5.963295156271445e-12,
+        -5.414425028056165e-13,
+        2.2089647931096304e-13
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 2,
+      "evaluation_id": 1,
+      "optimizer_step": 1,
+      "phase": "initial",
+      "wall_seconds": 295.07744002342224,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.76532083175415,
+      "total_energy_free_eV": -66.76532083175415,
+      "dft_energy_extrapolated_eV": -66.14788155228949,
+      "dft_energy_free_eV": -66.14788155228949,
+      "dispersion_energy_eV": -0.6174392794646614,
+      "dispersion_free_energy_eV": -0.6174392794646614,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.2728488495521967,
+      "raw_stress_max_kbar": 22.41882818791599,
+      "cell_A": [
+        [
+          7.458316513621522,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.956252363873714,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.559060906987674
+        ]
+      ],
+      "cell_lengths_A": [
+        7.458316513621522,
+        4.956252363873714,
+        2.559060906987674
+      ],
+      "stress_kbar": [
+        20.417634371364386,
+        22.41882818791599,
+        5.267978310966894,
+        3.4439877036342823e-12,
+        -6.5572221460910985e-12,
+        3.211869360940846e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 3,
+      "evaluation_id": 2,
+      "optimizer_step": 2,
+      "phase": "initial",
+      "wall_seconds": 455.85750246047974,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.76698451675185,
+      "total_energy_free_eV": -66.76698451675185,
+      "dft_energy_extrapolated_eV": -66.13474840902732,
+      "dft_energy_free_eV": -66.13474840902732,
+      "dispersion_energy_eV": -0.6322361077245267,
+      "dispersion_free_energy_eV": -0.6322361077245267,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.2724587402044354,
+      "raw_stress_max_kbar": 17.11667540343843,
+      "cell_A": [
+        [
+          7.375148429718317,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.898381688725721,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555750928931336
+        ]
+      ],
+      "cell_lengths_A": [
+        7.375148429718317,
+        4.898381688725721,
+        2.555750928931336
+      ],
+      "stress_kbar": [
+        -16.316760925218624,
+        -17.11667540343843,
+        -5.933153162948733,
+        -5.642025610957526e-14,
+        1.837859390144348e-12,
+        5.036960970689078e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 4,
+      "evaluation_id": 3,
+      "optimizer_step": 3,
+      "phase": "initial",
+      "wall_seconds": 616.6633286476135,
+      "SCF_iterations": 24,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77491273739714,
+      "total_energy_free_eV": -66.77491273739714,
+      "dft_energy_extrapolated_eV": -66.14973011498314,
+      "dft_energy_free_eV": -66.14973011498314,
+      "dispersion_energy_eV": -0.6251826224140075,
+      "dispersion_free_energy_eV": -0.6251826224140075,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.06913803508772005,
+      "raw_stress_max_kbar": 3.4031637382823443,
+      "cell_A": [
+        [
+          7.413871062331068,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.923471678687037,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5590163895370512
+        ]
+      ],
+      "cell_lengths_A": [
+        7.413871062331068,
+        4.923471678687037,
+        2.5590163895370512
+      ],
+      "stress_kbar": [
+        0.12460234671472906,
+        -1.4249982642159729,
+        3.4031637382823443,
+        1.93823366613408e-12,
+        -1.055487313942434e-11,
+        -6.692271291457119e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 5,
+      "evaluation_id": 4,
+      "optimizer_step": 4,
+      "phase": "initial",
+      "wall_seconds": 767.6746010780334,
+      "SCF_iterations": 22,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.7751950199537,
+      "total_energy_free_eV": -66.7751950199537,
+      "dft_energy_extrapolated_eV": -66.14911445358146,
+      "dft_energy_free_eV": -66.14911445358146,
+      "dispersion_energy_eV": -0.626080566372243,
+      "dispersion_free_energy_eV": -0.626080566372243,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.06118800544306326,
+      "raw_stress_max_kbar": 5.072771375691662,
+      "cell_A": [
+        [
+          7.413703338559321,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929488876162122,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.552017074667207
+        ]
+      ],
+      "cell_lengths_A": [
+        7.413703338559321,
+        4.929488876162122,
+        2.552017074667207
+      ],
+      "stress_kbar": [
+        0.710818273489112,
+        2.499901413414392,
+        -5.072771375691662,
+        -2.547878700749151e-12,
+        4.772606775004957e-13,
+        8.620746852906733e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 6,
+      "evaluation_id": 5,
+      "optimizer_step": 5,
+      "phase": "initial",
+      "wall_seconds": 926.6260249614716,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.7759874234669,
+      "total_energy_free_eV": -66.7759874234669,
+      "dft_energy_extrapolated_eV": -66.14996880480517,
+      "dft_energy_free_eV": -66.14996880480517,
+      "dispersion_energy_eV": -0.6260186186617271,
+      "dispersion_free_energy_eV": -0.6260186186617271,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.051439364253677636,
+      "raw_stress_max_kbar": 1.6152895238798957,
+      "cell_A": [
+        [
+          7.4107377468973805,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.926754608681268,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.554947943613498
+        ]
+      ],
+      "cell_lengths_A": [
+        7.4107377468973805,
+        4.926754608681268,
+        2.554947943613498
+      ],
+      "stress_kbar": [
+        0.9458990500943911,
+        1.0985148344090865,
+        -1.6152895238798957,
+        1.3667975046057568e-12,
+        1.6953066330928144e-11,
+        -6.009596267892622e-13
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 7,
+      "evaluation_id": 6,
+      "optimizer_step": 6,
+      "phase": "initial",
+      "wall_seconds": 1082.8893761634827,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77732943058837,
+      "total_energy_free_eV": -66.77732943058837,
+      "dft_energy_extrapolated_eV": -66.15039189598906,
+      "dft_energy_free_eV": -66.15039189598906,
+      "dispersion_energy_eV": -0.6269375345993088,
+      "dispersion_free_energy_eV": -0.6269375345993088,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.04110102423218026,
+      "raw_stress_max_kbar": 3.0397092127804766,
+      "cell_A": [
+        [
+          7.396073042436238,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.923490477946269,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5586575856438376
+        ]
+      ],
+      "cell_lengths_A": [
+        7.396073042436238,
+        4.923490477946269,
+        2.5586575856438376
+      ],
+      "stress_kbar": [
+        -0.4048899648235277,
+        -0.0659894842074795,
+        3.0397092127804766,
+        -5.295583483897877e-12,
+        -1.2180134421249004e-11,
+        2.371514765414111e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 8,
+      "evaluation_id": 7,
+      "optimizer_step": 7,
+      "phase": "initial",
+      "wall_seconds": 1228.3621077537537,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.7777095914517,
+      "total_energy_free_eV": -66.7777095914517,
+      "dft_energy_extrapolated_eV": -66.14941344128728,
+      "dft_energy_free_eV": -66.14941344128728,
+      "dispersion_energy_eV": -0.6282961501644101,
+      "dispersion_free_energy_eV": -0.6282961501644101,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.05029674133706589,
+      "raw_stress_max_kbar": 2.7551989173903,
+      "cell_A": [
+        [
+          7.392592170380386,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.9185926963213795,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.557174179228815
+        ]
+      ],
+      "cell_lengths_A": [
+        7.392592170380386,
+        4.9185926963213795,
+        2.557174179228815
+      ],
+      "stress_kbar": [
+        2.7551989173903,
+        -2.620136171732634,
+        1.4603096979762968,
+        4.191497304862228e-12,
+        5.5473535618568725e-12,
+        1.8709336225030256e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 9,
+      "evaluation_id": 8,
+      "optimizer_step": 8,
+      "phase": "initial",
+      "wall_seconds": 1375.7792665958405,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77793057552395,
+      "total_energy_free_eV": -66.77793057552395,
+      "dft_energy_extrapolated_eV": -66.1484550388711,
+      "dft_energy_free_eV": -66.1484550388711,
+      "dispersion_energy_eV": -0.6294755366528458,
+      "dispersion_free_energy_eV": -0.6294755366528458,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.05376700405277839,
+      "raw_stress_max_kbar": 1.09815419006123,
+      "cell_A": [
+        [
+          7.376340812569007,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.922200082974877,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.556593071204724
+        ]
+      ],
+      "cell_lengths_A": [
+        7.376340812569007,
+        4.922200082974877,
+        2.556593071204724
+      ],
+      "stress_kbar": [
+        -0.9387100485510989,
+        1.09815419006123,
+        1.0391358494798622,
+        5.769272125801212e-12,
+        8.993719118485345e-13,
+        -6.55218008776378e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 10,
+      "evaluation_id": 9,
+      "optimizer_step": 9,
+      "phase": "initial",
+      "wall_seconds": 1526.2357904911041,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.7781090227235,
+      "total_energy_free_eV": -66.7781090227235,
+      "dft_energy_extrapolated_eV": -66.14834806891037,
+      "dft_energy_free_eV": -66.14834806891037,
+      "dispersion_energy_eV": -0.6297609538131357,
+      "dispersion_free_energy_eV": -0.6297609538131357,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.04058031493373817,
+      "raw_stress_max_kbar": 0.5912495915929376,
+      "cell_A": [
+        [
+          7.377371622139942,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.92088310211667,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5557141290553202
+        ]
+      ],
+      "cell_lengths_A": [
+        7.377371622139942,
+        4.92088310211667,
+        2.5557141290553202
+      ],
+      "stress_kbar": [
+        -0.06739197757655366,
+        0.5912495915929376,
+        -0.07051602184560321,
+        1.1058599516551317e-12,
+        1.976738451923085e-12,
+        9.240523720151173e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 11,
+      "evaluation_id": 10,
+      "optimizer_step": 10,
+      "phase": "initial",
+      "wall_seconds": 1679.5036664009094,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77851652347219,
+      "total_energy_free_eV": -66.77851652347219,
+      "dft_energy_extrapolated_eV": -66.14692719850835,
+      "dft_energy_free_eV": -66.14692719850835,
+      "dispersion_energy_eV": -0.6315893249638362,
+      "dispersion_free_energy_eV": -0.6315893249638362,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.01900473896903969,
+      "raw_stress_max_kbar": 2.1437745507969215,
+      "cell_A": [
+        [
+          7.368990771188827,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.916028925540839,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5540261623992593
+        ]
+      ],
+      "cell_lengths_A": [
+        7.368990771188827,
+        4.916028925540839,
+        2.5540261623992593
+      ],
+      "stress_kbar": [
+        1.3185356155870787,
+        -0.028775356848699182,
+        -2.1437745507969215,
+        9.705676880435757e-13,
+        -1.2942426388299179e-11,
+        -7.170498736441602e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 12,
+      "evaluation_id": 11,
+      "optimizer_step": 11,
+      "phase": "initial",
+      "wall_seconds": 1839.200403213501,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77922997323903,
+      "total_energy_free_eV": -66.77922997323903,
+      "dft_energy_extrapolated_eV": -66.14289501479723,
+      "dft_energy_free_eV": -66.14289501479723,
+      "dispersion_energy_eV": -0.636334958441793,
+      "dispersion_free_energy_eV": -0.636334958441793,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.02450758529616266,
+      "raw_stress_max_kbar": 4.3845480485805055,
+      "cell_A": [
+        [
+          7.3393726971816236,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.904644623887483,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5522212486916214
+        ]
+      ],
+      "cell_lengths_A": [
+        7.3393726971816236,
+        4.904644623887483,
+        2.5522212486916214
+      ],
+      "stress_kbar": [
+        2.655565974813764,
+        -0.7280139857883321,
+        -4.3845480485805055,
+        -1.0498963425579448e-12,
+        4.718165433185156e-12,
+        2.035239483603245e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 13,
+      "evaluation_id": 12,
+      "optimizer_step": 12,
+      "phase": "initial",
+      "wall_seconds": 1994.050401210785,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78033425399951,
+      "total_energy_free_eV": -66.78033425399951,
+      "dft_energy_extrapolated_eV": -66.13418710151343,
+      "dft_energy_free_eV": -66.13418710151343,
+      "dispersion_energy_eV": -0.6461471524860757,
+      "dispersion_free_energy_eV": -0.6461471524860757,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.03267268401590992,
+      "raw_stress_max_kbar": 5.688471800564901,
+      "cell_A": [
+        [
+          7.271342283919332,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.882381308512182,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5511840813093114
+        ]
+      ],
+      "cell_lengths_A": [
+        7.271342283919332,
+        4.882381308512182,
+        2.5511840813093114
+      ],
+      "stress_kbar": [
+        3.2402400700835328,
+        -1.345175052226325,
+        -5.688471800564901,
+        2.2457607054251136e-12,
+        8.339455714101733e-12,
+        -7.117542165666534e-14
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 14,
+      "evaluation_id": 13,
+      "optimizer_step": 13,
+      "phase": "initial",
+      "wall_seconds": 2143.0888619422913,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78110940567603,
+      "total_energy_free_eV": -66.78110940567603,
+      "dft_energy_extrapolated_eV": -66.12557681628024,
+      "dft_energy_free_eV": -66.12557681628024,
+      "dispersion_energy_eV": -0.6555325893957874,
+      "dispersion_free_energy_eV": -0.6555325893957874,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.023714615474350872,
+      "raw_stress_max_kbar": 3.9116151962054095,
+      "cell_A": [
+        [
+          7.200998586690959,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.862373549793989,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5525529550526196
+        ]
+      ],
+      "cell_lengths_A": [
+        7.200998586690959,
+        4.862373549793989,
+        2.5525529550526196
+      ],
+      "stress_kbar": [
+        2.0055760877263933,
+        -1.1202781148517973,
+        -3.9116151962054095,
+        -1.6953949195485509e-13,
+        -8.479322037812414e-13,
+        1.0427378215506011e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 15,
+      "evaluation_id": 14,
+      "optimizer_step": 14,
+      "phase": "initial",
+      "wall_seconds": 2289.8666746616364,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78135512101828,
+      "total_energy_free_eV": -66.78135512101828,
+      "dft_energy_extrapolated_eV": -66.12364852013329,
+      "dft_energy_free_eV": -66.12364852013329,
+      "dispersion_energy_eV": -0.6577066008849904,
+      "dispersion_free_energy_eV": -0.6577066008849904,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.009139435603637622,
+      "raw_stress_max_kbar": 1.1189528168399918,
+      "cell_A": [
+        [
+          7.179599714593608,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.858497197357824,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5546874387644403
+        ]
+      ],
+      "cell_lengths_A": [
+        7.179599714593608,
+        4.858497197357824,
+        2.5546874387644403
+      ],
+      "stress_kbar": [
+        0.726905410140901,
+        -0.3760028470776708,
+        -1.1189528168399918,
+        1.341781197929553e-12,
+        -5.106472879912106e-12,
+        3.724829108840727e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 16,
+      "evaluation_id": 15,
+      "optimizer_step": 15,
+      "phase": "initial",
+      "wall_seconds": 2435.1318044662476,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78140032003665,
+      "total_energy_free_eV": -66.78140032003665,
+      "dft_energy_extrapolated_eV": -66.12452226396972,
+      "dft_energy_free_eV": -66.12452226396972,
+      "dispersion_energy_eV": -0.6568780560669234,
+      "dispersion_free_energy_eV": -0.6568780560669234,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.007399461856837823,
+      "raw_stress_max_kbar": 0.10228090406880452,
+      "cell_A": [
+        [
+          7.18227822394846,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.860908929894574,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555584993605235
+        ]
+      ],
+      "cell_lengths_A": [
+        7.18227822394846,
+        4.860908929894574,
+        2.555584993605235
+      ],
+      "stress_kbar": [
+        0.10228090406880452,
+        -0.056624134206778524,
+        0.04803045434355089,
+        -6.621231365340052e-13,
+        1.75562039604177e-11,
+        -1.4461871799902513e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 17,
+      "evaluation_id": 16,
+      "optimizer_step": 16,
+      "phase": "initial",
+      "wall_seconds": 2571.91268324852,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78140762166844,
+      "total_energy_free_eV": -66.78140762166844,
+      "dft_energy_extrapolated_eV": -66.12485502933974,
+      "dft_energy_free_eV": -66.12485502933974,
+      "dispersion_energy_eV": -0.6565525923286998,
+      "dispersion_free_energy_eV": -0.6565525923286998,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.006940905233746431,
+      "raw_stress_max_kbar": 0.1283794639195296,
+      "cell_A": [
+        [
+          7.183823352606716,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.861986280602301,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555653979897075
+        ]
+      ],
+      "cell_lengths_A": [
+        7.183823352606716,
+        4.861986280602301,
+        2.555653979897075
+      ],
+      "stress_kbar": [
+        -0.034176613791996345,
+        -0.04386456644368414,
+        0.1283794639195296,
+        -3.6790135275615464e-13,
+        -2.4463934110366638e-12,
+        -1.6204614732341713e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 18,
+      "evaluation_id": 17,
+      "optimizer_step": 17,
+      "phase": "initial",
+      "wall_seconds": 2706.983712911606,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78142926876411,
+      "total_energy_free_eV": -66.78142926876411,
+      "dft_energy_extrapolated_eV": -66.12562181556557,
+      "dft_energy_free_eV": -66.12562181556557,
+      "dispersion_energy_eV": -0.6558074531985431,
+      "dispersion_free_energy_eV": -0.6558074531985431,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.008884696622407444,
+      "raw_stress_max_kbar": 0.28448752182722153,
+      "cell_A": [
+        [
+          7.186443253909137,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.865185717254667,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5557680131578464
+        ]
+      ],
+      "cell_lengths_A": [
+        7.186443253909137,
+        4.865185717254667,
+        2.5557680131578464
+      ],
+      "stress_kbar": [
+        -0.28448752182722153,
+        -0.03261260102012581,
+        0.25761502404301645,
+        9.727903146277102e-13,
+        1.4543244473676792e-12,
+        1.148085379970104e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 19,
+      "evaluation_id": 18,
+      "optimizer_step": 18,
+      "phase": "initial",
+      "wall_seconds": 2837.6625311374664,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78147067529676,
+      "total_energy_free_eV": -66.78147067529676,
+      "dft_energy_extrapolated_eV": -66.12652652831333,
+      "dft_energy_free_eV": -66.12652652831333,
+      "dispersion_energy_eV": -0.6549441469834292,
+      "dispersion_free_energy_eV": -0.6549441469834292,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.014338448346590597,
+      "raw_stress_max_kbar": 0.6741444327393186,
+      "cell_A": [
+        [
+          7.186409789674748,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.871055245622035,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555906710515312
+        ]
+      ],
+      "cell_lengths_A": [
+        7.186409789674748,
+        4.871055245622035,
+        2.555906710515312
+      ],
+      "stress_kbar": [
+        -0.6741444327393186,
+        -0.005436963303231909,
+        0.42079250472187035,
+        6.723027195285856e-13,
+        1.1812215961278183e-11,
+        -1.4143229959726732e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 20,
+      "evaluation_id": 19,
+      "optimizer_step": 19,
+      "phase": "initial",
+      "wall_seconds": 2969.8975744247437,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78155805929325,
+      "total_energy_free_eV": -66.78155805929325,
+      "dft_energy_extrapolated_eV": -66.12778412161771,
+      "dft_energy_free_eV": -66.12778412161771,
+      "dispersion_energy_eV": -0.6537739376755376,
+      "dispersion_free_energy_eV": -0.6537739376755376,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.019869275337117437,
+      "raw_stress_max_kbar": 1.1054586035438776,
+      "cell_A": [
+        [
+          7.180396934055766,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.883396432517225,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.556038486273839
+        ]
+      ],
+      "cell_lengths_A": [
+        7.180396934055766,
+        4.883396432517225,
+        2.556038486273839
+      ],
+      "stress_kbar": [
+        -1.1054586035438776,
+        0.01071692601459527,
+        0.5785953610183242,
+        -1.6850594554017224e-12,
+        3.8730680999253164e-13,
+        -6.1872674233687395e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 21,
+      "evaluation_id": 20,
+      "optimizer_step": 20,
+      "phase": "initial",
+      "wall_seconds": 3105.0436356067657,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78168395285141,
+      "total_energy_free_eV": -66.78168395285141,
+      "dft_energy_extrapolated_eV": -66.12886312895763,
+      "dft_energy_free_eV": -66.12886312895763,
+      "dispersion_energy_eV": -0.6528208238937733,
+      "dispersion_free_energy_eV": -0.6528208238937733,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.02003609602032813,
+      "raw_stress_max_kbar": 1.1711551297809484,
+      "cell_A": [
+        [
+          7.16354793961416,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.902284097369603,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.556023125352709
+        ]
+      ],
+      "cell_lengths_A": [
+        7.16354793961416,
+        4.902284097369603,
+        2.556023125352709
+      ],
+      "stress_kbar": [
+        -1.1711551297809484,
+        0.03281781041627565,
+        0.5915983164862677,
+        3.817627999412392e-12,
+        4.2830552920749334e-12,
+        -6.888323548267979e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 22,
+      "evaluation_id": 21,
+      "optimizer_step": 21,
+      "phase": "initial",
+      "wall_seconds": 3245.858333349228,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78177581901251,
+      "total_energy_free_eV": -66.78177581901251,
+      "dft_energy_extrapolated_eV": -66.12844913114536,
+      "dft_energy_free_eV": -66.12844913114536,
+      "dispersion_energy_eV": -0.6533266878671442,
+      "dispersion_free_energy_eV": -0.6533266878671442,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.013054514625940823,
+      "raw_stress_max_kbar": 0.8255092397783648,
+      "cell_A": [
+        [
+          7.13836134777914,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.917212371259677,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555783732057118
+        ]
+      ],
+      "cell_lengths_A": [
+        7.13836134777914,
+        4.917212371259677,
+        2.555783732057118
+      ],
+      "stress_kbar": [
+        -0.8255092397783648,
+        0.02328024691845306,
+        0.35182443931932783,
+        2.058253283594073e-12,
+        7.0471659540571495e-12,
+        1.927382096184397e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 23,
+      "evaluation_id": 22,
+      "optimizer_step": 22,
+      "phase": "initial",
+      "wall_seconds": 3385.362286090851,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78179943750342,
+      "total_energy_free_eV": -66.78179943750342,
+      "dft_energy_extrapolated_eV": -66.1273799599601,
+      "dft_energy_free_eV": -66.1273799599601,
+      "dispersion_energy_eV": -0.6544194775433299,
+      "dispersion_free_energy_eV": -0.6544194775433299,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.004414397068158777,
+      "raw_stress_max_kbar": 0.24808718750359987,
+      "cell_A": [
+        [
+          7.124676304394734,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.919712866950379,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5555409221178267
+        ]
+      ],
+      "cell_lengths_A": [
+        7.124676304394734,
+        4.919712866950379,
+        2.5555409221178267
+      ],
+      "stress_kbar": [
+        -0.24808718750359987,
+        0.06112630798030607,
+        0.09928565257251885,
+        -1.3360799226497465e-12,
+        1.9386260180975897e-12,
+        4.997286678812124e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 24,
+      "evaluation_id": 23,
+      "optimizer_step": 23,
+      "phase": "initial",
+      "wall_seconds": 3519.8420367240906,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78180002056021,
+      "total_energy_free_eV": -66.78180002056021,
+      "dft_energy_extrapolated_eV": -66.12672985811228,
+      "dft_energy_free_eV": -66.12672985811228,
+      "dispersion_energy_eV": -0.6550701624479217,
+      "dispersion_free_energy_eV": -0.6550701624479217,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.002701571973494041,
+      "raw_stress_max_kbar": 0.0301953859465881,
+      "cell_A": [
+        [
+          7.122067544236297,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.9171006640872665,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5554513193066124
+        ]
+      ],
+      "cell_lengths_A": [
+        7.122067544236297,
+        4.9171006640872665,
+        2.5554513193066124
+      ],
+      "stress_kbar": [
+        -0.013669101926242808,
+        0.0301953859465881,
+        0.005956835589102729,
+        -5.384155107252743e-13,
+        7.663532810225181e-13,
+        -1.2569569756357877e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 25,
+      "evaluation_id": 24,
+      "optimizer_step": 24,
+      "phase": "initial",
+      "wall_seconds": 3658.1497547626495,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78179998813509,
+      "total_energy_free_eV": -66.78179998813509,
+      "dft_energy_extrapolated_eV": -66.12654428693828,
+      "dft_energy_free_eV": -66.12654428693828,
+      "dispersion_energy_eV": -0.6552557011968009,
+      "dispersion_free_energy_eV": -0.6552557011968009,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.002880329416875816,
+      "raw_stress_max_kbar": 0.030820787476271202,
+      "cell_A": [
+        [
+          7.122075770193556,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.915802367156794,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5554305102117634
+        ]
+      ],
+      "cell_lengths_A": [
+        7.122075770193556,
+        4.915802367156794,
+        2.5554305102117634
+      ],
+      "stress_kbar": [
+        0.030820787476271202,
+        0.013232263704558623,
+        -0.0181755957611548,
+        -1.9954838119265502e-12,
+        -6.618880075699405e-12,
+        1.0854551509502608e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 26,
+      "evaluation_id": 25,
+      "optimizer_step": 25,
+      "phase": "initial",
+      "wall_seconds": 3801.171374320984,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78180075956968,
+      "total_energy_free_eV": -66.78180075956968,
+      "dft_energy_extrapolated_eV": -66.12629733438578,
+      "dft_energy_free_eV": -66.12629733438578,
+      "dispersion_energy_eV": -0.6555034251838956,
+      "dispersion_free_energy_eV": -0.6555034251838956,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0031444106554560677,
+      "raw_stress_max_kbar": 0.09711159608460819,
+      "cell_A": [
+        [
+          7.122740973387769,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.913599811526463,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5554020179862906
+        ]
+      ],
+      "cell_lengths_A": [
+        7.122740973387769,
+        4.913599811526463,
+        2.5554020179862906
+      ],
+      "stress_kbar": [
+        0.09711159608460819,
+        -0.01121744770042448,
+        -0.05414687690376513,
+        -6.012047815346138e-13,
+        6.9339901228535795e-12,
+        3.786575119184557e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 27,
+      "evaluation_id": 26,
+      "optimizer_step": 26,
+      "phase": "initial",
+      "wall_seconds": 3941.6976115703583,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78180437396891,
+      "total_energy_free_eV": -66.78180437396891,
+      "dft_energy_extrapolated_eV": -66.1259111197391,
+      "dft_energy_free_eV": -66.1259111197391,
+      "dispersion_energy_eV": -0.6558932542298082,
+      "dispersion_free_energy_eV": -0.6558932542298082,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0035451236361934164,
+      "raw_stress_max_kbar": 0.18448585702970477,
+      "cell_A": [
+        [
+          7.123987243754882,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.909984269130751,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5553644881520974
+        ]
+      ],
+      "cell_lengths_A": [
+        7.123987243754882,
+        4.909984269130751,
+        2.5553644881520974
+      ],
+      "stress_kbar": [
+        0.18448585702970477,
+        -0.056814424843391984,
+        -0.10992934830522422,
+        1.5127674073738365e-12,
+        5.789841185963042e-12,
+        1.0379351169754504e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 28,
+      "evaluation_id": 27,
+      "optimizer_step": 27,
+      "phase": "initial",
+      "wall_seconds": 4082.117340564728,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.7818144376529,
+      "total_energy_free_eV": -66.7818144376529,
+      "dft_energy_extrapolated_eV": -66.12539157269711,
+      "dft_energy_free_eV": -66.12539157269711,
+      "dispersion_energy_eV": -0.6564228649557873,
+      "dispersion_free_energy_eV": -0.6564228649557873,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.004928045019629016,
+      "raw_stress_max_kbar": 0.31061540518627273,
+      "cell_A": [
+        [
+          7.126056961513888,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.904795417728113,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5553267675833577
+        ]
+      ],
+      "cell_lengths_A": [
+        7.126056961513888,
+        4.904795417728113,
+        2.5553267675833577
+      ],
+      "stress_kbar": [
+        0.31061540518627273,
+        -0.12350746000293776,
+        -0.17409259274362193,
+        -2.739496796969152e-12,
+        3.929982873446605e-12,
+        4.270582707361014e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 29,
+      "evaluation_id": 28,
+      "optimizer_step": 28,
+      "phase": "initial",
+      "wall_seconds": 4219.630780220032,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.7818426687516,
+      "total_energy_free_eV": -66.7818426687516,
+      "dft_energy_extrapolated_eV": -66.12470459721709,
+      "dft_energy_free_eV": -66.12470459721709,
+      "dispersion_energy_eV": -0.6571380715345044,
+      "dispersion_free_energy_eV": -0.6571380715345044,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.007310353112982182,
+      "raw_stress_max_kbar": 0.5090724137615658,
+      "cell_A": [
+        [
+          7.128860867761141,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.89780904393735,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5552837979866605
+        ]
+      ],
+      "cell_lengths_A": [
+        7.128860867761141,
+        4.89780904393735,
+        2.5552837979866605
+      ],
+      "stress_kbar": [
+        0.5090724137615658,
+        -0.18543678532778898,
+        -0.2467957080687332,
+        -9.263869818842108e-14,
+        1.1305302200271729e-11,
+        6.321947217390421e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 30,
+      "evaluation_id": 29,
+      "optimizer_step": 29,
+      "phase": "initial",
+      "wall_seconds": 4356.194915294647,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78190741707103,
+      "total_energy_free_eV": -66.78190741707103,
+      "dft_energy_extrapolated_eV": -66.12374303331983,
+      "dft_energy_free_eV": -66.12374303331983,
+      "dispersion_energy_eV": -0.6581643837511945,
+      "dispersion_free_energy_eV": -0.6581643837511945,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.01009575327441658,
+      "raw_stress_max_kbar": 0.7215349778368993,
+      "cell_A": [
+        [
+          7.130486835710855,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.88954238434624,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5552464616986836
+        ]
+      ],
+      "cell_lengths_A": [
+        7.130486835710855,
+        4.88954238434624,
+        2.5552464616986836
+      ],
+      "stress_kbar": [
+        0.7215349778368993,
+        -0.20910642684663058,
+        -0.32584168580954864,
+        -3.4994690496617446e-12,
+        1.4845247827380211e-12,
+        -1.3784846942431446e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 31,
+      "evaluation_id": 30,
+      "optimizer_step": 30,
+      "phase": "initial",
+      "wall_seconds": 4494.864363193512,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78198677558346,
+      "total_energy_free_eV": -66.78198677558346,
+      "dft_energy_extrapolated_eV": -66.12355173092692,
+      "dft_energy_free_eV": -66.12355173092692,
+      "dispersion_energy_eV": -0.6584350446565387,
+      "dispersion_free_energy_eV": -0.6584350446565387,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.01044626863566279,
+      "raw_stress_max_kbar": 0.7562428643740328,
+      "cell_A": [
+        [
+          7.130054817898089,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.887998680738794,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555301047000417
+        ]
+      ],
+      "cell_lengths_A": [
+        7.130054817898089,
+        4.887998680738794,
+        2.555301047000417
+      ],
+      "stress_kbar": [
+        0.7562428643740328,
+        -0.05792468882118477,
+        -0.28889911822516,
+        1.1658420209450659e-12,
+        -8.480162654260458e-13,
+        8.974797760106765e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 32,
+      "evaluation_id": 31,
+      "optimizer_step": 31,
+      "phase": "initial",
+      "wall_seconds": 4633.694435834885,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78204645554375,
+      "total_energy_free_eV": -66.78204645554375,
+      "dft_energy_extrapolated_eV": -66.12452063856895,
+      "dft_energy_free_eV": -66.12452063856895,
+      "dispersion_energy_eV": -0.6575258169747974,
+      "dispersion_free_energy_eV": -0.6575258169747974,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.00514009218441467,
+      "raw_stress_max_kbar": 0.37261856810188454,
+      "cell_A": [
+        [
+          7.129398315333624,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.894738856320578,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5554467271326042
+        ]
+      ],
+      "cell_lengths_A": [
+        7.129398315333624,
+        4.894738856320578,
+        2.5554467271326042
+      ],
+      "stress_kbar": [
+        0.37261856810188454,
+        0.016285587556294966,
+        -0.13997589796719287,
+        1.1931902312271587e-14,
+        -8.539090890527783e-12,
+        -9.730240699580078e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 33,
+      "evaluation_id": 32,
+      "optimizer_step": 32,
+      "phase": "initial",
+      "wall_seconds": 4773.961178064346,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78206331968913,
+      "total_energy_free_eV": -66.78206331968913,
+      "dft_energy_extrapolated_eV": -66.12533554670281,
+      "dft_energy_free_eV": -66.12533554670281,
+      "dispersion_energy_eV": -0.6567277729863106,
+      "dispersion_free_energy_eV": -0.6567277729863106,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.00032521825288869013,
+      "raw_stress_max_kbar": 0.0727489037517414,
+      "cell_A": [
+        [
+          7.1282569760669166,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.901043000726946,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5555441578657865
+        ]
+      ],
+      "cell_lengths_A": [
+        7.1282569760669166,
+        4.901043000726946,
+        2.5555441578657865
+      ],
+      "stress_kbar": [
+        0.002057307902049565,
+        -0.0727489037517414,
+        -0.03688400974906169,
+        -1.1013768825110046e-12,
+        9.2543943852705e-13,
+        7.141577549250221e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_candidate",
+      "line_number": 34,
+      "evaluation_id": 33,
+      "optimizer_step": 33,
+      "phase": "initial",
+      "wall_seconds": 4915.196240663528,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_candidate/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78206623909374,
+      "total_energy_free_eV": -66.78206623909374,
+      "dft_energy_extrapolated_eV": -66.12555879861168,
+      "dft_energy_free_eV": -66.12555879861168,
+      "dispersion_energy_eV": -0.656507440482066,
+      "dispersion_free_energy_eV": -0.656507440482066,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.00019543871396679132,
+      "raw_stress_max_kbar": 0.028704362313392903,
+      "cell_A": [
+        [
+          7.126716837357232,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.903688407792296,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555564871975709
+        ]
+      ],
+      "cell_lengths_A": [
+        7.126716837357232,
+        4.903688407792296,
+        2.555564871975709
+      ],
+      "stress_kbar": [
+        -0.01304615442757612,
+        -0.028704362313392903,
+        -0.001677124496093261,
+        1.0658597973758343e-12,
+        2.493432700153119e-12,
+        2.1623668500057935e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "8f32f368e7540dd223506c9b732c374bae491f9fd96e87f19db408378965ac23",
+      "final_optimizer_steps": 33,
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference",
+      "line_number": 1,
+      "evaluation_id": 0,
+      "optimizer_step": 0,
+      "phase": "initial",
+      "wall_seconds": 331.80331349372864,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.74524538739365,
+      "total_energy_free_eV": -66.74524538739365,
+      "dft_energy_extrapolated_eV": -66.1188260138498,
+      "dft_energy_free_eV": -66.1188260138498,
+      "dispersion_energy_eV": -0.6264193735438524,
+      "dispersion_free_energy_eV": -0.6264193735438524,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.9883044485455441,
+      "raw_stress_max_kbar": 6.704284570475638,
+      "cell_A": [
+        [
+          7.432,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.545
+        ]
+      ],
+      "cell_lengths_A": [
+        7.432,
+        4.929,
+        2.545
+      ],
+      "stress_kbar": [
+        -4.323918478691921,
+        -6.704284570475638,
+        -6.6984834824312145,
+        -3.4479902413369397e-12,
+        -3.0132233554984806e-12,
+        1.360437785195228e-11
+      ]
+    },
+    {
+      "run_id": "cell_reference",
+      "line_number": 2,
+      "evaluation_id": 1,
+      "optimizer_step": 1,
+      "phase": "initial",
+      "wall_seconds": 674.5099625587463,
+      "SCF_iterations": 22,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.76571678879006,
+      "total_energy_free_eV": -66.76571678879006,
+      "dft_energy_extrapolated_eV": -66.14838379247976,
+      "dft_energy_free_eV": -66.14838379247976,
+      "dispersion_energy_eV": -0.6173329963102954,
+      "dispersion_free_energy_eV": -0.6173329963102954,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.27474047225105286,
+      "raw_stress_max_kbar": 22.537136918948455,
+      "cell_A": [
+        [
+          7.458761337352345,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.9565464652174445,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5592107778001734
+        ]
+      ],
+      "cell_lengths_A": [
+        7.458761337352345,
+        4.9565464652174445,
+        2.5592107778001734
+      ],
+      "stress_kbar": [
+        20.53575241574395,
+        22.537136918948455,
+        5.405298176289958,
+        -4.51135220338794e-13,
+        3.1687285278514607e-12,
+        -1.3926567155791174e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference",
+      "line_number": 3,
+      "evaluation_id": 2,
+      "optimizer_step": 2,
+      "phase": "initial",
+      "wall_seconds": 1019.6410493850708,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.76761928611408,
+      "total_energy_free_eV": -66.76761928611408,
+      "dft_energy_extrapolated_eV": -66.13545408898123,
+      "dft_energy_free_eV": -66.13545408898123,
+      "dispersion_energy_eV": -0.6321651971328442,
+      "dispersion_free_energy_eV": -0.6321651971328442,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.2737568812338656,
+      "raw_stress_max_kbar": 17.032316331076515,
+      "cell_A": [
+        [
+          7.375505405162302,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.898643008405449,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.55577707225357
+        ]
+      ],
+      "cell_lengths_A": [
+        7.375505405162302,
+        4.898643008405449,
+        2.55577707225357
+      ],
+      "stress_kbar": [
+        -16.253435263289052,
+        -17.032316331076515,
+        -5.958070274051657,
+        -3.696617142613276e-12,
+        3.0665455376927976e-12,
+        -3.4148809962654155e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference",
+      "line_number": 4,
+      "evaluation_id": 3,
+      "optimizer_step": 3,
+      "phase": "initial",
+      "wall_seconds": 1358.208692073822,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77547266885544,
+      "total_energy_free_eV": -66.77547266885544,
+      "dft_energy_extrapolated_eV": -66.1503393061853,
+      "dft_energy_free_eV": -66.1503393061853,
+      "dispersion_energy_eV": -0.6251333626701349,
+      "dispersion_free_energy_eV": -0.6251333626701349,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.06887387404475048,
+      "raw_stress_max_kbar": 3.386701011123731,
+      "cell_A": [
+        [
+          7.414127169511677,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.9236267907929845,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5590483701148035
+        ]
+      ],
+      "cell_lengths_A": [
+        7.414127169511677,
+        4.9236267907929845,
+        2.5590483701148035
+      ],
+      "stress_kbar": [
+        0.11032687469218475,
+        -1.4455332236845975,
+        3.386701011123731,
+        -5.612258621715644e-12,
+        1.0982787516418163e-12,
+        -5.34049651052682e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 1,
+      "evaluation_id": 0,
+      "optimizer_step": 0,
+      "phase": "initial",
+      "wall_seconds": 328.04122972488403,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77547266885458,
+      "total_energy_free_eV": -66.77547266885458,
+      "dft_energy_extrapolated_eV": -66.15033930618443,
+      "dft_energy_free_eV": -66.15033930618443,
+      "dispersion_energy_eV": -0.625133362670135,
+      "dispersion_free_energy_eV": -0.625133362670135,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.06887387404406371,
+      "raw_stress_max_kbar": 3.386701011746336,
+      "cell_A": [
+        [
+          7.414127169511677,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.9236267907929845,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5590483701148035
+        ]
+      ],
+      "cell_lengths_A": [
+        7.414127169511677,
+        4.9236267907929845,
+        2.5590483701148035
+      ],
+      "stress_kbar": [
+        0.1103268749806865,
+        -1.445533223350302,
+        3.386701011746336,
+        -4.746095408719519e-12,
+        -9.036069399469417e-13,
+        -2.5775154830039058e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 2,
+      "evaluation_id": 1,
+      "optimizer_step": 1,
+      "phase": "initial",
+      "wall_seconds": 653.375759601593,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77568081391091,
+      "total_energy_free_eV": -66.77568081391091,
+      "dft_energy_extrapolated_eV": -66.14955499290416,
+      "dft_energy_free_eV": -66.14955499290416,
+      "dispersion_energy_eV": -0.6261258210067537,
+      "dispersion_free_energy_eV": -0.6261258210067537,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.06193874429604787,
+      "raw_stress_max_kbar": 5.548708576900582,
+      "cell_A": [
+        [
+          7.413445872294953,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.9295586373345115,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5518396500460816
+        ]
+      ],
+      "cell_lengths_A": [
+        7.413445872294953,
+        4.9295586373345115,
+        2.5518396500460816
+      ],
+      "stress_kbar": [
+        0.5715211850865876,
+        2.5645291364954117,
+        -5.548708576900582,
+        2.531199525595367e-12,
+        1.5530015061149309e-12,
+        -2.3658101998522312e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 3,
+      "evaluation_id": 2,
+      "optimizer_step": 2,
+      "phase": "initial",
+      "wall_seconds": 981.2548131942749,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77645454236742,
+      "total_energy_free_eV": -66.77645454236742,
+      "dft_energy_extrapolated_eV": -66.1504438339648,
+      "dft_energy_free_eV": -66.1504438339648,
+      "dispersion_energy_eV": -0.6260107084026139,
+      "dispersion_free_energy_eV": -0.6260107084026139,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.05404095014855116,
+      "raw_stress_max_kbar": 1.6221589714557334,
+      "cell_A": [
+        [
+          7.4109570667806635,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.926446790665206,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5550299185393524
+        ]
+      ],
+      "cell_lengths_A": [
+        7.4109570667806635,
+        4.926446790665206,
+        2.5550299185393524
+      ],
+      "stress_kbar": [
+        0.5967543524554177,
+        0.6913094354991669,
+        -1.6221589714557334,
+        8.869740336335187e-12,
+        9.644033521937913e-12,
+        8.66529630458792e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 4,
+      "evaluation_id": 3,
+      "optimizer_step": 3,
+      "phase": "initial",
+      "wall_seconds": 1300.226551771164,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77760103420606,
+      "total_energy_free_eV": -66.77760103420606,
+      "dft_energy_extrapolated_eV": -66.15088240211371,
+      "dft_energy_free_eV": -66.15088240211371,
+      "dispersion_energy_eV": -0.6267186320923457,
+      "dispersion_free_energy_eV": -0.6267186320923457,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.04898196688874119,
+      "raw_stress_max_kbar": 2.647536738616372,
+      "cell_A": [
+        [
+          7.399315483193738,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.923230165194928,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5583953899451224
+        ]
+      ],
+      "cell_lengths_A": [
+        7.399315483193738,
+        4.923230165194928,
+        2.5583953899451224
+      ],
+      "stress_kbar": [
+        -0.7853771356119145,
+        -0.8763384144252468,
+        2.647536738616372,
+        -5.970232884199517e-12,
+        -1.2172639506713522e-11,
+        -3.735089989343918e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 5,
+      "evaluation_id": 4,
+      "optimizer_step": 4,
+      "phase": "initial",
+      "wall_seconds": 1617.147750377655,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77815244031433,
+      "total_energy_free_eV": -66.77815244031433,
+      "dft_energy_extrapolated_eV": -66.15075363354862,
+      "dft_energy_free_eV": -66.15075363354862,
+      "dispersion_energy_eV": -0.6273988067657101,
+      "dispersion_free_energy_eV": -0.6273988067657101,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.04268414376751632,
+      "raw_stress_max_kbar": 3.4073971888488237,
+      "cell_A": [
+        [
+          7.396875182235412,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.92047037276825,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.558356519543496
+        ]
+      ],
+      "cell_lengths_A": [
+        7.396875182235412,
+        4.92047037276825,
+        2.558356519543496
+      ],
+      "stress_kbar": [
+        3.4073971888488237,
+        -1.8244974648167844,
+        2.9929880323178093,
+        -4.59532753662805e-13,
+        5.665740373568813e-12,
+        4.2401251360550466e-11
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 6,
+      "evaluation_id": 5,
+      "optimizer_step": 5,
+      "phase": "initial",
+      "wall_seconds": 1918.5284082889557,
+      "SCF_iterations": 22,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77838373427197,
+      "total_energy_free_eV": -66.77838373427197,
+      "dft_energy_extrapolated_eV": -66.14873976046694,
+      "dft_energy_free_eV": -66.14873976046694,
+      "dispersion_energy_eV": -0.6296439738050277,
+      "dispersion_free_energy_eV": -0.6296439738050277,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0707107715158623,
+      "raw_stress_max_kbar": 2.4976302133443915,
+      "cell_A": [
+        [
+          7.374694752073917,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.921337722912219,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.556873250018901
+        ]
+      ],
+      "cell_lengths_A": [
+        7.374694752073917,
+        4.921337722912219,
+        2.556873250018901
+      ],
+      "stress_kbar": [
+        -2.4976302133443915,
+        -0.15818182609784984,
+        1.215193365835684,
+        1.3124506812086292e-12,
+        -4.660514533940301e-12,
+        -3.0170043570249596e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 7,
+      "evaluation_id": 6,
+      "optimizer_step": 6,
+      "phase": "initial",
+      "wall_seconds": 2243.01797747612,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77861237416884,
+      "total_energy_free_eV": -66.77861237416884,
+      "dft_energy_extrapolated_eV": -66.1493194238177,
+      "dft_energy_free_eV": -66.1493194238177,
+      "dispersion_energy_eV": -0.6292929503511466,
+      "dispersion_free_energy_eV": -0.6292929503511466,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.03849794454543417,
+      "raw_stress_max_kbar": 0.6472725546629252,
+      "cell_A": [
+        [
+          7.37976937299227,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.921914642202721,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5561892138474076
+        ]
+      ],
+      "cell_lengths_A": [
+        7.37976937299227,
+        4.921914642202721,
+        2.5561892138474076
+      ],
+      "stress_kbar": [
+        0.04141705574167803,
+        0.6472725546629252,
+        0.44893611766417785,
+        6.005919223708299e-12,
+        1.8911583672268397e-12,
+        -3.073991405529099e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 8,
+      "evaluation_id": 7,
+      "optimizer_step": 7,
+      "phase": "initial",
+      "wall_seconds": 2535.56605386734,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77880378748308,
+      "total_energy_free_eV": -66.77880378748308,
+      "dft_energy_extrapolated_eV": -66.1483517304422,
+      "dft_energy_free_eV": -66.1483517304422,
+      "dispersion_energy_eV": -0.6304520570408819,
+      "dispersion_free_energy_eV": -0.6304520570408819,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.02685024754355714,
+      "raw_stress_max_kbar": 1.8376777768665409,
+      "cell_A": [
+        [
+          7.3771718207605605,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.91807025707911,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5544192602839035
+        ]
+      ],
+      "cell_lengths_A": [
+        7.3771718207605605,
+        4.91807025707911,
+        2.5544192602839035
+      ],
+      "stress_kbar": [
+        1.31695571274927,
+        -0.7848869892000567,
+        -1.8376777768665409,
+        1.2228898231957027e-12,
+        5.264451633210632e-12,
+        -8.97340258651186e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 9,
+      "evaluation_id": 8,
+      "optimizer_step": 8,
+      "phase": "initial",
+      "wall_seconds": 2820.742841243744,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77920523274229,
+      "total_energy_free_eV": -66.77920523274229,
+      "dft_energy_extrapolated_eV": -66.14694702712009,
+      "dft_energy_free_eV": -66.14694702712009,
+      "dispersion_energy_eV": -0.6322582056221928,
+      "dispersion_free_energy_eV": -0.6322582056221928,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.03648039086716842,
+      "raw_stress_max_kbar": 4.167630920892646,
+      "cell_A": [
+        [
+          7.363613517634345,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.916080579450562,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.553558794763234
+        ]
+      ],
+      "cell_lengths_A": [
+        7.363613517634345,
+        4.916080579450562,
+        2.553558794763234
+      ],
+      "stress_kbar": [
+        4.167630920892646,
+        2.2917303849473294,
+        -2.6300951854958914,
+        3.465923915717634e-12,
+        3.028054830442106e-12,
+        1.7591258447011626e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 10,
+      "evaluation_id": 9,
+      "optimizer_step": 9,
+      "phase": "initial",
+      "wall_seconds": 3118.176347255707,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.77998036727239,
+      "total_energy_free_eV": -66.77998036727239,
+      "dft_energy_extrapolated_eV": -66.14292491633496,
+      "dft_energy_free_eV": -66.14292491633496,
+      "dispersion_energy_eV": -0.6370554509374211,
+      "dispersion_free_energy_eV": -0.6370554509374211,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.04366544015124502,
+      "raw_stress_max_kbar": 4.747349700014444,
+      "cell_A": [
+        [
+          7.330226154672532,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.905463634856791,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.552640548352415
+        ]
+      ],
+      "cell_lengths_A": [
+        7.330226154672532,
+        4.905463634856791,
+        2.552640548352415
+      ],
+      "stress_kbar": [
+        4.747349700014444,
+        2.1563040635726614,
+        -3.778360231216343,
+        1.8602939570976776e-12,
+        6.909116345904135e-12,
+        9.840103045124143e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 11,
+      "evaluation_id": 10,
+      "optimizer_step": 10,
+      "phase": "initial",
+      "wall_seconds": 3455.544659137726,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78179405019776,
+      "total_energy_free_eV": -66.78179405019776,
+      "dft_energy_extrapolated_eV": -66.12624293288097,
+      "dft_energy_free_eV": -66.12624293288097,
+      "dispersion_energy_eV": -0.6555511173167926,
+      "dispersion_free_energy_eV": -0.6555511173167926,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.028637988773560188,
+      "raw_stress_max_kbar": 3.272950253234825,
+      "cell_A": [
+        [
+          7.195936665058756,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.865181664985844,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.553056636695986
+        ]
+      ],
+      "cell_lengths_A": [
+        7.195936665058756,
+        4.865181664985844,
+        2.553056636695986
+      ],
+      "stress_kbar": [
+        2.3348889342918575,
+        0.8533559651064302,
+        -3.272950253234825,
+        -2.9165607125618195e-12,
+        1.2851421623393501e-11,
+        2.5996537273062808e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 12,
+      "evaluation_id": 11,
+      "optimizer_step": 11,
+      "phase": "initial",
+      "wall_seconds": 3735.6244769096375,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.7819562508238,
+      "total_energy_free_eV": -66.7819562508238,
+      "dft_energy_extrapolated_eV": -66.1254357948663,
+      "dft_energy_free_eV": -66.1254357948663,
+      "dispersion_energy_eV": -0.6565204559574842,
+      "dispersion_free_energy_eV": -0.6565204559574842,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.012468668673060571,
+      "raw_stress_max_kbar": 1.0408296833374906,
+      "cell_A": [
+        [
+          7.185482894920388,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.862619955919667,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.554785017113122
+        ]
+      ],
+      "cell_lengths_A": [
+        7.185482894920388,
+        4.862619955919667,
+        2.554785017113122
+      ],
+      "stress_kbar": [
+        0.8404022647055112,
+        0.24378342480174867,
+        -1.0408296833374906,
+        2.4227212360296884e-12,
+        -1.9661432997101155e-11,
+        1.4834168945954744e-11
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 13,
+      "evaluation_id": 12,
+      "optimizer_step": 12,
+      "phase": "initial",
+      "wall_seconds": 3986.106191635132,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78198421203118,
+      "total_energy_free_eV": -66.78198421203118,
+      "dft_energy_extrapolated_eV": -66.1260726760243,
+      "dft_energy_free_eV": -66.1260726760243,
+      "dispersion_energy_eV": -0.6559115360068895,
+      "dispersion_free_energy_eV": -0.6559115360068895,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.00640555358815013,
+      "raw_stress_max_kbar": 0.09846114839410086,
+      "cell_A": [
+        [
+          7.187513672980509,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.863880743105785,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555677967718962
+        ]
+      ],
+      "cell_lengths_A": [
+        7.187513672980509,
+        4.863880743105785,
+        2.555677967718962
+      ],
+      "stress_kbar": [
+        0.0504660429117407,
+        -0.09846114839410086,
+        0.09242123284887534,
+        4.0839539860697507e-13,
+        -5.09241159089312e-12,
+        3.6438082562677884e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 14,
+      "evaluation_id": 13,
+      "optimizer_step": 13,
+      "phase": "initial",
+      "wall_seconds": 4204.354966163635,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78198870633604,
+      "total_energy_free_eV": -66.78198870633604,
+      "dft_energy_extrapolated_eV": -66.1260057621405,
+      "dft_energy_free_eV": -66.1260057621405,
+      "dispersion_energy_eV": -0.6559829441955383,
+      "dispersion_free_energy_eV": -0.6559829441955383,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.006029533768390826,
+      "raw_stress_max_kbar": 0.1476691212937993,
+      "cell_A": [
+        [
+          7.18641795481964,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.864055877193551,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5557251703935844
+        ]
+      ],
+      "cell_lengths_A": [
+        7.18641795481964,
+        4.864055877193551,
+        2.5557251703935844
+      ],
+      "stress_kbar": [
+        -0.08465083812815569,
+        -0.12948757949351697,
+        0.1476691212937993,
+        7.846210829945023e-12,
+        -6.539456168852285e-12,
+        1.294650874764436e-11
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 15,
+      "evaluation_id": 14,
+      "optimizer_step": 14,
+      "phase": "initial",
+      "wall_seconds": 4426.064950942993,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78204700039687,
+      "total_energy_free_eV": -66.78204700039687,
+      "dft_energy_extrapolated_eV": -66.1259454207334,
+      "dft_energy_free_eV": -66.1259454207334,
+      "dispersion_energy_eV": -0.6561015796634652,
+      "dispersion_free_energy_eV": -0.6561015796634652,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.01662537516621902,
+      "raw_stress_max_kbar": 1.1313475044239383,
+      "cell_A": [
+        [
+          7.176773335649302,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.86929711031898,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5560991050783914
+        ]
+      ],
+      "cell_lengths_A": [
+        7.176773335649302,
+        4.86929711031898,
+        2.5560991050783914
+      ],
+      "stress_kbar": [
+        -1.1313475044239383,
+        -0.31075396985685955,
+        0.600327112436957,
+        -1.0392476433655223e-12,
+        1.4917628551629253e-11,
+        1.0344085471139077e-11
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 16,
+      "evaluation_id": 15,
+      "optimizer_step": 15,
+      "phase": "initial",
+      "wall_seconds": 4642.963851928711,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78213507481337,
+      "total_energy_free_eV": -66.78213507481337,
+      "dft_energy_extrapolated_eV": -66.12553968485574,
+      "dft_energy_free_eV": -66.12553968485574,
+      "dispersion_energy_eV": -0.6565953899576249,
+      "dispersion_free_energy_eV": -0.6565953899576249,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.02516707758331464,
+      "raw_stress_max_kbar": 2.0449280600063098,
+      "cell_A": [
+        [
+          7.157376688604312,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.879121417980949,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5563193889582903
+        ]
+      ],
+      "cell_lengths_A": [
+        7.157376688604312,
+        4.879121417980949,
+        2.5563193889582903
+      ],
+      "stress_kbar": [
+        -2.0449280600063098,
+        -0.4885958830058609,
+        0.8706942894604486,
+        -3.456406692990859e-12,
+        -6.96144422408405e-12,
+        1.7529592565434104e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 17,
+      "evaluation_id": 16,
+      "optimizer_step": 16,
+      "phase": "initial",
+      "wall_seconds": 4864.422882318497,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78225074240883,
+      "total_energy_free_eV": -66.78225074240883,
+      "dft_energy_extrapolated_eV": -66.12585256252815,
+      "dft_energy_free_eV": -66.12585256252815,
+      "dispersion_energy_eV": -0.6563981798806792,
+      "dispersion_free_energy_eV": -0.6563981798806792,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.026404024549483634,
+      "raw_stress_max_kbar": 2.3406625628687237,
+      "cell_A": [
+        [
+          7.134117529723661,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.897141633387397,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5563308359716204
+        ]
+      ],
+      "cell_lengths_A": [
+        7.134117529723661,
+        4.897141633387397,
+        2.5563308359716204
+      ],
+      "stress_kbar": [
+        -2.3406625628687237,
+        -0.4953022704121193,
+        0.919275503616349,
+        4.3041609239190505e-12,
+        8.359959046802919e-12,
+        -3.4534239958432215e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 18,
+      "evaluation_id": 17,
+      "optimizer_step": 17,
+      "phase": "initial",
+      "wall_seconds": 5088.358206510544,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78233638105249,
+      "total_energy_free_eV": -66.78233638105249,
+      "dft_energy_extrapolated_eV": -66.12700126794105,
+      "dft_energy_free_eV": -66.12700126794105,
+      "dispersion_energy_eV": -0.6553351131114369,
+      "dispersion_free_energy_eV": -0.6553351131114369,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.015383941594000562,
+      "raw_stress_max_kbar": 1.3954261340276415,
+      "cell_A": [
+        [
+          7.123681144519905,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.91296966036087,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555979992346339
+        ]
+      ],
+      "cell_lengths_A": [
+        7.123681144519905,
+        4.91296966036087,
+        2.555979992346339
+      ],
+      "stress_kbar": [
+        -1.3954261340276415,
+        -0.3044178332600371,
+        0.5430660684021219,
+        3.659879642925866e-12,
+        4.217611118551171e-12,
+        -5.920929762973873e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 19,
+      "evaluation_id": 18,
+      "optimizer_step": 18,
+      "phase": "initial",
+      "wall_seconds": 5303.369564533234,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78236280501366,
+      "total_energy_free_eV": -66.78236280501366,
+      "dft_energy_extrapolated_eV": -66.12777372924336,
+      "dft_energy_free_eV": -66.12777372924336,
+      "dispersion_energy_eV": -0.6545890757702969,
+      "dispersion_free_energy_eV": -0.6545890757702969,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0034430685832036326,
+      "raw_stress_max_kbar": 0.2665140578859738,
+      "cell_A": [
+        [
+          7.123427083620906,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.919328345245909,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5555811362564724
+        ]
+      ],
+      "cell_lengths_A": [
+        7.123427083620906,
+        4.919328345245909,
+        2.5555811362564724
+      ],
+      "stress_kbar": [
+        -0.2665140578859738,
+        -0.03271341411370343,
+        0.08915554559031391,
+        6.495611597376455e-12,
+        2.952971082072552e-12,
+        1.8341811090909136e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 20,
+      "evaluation_id": 19,
+      "optimizer_step": 19,
+      "phase": "initial",
+      "wall_seconds": 5505.933218955994,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78236490000874,
+      "total_energy_free_eV": -66.78236490000874,
+      "dft_energy_extrapolated_eV": -66.12790757418165,
+      "dft_energy_free_eV": -66.12790757418165,
+      "dispersion_energy_eV": -0.6544573258270974,
+      "dispersion_free_energy_eV": -0.6544573258270974,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0026916764197236296,
+      "raw_stress_max_kbar": 0.025017313549139643,
+      "cell_A": [
+        [
+          7.125698473875553,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.91879620916504,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555503370143817
+        ]
+      ],
+      "cell_lengths_A": [
+        7.125698473875553,
+        4.91879620916504,
+        2.555503370143817
+      ],
+      "stress_kbar": [
+        -0.011702646469174592,
+        0.025017313549139643,
+        -0.0024613052333569835,
+        4.686849707019665e-13,
+        8.55139830076866e-12,
+        -5.25202139162325e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 21,
+      "evaluation_id": 20,
+      "optimizer_step": 20,
+      "phase": "initial",
+      "wall_seconds": 5708.855134963989,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78236632974502,
+      "total_energy_free_eV": -66.78236632974502,
+      "dft_energy_extrapolated_eV": -66.12801459010642,
+      "dft_energy_free_eV": -66.12801459010642,
+      "dispersion_energy_eV": -0.6543517396385992,
+      "dispersion_free_energy_eV": -0.6543517396385992,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.002819508621054027,
+      "raw_stress_max_kbar": 0.13610778644575688,
+      "cell_A": [
+        [
+          7.128438945377371,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.917654711525138,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5554660761420944
+        ]
+      ],
+      "cell_lengths_A": [
+        7.128438945377371,
+        4.917654711525138,
+        2.5554660761420944
+      ],
+      "stress_kbar": [
+        0.13610778644575688,
+        0.0447757463686823,
+        -0.04912313868347482,
+        1.740543717021919e-12,
+        1.0355891166587201e-11,
+        1.5951341017738048e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 22,
+      "evaluation_id": 21,
+      "optimizer_step": 21,
+      "phase": "initial",
+      "wall_seconds": 7284.5477130413055,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.7823683648381,
+      "total_energy_free_eV": -66.7823683648381,
+      "dft_energy_extrapolated_eV": -66.12806257406294,
+      "dft_energy_free_eV": -66.12806257406294,
+      "dispersion_energy_eV": -0.6543057907751699,
+      "dispersion_free_energy_eV": -0.6543057907751699,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0033202609578178045,
+      "raw_stress_max_kbar": 0.23228676946147678,
+      "cell_A": [
+        [
+          7.130384230317162,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.916639705036232,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5554377098713523
+        ]
+      ],
+      "cell_lengths_A": [
+        7.130384230317162,
+        4.916639705036232,
+        2.5554377098713523
+      ],
+      "stress_kbar": [
+        0.23228676946147678,
+        0.05514868289352639,
+        -0.08514296072683977,
+        1.1880844137102269e-12,
+        1.8865805021293e-12,
+        1.4573247810325406e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 23,
+      "evaluation_id": 22,
+      "optimizer_step": 22,
+      "phase": "initial",
+      "wall_seconds": 7491.5702447891235,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78237801300405,
+      "total_energy_free_eV": -66.78237801300405,
+      "dft_energy_extrapolated_eV": -66.12819505799601,
+      "dft_energy_free_eV": -66.12819505799601,
+      "dispersion_energy_eV": -0.6541829550080406,
+      "dispersion_free_energy_eV": -0.6541829550080406,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.005490167148821551,
+      "raw_stress_max_kbar": 0.5003805888159756,
+      "cell_A": [
+        [
+          7.135933100555613,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.9136980062941955,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555356398319955
+        ]
+      ],
+      "cell_lengths_A": [
+        7.135933100555613,
+        4.9136980062941955,
+        2.555356398319955
+      ],
+      "stress_kbar": [
+        0.5003805888159756,
+        0.08604265570790565,
+        -0.18936773183167238,
+        3.811956708117342e-12,
+        2.043019485183514e-12,
+        -1.210302272499294e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_01",
+      "line_number": 24,
+      "evaluation_id": 23,
+      "optimizer_step": 23,
+      "phase": "initial",
+      "wall_seconds": 7701.468011856079,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_01/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78239793980008,
+      "total_energy_free_eV": -66.78239793980008,
+      "dft_energy_extrapolated_eV": -66.12835978693042,
+      "dft_energy_free_eV": -66.12835978693042,
+      "dispersion_energy_eV": -0.6540381528696603,
+      "dispersion_free_energy_eV": -0.6540381528696603,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.008475854624960723,
+      "raw_stress_max_kbar": 0.852945169105203,
+      "cell_A": [
+        [
+          7.143478794117944,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.909532957182429,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5552608070361247
+        ]
+      ],
+      "cell_lengths_A": [
+        7.143478794117944,
+        4.909532957182429,
+        2.5552608070361247
+      ],
+      "stress_kbar": [
+        0.852945169105203,
+        0.13499049843509836,
+        -0.3162944417101441,
+        -2.638605983954294e-12,
+        -3.8325334648588845e-12,
+        4.022903309744013e-12
+      ]
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 1,
+      "evaluation_id": 0,
+      "optimizer_step": 0,
+      "phase": "initial",
+      "wall_seconds": 205.46280717849731,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78239793979957,
+      "total_energy_free_eV": -66.78239793979957,
+      "dft_energy_extrapolated_eV": -66.1283597869299,
+      "dft_energy_free_eV": -66.1283597869299,
+      "dispersion_energy_eV": -0.6540381528696604,
+      "dispersion_free_energy_eV": -0.6540381528696604,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.008475854625078175,
+      "raw_stress_max_kbar": 0.852945169111672,
+      "cell_A": [
+        [
+          7.143478794117944,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.909532957182429,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5552608070361247
+        ]
+      ],
+      "cell_lengths_A": [
+        7.143478794117944,
+        4.909532957182429,
+        2.5552608070361247
+      ],
+      "stress_kbar": [
+        0.852945169111672,
+        0.13499049844178684,
+        -0.31629444170020665,
+        -2.191709363368594e-12,
+        -4.594909470605478e-12,
+        8.582077463290923e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 2,
+      "evaluation_id": 1,
+      "optimizer_step": 1,
+      "phase": "initial",
+      "wall_seconds": 420.94526839256287,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78237854921323,
+      "total_energy_free_eV": -66.78237854921323,
+      "dft_energy_extrapolated_eV": -66.12797347291092,
+      "dft_energy_free_eV": -66.12797347291092,
+      "dispersion_energy_eV": -0.6544050763023175,
+      "dispersion_free_energy_eV": -0.6544050763023175,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.020198584396677124,
+      "raw_stress_max_kbar": 1.6346855694131746,
+      "cell_A": [
+        [
+          7.138611813368778,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.909003419705909,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5559066968257436
+        ]
+      ],
+      "cell_lengths_A": [
+        7.138611813368778,
+        4.909003419705909,
+        2.5559066968257436
+      ],
+      "stress_kbar": [
+        -1.6346855694131746,
+        -0.28294351280775565,
+        0.3958083603025248,
+        5.349685152832028e-12,
+        -5.784988134979097e-13,
+        3.0704889067095446e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 3,
+      "evaluation_id": 2,
+      "optimizer_step": 2,
+      "phase": "initial",
+      "wall_seconds": 647.2337670326233,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78240626116819,
+      "total_energy_free_eV": -66.78240626116819,
+      "dft_energy_extrapolated_eV": -66.12827727242218,
+      "dft_energy_free_eV": -66.12827727242218,
+      "dispersion_energy_eV": -0.6541289887460089,
+      "dispersion_free_energy_eV": -0.6541289887460089,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0030635016627817762,
+      "raw_stress_max_kbar": 0.12914661620308435,
+      "cell_A": [
+        [
+          7.141745019521796,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.909377519677959,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5556407123891054
+        ]
+      ],
+      "cell_lengths_A": [
+        7.141745019521796,
+        4.909377519677959,
+        2.5556407123891054
+      ],
+      "stress_kbar": [
+        0.03535098534816487,
+        0.013968116865353427,
+        0.12914661620308435,
+        -8.246013895143612e-13,
+        -9.50135788273999e-12,
+        2.379552451762934e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 4,
+      "evaluation_id": 3,
+      "optimizer_step": 3,
+      "phase": "initial",
+      "wall_seconds": 885.4129428863525,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.782406560388,
+      "total_energy_free_eV": -66.782406560388,
+      "dft_energy_extrapolated_eV": -66.12819300057274,
+      "dft_energy_free_eV": -66.12819300057274,
+      "dispersion_energy_eV": -0.6542135598152592,
+      "dispersion_free_energy_eV": -0.6542135598152592,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.002945212958127398,
+      "raw_stress_max_kbar": 0.22626788878528986,
+      "cell_A": [
+        [
+          7.141596012204482,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.909329173853704,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555372554537307
+        ]
+      ],
+      "cell_lengths_A": [
+        7.141596012204482,
+        4.909329173853704,
+        2.555372554537307
+      ],
+      "stress_kbar": [
+        -0.030993214601398523,
+        -0.03396838964088764,
+        -0.22626788878528986,
+        7.14118222639175e-13,
+        -1.0531539381929205e-12,
+        1.3367952714341658e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 5,
+      "evaluation_id": 4,
+      "optimizer_step": 4,
+      "phase": "initial",
+      "wall_seconds": 1123.1673021316528,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78240785663445,
+      "total_energy_free_eV": -66.78240785663445,
+      "dft_energy_extrapolated_eV": -66.12821780934847,
+      "dft_energy_free_eV": -66.12821780934847,
+      "dispersion_energy_eV": -0.6541900472859852,
+      "dispersion_free_energy_eV": -0.6541900472859852,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0027585996785143996,
+      "raw_stress_max_kbar": 0.10272036460564116,
+      "cell_A": [
+        [
+          7.141564172174966,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.909375031489409,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555462770765809
+        ]
+      ],
+      "cell_lengths_A": [
+        7.141564172174966,
+        4.909375031489409,
+        2.555462770765809
+      ],
+      "stress_kbar": [
+        -0.0049739892013558615,
+        0.019811462240742088,
+        -0.10272036460564116,
+        2.7754084178926664e-12,
+        -2.0905550151932862e-12,
+        1.1497697987399528e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 6,
+      "evaluation_id": 5,
+      "optimizer_step": 5,
+      "phase": "initial",
+      "wall_seconds": 1363.2155194282532,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78241368524554,
+      "total_energy_free_eV": -66.78241368524554,
+      "dft_energy_extrapolated_eV": -66.12821750429968,
+      "dft_energy_free_eV": -66.12821750429968,
+      "dispersion_energy_eV": -0.654196180945862,
+      "dispersion_free_energy_eV": -0.654196180945862,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0034751163508366925,
+      "raw_stress_max_kbar": 0.34360710114976406,
+      "cell_A": [
+        [
+          7.14119879555775,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.909045016135694,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5557951231684073
+        ]
+      ],
+      "cell_lengths_A": [
+        7.14119879555775,
+        4.909045016135694,
+        2.5557951231684073
+      ],
+      "stress_kbar": [
+        0.11856505385774956,
+        -0.06289827210218207,
+        0.34360710114976406,
+        4.2707169668017165e-12,
+        1.6433471273818e-12,
+        3.873786928375061e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 7,
+      "evaluation_id": 6,
+      "optimizer_step": 6,
+      "phase": "initial",
+      "wall_seconds": 1599.5795114040375,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78241861603934,
+      "total_energy_free_eV": -66.78241861603934,
+      "dft_energy_extrapolated_eV": -66.12818951835308,
+      "dft_energy_free_eV": -66.12818951835308,
+      "dispersion_energy_eV": -0.6542290976862525,
+      "dispersion_free_energy_eV": -0.6542290976862525,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.004511171569843793,
+      "raw_stress_max_kbar": 0.5276680428488247,
+      "cell_A": [
+        [
+          7.1401972859893945,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.909423874595282,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5559010024503004
+        ]
+      ],
+      "cell_lengths_A": [
+        7.1401972859893945,
+        4.909423874595282,
+        2.5559010024503004
+      ],
+      "stress_kbar": [
+        0.09266038602588621,
+        0.5139163573776288,
+        0.5276680428488247,
+        1.7462377506676106e-12,
+        8.331601705048147e-12,
+        3.339328203815374e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 8,
+      "evaluation_id": 7,
+      "optimizer_step": 7,
+      "phase": "initial",
+      "wall_seconds": 1836.732361316681,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78242540729926,
+      "total_energy_free_eV": -66.78242540729926,
+      "dft_energy_extrapolated_eV": -66.12799597179097,
+      "dft_energy_free_eV": -66.12799597179097,
+      "dispersion_energy_eV": -0.6544294355082879,
+      "dispersion_free_energy_eV": -0.6544294355082879,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.005444126520448729,
+      "raw_stress_max_kbar": 0.46257848793060985,
+      "cell_A": [
+        [
+          7.139466759447522,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.908585603729262,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5558552424697476
+        ]
+      ],
+      "cell_lengths_A": [
+        7.139466759447522,
+        4.908585603729262,
+        2.5558552424697476
+      ],
+      "stress_kbar": [
+        0.11400331131845395,
+        0.16941497748398845,
+        0.46257848793060985,
+        -2.3341728676124443e-12,
+        -8.490483134910225e-12,
+        1.5701983147676034e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 9,
+      "evaluation_id": 8,
+      "optimizer_step": 8,
+      "phase": "initial",
+      "wall_seconds": 2069.508640766144,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78243349335908,
+      "total_energy_free_eV": -66.78243349335908,
+      "dft_energy_extrapolated_eV": -66.12766542906033,
+      "dft_energy_free_eV": -66.12766542906033,
+      "dispersion_energy_eV": -0.6547680642987452,
+      "dispersion_free_energy_eV": -0.6547680642987452,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.007018322593905924,
+      "raw_stress_max_kbar": 0.11862996338046995,
+      "cell_A": [
+        [
+          7.138208814872135,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.907585637736879,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5555489218159675
+        ]
+      ],
+      "cell_lengths_A": [
+        7.138208814872135,
+        4.907585637736879,
+        2.5555489218159675
+      ],
+      "stress_kbar": [
+        0.037539483405677004,
+        -0.11862996338046995,
+        0.05264532426322042,
+        -1.7893705363669197e-12,
+        -2.0628372344230693e-11,
+        3.3102803699396734e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 10,
+      "evaluation_id": 9,
+      "optimizer_step": 9,
+      "phase": "initial",
+      "wall_seconds": 2272.680102586746,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78244101841416,
+      "total_energy_free_eV": -66.78244101841416,
+      "dft_energy_extrapolated_eV": -66.12735142169602,
+      "dft_energy_free_eV": -66.12735142169602,
+      "dispersion_energy_eV": -0.6550895967181423,
+      "dispersion_free_energy_eV": -0.6550895967181423,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.007881182737786116,
+      "raw_stress_max_kbar": 0.30153422423195386,
+      "cell_A": [
+        [
+          7.136837252169991,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.9067253120237755,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555285738455775
+        ]
+      ],
+      "cell_lengths_A": [
+        7.136837252169991,
+        4.9067253120237755,
+        2.555285738455775
+      ],
+      "stress_kbar": [
+        -0.041096144610220015,
+        -0.2460265489798687,
+        -0.30153422423195386,
+        1.499808117516149e-12,
+        -6.540721984521964e-12,
+        1.4318785123930327e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 11,
+      "evaluation_id": 10,
+      "optimizer_step": 10,
+      "phase": "initial",
+      "wall_seconds": 2505.002552509308,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78245856472212,
+      "total_energy_free_eV": -66.78245856472212,
+      "dft_energy_extrapolated_eV": -66.12668901488632,
+      "dft_energy_free_eV": -66.12668901488632,
+      "dispersion_energy_eV": -0.6557695498357902,
+      "dispersion_free_energy_eV": -0.6557695498357902,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.008621762495685529,
+      "raw_stress_max_kbar": 0.8095220355370657,
+      "cell_A": [
+        [
+          7.133591806627469,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.904860773759824,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5549089430455423
+        ]
+      ],
+      "cell_lengths_A": [
+        7.133591806627469,
+        4.904860773759824,
+        2.5549089430455423
+      ],
+      "stress_kbar": [
+        -0.15169749670071797,
+        -0.37273745498637834,
+        -0.8095220355370657,
+        3.5796563457528828e-12,
+        3.3321451120809725e-12,
+        -1.1238181566210178e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 12,
+      "evaluation_id": 11,
+      "optimizer_step": 11,
+      "phase": "initial",
+      "wall_seconds": 2740.6816153526306,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78249027082404,
+      "total_energy_free_eV": -66.78249027082404,
+      "dft_energy_extrapolated_eV": -66.1255172430534,
+      "dft_energy_free_eV": -66.1255172430534,
+      "dispersion_energy_eV": -0.6569730277706508,
+      "dispersion_free_energy_eV": -0.6569730277706508,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.008214156574514056,
+      "raw_stress_max_kbar": 1.2546648199122956,
+      "cell_A": [
+        [
+          7.127296306603168,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.901410064706347,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5545785648560297
+        ]
+      ],
+      "cell_lengths_A": [
+        7.127296306603168,
+        4.901410064706347,
+        2.5545785648560297
+      ],
+      "stress_kbar": [
+        -0.2570054062649278,
+        -0.43750263915901094,
+        -1.2546648199122956,
+        2.335990712356051e-12,
+        -7.469903325458493e-12,
+        -1.289715703319457e-11
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 13,
+      "evaluation_id": 12,
+      "optimizer_step": 12,
+      "phase": "initial",
+      "wall_seconds": 2944.1432678699493,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78252548382245,
+      "total_energy_free_eV": -66.78252548382245,
+      "dft_energy_extrapolated_eV": -66.1242150010847,
+      "dft_energy_free_eV": -66.1242150010847,
+      "dispersion_energy_eV": -0.6583104827377497,
+      "dispersion_free_energy_eV": -0.6583104827377497,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.005588672101734859,
+      "raw_stress_max_kbar": 1.1843966546660418,
+      "cell_A": [
+        [
+          7.119644834203863,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.897352315251682,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.554642446315125
+        ]
+      ],
+      "cell_lengths_A": [
+        7.119644834203863,
+        4.897352315251682,
+        2.554642446315125
+      ],
+      "stress_kbar": [
+        -0.2531297888260052,
+        -0.35026726375594597,
+        -1.1843966546660418,
+        -3.3632119620281788e-12,
+        2.9458578734879887e-12,
+        4.607838639389272e-13
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 14,
+      "evaluation_id": 13,
+      "optimizer_step": 13,
+      "phase": "initial",
+      "wall_seconds": 3149.150185585022,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78254492467174,
+      "total_energy_free_eV": -66.78254492467174,
+      "dft_energy_extrapolated_eV": -66.1237263911178,
+      "dft_energy_free_eV": -66.1237263911178,
+      "dispersion_energy_eV": -0.6588185335539373,
+      "dispersion_free_energy_eV": -0.6588185335539373,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.003150513340388411,
+      "raw_stress_max_kbar": 0.5616162281881002,
+      "cell_A": [
+        [
+          7.116019765050903,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.895567088546064,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5551223107172905
+        ]
+      ],
+      "cell_lengths_A": [
+        7.116019765050903,
+        4.895567088546064,
+        2.5551223107172905
+      ],
+      "stress_kbar": [
+        -0.15275689654902874,
+        -0.18399030654194481,
+        -0.5616162281881002,
+        1.168449848270575e-11,
+        -1.1379332172012817e-11,
+        -9.995147414263004e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 15,
+      "evaluation_id": 14,
+      "optimizer_step": 14,
+      "phase": "initial",
+      "wall_seconds": 3352.697653532028,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78255088090235,
+      "total_energy_free_eV": -66.78255088090235,
+      "dft_energy_extrapolated_eV": -66.12390923129149,
+      "dft_energy_free_eV": -66.12390923129149,
+      "dispersion_energy_eV": -0.6586416496108568,
+      "dispersion_free_energy_eV": -0.6586416496108568,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0032722638796737705,
+      "raw_stress_max_kbar": 0.06444105930942991,
+      "cell_A": [
+        [
+          7.116349354932093,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.895918200194895,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5555159789412576
+        ]
+      ],
+      "cell_lengths_A": [
+        7.116349354932093,
+        4.895918200194895,
+        2.5555159789412576
+      ],
+      "stress_kbar": [
+        -0.06444105930942991,
+        -0.0553405754409777,
+        -0.04496574959888169,
+        6.859007495302485e-12,
+        -4.513776247870682e-12,
+        4.0544862036321435e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 16,
+      "evaluation_id": 15,
+      "optimizer_step": 15,
+      "phase": "initial",
+      "wall_seconds": 3554.5308804512024,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78255330088268,
+      "total_energy_free_eV": -66.78255330088268,
+      "dft_energy_extrapolated_eV": -66.12414211947365,
+      "dft_energy_free_eV": -66.12414211947365,
+      "dispersion_energy_eV": -0.6584111814090423,
+      "dispersion_free_energy_eV": -0.6584111814090423,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0036424120840580967,
+      "raw_stress_max_kbar": 0.16065601535006582,
+      "cell_A": [
+        [
+          7.117357129953752,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.8965661613509655,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555670966973062
+        ]
+      ],
+      "cell_lengths_A": [
+        7.117357129953752,
+        4.8965661613509655,
+        2.555670966973062
+      ],
+      "stress_kbar": [
+        -0.01174894058084557,
+        0.0073980929726012125,
+        0.16065601535006582,
+        -2.8035698853628884e-13,
+        1.8416921216297448e-11,
+        -4.93253802035872e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 17,
+      "evaluation_id": 16,
+      "optimizer_step": 16,
+      "phase": "initial",
+      "wall_seconds": 3763.156758546829,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78255817859164,
+      "total_energy_free_eV": -66.78255817859164,
+      "dft_energy_extrapolated_eV": -66.12455446336799,
+      "dft_energy_free_eV": -66.12455446336799,
+      "dispersion_energy_eV": -0.6580037152236525,
+      "dispersion_free_energy_eV": -0.6580037152236525,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.004034135040784724,
+      "raw_stress_max_kbar": 0.41120045378678727,
+      "cell_A": [
+        [
+          7.119241468274901,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.897786791598886,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.55586027713884
+        ]
+      ],
+      "cell_lengths_A": [
+        7.119241468274901,
+        4.897786791598886,
+        2.55586027713884
+      ],
+      "stress_kbar": [
+        0.06439165477474403,
+        0.09689114455887454,
+        0.41120045378678727,
+        4.771696025422359e-12,
+        1.0291970904262621e-11,
+        8.849353631184871e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 18,
+      "evaluation_id": 17,
+      "optimizer_step": 17,
+      "phase": "initial",
+      "wall_seconds": 3972.8529880046844,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78256842598529,
+      "total_energy_free_eV": -66.78256842598529,
+      "dft_energy_extrapolated_eV": -66.12521830468866,
+      "dft_energy_free_eV": -66.12521830468866,
+      "dispersion_energy_eV": -0.6573501212966303,
+      "dispersion_free_energy_eV": -0.6573501212966303,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.004306784979403056,
+      "raw_stress_max_kbar": 0.7129965383070116,
+      "cell_A": [
+        [
+          7.122307631950893,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.899848223199443,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5560913920559996
+        ]
+      ],
+      "cell_lengths_A": [
+        7.122307631950893,
+        4.899848223199443,
+        2.5560913920559996
+      ],
+      "stress_kbar": [
+        0.16472714550943457,
+        0.20336992989950578,
+        0.7129965383070116,
+        6.177588782248151e-12,
+        4.5569820544843434e-12,
+        6.515389542500109e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 19,
+      "evaluation_id": 18,
+      "optimizer_step": 18,
+      "phase": "initial",
+      "wall_seconds": 4175.293529987335,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78258881467163,
+      "total_energy_free_eV": -66.78258881467163,
+      "dft_energy_extrapolated_eV": -66.12624250724743,
+      "dft_energy_free_eV": -66.12624250724743,
+      "dispersion_energy_eV": -0.6563463074242034,
+      "dispersion_free_energy_eV": -0.6563463074242034,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.005142025886193358,
+      "raw_stress_max_kbar": 1.001548871717437,
+      "cell_A": [
+        [
+          7.127042967923405,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.903242078366327,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.55631736634713
+        ]
+      ],
+      "cell_lengths_A": [
+        7.127042967923405,
+        4.903242078366327,
+        2.55631736634713
+      ],
+      "stress_kbar": [
+        0.2659482637005516,
+        0.3161695824528488,
+        1.001548871717437,
+        7.941745111058828e-12,
+        1.1075651489895277e-11,
+        -2.289212325605486e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 20,
+      "evaluation_id": 19,
+      "optimizer_step": 19,
+      "phase": "initial",
+      "wall_seconds": 4380.675775051117,
+      "SCF_iterations": 23,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78261498609758,
+      "total_energy_free_eV": -66.78261498609758,
+      "dft_energy_extrapolated_eV": -66.12719369729297,
+      "dft_energy_free_eV": -66.12719369729297,
+      "dispersion_energy_eV": -0.6554212888046124,
+      "dispersion_free_energy_eV": -0.6554212888046124,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.004667348184178928,
+      "raw_stress_max_kbar": 0.9560052096479456,
+      "cell_A": [
+        [
+          7.131479527065456,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.906740630327055,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5563007896428878
+        ]
+      ],
+      "cell_lengths_A": [
+        7.131479527065456,
+        4.906740630327055,
+        2.5563007896428878
+      ],
+      "stress_kbar": [
+        0.2825725113128914,
+        0.34208260510895794,
+        0.9560052096479456,
+        -1.395231263802484e-12,
+        -1.1337552696386732e-11,
+        -3.422515185048754e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 21,
+      "evaluation_id": 20,
+      "optimizer_step": 20,
+      "phase": "initial",
+      "wall_seconds": 4594.561658382416,
+      "SCF_iterations": 24,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78263177284033,
+      "total_energy_free_eV": -66.78263177284033,
+      "dft_energy_extrapolated_eV": -66.1274060333517,
+      "dft_energy_free_eV": -66.1274060333517,
+      "dispersion_energy_eV": -0.6552257394886276,
+      "dispersion_free_energy_eV": -0.6552257394886276,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0022167698551271904,
+      "raw_stress_max_kbar": 0.48439948598652305,
+      "cell_A": [
+        [
+          7.132559542713263,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.907979138816301,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555963447760725
+        ]
+      ],
+      "cell_lengths_A": [
+        7.132559542713263,
+        4.907979138816301,
+        2.555963447760725
+      ],
+      "stress_kbar": [
+        0.1782945155164119,
+        0.2036283591719879,
+        0.48439948598652305,
+        2.894964798823221e-12,
+        -2.3459321116337284e-11,
+        -5.908743437100971e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 22,
+      "evaluation_id": 21,
+      "optimizer_step": 21,
+      "phase": "initial",
+      "wall_seconds": 4807.539077997208,
+      "SCF_iterations": 24,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78263564543313,
+      "total_energy_free_eV": -66.78263564543313,
+      "dft_energy_extrapolated_eV": -66.12704787821923,
+      "dft_energy_free_eV": -66.12704787821923,
+      "dispersion_energy_eV": -0.6555877672138973,
+      "dispersion_free_energy_eV": -0.6555877672138973,
+      "natoms": 12,
+      "raw_fmax_eV_A": 0.0003676869343892447,
+      "raw_stress_max_kbar": 0.09573053088424781,
+      "cell_A": [
+        [
+          7.130896990816775,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.90707073561517,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555681002324746
+        ]
+      ],
+      "cell_lengths_A": [
+        7.130896990816775,
+        4.90707073561517,
+        2.555681002324746
+      ],
+      "stress_kbar": [
+        0.03871646167753766,
+        0.04436102447891665,
+        0.09573053088424781,
+        -2.1424325764296456e-12,
+        2.139014805682753e-12,
+        9.344887958909248e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    },
+    {
+      "run_id": "cell_reference_resume_02",
+      "line_number": 23,
+      "evaluation_id": 22,
+      "optimizer_step": 22,
+      "phase": "initial",
+      "wall_seconds": 5042.562990665436,
+      "SCF_iterations": 24,
+      "row_status": "valid",
+      "source": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/relaxations/cell_reference_resume_02/evaluations.jsonl",
+      "total_energy_extrapolated_eV": -66.78263584715239,
+      "total_energy_free_eV": -66.78263584715239,
+      "dft_energy_extrapolated_eV": -66.12687198999743,
+      "dft_energy_free_eV": -66.12687198999743,
+      "dispersion_energy_eV": -0.655763857154969,
+      "dispersion_free_energy_eV": -0.655763857154969,
+      "natoms": 12,
+      "raw_fmax_eV_A": 5.5841863836375284e-05,
+      "raw_stress_max_kbar": 0.004178558568389382,
+      "cell_A": [
+        [
+          7.130067674412654,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.906518983025813,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.555613607573429
+        ]
+      ],
+      "cell_lengths_A": [
+        7.130067674412654,
+        4.906518983025813,
+        2.555613607573429
+      ],
+      "stress_kbar": [
+        0.00044471890574645584,
+        -0.0017745779342513287,
+        0.004178558568389382,
+        2.4038406038582203e-12,
+        -3.698863872377223e-12,
+        1.282095401541612e-12
+      ],
+      "run_status": "passed_relaxation",
+      "method": "PBE-D3(BJ)",
+      "result_sha256": "12cc277539776054c962a2021f9420aba6a47e4a9d401472017c3b1ec06a77fb",
+      "final_optimizer_steps": 22,
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ],
+      "xc_stencil": 4
+    }
+  ],
+  "note": "All attempts and evaluations are retained. No total success without verified high-precision cross-check evidence."
+}

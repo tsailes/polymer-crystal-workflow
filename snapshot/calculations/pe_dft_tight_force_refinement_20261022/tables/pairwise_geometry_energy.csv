@@ -1,0 +1,7 @@
+﻿first,second,status,merge_pass,rms_A,max_A,energy_difference_meV_CH2,geometry_pass,energy_pass,selected_mapping_role,atom_mapping,signs,origin_shift_fractional
+group_001,group_002,compared,True,2.3494390110400244e-05,2.9055398809907433e-05,1.2882850342066376e-07,True,True,feasible_mapping,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]","[1, 1, 1]","[0.0, 0.0, 1.0]"
+group_001,group_003,compared,True,0.0003015136260047987,0.00036559331243921143,9.229939479382665e-06,True,True,feasible_mapping,"[2, 3, 0, 1, 6, 7, 4, 5, 10, 11, 8, 9]","[1, -1, 1]","[0.49999999999999994, 0.49999999999999994, 1.0]"
+group_001,group_004,compared,True,1.3379129269218814e-05,1.6679004767596976e-05,1.2438050589480554e-08,True,True,feasible_mapping,"[1, 0, 3, 2, 5, 4, 7, 6, 9, 8, 11, 10]","[-1, -1, -1]","[1.0, 1.0, 0.0]"
+group_002,group_003,compared,True,0.0003247469262362015,0.00039445267155948933,9.101110975962001e-06,True,True,feasible_mapping,"[1, 0, 3, 2, 5, 4, 7, 6, 9, 8, 11, 10]","[-1, -1, -1]","[0.9999999999999999, 1.0, 0.0]"
+group_002,group_004,compared,True,3.658348625641557e-05,4.565513552819573e-05,1.4126655401014432e-07,True,True,feasible_mapping,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]","[1, 1, 1]","[0.0, 0.0, 1.0]"
+group_003,group_004,compared,True,0.0002885120652010217,0.0003494277580560548,9.242377529972146e-06,True,True,feasible_mapping,"[1, 0, 3, 2, 5, 4, 7, 6, 9, 8, 11, 10]","[-1, -1, -1]","[0.0, 0.0, 0.0]"

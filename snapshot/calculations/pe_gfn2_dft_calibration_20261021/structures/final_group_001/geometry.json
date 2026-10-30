@@ -1,0 +1,127 @@
+{
+  "id": "final_group_001",
+  "geometry": {
+    "numbers": [
+      6,
+      6,
+      6,
+      6,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "symbols": [
+      "C",
+      "C",
+      "C",
+      "C",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H"
+    ],
+    "positions_A": [
+      [
+        0.30327489,
+        0.2966606,
+        0.63625
+      ],
+      [
+        7.12872511,
+        4.6323394,
+        1.90875
+      ],
+      [
+        4.01927489,
+        2.1678394,
+        0.63625
+      ],
+      [
+        3.4127251100000002,
+        2.7611606,
+        1.90875
+      ],
+      [
+        0.14427228999999978,
+        1.3784038400000003,
+        0.63625
+      ],
+      [
+        7.28772771,
+        3.5505961600000004,
+        1.90875
+      ],
+      [
+        3.8602722900000006,
+        1.0860961600000005,
+        0.63625
+      ],
+      [
+        3.57172771,
+        3.84290384,
+        1.90875
+      ],
+      [
+        1.3814317400000002,
+        5.05058689,
+        0.63625
+      ],
+      [
+        6.05056826,
+        -0.1215868899999999,
+        1.90875
+      ],
+      [
+        5.09743174,
+        2.34291311,
+        0.63625
+      ],
+      [
+        2.33456826,
+        2.5860868900000002,
+        1.90875
+      ]
+    ],
+    "cell_A": [
+      [
+        7.432,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.929,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.545
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ]
+  },
+  "geometry_sha256": "78d689e751a854ffbf71b21b704f9d662520f38b45c643613495df9b28f79f1d",
+  "source_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_001/POSCAR",
+  "source_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+  "structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_001/POSCAR",
+  "structure_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+  "source_to_frozen_max_cartesian_difference_A": 0.0,
+  "Pnam_Hall297_max_operation_residual_A": 1.6502355038028328e-15,
+  "detected_spacegroup_number": 62,
+  "electronic_calculator_removed": true,
+  "old_source_modified": false
+}

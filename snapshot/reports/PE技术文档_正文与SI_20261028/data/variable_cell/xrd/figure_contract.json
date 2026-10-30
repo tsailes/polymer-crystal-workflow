@@ -1,0 +1,33 @@
+{
+  "core_claim": "g4变胞移动Bragg峰位，但对现有Tashiro已索引d值的描述性偏差增大；不据此判断实验全谱强度拟合。",
+  "backend": "Python matplotlib only",
+  "archetype": "quantitative grid",
+  "evidence": {
+    "main_left": "same-wavelength frozen-geometry simulated profiles plus published position ticks",
+    "main_right": "same-data 110/200 shift zoom",
+    "secondary": "all 59 indexed-row relative d errors"
+  },
+  "export": {
+    "main_inches": [
+      14,
+      5
+    ],
+    "error_inches": [
+      11.3,
+      3.8
+    ],
+    "raster_dpi": 600,
+    "vector": [
+      "PDF",
+      "SVG"
+    ],
+    "editable_text": "SVG text and PDF TrueType; separate native-label JSON"
+  },
+  "risks": [
+    "Published d values are processed fiber-diffraction positions, not a continuous measured powder trace.",
+    "Observed measurement temperature is not established.",
+    "Fixed cell already uses experimental lattice parameters, so its smaller d error is not independent validation of atomic coordinates.",
+    "Each simulated profile normalized to its own max=100; no absolute intensity comparison.",
+    "Same-method numerical densification is separate from completed structural and cold-electronic acceptance."
+  ]
+}

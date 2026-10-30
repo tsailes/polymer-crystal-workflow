@@ -1,0 +1,39 @@
+{
+  "stop_on_failure": true,
+  "setup_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups",
+  "defaults": {
+    "mpi_ranks": 4,
+    "point_group": true,
+    "xc_stencil": 4,
+    "nbands": 16,
+    "scf_energy_eV_electron": 1e-09,
+    "scf_density_electron_electron": 1e-09,
+    "scf_eigenstates_eV2_electron": 1e-11,
+    "ecut_eV": 1400,
+    "kmesh": [
+      3,
+      6,
+      9
+    ],
+    "gpts": [
+      96,
+      60,
+      36
+    ],
+    "stage": "released_reference_replay",
+    "checkpoint": true
+  },
+  "points": [
+    {
+      "id": "released_20261021T043247_514339Z_optb88_vdw_tashiro",
+      "method": "optB88-vdW",
+      "structure": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/reference/POSCAR"
+    },
+    {
+      "id": "released_20261021T043247_514339Z_optb88_vdw_gfn2",
+      "method": "optB88-vdW",
+      "structure": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/reference/POSCAR_GFN2"
+    }
+  ],
+  "release_note": "Runnable reference examples; no calculation started by release. Changing geometry requires sampling at a higher tested precision; do not infer every PE candidate is validated."
+}

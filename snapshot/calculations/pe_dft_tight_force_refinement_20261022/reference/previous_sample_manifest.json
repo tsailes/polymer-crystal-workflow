@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "samples": [
+    {
+      "id": "group_001",
+      "source_sample_id": "final_group_001",
+      "source_candidate_id": "cand_0025",
+      "source_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_001/POSCAR",
+      "source_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+      "structure": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/structures/group_001/POSCAR",
+      "structure_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+      "original_group_member_count": 12,
+      "initial_angle_deg": 15,
+      "natoms": 12,
+      "N_CH2": 4,
+      "cell_A": [
+        [
+          7.432,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.545
+        ]
+      ],
+      "spacegroup_number": 62
+    },
+    {
+      "id": "group_002",
+      "source_sample_id": "final_group_002",
+      "source_candidate_id": "cand_0113",
+      "source_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_002/POSCAR",
+      "source_sha256": "c106d595aa5ec7c121bb7c87ffe8c3a916e20bb1669f2a4ba7b92631a4b351fe",
+      "structure": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/structures/group_002/POSCAR",
+      "structure_sha256": "c106d595aa5ec7c121bb7c87ffe8c3a916e20bb1669f2a4ba7b92631a4b351fe",
+      "original_group_member_count": 1,
+      "initial_angle_deg": 70,
+      "natoms": 12,
+      "N_CH2": 4,
+      "cell_A": [
+        [
+          7.432,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.545
+        ]
+      ],
+      "spacegroup_number": 62
+    },
+    {
+      "id": "group_003",
+      "source_sample_id": "final_group_003",
+      "source_candidate_id": "cand_0041",
+      "source_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_003/POSCAR",
+      "source_sha256": "e88cfef80af39137dee5b94b08e5e5c5c4bcdea5f475a760db15aafef1216e93",
+      "structure": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/structures/group_003/POSCAR",
+      "structure_sha256": "e88cfef80af39137dee5b94b08e5e5c5c4bcdea5f475a760db15aafef1216e93",
+      "original_group_member_count": 1,
+      "initial_angle_deg": 25,
+      "natoms": 12,
+      "N_CH2": 4,
+      "cell_A": [
+        [
+          7.432,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.545
+        ]
+      ],
+      "spacegroup_number": 62
+    },
+    {
+      "id": "group_004",
+      "source_sample_id": "final_group_004",
+      "source_candidate_id": "cand_0081",
+      "source_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_004/POSCAR",
+      "source_sha256": "f84b664538cb5235f180ad3fbb104fbab0b20a9555348383fcc8bda2162e1640",
+      "structure": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/structures/group_004/POSCAR",
+      "structure_sha256": "f84b664538cb5235f180ad3fbb104fbab0b20a9555348383fcc8bda2162e1640",
+      "original_group_member_count": 1,
+      "initial_angle_deg": 50,
+      "natoms": 12,
+      "N_CH2": 4,
+      "cell_A": [
+        [
+          7.432,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.545
+        ]
+      ],
+      "spacegroup_number": 62
+    }
+  ]
+}

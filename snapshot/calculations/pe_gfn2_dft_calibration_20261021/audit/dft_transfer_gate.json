@@ -1,0 +1,216 @@
+{
+  "status": "evaluated",
+  "passed": true,
+  "checks": [
+    {
+      "sample_id": "final_group_001",
+      "precisions": [
+        "H",
+        "U"
+      ],
+      "energy_abs_meV_atom": 0.0017827678059726775,
+      "max_force_vector_eV_A": 5.657182045355739e-06,
+      "max_stress_component_kbar": 0.0010355346556885081,
+      "passed": true,
+      "sources": [
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/final_group_001_pbe_d3bj_H/result.json",
+          "sha256": "23a30bfaee774d68b68be653ec7a89ab6d22bb8090e99ba67eaf39ebf78c2a8d"
+        },
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/final_group_001_pbe_d3bj_U/result.json",
+          "sha256": "2a9b95a967a2209f3b8d257a837cfaab2bae8ea16bafb52c53fff20cac6f81b9"
+        }
+      ]
+    },
+    {
+      "sample_id": "initial_cand_0001",
+      "precisions": [
+        "H",
+        "U"
+      ],
+      "energy_abs_meV_atom": 0.0015397472748664616,
+      "max_force_vector_eV_A": 1.2900499927637199e-05,
+      "max_stress_component_kbar": 0.0009586199062319167,
+      "passed": true,
+      "sources": [
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/initial_cand_0001_pbe_d3bj_H/result.json",
+          "sha256": "87d7f709d70fab47b74a65aa68d734966fb7bba331aeeb43387d793c3893c059"
+        },
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/initial_cand_0001_pbe_d3bj_U/result.json",
+          "sha256": "e1104c1dd0735e6f7e66d304ad95755e6a719df68b5c30d27678b566f9a20801"
+        }
+      ]
+    },
+    {
+      "sample_id": "initial_cand_0121",
+      "precisions": [
+        "H",
+        "U"
+      ],
+      "energy_abs_meV_atom": 0.0015220654105974063,
+      "max_force_vector_eV_A": 1.485208488954918e-05,
+      "max_stress_component_kbar": 0.0006963190069697589,
+      "passed": true,
+      "sources": [
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/initial_cand_0121_pbe_d3bj_H/result.json",
+          "sha256": "5dffdf1a32c0974a03107fe9f77716dd8147e1469c22fb77c127ccb773b3c8fb"
+        },
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/initial_cand_0121_pbe_d3bj_U/result.json",
+          "sha256": "948e1c92fb6bd052c85dfd151ef299386f8eceae8fba091fd85498faa794fb18"
+        }
+      ]
+    },
+    {
+      "sample_id": "final_group_004",
+      "precisions": [
+        "H",
+        "U"
+      ],
+      "energy_abs_meV_atom": 0.0017286443375989318,
+      "max_force_vector_eV_A": 5.170166079252322e-06,
+      "max_stress_component_kbar": 0.0011091980854693873,
+      "passed": true,
+      "sources": [
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/final_group_004_pbe_d3bj_H/result.json",
+          "sha256": "a3c047f7268a7bf5515bf9a255fba1989c5a806c2a3c198bf5093668cedda8d3"
+        },
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/final_group_004_pbe_d3bj_U/result.json",
+          "sha256": "40d81ce741e473999f7ee5af44b431dd8c90ec839c46d5d8b4a76f4696073411"
+        }
+      ]
+    }
+  ],
+  "low_to_high_diagnostics": [
+    {
+      "sample_id": "final_group_001",
+      "precisions": [
+        "L",
+        "H"
+      ],
+      "energy_abs_meV_atom": 0.04805694192100418,
+      "max_force_vector_eV_A": 0.00029164952802250696,
+      "max_stress_component_kbar": 0.07225784165596849,
+      "passed": true,
+      "sources": [
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/final_group_001_pbe_d3bj_L/result.json",
+          "sha256": "09a14d54ca217a57935370b3a2eddd7c7360437dd1269245c62585f9688b4510"
+        },
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/final_group_001_pbe_d3bj_H/result.json",
+          "sha256": "23a30bfaee774d68b68be653ec7a89ab6d22bb8090e99ba67eaf39ebf78c2a8d"
+        }
+      ]
+    },
+    {
+      "sample_id": "initial_cand_0001",
+      "precisions": [
+        "L",
+        "H"
+      ],
+      "energy_abs_meV_atom": 0.04867528188749285,
+      "max_force_vector_eV_A": 0.00029595396546477915,
+      "max_stress_component_kbar": 0.07463842078057326,
+      "passed": true,
+      "sources": [
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/initial_cand_0001_pbe_d3bj_L/result.json",
+          "sha256": "e20996d5053f811ae79ce3cab4e0bc60e6871c426262707d50b515462e39f1e9"
+        },
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/initial_cand_0001_pbe_d3bj_H/result.json",
+          "sha256": "87d7f709d70fab47b74a65aa68d734966fb7bba331aeeb43387d793c3893c059"
+        }
+      ]
+    },
+    {
+      "sample_id": "initial_cand_0121",
+      "precisions": [
+        "L",
+        "H"
+      ],
+      "energy_abs_meV_atom": 0.0484998318010336,
+      "max_force_vector_eV_A": 0.00026601146839594554,
+      "max_stress_component_kbar": 0.07440382526937889,
+      "passed": true,
+      "sources": [
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/initial_cand_0121_pbe_d3bj_L/result.json",
+          "sha256": "e893898be8d6bc50f479c264b3a4d125a5771f60f6772d7627bac2d3fde67234"
+        },
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/initial_cand_0121_pbe_d3bj_H/result.json",
+          "sha256": "5dffdf1a32c0974a03107fe9f77716dd8147e1469c22fb77c127ccb773b3c8fb"
+        }
+      ]
+    },
+    {
+      "sample_id": "final_group_004",
+      "precisions": [
+        "L",
+        "H"
+      ],
+      "energy_abs_meV_atom": 0.04824974404134726,
+      "max_force_vector_eV_A": 0.00028073481982837087,
+      "max_stress_component_kbar": 0.07178824867349931,
+      "passed": true,
+      "sources": [
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/final_group_004_pbe_d3bj_L/result.json",
+          "sha256": "a27a09afd8e9e4d0eaa9b80c257c9d9da71959ab8553cff70a764e7596adca43"
+        },
+        {
+          "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/final_group_004_pbe_d3bj_H/result.json",
+          "sha256": "a3c047f7268a7bf5515bf9a255fba1989c5a806c2a3c198bf5093668cedda8d3"
+        }
+      ]
+    }
+  ],
+  "relative_energy_checks": [
+    {
+      "sample_id": "final_group_001",
+      "relative_H_meV_CH2": 0.0,
+      "relative_U_meV_CH2": 0.0,
+      "difference_meV_CH2": 0.0,
+      "threshold_meV_CH2": 1.5,
+      "passed": true
+    },
+    {
+      "sample_id": "initial_cand_0001",
+      "relative_H_meV_CH2": 47.91224521362736,
+      "relative_U_meV_CH2": 47.91297427522068,
+      "difference_meV_CH2": -0.0007290615933186473,
+      "threshold_meV_CH2": 1.5,
+      "passed": true
+    },
+    {
+      "sample_id": "initial_cand_0121",
+      "relative_H_meV_CH2": 19.90716544369775,
+      "relative_U_meV_CH2": 19.907947550883875,
+      "difference_meV_CH2": -0.0007821071861258133,
+      "threshold_meV_CH2": 1.5,
+      "passed": true
+    },
+    {
+      "sample_id": "final_group_004",
+      "relative_H_meV_CH2": 0.3085682295171921,
+      "relative_U_meV_CH2": 0.30873059992231333,
+      "difference_meV_CH2": -0.00016237040512123713,
+      "threshold_meV_CH2": 1.5,
+      "passed": true
+    }
+  ],
+  "all_relative_energy_checks_passed": true,
+  "relative_energy_threshold_basis": "Existing 0.5 meV/atom criterion converted to 1.5 meV/CH2 (3 atoms per CH2), applied separately to relative-energy differences. This alone does not resolve sub-meV endpoint ordering.",
+  "observed_relative_energy_change_max_meV_CH2": 0.0007821071861258133,
+  "numerical_uncertainty_note": "Observed finite-precision difference on four declared points, not a statistical confidence bound; retain separately from model sigma.",
+  "prior_locked_parameters_changed": false,
+  "production_precision": "H:1800eV,k4x8x12,g112x72x44"
+}

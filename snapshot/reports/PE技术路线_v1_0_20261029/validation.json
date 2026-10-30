@@ -1,0 +1,164 @@
+{
+  "scope": "source identity, local table arithmetic, terminal status, authored links and table structure; no quantum recalculation",
+  "checked_at": "2026-10-29T04:54:11.493311+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "candidate_catalog_288",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "optimization_catalog_16",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "generation_counts",
+      "passed": true,
+      "observed": {
+        "enumerated_count": 288,
+        "physical_survivor_count": 248,
+        "unique_initial_count": 16,
+        "rejected_count": 40,
+        "exact_duplicates_count": 232
+      }
+    },
+    {
+      "name": "retained_15_representatives_4",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "paired_DFT_29",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "sigma_16_initials",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "bias_recomputed",
+      "passed": true,
+      "observed": 4.638333875888634
+    },
+    {
+      "name": "sigma_recomputed_ddof1",
+      "passed": true,
+      "observed": 1.920697507166551
+    },
+    {
+      "name": "four_tight_fixed_accepted",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "four_tight_raw_forces",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "four_cold_verified",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "six_pairs_complete",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "six_pairs_merge_pass",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "fixed_g4_identity",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "variable_g4_identity",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "variable_cold_accepted",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "variable_numerical_review",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "no_sigma_window",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "pbe0_cancelled_without_energy",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "cost_production_not_started",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "production_H",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "variable_same_H",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "local_links_resolve",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "name": "markdown_table_shapes",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "name": "diagram_valid_XML",
+      "passed": true,
+      "observed": null
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "技术路线.md",
+      "sha256": "4e9bf455de4fa9547723d4f2a00da1c95f05baf18838d75e5831787570efa6e2"
+    },
+    {
+      "path": "验收清单.md",
+      "sha256": "006d7ea7d2db21ee1f007357d3c2d149002b98cbbeb204ba1c817dc291c437c6"
+    },
+    {
+      "path": "技术路线图.svg",
+      "sha256": "e4df0857aa82582b80db74d556530117489f8433a22ca2adb4db7c84d7085d16"
+    },
+    {
+      "path": "route_lock.json",
+      "sha256": "f94fdc1a051403f2223d6adc7930be741fbb74611fae6855039608a7c7b2e012"
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "71e41b001e31b9367b34e14635eb63211e8be713492cd21f86444a5e103b61bb"
+    },
+    {
+      "path": "freeze_route.py",
+      "sha256": "ad6f22d8153ffbf8212cb5b830eb31f4727e47a474a02b9db8605d8edcc90ac6"
+    }
+  ]
+}

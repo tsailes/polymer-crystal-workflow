@@ -1,0 +1,55 @@
+{
+  "Gamma_kmesh": [
+    4,
+    8,
+    12
+  ],
+  "cutoff_eV": 1800,
+  "extract_script_sha256": "3c90b273862df61025603160cc76c1ac4e63dfadea4f323adeddc90cde99b07a",
+  "field_notes": {
+    "XRD_copy": "Exact audited 59-row indexed-position CSV; 45 distinct d values, not 59 independent measurements. F_abs is simulated, not measured intensity.",
+    "angle": "Chain-plane setting angle relative to a, degrees; coordinate report also supplies the complementary angle to b.",
+    "coordinate_copy": "Exact audited CSV bytes, preserving original/reference/aligned fractional coordinates and minimum-image displacements after global origin shift (0,0,0.5).",
+    "energy": "Total cold-final PBE-D3BJ energy in eV/cell. Relative energies use the same-round minimum (group_004), times 1000/4 for meV/CH2.",
+    "force": "Raw Cartesian force-vector maximum, not symmetry-projected optimizer force.",
+    "limits": "Fixed experimental lattice and Pnam constraints. Final merged group is not a proof of global ground state. No fitted R2 or Rwp applies.",
+    "steps": "Optimizer step index for each refinement round; resumed attempts retain the round's global step count, not just new-attempt steps."
+  },
+  "fixed_cell_A": [
+    7.432,
+    4.929,
+    2.545
+  ],
+  "gpts": [
+    112,
+    72,
+    44
+  ],
+  "method": "PBE-D3(BJ)",
+  "original_candidate": "cand_0081",
+  "output_sha256_relative_to_data": {
+    "experimental_geometry_summary.csv": "b4af09bb6b14e9264f70d5affae0a04c5f492528c09b06469437433740fe4a38",
+    "final_12_atom_coordinates.csv": "297b8228951b7f5bf23ebe9937ec2ff8952383b90442ea8f43de5382fcd76c84",
+    "final_structure/final.cif": "69b506a2cc337eb0cc676857e2a1a444063445a0ac3133a1e19b763f08f1d205",
+    "final_structure/final_POSCAR": "06fa4d340ced6459b27f208641ce4a2cd59e1533a16b606c971a8f3152fdbbd1",
+    "refinement_before_after.csv": "fa50d3ac8edb45da633fb0d1f9a154b8e9b697d7bce7acf01263f69e96a2e44c",
+    "tight_six_pairs.csv": "17e6cbc615501d3030bc4565cf3792d2664bcbd6eac3e587d54ae25387e788b7",
+    "xrd_indexed_59.csv": "17f593d1529f178de3598618818c62c547c3f69bbadee928e2f3d472612366a1"
+  },
+  "quantum_calculations_started": 0,
+  "raw_force_threshold_eV_A": 0.0002,
+  "representative": "group_004",
+  "schema_version": 1,
+  "source_sha256_relative_to_project": {
+    "calculations/pe_dft_representative_refinement_20261022/tables/refinement_summary.json": "c9d02d9a8cca159e5d7c09195339b74d48957468c56d4df538224112c0d59a3a",
+    "calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final.cif": "69b506a2cc337eb0cc676857e2a1a444063445a0ac3133a1e19b763f08f1d205",
+    "calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final_POSCAR": "06fa4d340ced6459b27f208641ce4a2cd59e1533a16b606c971a8f3152fdbbd1",
+    "calculations/pe_dft_tight_force_refinement_20261022/tables/refinement_summary.json": "e6d50239102868ab7610f0811bfe8c9ce8c4a5d653199284795f91ef9b4a8b5c",
+    "reports/PE_final_XRD_comparison_20261023/data/indexed_peak_comparison_59_rows.csv": "17f593d1529f178de3598618818c62c547c3f69bbadee928e2f3d472612366a1",
+    "reports/PE_final_XRD_comparison_20261023/outputs/summary.json": "8428905b9df765235fc475d4f05966c7fa211002240fd79193be1472de0c320b",
+    "reports/PE_final_coordinates_vs_Tashiro_20261023/data/all_12_atom_coordinates_and_displacements.csv": "297b8228951b7f5bf23ebe9937ec2ff8952383b90442ea8f43de5382fcd76c84",
+    "reports/PE_final_coordinates_vs_Tashiro_20261023/data/geometry_comparison.csv": "b4af09bb6b14e9264f70d5affae0a04c5f492528c09b06469437433740fe4a38",
+    "reports/PE_final_coordinates_vs_Tashiro_20261023/outputs/summary.json": "7baf8735727389baca6e44b33699c0571ee6672e5eb180709aac34cde625032c"
+  },
+  "symmetry": "Pnam"
+}

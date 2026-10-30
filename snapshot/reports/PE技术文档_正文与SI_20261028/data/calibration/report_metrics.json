@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-21T12:16:16.959076+00:00",
+  "source_batch": "E:\\PE_DFT\\calculations\\pe_gfn2_dft_calibration_20261021",
+  "counts": {
+    "paired_energy_rows": 29,
+    "production_DFT_H": 29,
+    "production_GFN2_F_0K": 21,
+    "primary_PBE_H": 21,
+    "optB88_H": 4,
+    "r2SCAN_H": 4,
+    "initial_sigma_n": 16,
+    "endpoint_representatives": 4,
+    "negative_controls": 1,
+    "all_audited_calculations": 67,
+    "DFT_all_including_diagnostics_and_reuse": 37,
+    "GFN2_all_including_diagnostics": 30,
+    "new_calculations": 65,
+    "current_batch_queue_calculations": 63,
+    "same_batch_temperature_pilots": 2,
+    "reused_prior_DFT_calculations": 2,
+    "temperature_300K_diagnostics": 3
+  },
+  "initial_empirical_calibration": {
+    "n": 16,
+    "unit": "meV/CH2",
+    "bias_meV_CH2": 4.638333875888634,
+    "sigma_meV_CH2": 1.920697507166551,
+    "three_sigma_meV_CH2": 5.762092521499653,
+    "ddof": 1,
+    "model": "yhat = x + b; slope fixed at 1",
+    "raw": {
+      "RMSE_meV_CH2": 4.997264514324276,
+      "max_abs_error_meV_CH2": 7.164786051848893,
+      "mean_error_meV_CH2": 4.638333875888634,
+      "R_squared_same_batch": 0.8782218638388763
+    },
+    "mean_corrected": {
+      "RMSE_meV_CH2": 1.8597073645895383,
+      "max_abs_error_meV_CH2": 2.5264521759602587,
+      "mean_error_meV_CH2": 0.0,
+      "R_squared_same_batch": 0.9831347078556616
+    },
+    "R_squared_definition": "1 - sum((y-yhat)^2)/sum((y-mean(y))^2)",
+    "metric_role": "Same-batch descriptive assessment; no independent coverage probability",
+    "scope": {
+      "polymer": "PE",
+      "composition": "C4H8",
+      "N_CH2": 4,
+      "fixed_Tashiro_cell_A": [
+        7.432,
+        4.929,
+        2.545
+      ],
+      "chain": "Same all-trans chain construction as the frozen initial samples",
+      "setting_angles_deg": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75
+      ],
+      "geometry_stage": "Initial rigid-chain geometries only",
+      "applies_to_four_preoptimized_endpoints": false
+    }
+  },
+  "numerical_gates": {
+    "DFT_transfer": {
+      "passed": true,
+      "n_checked_geometries": 4,
+      "observed_max_abs_energy_difference_meV_CH2": 0.005348303417918032,
+      "observed_max_abs_relative_energy_change_meV_CH2": 0.0007821071861258133,
+      "observed_max_force_vector_difference_eV_A": 1.485208488954918e-05,
+      "observed_max_stress_component_difference_kbar": 0.0011091980854693873,
+      "interpretation": "Actual differences on the listed checked geometries; not a universal error bound."
+    },
+    "GFN2_sampling": {
+      "passed": true,
+      "n_checked_geometries": 6,
+      "observed_max_abs_energy_difference_meV_CH2": 0.46230200003094524,
+      "observed_max_abs_relative_energy_change_meV_CH2": 0.21304323216497778,
+      "observed_max_force_vector_difference_eV_A": 0.004503570939437762,
+      "observed_max_stress_component_difference_kbar": 0.27268427958821206,
+      "interpretation": "Actual differences on the listed checked geometries; not a universal error bound."
+    },
+    "GFN2_temperature": {
+      "passed": true,
+      "n_checked_geometries": 3,
+      "observed_max_abs_energy_difference_meV_CH2": 4.263256414560601e-11,
+      "observed_max_abs_relative_energy_change_meV_CH2": null,
+      "observed_max_force_vector_difference_eV_A": 1.296170861635707e-15,
+      "observed_max_stress_component_difference_kbar": 4.366285111245816e-12,
+      "interpretation": "Actual differences on the listed checked geometries; not a universal error bound."
+    }
+  },
+  "parameters": [
+    {
+      "component": "DFT production",
+      "method": "PBE-D3(BJ), optB88-vdW, r2SCAN-D4",
+      "ecut_eV": 1800,
+      "ecut_Ry": 132.29755983235796,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "density_grid": [
+        112,
+        72,
+        44
+      ],
+      "precision_label": "H",
+      "role": "All production pair energies"
+    },
+    {
+      "component": "DFT upper verification",
+      "method": "PBE-D3(BJ)",
+      "ecut_eV": 2000,
+      "ecut_Ry": 146.99728870261995,
+      "kmesh": [
+        5,
+        10,
+        15
+      ],
+      "density_grid": [
+        128,
+        80,
+        48
+      ],
+      "precision_label": "U",
+      "role": "Numerical diagnostic only"
+    },
+    {
+      "component": "DFT prior candidate",
+      "method": "PBE-D3(BJ)",
+      "ecut_eV": 1400,
+      "ecut_Ry": 102.89810209183398,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "density_grid": [
+        96,
+        60,
+        36
+      ],
+      "precision_label": "L",
+      "role": "Previously locked candidate; diagnostic comparison here"
+    },
+    {
+      "component": "GFN2 production",
+      "method": "GFN2-xTB / tblite 0.7.0",
+      "repeat": [
+        2,
+        3,
+        8
+      ],
+      "supercell_natoms": 576,
+      "electronic_temperature_K": 0,
+      "accuracy": 0.001,
+      "precision_label": "F",
+      "role": "Gamma repeated-cell production; no plane-wave cutoff or conventional k-mesh"
+    },
+    {
+      "component": "GFN2 sampling verification",
+      "method": "GFN2-xTB / tblite 0.7.0",
+      "repeat": [
+        3,
+        4,
+        10
+      ],
+      "supercell_natoms": 1440,
+      "electronic_temperature_K": 0,
+      "accuracy": 0.001,
+      "precision_label": "D",
+      "role": "Sampling diagnostic only"
+    },
+    {
+      "component": "GFN2 temperature verification",
+      "method": "GFN2-xTB / tblite 0.7.0",
+      "repeat": [
+        2,
+        3,
+        8
+      ],
+      "supercell_natoms": 576,
+      "electronic_temperature_K": 300,
+      "accuracy": 0.001,
+      "precision_label": "F",
+      "role": "Electronic occupation diagnostic; not a 300 K nuclear simulation"
+    },
+    {
+      "component": "Frozen geometry",
+      "method": "PE C4H8; four CH2",
+      "cell_lengths_A": [
+        7.432,
+        4.929,
+        2.545
+      ],
+      "role": "Same fixed Tashiro cell and coordinates within every energy pair"
+    }
+  ],
+  "runtime": {
+    "supervisor_start_local": "2026-10-21T14:07:52.625542",
+    "earliest_DFT_pilot_start_local": "2026-10-21T14:03:02.454884",
+    "finish_local": "2026-10-21T18:13:13.558014",
+    "supervisor_wall_hours": 4.089147908820046,
+    "earliest_pilot_to_finish_wall_hours": 4.169750869472821,
+    "interpretation": "Elapsed batch wall time with concurrent jobs, not a benchmark of equivalent optimization workflows."
+  },
+  "endpoints": {
+    "relative_energy_table_meV_CH2": [
+      {
+        "sample_id": "final_group_001",
+        "group_member_count": 12,
+        "reference_id": "final_group_001",
+        "GFN2-xTB_relative_energy_meV_CH2": 0.0,
+        "PBE-D3(BJ)_relative_energy_meV_CH2": 0.0,
+        "optB88-vdW_relative_energy_meV_CH2": 0.0,
+        "r2SCAN-D4_relative_energy_meV_CH2": 0.0
+      },
+      {
+        "sample_id": "final_group_002",
+        "group_member_count": 1,
+        "reference_id": "final_group_001",
+        "GFN2-xTB_relative_energy_meV_CH2": 0.0334472620266979,
+        "PBE-D3(BJ)_relative_energy_meV_CH2": -0.023503649053679965,
+        "optB88-vdW_relative_energy_meV_CH2": 0.0054752000089308694,
+        "r2SCAN-D4_relative_energy_meV_CH2": 0.06634339914768361
+      },
+      {
+        "sample_id": "final_group_003",
+        "group_member_count": 1,
+        "reference_id": "final_group_001",
+        "GFN2-xTB_relative_energy_meV_CH2": 0.19976660641418675,
+        "PBE-D3(BJ)_relative_energy_meV_CH2": 0.4388175585887666,
+        "optB88-vdW_relative_energy_meV_CH2": 0.4581107190446687,
+        "r2SCAN-D4_relative_energy_meV_CH2": 0.22967386222561004
+      },
+      {
+        "sample_id": "final_group_004",
+        "group_member_count": 1,
+        "reference_id": "final_group_001",
+        "GFN2-xTB_relative_energy_meV_CH2": 0.5512067373416585,
+        "PBE-D3(BJ)_relative_energy_meV_CH2": 0.3085682295171921,
+        "optB88-vdW_relative_energy_meV_CH2": 0.4275698460780575,
+        "r2SCAN-D4_relative_energy_meV_CH2": 1.2653287103816524
+      }
+    ],
+    "numerical_orderings": {
+      "PBE-D3(BJ)": [
+        {
+          "sample_id": "final_group_002",
+          "relative_energy_meV_CH2": -0.023503649053679965
+        },
+        {
+          "sample_id": "final_group_001",
+          "relative_energy_meV_CH2": 0.0
+        },
+        {
+          "sample_id": "final_group_004",
+          "relative_energy_meV_CH2": 0.3085682295171921
+        },
+        {
+          "sample_id": "final_group_003",
+          "relative_energy_meV_CH2": 0.4388175585887666
+        }
+      ],
+      "optB88-vdW": [
+        {
+          "sample_id": "final_group_001",
+          "relative_energy_meV_CH2": 0.0
+        },
+        {
+          "sample_id": "final_group_002",
+          "relative_energy_meV_CH2": 0.0054752000089308694
+        },
+        {
+          "sample_id": "final_group_004",
+          "relative_energy_meV_CH2": 0.4275698460780575
+        },
+        {
+          "sample_id": "final_group_003",
+          "relative_energy_meV_CH2": 0.4581107190446687
+        }
+      ],
+      "r2SCAN-D4": [
+        {
+          "sample_id": "final_group_001",
+          "relative_energy_meV_CH2": 0.0
+        },
+        {
+          "sample_id": "final_group_002",
+          "relative_energy_meV_CH2": 0.06634339914768361
+        },
+        {
+          "sample_id": "final_group_003",
+          "relative_energy_meV_CH2": 0.22967386222561004
+        },
+        {
+          "sample_id": "final_group_004",
+          "relative_energy_meV_CH2": 1.2653287103816524
+        }
+      ],
+      "GFN2-xTB": [
+        {
+          "sample_id": "final_group_001",
+          "relative_energy_meV_CH2": 0.0
+        },
+        {
+          "sample_id": "final_group_002",
+          "relative_energy_meV_CH2": 0.0334472620266979
+        },
+        {
+          "sample_id": "final_group_003",
+          "relative_energy_meV_CH2": 0.19976660641418675
+        },
+        {
+          "sample_id": "final_group_004",
+          "relative_energy_meV_CH2": 0.5512067373416585
+        }
+      ]
+    },
+    "ordering_interpretation": "Fine orderings differ among methods; closely related endpoints, not four independently established polymorphs.",
+    "sigma_initial_applied_to_endpoints": false
+  },
+  "screening": {
+    "low_energy_window_meV_CH2": null,
+    "automatically_rejected_ids": [],
+    "retained_representatives": [
+      "final_group_001",
+      "final_group_002",
+      "final_group_003",
+      "final_group_004"
+    ],
+    "reason": "No W specified; no arbitrary deletion."
+  },
+  "force_stress_interpretation": "Separate force and stress differences in eV/A and kbar; energy sigma does not calibrate them.",
+  "human_confirmation_items": [
+    "Low-energy acceptance window W has not been specified.",
+    "This stage contains no new PXRD validation."
+  ],
+  "source_file_manifest": "data/source_file_manifest.csv",
+  "analysis_software": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2"
+  },
+  "source_file_manifest_sha256": "e22e297726e6045603d8be201f2deece62984be4523e57f9f2cc30aa59f37fd8",
+  "source_file_count": 258
+}

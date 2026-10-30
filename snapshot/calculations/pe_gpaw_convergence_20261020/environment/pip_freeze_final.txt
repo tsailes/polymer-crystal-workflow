@@ -1,0 +1,30 @@
+ase @ file:///home/conda/feedstock_root/build_artifacts/ase_1782119141094/work
+cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1788485203343/work
+contourpy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_contourpy_1789746791/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_cycler_1764466758/work
+dftd3 @ file:///home/conda/feedstock_root/build_artifacts/dftd3-python_1791832581902/work/dftd3-1.6.0-cp312-cp312-linux_x86_64.whl#sha256=3ff7f14073d290a223e2d8a353987c71dd2a9b80b88cdf868c258775aca98bc2
+dftd4 @ file:///home/conda/feedstock_root/build_artifacts/dftd4-python_1790163241363/work/dftd4-4.2.0-cp312-cp312-linux_x86_64.whl#sha256=2be915dc13d3bb5774372809b7e09a6b896d20f95ee22e65892ba8b7d3c29167
+fonttools @ file:///home/conda/feedstock_root/build_artifacts/fonttools_1791995196846/work
+# Editable install with no version control (gpaw==26.7.0)
+-e /opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0
+gpaw-data @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_gpaw-data_1788683143/work
+kiwisolver @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_kiwisolver_1790082000/work
+matplotlib==3.11.2
+munkres==1.1.4
+numpy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_numpy_1791675329/work/dist/numpy-2.5.4-cp312-cp312-linux_x86_64.whl#sha256=178b27cd788a1fd47a724c4a529ca6054a72d95a6db1aea709048b7bbad60010
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1785888127/work
+pillow @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pillow_1792416406/work
+pip @ file:///home/conda/feedstock_root/build_artifacts/pip_1785914405025/work
+pybind11 @ file:///mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/downloads/pybind11-3.0.1-py3-none-any.whl#sha256=aa8f0aa6e0a94d3b64adfc38f560f33f15e589be2175e103c0a33c6bce55ee89
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pycparser_1791592610/work
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pyparsing_1790063282/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-dateutil_1751104122/work
+PyYAML @ file:///home/conda/feedstock_root/build_artifacts/pyyaml_1770223234623/work
+scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy-split_1790021766768/work/dist/scipy-1.18.1-cp312-cp312-linux_x86_64.whl#sha256=5427e6f5dacc86646c62e72b896a4efa5c4e687b425a987f6d57f83b9f8d8441
+setuptools==84.1.0
+six @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_1753199211/work
+spglib @ file:///mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/downloads/spglib-2.7.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl#sha256=6913906fd9108e7bb2ce06a810513a95a82d801530f10230979bf3427bb7e771
+tomli @ file:///mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/downloads/tomli-2.4.0-py3-none-any.whl#sha256=1f776e7d669ebceb01dee46484485f43a4048746235e683bcdffacdf1fb4785a
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1783002732/work
+unicodedata2 @ file:///home/conda/feedstock_root/build_artifacts/unicodedata2_1789927982352/work
+wheel==0.48.0

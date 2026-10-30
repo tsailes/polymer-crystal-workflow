@@ -1,0 +1,675 @@
+{
+  "reviewed_at": "2026-10-27T19:35:50.641114+08:00",
+  "reviewer": "independent evidence_audit",
+  "status": "passed",
+  "geometry_sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+  "baseline_path": "E:\\PE_DFT\\calculations\\pe_g4_variable_cell_20261027\\cold_verification\\result.json",
+  "baseline_hash": "7d0a2a008376755399c050223b7b9e30daee495e85faca8b0a150669b9a17e9a",
+  "baseline_basis": {
+    "wavefunction_cutoff_input_eV": 1800,
+    "wavefunction_cutoff_log_eV": 1800.0,
+    "all_wavefunction_integer_sets_match": true,
+    "wavefunction_integer_sets_checked": 196,
+    "mismatches": [],
+    "coarse_grid": [
+      112,
+      72,
+      44
+    ],
+    "fine_grid": [
+      224,
+      144,
+      88
+    ],
+    "ngmin": 15457,
+    "ngmax": 15552,
+    "reciprocal_descriptors": {
+      "density_pd2": {
+        "actual_cutoff_eV": 3600.0000000000005,
+        "expected_cutoff_eV": 3600,
+        "grid_shape": [
+          112,
+          72,
+          44
+        ],
+        "independent_integer_set_matches": true,
+        "integer_G_count": 21933,
+        "nyquist_min_eV": 8091.249638496411,
+        "full_cutoff_sphere_fits_grid": true
+      },
+      "density_pd3": {
+        "actual_cutoff_eV": 14400.000000000002,
+        "expected_cutoff_eV": 14400,
+        "grid_shape": [
+          224,
+          144,
+          88
+        ],
+        "independent_integer_set_matches": true,
+        "integer_G_count": 175397,
+        "nyquist_min_eV": 32364.998553985643,
+        "full_cutoff_sphere_fits_grid": true
+      },
+      "hamiltonian_pd2": {
+        "actual_cutoff_eV": 3600.0000000000005,
+        "expected_cutoff_eV": 3600,
+        "grid_shape": [
+          112,
+          72,
+          44
+        ],
+        "independent_integer_set_matches": true,
+        "integer_G_count": 21933,
+        "nyquist_min_eV": 8091.249638496411,
+        "full_cutoff_sphere_fits_grid": true
+      },
+      "hamiltonian_pd3": {
+        "actual_cutoff_eV": 14400.000000000002,
+        "expected_cutoff_eV": 14400,
+        "grid_shape": [
+          224,
+          144,
+          88
+        ],
+        "independent_integer_set_matches": true,
+        "integer_G_count": 175397,
+        "nyquist_min_eV": 32364.998553985643,
+        "full_cutoff_sphere_fits_grid": true
+      }
+    },
+    "all_ibz_kpoints_covered_once": true,
+    "actual_bz_matches_requested_gamma_mesh": true,
+    "all_pass": true
+  },
+  "strict_absolute_thresholds": {
+    "Fmax_eV_A": 0.002,
+    "max_abs_six_stress_kbar": 0.05
+  },
+  "difference_diagnostics": {
+    "energy_meV_atom": 0.5,
+    "max_force_vector_eV_A": 0.005,
+    "max_stress_component_kbar": 0.1
+  },
+  "stages": [
+    {
+      "name": "k_only",
+      "reference": "baseline",
+      "input_differences": {
+        "kmesh": [
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            5,
+            10,
+            15
+          ]
+        ]
+      },
+      "metrics": {
+        "delta_energy_meV_atom": -0.0002206490113583944,
+        "max_force_vector_difference_eV_A": 1.0144709416825783e-05,
+        "max_stress_component_difference_kbar": 8.811445659244119e-05,
+        "raw_fmax_eV_A": 0.0006202961332434188,
+        "raw_stress_max_kbar": 0.011304829383925559
+      },
+      "six_stress_kbar": [
+        -0.0005581132139048953,
+        0.011304829383925559,
+        -0.004747500193121326,
+        5.50782827443002e-14,
+        -1.9391403955717367e-07,
+        3.951410320871173e-06
+      ],
+      "energy_eV_cell": -66.78262325340887,
+      "SCF_iterations": 23,
+      "checks": {
+        "SCF_converged": true,
+        "normal_process_exit": true,
+        "same_final_geometry": true,
+        "input_and_runner_hashes": true,
+        "one_factor_change": true,
+        "independent_cold_electrons": true,
+        "actual_basis_verified": true,
+        "comparison_reference_correct": true,
+        "independent_metric_recomputation_matches": true,
+        "absolute_force_pass": true,
+        "absolute_six_stress_pass": true,
+        "historical_energy_difference_pass": true,
+        "historical_force_difference_pass": true,
+        "historical_stress_difference_pass": true
+      },
+      "basis": {
+        "wavefunction_cutoff_input_eV": 1800,
+        "wavefunction_cutoff_log_eV": 1800.0,
+        "all_wavefunction_integer_sets_match": true,
+        "wavefunction_integer_sets_checked": 376,
+        "mismatches": [],
+        "coarse_grid": [
+          112,
+          72,
+          44
+        ],
+        "fine_grid": [
+          224,
+          144,
+          88
+        ],
+        "ngmin": 15447,
+        "ngmax": 15552,
+        "reciprocal_descriptors": {
+          "density_pd2": {
+            "actual_cutoff_eV": 3600.0000000000005,
+            "expected_cutoff_eV": 3600,
+            "grid_shape": [
+              112,
+              72,
+              44
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 21933,
+            "nyquist_min_eV": 8091.249638496411,
+            "full_cutoff_sphere_fits_grid": true
+          },
+          "density_pd3": {
+            "actual_cutoff_eV": 14400.000000000002,
+            "expected_cutoff_eV": 14400,
+            "grid_shape": [
+              224,
+              144,
+              88
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 175397,
+            "nyquist_min_eV": 32364.998553985643,
+            "full_cutoff_sphere_fits_grid": true
+          },
+          "hamiltonian_pd2": {
+            "actual_cutoff_eV": 3600.0000000000005,
+            "expected_cutoff_eV": 3600,
+            "grid_shape": [
+              112,
+              72,
+              44
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 21933,
+            "nyquist_min_eV": 8091.249638496411,
+            "full_cutoff_sphere_fits_grid": true
+          },
+          "hamiltonian_pd3": {
+            "actual_cutoff_eV": 14400.000000000002,
+            "expected_cutoff_eV": 14400,
+            "grid_shape": [
+              224,
+              144,
+              88
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 175397,
+            "nyquist_min_eV": 32364.998553985643,
+            "full_cutoff_sphere_fits_grid": true
+          }
+        },
+        "all_ibz_kpoints_covered_once": true,
+        "actual_bz_matches_requested_gamma_mesh": true,
+        "all_pass": true
+      },
+      "sources": {
+        "input.json": "820071a2eb23902b7202bf079c6fb0e2af714ecd6029aac68a6ae7814ea06004",
+        "result.json": "51d26d8be3bc56a58afce5ca96d9d0de40fbb40633d472b2bfbe3f73933a103f",
+        "comparison.json": "882edc496e69b345438a741a34f558891ba9ce565dcd88b576df5892961f134d",
+        "process.json": "1d8852286187abdf52250d9479b6f7e22718ddcc8af5777dab2278cb58f92fb3",
+        "gpaw.txt": "467a8a949466593bc3c132bc77071bec2485ca38b64dd8570c3b79784ea95a12"
+      }
+    },
+    {
+      "name": "grid_only",
+      "reference": "baseline",
+      "input_differences": {
+        "gpts": [
+          [
+            112,
+            72,
+            44
+          ],
+          [
+            128,
+            80,
+            48
+          ]
+        ]
+      },
+      "metrics": {
+        "delta_energy_meV_atom": 7.782290367686073e-07,
+        "max_force_vector_difference_eV_A": 5.017907928190711e-09,
+        "max_stress_component_difference_kbar": 6.501772255723681e-07,
+        "raw_fmax_eV_A": 0.0006209920153586254,
+        "raw_stress_max_kbar": 0.011393594017743572
+      },
+      "six_stress_kbar": [
+        -0.0004728118267791105,
+        0.011393594017743572,
+        -0.004766268463430296,
+        9.660380279823644e-13,
+        -1.9392045779950275e-07,
+        3.951444013536294e-06
+      ],
+      "energy_eV_cell": -66.78262059628199,
+      "SCF_iterations": 23,
+      "checks": {
+        "SCF_converged": true,
+        "normal_process_exit": true,
+        "same_final_geometry": true,
+        "input_and_runner_hashes": true,
+        "one_factor_change": true,
+        "independent_cold_electrons": true,
+        "actual_basis_verified": true,
+        "comparison_reference_correct": true,
+        "independent_metric_recomputation_matches": true,
+        "absolute_force_pass": true,
+        "absolute_six_stress_pass": true,
+        "historical_energy_difference_pass": true,
+        "historical_force_difference_pass": true,
+        "historical_stress_difference_pass": true
+      },
+      "basis": {
+        "wavefunction_cutoff_input_eV": 1800,
+        "wavefunction_cutoff_log_eV": 1800.0,
+        "all_wavefunction_integer_sets_match": true,
+        "wavefunction_integer_sets_checked": 196,
+        "mismatches": [],
+        "coarse_grid": [
+          128,
+          80,
+          48
+        ],
+        "fine_grid": [
+          256,
+          160,
+          96
+        ],
+        "ngmin": 15457,
+        "ngmax": 15552,
+        "reciprocal_descriptors": {
+          "density_pd2": {
+            "actual_cutoff_eV": 3600.0000000000005,
+            "expected_cutoff_eV": 3600,
+            "grid_shape": [
+              128,
+              80,
+              48
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 21933,
+            "nyquist_min_eV": 9989.197084563471,
+            "full_cutoff_sphere_fits_grid": true
+          },
+          "density_pd3": {
+            "actual_cutoff_eV": 14400.000000000002,
+            "expected_cutoff_eV": 14400,
+            "grid_shape": [
+              256,
+              160,
+              96
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 175397,
+            "nyquist_min_eV": 39956.788338253886,
+            "full_cutoff_sphere_fits_grid": true
+          },
+          "hamiltonian_pd2": {
+            "actual_cutoff_eV": 3600.0000000000005,
+            "expected_cutoff_eV": 3600,
+            "grid_shape": [
+              128,
+              80,
+              48
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 21933,
+            "nyquist_min_eV": 9989.197084563471,
+            "full_cutoff_sphere_fits_grid": true
+          },
+          "hamiltonian_pd3": {
+            "actual_cutoff_eV": 14400.000000000002,
+            "expected_cutoff_eV": 14400,
+            "grid_shape": [
+              256,
+              160,
+              96
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 175397,
+            "nyquist_min_eV": 39956.788338253886,
+            "full_cutoff_sphere_fits_grid": true
+          }
+        },
+        "all_ibz_kpoints_covered_once": true,
+        "actual_bz_matches_requested_gamma_mesh": true,
+        "all_pass": true
+      },
+      "sources": {
+        "input.json": "61b6842621ba2918764eb673985c22648f542b015542962cced4a645992df38d",
+        "result.json": "c05b616c37ed1ca466179db86b0c8350383bdf379673919e051acd1ed29eface",
+        "comparison.json": "5a94a3a73705cf2a3bbcec697ec5d83556fe6036228d5455e5173873704c4ffb",
+        "process.json": "ccbf0f4a9b732ea903d05514782b57fc7c7086c2da2d5c22023db1ce1815cbb6",
+        "gpaw.txt": "2946472f7d25b2081ee228a0a65a81d73f2ec24a65990e983012fe63827c7124"
+      }
+    },
+    {
+      "name": "ecut_only",
+      "reference": "grid_only",
+      "input_differences": {
+        "ecut_eV": [
+          1800,
+          2000
+        ]
+      },
+      "metrics": {
+        "delta_energy_meV_atom": -0.0014826682731931367,
+        "max_force_vector_difference_eV_A": 4.950436610267777e-06,
+        "max_stress_component_difference_kbar": 0.0010131396991670035,
+        "raw_fmax_eV_A": 0.0006198851068195166,
+        "raw_stress_max_kbar": 0.010380454318576569
+      },
+      "six_stress_kbar": [
+        -0.0013388539159680775,
+        0.010380454318576569,
+        -0.005620924171253367,
+        1.6527409286147635e-12,
+        -1.939125844335044e-07,
+        3.951434981708555e-06
+      ],
+      "energy_eV_cell": -66.78263838830127,
+      "SCF_iterations": 23,
+      "checks": {
+        "SCF_converged": true,
+        "normal_process_exit": true,
+        "same_final_geometry": true,
+        "input_and_runner_hashes": true,
+        "one_factor_change": true,
+        "independent_cold_electrons": true,
+        "actual_basis_verified": true,
+        "comparison_reference_correct": true,
+        "independent_metric_recomputation_matches": true,
+        "absolute_force_pass": true,
+        "absolute_six_stress_pass": true,
+        "historical_energy_difference_pass": true,
+        "historical_force_difference_pass": true,
+        "historical_stress_difference_pass": true
+      },
+      "basis": {
+        "wavefunction_cutoff_input_eV": 2000,
+        "wavefunction_cutoff_log_eV": 2000.0,
+        "all_wavefunction_integer_sets_match": true,
+        "wavefunction_integer_sets_checked": 196,
+        "mismatches": [],
+        "coarse_grid": [
+          128,
+          80,
+          48
+        ],
+        "fine_grid": [
+          256,
+          160,
+          96
+        ],
+        "ngmin": 18116,
+        "ngmax": 18208,
+        "reciprocal_descriptors": {
+          "density_pd2": {
+            "actual_cutoff_eV": 4000.0,
+            "expected_cutoff_eV": 4000,
+            "grid_shape": [
+              128,
+              80,
+              48
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 25703,
+            "nyquist_min_eV": 9989.197084563471,
+            "full_cutoff_sphere_fits_grid": true
+          },
+          "density_pd3": {
+            "actual_cutoff_eV": 16000.0,
+            "expected_cutoff_eV": 16000,
+            "grid_shape": [
+              256,
+              160,
+              96
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 205460,
+            "nyquist_min_eV": 39956.788338253886,
+            "full_cutoff_sphere_fits_grid": true
+          },
+          "hamiltonian_pd2": {
+            "actual_cutoff_eV": 4000.0,
+            "expected_cutoff_eV": 4000,
+            "grid_shape": [
+              128,
+              80,
+              48
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 25703,
+            "nyquist_min_eV": 9989.197084563471,
+            "full_cutoff_sphere_fits_grid": true
+          },
+          "hamiltonian_pd3": {
+            "actual_cutoff_eV": 16000.0,
+            "expected_cutoff_eV": 16000,
+            "grid_shape": [
+              256,
+              160,
+              96
+            ],
+            "independent_integer_set_matches": true,
+            "integer_G_count": 205460,
+            "nyquist_min_eV": 39956.788338253886,
+            "full_cutoff_sphere_fits_grid": true
+          }
+        },
+        "all_ibz_kpoints_covered_once": true,
+        "actual_bz_matches_requested_gamma_mesh": true,
+        "all_pass": true
+      },
+      "sources": {
+        "input.json": "fab7c823fe113952e7da0a5afb9ae59e1be4823c29a0540d643c5a6d06c9c72e",
+        "result.json": "b2e32488c9d7f9db50fe1cf06508cfa6567e1626f8289dd1215af136cb598504",
+        "comparison.json": "b73a61f99f079f6d4260e25a65b306f6cfaa6158a858aa2f1bbac39e271e7305",
+        "process.json": "9eaca10e86bc3ea04d2cb69efe026945359ea98bb8b1b78d12f16d9972454f3f",
+        "gpaw.txt": "d56292d876381b5912e6d042e0604f762cdc894bd4f54b10d9c3b540f48d3abe"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "check": "baseline_SCf_and_source",
+      "passed": true
+    },
+    {
+      "check": "baseline_actual_basis",
+      "passed": true
+    },
+    {
+      "check": "k_only_SCF_converged",
+      "passed": true
+    },
+    {
+      "check": "k_only_normal_process_exit",
+      "passed": true
+    },
+    {
+      "check": "k_only_same_final_geometry",
+      "passed": true
+    },
+    {
+      "check": "k_only_input_and_runner_hashes",
+      "passed": true
+    },
+    {
+      "check": "k_only_one_factor_change",
+      "passed": true
+    },
+    {
+      "check": "k_only_independent_cold_electrons",
+      "passed": true
+    },
+    {
+      "check": "k_only_actual_basis_verified",
+      "passed": true
+    },
+    {
+      "check": "k_only_comparison_reference_correct",
+      "passed": true
+    },
+    {
+      "check": "k_only_independent_metric_recomputation_matches",
+      "passed": true
+    },
+    {
+      "check": "k_only_absolute_force_pass",
+      "passed": true
+    },
+    {
+      "check": "k_only_absolute_six_stress_pass",
+      "passed": true
+    },
+    {
+      "check": "k_only_historical_energy_difference_pass",
+      "passed": true
+    },
+    {
+      "check": "k_only_historical_force_difference_pass",
+      "passed": true
+    },
+    {
+      "check": "k_only_historical_stress_difference_pass",
+      "passed": true
+    },
+    {
+      "check": "grid_only_SCF_converged",
+      "passed": true
+    },
+    {
+      "check": "grid_only_normal_process_exit",
+      "passed": true
+    },
+    {
+      "check": "grid_only_same_final_geometry",
+      "passed": true
+    },
+    {
+      "check": "grid_only_input_and_runner_hashes",
+      "passed": true
+    },
+    {
+      "check": "grid_only_one_factor_change",
+      "passed": true
+    },
+    {
+      "check": "grid_only_independent_cold_electrons",
+      "passed": true
+    },
+    {
+      "check": "grid_only_actual_basis_verified",
+      "passed": true
+    },
+    {
+      "check": "grid_only_comparison_reference_correct",
+      "passed": true
+    },
+    {
+      "check": "grid_only_independent_metric_recomputation_matches",
+      "passed": true
+    },
+    {
+      "check": "grid_only_absolute_force_pass",
+      "passed": true
+    },
+    {
+      "check": "grid_only_absolute_six_stress_pass",
+      "passed": true
+    },
+    {
+      "check": "grid_only_historical_energy_difference_pass",
+      "passed": true
+    },
+    {
+      "check": "grid_only_historical_force_difference_pass",
+      "passed": true
+    },
+    {
+      "check": "grid_only_historical_stress_difference_pass",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_SCF_converged",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_normal_process_exit",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_same_final_geometry",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_input_and_runner_hashes",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_one_factor_change",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_independent_cold_electrons",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_actual_basis_verified",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_comparison_reference_correct",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_independent_metric_recomputation_matches",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_absolute_force_pass",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_absolute_six_stress_pass",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_historical_energy_difference_pass",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_historical_force_difference_pass",
+      "passed": true
+    },
+    {
+      "check": "ecut_only_historical_stress_difference_pass",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "This verifies terminal single-point stability under the three specified numerical changes, not an infinite-basis or k-mesh limit.",
+    "No relaxation at the denser settings was performed; same geometry retained.",
+    "Ecut increases the actual wavefunction basis and GPAW density reciprocal cutoffs consistently; this is the controlled Ecut change with the same real-space grid.",
+    "No phonon, ZPE, thermal or global-minimum claim is established.",
+    "The long wall clock of k_only includes confirmed Windows idle sleep; no calculation was launched or modified by this audit."
+  ],
+  "basis_method": "Independent NumPy enumeration of each stored MPI-rank integer reciprocal set from final orthorhombic cell, actual k coordinates and requested/logged kinetic-energy cutoff; compares all counts and SHA-256 index hashes. Density and Hamiltonian real-field sets include the GPAW Hermitian half-space selection. Geometric Nyquist margins and exact actual descriptor cutoffs checked."
+}

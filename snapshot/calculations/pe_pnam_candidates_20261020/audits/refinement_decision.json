@@ -1,0 +1,12 @@
+{
+  "reason": "The former representative cand_0025 passed the sampling-change criteria but its 3x4x10 maximum force was 0.011525420009805382 eV/A, above the predeclared 0.01 target.",
+  "evidence": "candidate_sampling_checks/cand_0025/comparison.json",
+  "evidence_geometry_sha256": "fa8529c210f63fb12e44d3192eb093e273bda856664c34073acb463bbd6d8273",
+  "affected_geometry_group_members": ["cand_0025", "cand_0065"],
+  "action": "Continue both members of that close-geometry group from their own saved final geometries using new, separately archived attempts.",
+  "new_fine_fmax_eV_A": 0.003,
+  "fine_repeat": [2, 3, 8],
+  "fixed_cell_and_Pnam_preserved": true,
+  "subsequent_action": "Reassess geometry and energy groups across all final states, then check every exact delivered representative at 3x4x10. Do not reuse the old dense result for changed coordinates.",
+  "old_result_policy": "All original optimization and dense-check files remain preserved, including the failed dense force target."
+}

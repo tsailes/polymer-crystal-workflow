@@ -1,0 +1,306 @@
+{
+  "status": "interfaces_verified_quantum_validation_pending",
+  "created_utc": "2026-10-20T11:04:09.840255+00:00",
+  "quantum_calculations_performed_by_this_script": 0,
+  "python": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "gpaw_source_path": "/opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0/gpaw/__init__.py",
+  "gpaw_installation": "Official 26.7.0 sdist, unmodified scientific sources, local build with explicit Libxc/BLAS/MPI/VDWXC, editable install",
+  "libxc_version": "7.1.2",
+  "libvdwxc_stress": true,
+  "versions": {
+    "gpaw": "26.7.0",
+    "ase": "3.29.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "gpaw-data": "1.0.1",
+    "dftd3": "1.6.0",
+    "dftd4": "4.2.0",
+    "pybind11": "3.0.1",
+    "tomli": "2.4.0",
+    "spglib": "2.7.0"
+  },
+  "official_urls": [
+    "https://gpaw.readthedocs.io/install.html",
+    "https://gpaw.readthedocs.io/releasenotes.html#mpichanges",
+    "https://gpaw.readthedocs.io/documentation/xc/libvdwxc.html",
+    "https://gitlab.com/gpaw/gpaw/-/tree/26.7.0",
+    "https://pypi.org/project/gpaw/26.7.0/",
+    "https://gitlab.com/libvdwxc/libvdwxc/-/tree/0.5.0"
+  ],
+  "interfaces": [
+    {
+      "xc_input": "PBE",
+      "xc_class": "gpaw.xc.gga.GGA",
+      "xc_name": "PBE",
+      "xc_type": "GGA",
+      "xc_setup_name": "PBE",
+      "gpaw_class": "gpaw.old.calculator.GPAW",
+      "calculation_was_evaluated": false,
+      "warnings": [],
+      "gpaw_properties": [
+        "energy",
+        "free_energy",
+        "forces",
+        "stress",
+        "dipole",
+        "magmom",
+        "magmoms"
+      ],
+      "combined_properties": [
+        "stress",
+        "energy",
+        "forces"
+      ],
+      "dispersion": {
+        "class": "dftd3.ase.DFTD3",
+        "parameters": {
+          "method": "pbe",
+          "damping": "d3bj",
+          "params_tweaks": {
+            "s9": 1.0
+          },
+          "realspace_cutoff": {},
+          "ewald": null,
+          "ghost_atoms": null,
+          "cache_api": true
+        },
+        "properties": [
+          "energy",
+          "forces",
+          "stress",
+          "hessian"
+        ]
+      }
+    },
+    {
+      "xc_input": {
+        "name": "optB88-vdW",
+        "backend": "libvdwxc"
+      },
+      "xc_class": "gpaw.xc.libvdwxc.VDWXC",
+      "xc_name": "optB88",
+      "xc_type": "GGA",
+      "xc_setup_name": "PBE",
+      "gpaw_class": "gpaw.old.calculator.GPAW",
+      "calculation_was_evaluated": false,
+      "warnings": [],
+      "gpaw_properties": [
+        "energy",
+        "free_energy",
+        "forces",
+        "stress",
+        "dipole",
+        "magmom",
+        "magmoms"
+      ],
+      "combined_properties": [
+        "energy",
+        "free_energy",
+        "forces",
+        "stress",
+        "dipole",
+        "magmom",
+        "magmoms"
+      ]
+    },
+    {
+      "xc_input": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+      "xc_class": "gpaw.xc.mgga.MGGA",
+      "xc_name": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+      "xc_type": "MGGA",
+      "xc_setup_name": "PBE",
+      "gpaw_class": "gpaw.old.calculator.GPAW",
+      "calculation_was_evaluated": false,
+      "warnings": [],
+      "gpaw_properties": [
+        "energy",
+        "free_energy",
+        "forces",
+        "stress",
+        "dipole",
+        "magmom",
+        "magmoms"
+      ],
+      "combined_properties": [
+        "stress",
+        "energy",
+        "forces"
+      ],
+      "dispersion": {
+        "class": "dftd4.ase.DFTD4",
+        "parameters": {
+          "method": "r2scan",
+          "params_tweaks": {
+            "s9": 1.0
+          },
+          "cache_api": true,
+          "model": "d4",
+          "realspace_cutoff": {}
+        },
+        "properties": [
+          "energy",
+          "forces",
+          "stress"
+        ]
+      },
+      "libxc_disable_fhc_requested": true,
+      "libxc_disable_fhc_supported": true
+    }
+  ],
+  "important_files": [
+    {
+      "path": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+      "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python3.12",
+      "size": 31890400,
+      "sha256": "a63412ceeebebadefa899615af9e491d729af4da774650986598d54ed0acab99"
+    },
+    {
+      "path": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/mpiexec",
+      "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/mpirun",
+      "size": 194648,
+      "sha256": "caf08f4d59d91dee7318441165c428447e2c54c4c158cd980430442948dd70b6"
+    },
+    {
+      "path": "/opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0/_gpaw.cpython-312-x86_64-linux-gnu.so",
+      "resolved_path": "/opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0/_gpaw.cpython-312-x86_64-linux-gnu.so",
+      "size": 475840,
+      "sha256": "0716163fef129df502d1bb6338a739d3bf9e21aa36ba8cd6d05b8079cca85ab2"
+    },
+    {
+      "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libxc.so",
+      "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libxc.so.15",
+      "size": 69899208,
+      "sha256": "647b88ab1b5de62d3828a6fdc5e71bf9a3c5e216314fac1175c64ef46839b524"
+    },
+    {
+      "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libvdwxc.so",
+      "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libvdwxc.so.0.0.0",
+      "size": 3357248,
+      "sha256": "f4ccfe1ef5dec5b38b729ae79f86c1430d635b1696482d2d319f64f56ac3222d"
+    },
+    {
+      "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libmpi.so",
+      "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libmpi.so.40.40.8",
+      "size": 3965464,
+      "sha256": "107674a8ec51e5c85f99ca0389ac089ce3956b78ac9db4e3e0d7ac14d0ae654e"
+    },
+    {
+      "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libblas.so",
+      "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libopenblasp-r0.3.34.so",
+      "size": 41542616,
+      "sha256": "f1424288e9ac125331102c0150b66fbd244560987779552e0e97d5cfd9de572b"
+    },
+    {
+      "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libdftd4.so",
+      "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libdftd4.so.4.2.0",
+      "size": 777624,
+      "sha256": "5eaf8f6a243643fba2a9cb32ab18348ece9c23913a73a6f5cc15d3534f643e5f"
+    },
+    {
+      "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libs-dftd3.so",
+      "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libs-dftd3.so.1.6.0",
+      "size": 2865768,
+      "sha256": "6319181c7c07406b046f7bbd2141ca9b52913c7c7686f636c39ca084a0ba63b8"
+    }
+  ],
+  "setup_files": [
+    {
+      "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/C.PBE.gz",
+      "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/C.PBE.gz",
+      "size": 45424,
+      "sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+    },
+    {
+      "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+      "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+      "size": 12501,
+      "sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+    }
+  ],
+  "runtime_info": {
+    "argv": [
+      "/opt/pe_dft/envs/pe-gpaw-20261020/bin/gpaw",
+      "info"
+    ],
+    "exit_code": 0,
+    "stdout": "----------------------------------------------------------------------------------------------------------\npython-3.12.15   /opt/pe_dft/envs/pe-gpaw-20261020/bin/python                                             \ngpaw-26.7.0      /opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0/gpaw/                                \nase-3.29.0       /opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/ase/                      \nnumpy-2.5.4      /opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/numpy/                    \nscipy-1.18.1     /opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/scipy/                    \ngpaw_data-1.0.1  /opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/                \nlibxc-7.1.2      yes                                                                                      \n_gpaw            /opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0/_gpaw.cpython-312-x86_64-linux-gnu.so\nMPI enabled      yes                                                                                      \nOpenMP enabled   yes                                                                                      \nCompiled as C++  yes                                                                                      \nGPU enabled      no                                                                                       \nGPU-aware MPI    no                                                                                       \ncupy-fake        /opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0/gpaw/gpu/cpupy/__init__.py           \nMAGMA            no                                                                                       \nscalapack        yes                                                                                      \nElpa             no                                                                                       \nFFTW             yes                                                                                      \nlibvdwxc         yes                                                                                      \nPAW-datasets (1) /opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups          \n----------------------------------------------------------------------------------------------------------\n",
+    "stderr": ""
+  },
+  "mpi_version": {
+    "argv": [
+      "/opt/pe_dft/envs/pe-gpaw-20261020/bin/mpiexec",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "mpiexec (Open MPI) 5.0.11\n\nReport bugs to https://www.open-mpi.org/community/help/\n\n",
+    "stderr": ""
+  },
+  "extension_ldd": {
+    "argv": [
+      "ldd",
+      "/opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0/_gpaw.cpython-312-x86_64-linux-gnu.so"
+    ],
+    "exit_code": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x000074f316e81000)\n\tlibxc.so.15 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libxc.so.15 (0x000074f312a00000)\n\tlibopenblas.so.0 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libopenblas.so.0 (0x000074f310398000)\n\tlibfftw3.so.3 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libfftw3.so.3 (0x000074f310000000)\n\tlibscalapack.so => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libscalapack.so (0x000074f30f800000)\n\tlibvdwxc.so.0 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libvdwxc.so.0 (0x000074f30f400000)\n\tlibmpi.so.40 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libmpi.so.40 (0x000074f30f000000)\n\tlibstdc++.so.6 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libstdc++.so.6 (0x000074f30ec00000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x000074f316d19000)\n\tlibgomp.so.1 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libgomp.so.1 (0x000074f316cbe000)\n\tlibgcc_s.so.1 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libgcc_s.so.1 (0x000074f316c90000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000074f30e800000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x000074f316c89000)\n\tlibgfortran.so.5 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libgfortran.so.5 (0x000074f30e400000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000074f316e83000)\n\tlibfftw3_mpi.so.3 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/./libfftw3_mpi.so.3 (0x000074f316c70000)\n\tlibucc.so.1 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libucc.so.1 (0x000074f31034b000)\n\tlibopen-pal.so.80 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libopen-pal.so.80 (0x000074f30fec8000)\n\tlibdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x000074f316c69000)\n\tlibfabric.so.1 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libfabric.so.1 (0x000074f30ea42000)\n\tlibucp.so.0 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libucp.so.0 (0x000074f30eefd000)\n\tlibucs.so.0 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libucs.so.0 (0x000074f3102db000)\n\tlibucm.so.0 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libucm.so.0 (0x000074f3102c0000)\n\tlibuct.so.0 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libuct.so.0 (0x000074f310280000)\n\tlibnl-route-3.so.200 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libnl-route-3.so.200 (0x000074f30f768000)\n\tlibnl-3.so.200 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libnl-3.so.200 (0x000074f31025b000)\n\tlibrt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x000074f316c62000)\n\tlibutil.so.1 => /lib/x86_64-linux-gnu/libutil.so.1 (0x000074f316c5d000)\n\tlibevent_core-2.1.so.7 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libevent_core-2.1.so.7 (0x000074f30fe8f000)\n\tlibevent_pthreads-2.1.so.7 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libevent_pthreads-2.1.so.7 (0x000074f316c56000)\n\tlibhwloc.so.15 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libhwloc.so.15 (0x000074f30f3a0000)\n\tlibpmix.so.2 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/libpmix.so.2 (0x000074f30e000000)\n\tlibquadmath.so.0 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/./libquadmath.so.0 (0x000074f30fe46000)\n\tlibrdmacm.so.1 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/./librdmacm.so.1 (0x000074f30f746000)\n\tlibefa.so.1 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/./libefa.so.1 (0x000074f310249000)\n\tlibibverbs.so.1 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/./libibverbs.so.1 (0x000074f30eed8000)\n\tlibatomic.so.1 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/./libatomic.so.1 (0x000074f30f73a000)\n\tlibxml2.so.16 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/./libxml2.so.16 (0x000074f30e2ba000)\n\tlibz.so.1 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/././libz.so.1 (0x000074f30eebd000)\n\tlibiconv.so.2 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/././libiconv.so.2 (0x000074f30deed000)\n\tlibicuuc.so.78 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/././libicuuc.so.78 (0x000074f30dc00000)\n\tlibicudata.so.78 => /opt/pe_dft/envs/pe-gpaw-20261020/lib/././libicudata.so.78 (0x000074f30bc00000)\n",
+    "stderr": ""
+  },
+  "cpu": {
+    "argv": [
+      "lscpu"
+    ],
+    "exit_code": 0,
+    "stdout": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  32\nOn-line CPU(s) list:                     0-31\nVendor ID:                               AuthenticAMD\nModel name:                              AMD Ryzen 9 9950X3D 16-Core Processor\nCPU family:                              26\nModel:                                   68\nThread(s) per core:                      2\nCore(s) per socket:                      16\nSocket(s):                               1\nStepping:                                0\nBogoMIPS:                                8583.69\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx_vnni avx512_bf16 clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm avx512_vp2intersect\nVirtualization:                          AMD-V\nHypervisor vendor:                       Microsoft\nVirtualization type:                     full\nL1d cache:                               768 KiB (16 instances)\nL1i cache:                               512 KiB (16 instances)\nL2 cache:                                16 MiB (16 instances)\nL3 cache:                                96 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-31\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n",
+    "stderr": ""
+  },
+  "memory": {
+    "argv": [
+      "free",
+      "-m"
+    ],
+    "exit_code": 0,
+    "stdout": "               total        used        free      shared  buff/cache   available\nMem:           15537        1247       12745           4        1756       14290\nSwap:           4096           0        4096\n",
+    "stderr": ""
+  },
+  "official_source_comparison": {
+    "checked_source_files": 2408,
+    "mismatches": [],
+    "source_archive_sha256": "1509af00cfcd032bbbce197a5b3e37edb82bf458db5e200f6a105ec74efbca15"
+  },
+  "conda_package_archive_count": 131,
+  "conda_package_archive_hashes_verified": 131,
+  "pip_freeze": {
+    "argv": [
+      "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+      "-m",
+      "pip",
+      "freeze",
+      "--all"
+    ],
+    "exit_code": 0,
+    "stdout": "ase @ file:///home/conda/feedstock_root/build_artifacts/ase_1782119141094/work\ncffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1788485203343/work\ncontourpy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_contourpy_1789746791/work\ncycler @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_cycler_1764466758/work\ndftd3 @ file:///home/conda/feedstock_root/build_artifacts/dftd3-python_1791832581902/work/dftd3-1.6.0-cp312-cp312-linux_x86_64.whl#sha256=3ff7f14073d290a223e2d8a353987c71dd2a9b80b88cdf868c258775aca98bc2\ndftd4 @ file:///home/conda/feedstock_root/build_artifacts/dftd4-python_1790163241363/work/dftd4-4.2.0-cp312-cp312-linux_x86_64.whl#sha256=2be915dc13d3bb5774372809b7e09a6b896d20f95ee22e65892ba8b7d3c29167\nfonttools @ file:///home/conda/feedstock_root/build_artifacts/fonttools_1791995196846/work\n# Editable install with no version control (gpaw==26.7.0)\n-e /opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0\ngpaw-data @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_gpaw-data_1788683143/work\nkiwisolver @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_kiwisolver_1790082000/work\nmatplotlib==3.11.2\nmunkres==1.1.4\nnumpy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_numpy_1791675329/work/dist/numpy-2.5.4-cp312-cp312-linux_x86_64.whl#sha256=178b27cd788a1fd47a724c4a529ca6054a72d95a6db1aea709048b7bbad60010\npackaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1785888127/work\npillow @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pillow_1792416406/work\npip @ file:///home/conda/feedstock_root/build_artifacts/pip_1785914405025/work\npybind11 @ file:///mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/downloads/pybind11-3.0.1-py3-none-any.whl#sha256=aa8f0aa6e0a94d3b64adfc38f560f33f15e589be2175e103c0a33c6bce55ee89\npycparser @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pycparser_1791592610/work\npyparsing @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pyparsing_1790063282/work\npython-dateutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-dateutil_1751104122/work\nPyYAML @ file:///home/conda/feedstock_root/build_artifacts/pyyaml_1770223234623/work\nscipy @ file:///home/conda/feedstock_root/build_artifacts/scipy-split_1790021766768/work/dist/scipy-1.18.1-cp312-cp312-linux_x86_64.whl#sha256=5427e6f5dacc86646c62e72b896a4efa5c4e687b425a987f6d57f83b9f8d8441\nsetuptools==84.1.0\nsix @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_1753199211/work\nspglib @ file:///mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/downloads/spglib-2.7.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl#sha256=6913906fd9108e7bb2ce06a810513a95a82d801530f10230979bf3427bb7e771\ntomli @ file:///mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/downloads/tomli-2.4.0-py3-none-any.whl#sha256=1f776e7d669ebceb01dee46484485f43a4048746235e683bcdffacdf1fb4785a\ntyping_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1783002732/work\nunicodedata2 @ file:///home/conda/feedstock_root/build_artifacts/unicodedata2_1789927982352/work\nwheel==0.48.0\n",
+    "stderr": ""
+  },
+  "incremental_installs": [
+    {
+      "date_utc": "2026-10-20T11:12:23.532481+00:00",
+      "package": "spglib",
+      "version": "2.7.0",
+      "source_url": "https://files.pythonhosted.org/packages/67/4c/75ac6f7ade28019b216c7333322f2886e1c0105202cd74506f530664bf26/spglib-2.7.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "wheel": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/downloads/spglib-2.7.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "6913906fd9108e7bb2ce06a810513a95a82d801530f10230979bf3427bb7e771",
+      "command_argv": [
+        "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-deps",
+        "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/downloads/spglib-2.7.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+      ],
+      "install_exit_code": 0,
+      "verification_exit_code": 0,
+      "verification_output": "2.7.0 FixSymmetry FrechetCellFilter\n",
+      "scope": "Only spglib installed with --no-deps; existing numerical dependencies and GPAW scientific source unchanged."
+    }
+  ]
+}

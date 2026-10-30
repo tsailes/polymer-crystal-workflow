@@ -1,0 +1,200 @@
+{
+  "route_id": "PE_CRYSTAL_ROUTE_V1_0",
+  "project_root": "E:\\PE_DFT",
+  "indexed_at": "2026-10-29T04:54:11.491805+00:00",
+  "source_count": 32,
+  "sources": [
+    {
+      "role": "candidate_protocol",
+      "path_relative_to_project": "calculations/pe_pnam_candidates_20261020/protocol.json",
+      "bytes": 4726,
+      "sha256": "3bb9666b76c17a65c105a59df8be095939184c1cdee901d87c1f7e1afb66e74b"
+    },
+    {
+      "role": "input_provenance",
+      "path_relative_to_project": "calculations/pe_pnam_candidates_20261020/input_provenance.json",
+      "bytes": 2811,
+      "sha256": "eb56657de8e10f99ee9d907d2cd04aa10daaef00337536d1108212da9bb45f5f"
+    },
+    {
+      "role": "candidate_catalog",
+      "path_relative_to_project": "calculations/pe_pnam_candidates_20261020/candidate_catalog.csv",
+      "bytes": 28892,
+      "sha256": "66d948d231fe42b1fae544a570343d620227e437134d144086a2911c0b55d73b"
+    },
+    {
+      "role": "optimization_summary",
+      "path_relative_to_project": "calculations/pe_pnam_candidates_20261020/optimization_summary.json",
+      "bytes": 28467,
+      "sha256": "2cd0344d79991bc6e330b49b48c8a0631bc7091aa87f763c9595b8eccc9c122f"
+    },
+    {
+      "role": "optimization_catalog",
+      "path_relative_to_project": "calculations/pe_pnam_candidates_20261020/optimization_catalog.csv",
+      "bytes": 6460,
+      "sha256": "fbe6c19ff1013cfcefccaaeb5bce3803f1a00bb628706ffe3ab267f3946dd8e8"
+    },
+    {
+      "role": "dft_original_release",
+      "path_relative_to_project": "calculations/pe_gpaw_convergence_20261020/releases/20261021T043247_514339Z/parameters_lock.json",
+      "bytes": 11765,
+      "sha256": "d3d0de948aebb52865c5e5a391dbfa4d964ae93cae654fbb1c0d6a2e606b10d1"
+    },
+    {
+      "role": "dft_release_acceptance",
+      "path_relative_to_project": "calculations/pe_gpaw_convergence_20261020/releases/20261021T043247_514339Z/release_check.json",
+      "bytes": 1668557,
+      "sha256": "65239227c43dfe5bcbfd2e1dbb449428b0f4135498bf4af20d1bac619fa47c83"
+    },
+    {
+      "role": "calibration_protocol",
+      "path_relative_to_project": "calculations/pe_gfn2_dft_calibration_20261021/protocol.json",
+      "bytes": 3678,
+      "sha256": "2cce4e16814ed3de93361f2e5474a2c6c0c9b17c78405c11955f48fbe137738e"
+    },
+    {
+      "role": "calibration_policy",
+      "path_relative_to_project": "calculations/pe_gfn2_dft_calibration_20261021/analysis_policy.json",
+      "bytes": 2501,
+      "sha256": "5d0d1f1f7778ddf63421804e397c8771c42da5ec2791763b332224021d8dd95f"
+    },
+    {
+      "role": "initial_calibration",
+      "path_relative_to_project": "reports/PE_GFN2_3sigma_20261021/data/initial_16_energy_calibration.csv",
+      "bytes": 5527,
+      "sha256": "901931981241a5c714a9db2a53d0318149c07ac686d08671b8d8c17632594fd4"
+    },
+    {
+      "role": "paired_production",
+      "path_relative_to_project": "calculations/pe_gfn2_dft_calibration_20261021/tables/paired_energy_results.csv",
+      "bytes": 234296,
+      "sha256": "1e2b18b4c948418d4f2f89711f9f9a5fd774eaf2c8494234286bd55eae9e98c2"
+    },
+    {
+      "role": "normal_fixed_protocol",
+      "path_relative_to_project": "calculations/pe_dft_representative_refinement_20261022/protocol.json",
+      "bytes": 2358,
+      "sha256": "430393ee12839e0a749a13809ae9df17bb9827ed1c87a13127ddfba2fbaa824a"
+    },
+    {
+      "role": "normal_fixed_results",
+      "path_relative_to_project": "calculations/pe_dft_representative_refinement_20261022/tables/final_energy_results.csv",
+      "bytes": 13166,
+      "sha256": "27dc1f18b5f0f94bea42a7ac7bb1fc30db00ab820c83391f3ac6f725213ad91e"
+    },
+    {
+      "role": "tight_fixed_protocol",
+      "path_relative_to_project": "calculations/pe_dft_tight_force_refinement_20261022/protocol.json",
+      "bytes": 2839,
+      "sha256": "ca28e5de1680f8c59b50bc6fe82ceed90feb59d232e248579ad9af7009bdd245"
+    },
+    {
+      "role": "tight_fixed_results",
+      "path_relative_to_project": "calculations/pe_dft_tight_force_refinement_20261022/tables/final_energy_results.csv",
+      "bytes": 13092,
+      "sha256": "3304d6aab4e148f7f578d22e15616c75df0fefbd63ebef46379310adbe08cffb"
+    },
+    {
+      "role": "tight_pairwise",
+      "path_relative_to_project": "calculations/pe_dft_tight_force_refinement_20261022/tables/pairwise_geometry_energy.csv",
+      "bytes": 1424,
+      "sha256": "6316f7e18910616e103c6ee6639ff5a6b975256244b9ef9a91f9c5ac92b10d5a"
+    },
+    {
+      "role": "fixed_g4",
+      "path_relative_to_project": "calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final_structure.extxyz",
+      "bytes": 746,
+      "sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d"
+    },
+    {
+      "role": "variable_protocol",
+      "path_relative_to_project": "calculations/pe_g4_variable_cell_20261027/protocol.json",
+      "bytes": 1975,
+      "sha256": "d06a01320ff45653e400e21ab881b03744df8993ff07250fc5a8ccc738322b96"
+    },
+    {
+      "role": "variable_result",
+      "path_relative_to_project": "calculations/pe_g4_variable_cell_20261027/runs/attempt_01/result.json",
+      "bytes": 300369,
+      "sha256": "22d8cb295f8bd598e945c9a14e798e129e31df7332c3abbab806e5899f427ee0"
+    },
+    {
+      "role": "variable_g4",
+      "path_relative_to_project": "calculations/pe_g4_variable_cell_20261027/runs/attempt_01/final_structure.extxyz",
+      "bytes": 782,
+      "sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab"
+    },
+    {
+      "role": "variable_cold",
+      "path_relative_to_project": "calculations/pe_g4_variable_cell_20261027/final_cold_verification.json",
+      "bytes": 368,
+      "sha256": "32fafd534b84de321d27c32872834c8b17bc2df0110f4740cfe9ccd90505bbc9"
+    },
+    {
+      "role": "variable_convergence_protocol",
+      "path_relative_to_project": "calculations/pe_g4_variable_cell_20261027/convergence_checks/protocol.json",
+      "bytes": 1425,
+      "sha256": "ffb1250959e9589ea644648cc30fe52104e201f4b139561a616475ed4a16e780"
+    },
+    {
+      "role": "variable_convergence_result",
+      "path_relative_to_project": "calculations/pe_g4_variable_cell_20261027/convergence_checks/result.json",
+      "bytes": 5477,
+      "sha256": "99879a4d9fc542e2c0f165075366a806a8528745db2a51bb8fa8347c148e4bc5"
+    },
+    {
+      "role": "variable_convergence_review",
+      "path_relative_to_project": "calculations/pe_g4_variable_cell_20261027/convergence_checks/independent_review.json",
+      "bytes": 20966,
+      "sha256": "576f728221ae46cf3c2bc187ff7e6e2f4113ca30f27fcc4546c437ad770d51d9"
+    },
+    {
+      "role": "angle_coverage",
+      "path_relative_to_project": "reports/pe_questions_audit_20261028/全取向角覆盖与阈值敏感性.md",
+      "bytes": 3329,
+      "sha256": "a34a9adfb9e065b9fab21cf944fefc6f08099f12360d74f7230916ae17f5ff47"
+    },
+    {
+      "role": "supplement_not_run",
+      "path_relative_to_project": "reports/pe_questions_audit_20261028/supplemental_angles_080_085_090/README_补充输入说明.md",
+      "bytes": 2586,
+      "sha256": "9a9b13d620ceed863c28639359a3aa994114f44c6f42d78620da91d98783bfe4"
+    },
+    {
+      "role": "pbe0_status",
+      "path_relative_to_project": "calculations/pe_pbe0_singlepoint_review_20261023/tables/singlepoint_summary.json",
+      "bytes": 747,
+      "sha256": "f0efffed2729c9e7b198ae6daa3fd8505fc16074ce886c7752f2250076c35cab"
+    },
+    {
+      "role": "cost_comparison_status",
+      "path_relative_to_project": "calculations/pe_energy_models_benchmark_20261020/state.json",
+      "bytes": 598,
+      "sha256": "7f4baeb5e5e9630643fad331c4c893fd379e39b536c0908ae69a7e53eef212d2"
+    },
+    {
+      "role": "latest_fixed_supplement",
+      "path_relative_to_project": "reports/PE技术文档_正文与SI_20261028/data/fixed_cell/supplement_20261029/summary.json",
+      "bytes": 2192,
+      "sha256": "24949be5788bd30cec488bbd0ead213584daf250cc86be8c3070537458840349"
+    },
+    {
+      "role": "latest_technical_report",
+      "path_relative_to_project": "reports/PE技术文档_正文与SI_20261028/outputs/PE技术文档_正文与SI_固定胞结果补充版_20261029.md",
+      "bytes": 86170,
+      "sha256": "7f2c9dc9eb2668385a97bb642b59a85b352d296dbd2257d5f56c7dc065f89a25"
+    },
+    {
+      "role": "methods_audit",
+      "path_relative_to_project": "reports/PE技术文档_正文与SI_20261028/audit/methods_results.md",
+      "bytes": 14581,
+      "sha256": "7643bad6b079b766497810967388b223dff4e4293c3c069603c7a3e2529b2135"
+    },
+    {
+      "role": "search_audit",
+      "path_relative_to_project": "reports/PE技术文档_正文与SI_20261028/audit/search_calibration.md",
+      "bytes": 17825,
+      "sha256": "140cbc842fa347067605c6c72e01a005a07d2679602aa0e621d911e087f1f468"
+    }
+  ]
+}

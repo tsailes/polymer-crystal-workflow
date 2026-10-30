@@ -1,0 +1,164 @@
+{
+  "status": "completed",
+  "coordinator_pid": 298,
+  "started_unix": 1793079373.6523588,
+  "geometry_sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+  "stages": [
+    {
+      "name": "k_only",
+      "reference": "baseline",
+      "delta_energy_meV_atom": -0.0002206490113583944,
+      "max_force_vector_difference_eV_A": 1.0144709416825783e-05,
+      "max_stress_component_difference_kbar": 8.811445659244119e-05,
+      "raw_fmax_eV_A": 0.0006202961332434188,
+      "raw_stress_max_kbar": 0.011304829383925559,
+      "all_six_stress_components_kbar": [
+        -0.0005581132139048953,
+        0.011304829383925559,
+        -0.004747500193121326,
+        5.50782827443002e-14,
+        -1.9391403955717367e-07,
+        3.951410320871173e-06
+      ],
+      "strict_absolute_endpoint_pass": true,
+      "historical_difference_diagnostics_pass": true,
+      "wall_seconds": 20492.3666574955,
+      "input": {
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/final_structure.extxyz",
+        "ecut_eV": 1800,
+        "kmesh": [
+          5,
+          10,
+          15
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "xc_stencil": 4,
+        "nbands": 16,
+        "mpi_ranks": 4,
+        "point_group": true,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "fmax_eV_A": 0.002,
+        "stress_max_kbar": 0.05,
+        "maxsteps": 200,
+        "maxstep": 0.05,
+        "symprec_A": 1e-05,
+        "point_runner": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/scripts/run_point.py",
+        "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+        "checkpoint": false
+      }
+    },
+    {
+      "name": "grid_only",
+      "reference": "baseline",
+      "delta_energy_meV_atom": 7.782290367686073e-07,
+      "max_force_vector_difference_eV_A": 5.017907928190711e-09,
+      "max_stress_component_difference_kbar": 6.501772255723681e-07,
+      "raw_fmax_eV_A": 0.0006209920153586254,
+      "raw_stress_max_kbar": 0.011393594017743572,
+      "all_six_stress_components_kbar": [
+        -0.0004728118267791105,
+        0.011393594017743572,
+        -0.004766268463430296,
+        9.660380279823644e-13,
+        -1.9392045779950275e-07,
+        3.951444013536294e-06
+      ],
+      "strict_absolute_endpoint_pass": true,
+      "historical_difference_diagnostics_pass": true,
+      "wall_seconds": 518.1578161716461,
+      "input": {
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/final_structure.extxyz",
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          128,
+          80,
+          48
+        ],
+        "xc_stencil": 4,
+        "nbands": 16,
+        "mpi_ranks": 4,
+        "point_group": true,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "fmax_eV_A": 0.002,
+        "stress_max_kbar": 0.05,
+        "maxsteps": 200,
+        "maxstep": 0.05,
+        "symprec_A": 1e-05,
+        "point_runner": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/scripts/run_point.py",
+        "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+        "checkpoint": false
+      }
+    },
+    {
+      "name": "ecut_only",
+      "reference": "grid_only",
+      "delta_energy_meV_atom": -0.0014826682731931367,
+      "max_force_vector_difference_eV_A": 4.950436610267777e-06,
+      "max_stress_component_difference_kbar": 0.0010131396991670035,
+      "raw_fmax_eV_A": 0.0006198851068195166,
+      "raw_stress_max_kbar": 0.010380454318576569,
+      "all_six_stress_components_kbar": [
+        -0.0013388539159680775,
+        0.010380454318576569,
+        -0.005620924171253367,
+        1.6527409286147635e-12,
+        -1.939125844335044e-07,
+        3.951434981708555e-06
+      ],
+      "strict_absolute_endpoint_pass": true,
+      "historical_difference_diagnostics_pass": true,
+      "wall_seconds": 535.0881562232971,
+      "input": {
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/final_structure.extxyz",
+        "ecut_eV": 2000,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          128,
+          80,
+          48
+        ],
+        "xc_stencil": 4,
+        "nbands": 16,
+        "mpi_ranks": 4,
+        "point_group": true,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "fmax_eV_A": 0.002,
+        "stress_max_kbar": 0.05,
+        "maxsteps": 200,
+        "maxstep": 0.05,
+        "symprec_A": 1e-05,
+        "point_runner": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/scripts/run_point.py",
+        "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+        "checkpoint": false
+      }
+    }
+  ],
+  "current_stage": "ecut_only",
+  "child_pid": 757,
+  "all_strict_absolute_endpoint_checks_pass": true,
+  "all_historical_difference_diagnostics_pass": true,
+  "finished_unix": 1793100926.1128652,
+  "wall_seconds": 21552.460506677628
+}

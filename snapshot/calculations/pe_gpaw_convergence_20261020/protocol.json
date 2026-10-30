@@ -1,0 +1,230 @@
+{
+  "schema_version": 5,
+  "status": "three_method_derivative_and_scf_noise_validation_passed_formal_convergence_started",
+  "date": "2026-10-20",
+  "authorization": "User selected GPAW and authorized installation, PE energy/force/stress validation, then convergence tests; all data/logs retained.",
+  "engine": "GPAW 26.7.0, legacy CPU plane-wave implementation",
+  "methods": [
+    "PBE-D3(BJ)",
+    "optB88-vdW",
+    "r2SCAN-D4"
+  ],
+  "main_numerical_scan": "PBE",
+  "datasets": "One common native GPAW PBE PAW C/H pair; archive files, version, origin and SHA256 before production.",
+  "geometry": {
+    "primary": "reference/POSCAR",
+    "primary_sha256": "e54173a343c8a1bac20d048fdeaa99241986ee699e9f4591d65fc0985b76ef73",
+    "description": "Tashiro 1997 refined C4H8 orthorhombic PE, a=7.432 b=4.929 c=2.545 Angstrom; hydrogen coordinates constrained in the original refinement.",
+    "transfer": "reference/POSCAR_GFN2",
+    "transfer_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0"
+  },
+  "technical_validation": {
+    "stage_1": "Finite, converged single-point energy, all atomic forces and six stress components for all three methods, with DFT and additive dispersion components separately retained.",
+    "stage_2": "Analytic forces and stress compared to energy finite differences at two step sizes. Integer G-vector set and grid changes are diagnostics, not silently ignored.",
+    "force_step_A": [
+      0.001,
+      0.002
+    ],
+    "force_absolute_tolerance_eV_A": 0.001,
+    "force_two_step_tolerance_eV_A": 0.0005,
+    "strain_steps": [
+      1E-05,
+      2E-05
+    ],
+    "strain_revision_reason": "Small strains reduce PW basis-shell crossings; GPAW stress test reference-generation branch uses 1e-5. Original larger-step plan retained in protocol_revision01.json. Thresholds unchanged; actual G sets and grids compared; tighten SCF and test residual noise.",
+    "stress_absolute_tolerance_kbar": 0.1,
+    "stress_two_step_tolerance_kbar": 0.05,
+    "force_coverage": "Three nonzero representative components: C atom0 x, H(A) atom4 y, H(B) atom8 z; not all 36 components.",
+    "final_technical_probe_settings": {
+      "ecut_eV": 600.012,
+      "gpts": [
+        64,
+        40,
+        24
+      ],
+      "xc_stencil": 4
+    },
+    "technical_probe_revision_reason": "600 eV crosses density PW shells under the prescribed small strains. 600.012 eV was selected by geometry-only descriptor checks with no energy-based selection; all wavefunction/density G sets invariant across 25 center/strain geometries. This is not a production cutoff recommendation. Higher grid and XC stencil address gradient discretization, with optB88 yz error reduced from 0.438 to 0.00392 kbar in controlled diagnostics.",
+    "stress_coverage": "All six independent components on a deliberately perturbed/sheared PE probe.",
+    "status_policy": "A smoke test alone cannot be labeled derivative validation. State representative force coverage explicitly.",
+    "completed_evidence": {
+      "derivative_report": "validation_audit/derivative_results_deriv_final.json",
+      "scf_noise_method_pairs_passed": 3,
+      "scf_noise_report": "validation_audit/scf_noise_validation.json",
+      "derivative_sha256": "46f5e8792862737fb4dec779d8b9be6b0168595005f7614ff1fcef702ef64877",
+      "scf_noise_sha256": "b97f1e47ef859ecdac86ce245528cc35d67c3cd00126e0fbfb4359fd73567f32",
+      "derivative_groups_passed": 27,
+      "successful_points": 111
+    }
+  },
+  "numerical_convergence": {
+    "energy_tolerance_meV_atom": 0.5,
+    "force_max_vector_difference_eV_A": 0.005,
+    "stress_max_component_difference_kbar": 0.1,
+    "cell_length_relative_difference": 0.005,
+    "cutoffs_eV_initial": [
+      400,
+      500,
+      600,
+      700,
+      800
+    ],
+    "cutoff_extension_eV": [
+      1000,
+      1200,
+      1400,
+      1600,
+      1800,
+      2000
+    ],
+    "cutoff_scan_kmesh_provisional": [
+      4,
+      8,
+      12
+    ],
+    "kmeshes_initial": [
+      [
+        2,
+        4,
+        6
+      ],
+      [
+        3,
+        6,
+        9
+      ],
+      [
+        4,
+        8,
+        12
+      ],
+      [
+        5,
+        10,
+        15
+      ],
+      [
+        6,
+        12,
+        18
+      ]
+    ],
+    "kpoint_centering": "gamma centered, explicitly true",
+    "reference": "Highest tested point only becomes a reference after a plateau is confirmed; extend if needed.",
+    "additional_checks": [
+      "density/FFT grid",
+      "joint cutoff plus k-point refinement",
+      "three-method terminal cross-check",
+      "GFN2 geometry transfer",
+      "optimized cell comparison at accepted and higher precision"
+    ],
+    "cell_optimization_method": "PBE-D3(BJ), unless actual validation requires a documented revision",
+    "cell_optimization_fmax_eV_A": 0.002,
+    "cell_optimization_stress_max_kbar": 0.05,
+    "extended_scan_revision": {
+      "reason": "Energy and stress not stable through1200 eV. Separate dense-grid cutoff series is required before extension above the grid64 density cap.",
+      "final_joint_precision_recheck_required": true,
+      "preliminary_kmesh_gpts": [
+        96,
+        60,
+        36
+      ],
+      "density_cutoff_coupling": "Native GPAW PW changes density pd2 along with wavefunction ecut; density pd2 nominally2E and pd3 nominally8E, both subject to grid representation.",
+      "dense_cutoff_gpts": [
+        96,
+        60,
+        36
+      ],
+      "preliminary_kmeshes": [
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          5,
+          10,
+          15
+        ]
+      ],
+      "later_grid_scan": "Choose grids that do not truncate required density cutoff at the accepted ecut, then test further refinement.",
+      "preliminary_kmesh_ecut_eV": 1200,
+      "dense_cutoff_eV": [
+        1000,
+        1200,
+        1400,
+        1600,
+        1800,
+        2000
+      ]
+    },
+    "relative_structure_energy_tolerance_meV_atom": 0.5,
+    "optimized_geometry_cold_start_check": "At both accepted optimization endpoints, repeat a cold-start single point using the same high-precision setting and audit raw forces and stresses."
+  },
+  "deviations_from_original": [
+    {
+      "change": "Quantum ESPRESSO to GPAW, native PBE PAW datasets instead of SSSP UPF.",
+      "reason": "Retain PAW while supporting the selected meta-GGA and vdW methods.",
+      "impact": "Not an SSSP-certified calculation. Dataset/basis implementation changes may change absolute energies and forces. Re-establish convergence; compare relative energies within a fixed method and dataset."
+    },
+    {
+      "change": "Cutoff is entered in eV; initial scan 400-800 eV with extensions if needed, not copied from QE Ry values.",
+      "reason": "GPAW native PAW datasets have different basis requirements.",
+      "impact": "Nominal cutoff values across codes are not an accuracy equivalence. Final settings determined by measured energy/force/stress changes."
+    },
+    {
+      "change": "PBE-D3(BJ) and r2SCAN-D4 use explicitly parameterized additive dispersion libraries; optB88-vdW uses libvdwxc 0.5 with stress.",
+      "reason": "Make energy, force and stress contributions traceable.",
+      "impact": "Damping, ATM three-body terms, periodic cutoffs and library versions are part of the method and must be locked."
+    },
+    {
+      "change": "CPU and legacy GPAW PW implementation used first.",
+      "reason": "Prioritize a single implementation with validated support for all requested properties.",
+      "impact": "Runtime may increase relative to GPU execution; this is not an accuracy downgrade."
+    },
+    {
+      "change": "PBE numerical scan followed by method-specific checks, rather than assuming one scan proves every functional.",
+      "reason": "Meta-GGA and nonlocal vdW may have distinct grid and stress sensitivity.",
+      "impact": "Additional calculations; avoids incorrectly transferring numerical convergence."
+    },
+    {
+      "change": "Lock a versioned validated scope rather than an unconditional never-change setting.",
+      "reason": "New elements, altered cells and failed transfer checks may require revalidation.",
+      "impact": "Preserves reproducibility without claiming numerical or dataset errors vanish."
+    }
+  ],
+  "retention": "Preserve inputs, exact structures, software and PAW provenance, complete stdout/stderr, SCF iteration energies, converged energy/force/stress components, checkpoints, failed calculations and every protocol revision.",
+  "dispersion_settings_revision02": {
+    "D3_BJ": {
+      "method": "PBE",
+      "ATM": true,
+      "disp2_cutoff_Bohr": 60,
+      "disp3_cutoff_Bohr": 40,
+      "CN_cutoff_Bohr": 60,
+      "smoothing_width2_Bohr": 0.05,
+      "smoothing_width3_Bohr": 0.05
+    },
+    "D4": {
+      "method": "r2scan",
+      "ATM": true,
+      "disp2_cutoff_Bohr": 60,
+      "disp3_cutoff_Bohr": 40,
+      "CN_cutoff_Bohr": 30,
+      "smoothing_width2_Bohr": 0.05,
+      "smoothing_width3_Bohr": 0.05
+    },
+    "reason": "Reduce periodic cutoff-boundary discontinuities in force/stress finite differences; pilot hard-cutoff runs retained. Revision03 extends D3 CN from40 to60 Bohr after independent cutoff/derivative checks. Method audit quantifies the changes.",
+    "old_hard_cutoff_points_not_mixed_into_production_convergence": true
+  },
+  "lock": "None yet. Only lock settings supported by completed measurements."
+}

@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/opt/pe_dft/envs/pe-gpaw-20261020/bin/mpiexec",
+    "--allow-run-as-root",
+    "--bind-to",
+    "none",
+    "-n",
+    "4",
+    "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+    "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/initial_cand_0033_pbe_d3bj_H/runner_snapshot.py",
+    "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/dft/initial_cand_0033_pbe_d3bj_H/input.json"
+  ],
+  "pid": 4313,
+  "started_unix": 1792569143.7936075,
+  "backend": "dft",
+  "sample_id": "initial_cand_0033",
+  "environment_overrides": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "finished_unix": 1792569764.1931615,
+  "wall_seconds": 620.3995549678802
+}

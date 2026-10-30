@@ -1,0 +1,825 @@
+{
+  "figure_contract": {
+    "claim": "The g4 variable-cell endpoint primarily changes the cell metric while preserving a small continuous Pnam internal relaxation; all four models are compared in actual Angstrom units with full C/H basis.",
+    "archetype": "quantitative grid",
+    "backend": "Python/Matplotlib",
+    "deliverables": "600-dpi PNG, vector PDF/SVG, exact text-free background with native-label geometry, source CSV and audit JSON.",
+    "boundary": "Geometry-only postprocessing. Relaxation status is read from attempt_01; this analysis does not establish independent SCF or dense numerical convergence."
+  },
+  "status": {
+    "relaxation_record": "passed_relaxation",
+    "optimizer_steps": 20,
+    "independent_reinitialization": "Not independently assessed by this plotting task; parent agent checking.",
+    "numerical_dense_verification": "pending; do not state passed",
+    "DFT_launched_by_this_script": false,
+    "identity": "Current g4 branch, distinct from the old Tashiro-start variable-cell validation."
+  },
+  "run_terminal_record": {
+    "fmax_eV_A": 0.0006209777965371431,
+    "max_abs_stress_component_kbar": 0.011392258692534244,
+    "stress_kbar": [
+      -0.0004724306861511241,
+      0.011392258692534244,
+      -0.004767385184616847,
+      1.7376176781494652e-12,
+      2.476003846308688e-12,
+      -1.080848091483212e-11
+    ],
+    "energy_extrapolated_eV": -66.78262060562021
+  },
+  "input": {
+    "method": "PBE-D3(BJ)",
+    "structure": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/source/final_structure.extxyz",
+    "ecut_eV": 1800,
+    "kmesh": [
+      4,
+      8,
+      12
+    ],
+    "gpts": [
+      112,
+      72,
+      44
+    ],
+    "xc_stencil": 4,
+    "nbands": 16,
+    "mpi_ranks": 4,
+    "point_group": true,
+    "scf_energy_eV_electron": 1e-09,
+    "scf_density_electron_electron": 1e-09,
+    "scf_eigenstates_eV2_electron": 1e-11,
+    "fmax_eV_A": 0.002,
+    "stress_max_kbar": 0.05,
+    "maxsteps": 200,
+    "maxstep": 0.05,
+    "symprec_A": 1e-05,
+    "point_runner": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/scripts/run_point.py",
+    "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae"
+  },
+  "structures": [
+    {
+      "name": "g4_fixed_cell_start",
+      "natoms": 12,
+      "formula": "C4H8",
+      "a_A": 7.432,
+      "b_A": 4.929,
+      "c_A": 2.545,
+      "alpha_deg": 90.0,
+      "beta_deg": 90.0,
+      "gamma_deg": 90.0,
+      "volume_A3": 93.22927476000005,
+      "density_g_cm3": 0.9993591196396082,
+      "mass_u": 56.108,
+      "geometry": {
+        "CH_A": [
+          1.1045348691413943,
+          1.1037269189029177,
+          1.1037269189029173,
+          1.104534869141394,
+          1.104534869141394,
+          1.1037269189029182,
+          1.1037269189029177,
+          1.1045348691413943
+        ],
+        "CC_A": [
+          1.5235999029588838,
+          1.5235999029588838,
+          1.5235999029588838,
+          1.5235999029588838,
+          1.5235999029588838,
+          1.5235999029588838,
+          1.5235999029588838,
+          1.5235999029588838
+        ],
+        "HCH_deg": [
+          105.89850015399264,
+          105.89850015399269,
+          105.89850015399264,
+          105.89850015399267
+        ],
+        "CCC_deg": [
+          113.27188363443899,
+          113.27188363443899,
+          113.27188363443898,
+          113.27188363443899
+        ],
+        "chain_plane_angles": [
+          {
+            "chain": 0,
+            "plane_angle_to_a_deg": 45.74866939171785,
+            "plane_angle_to_b_deg": 44.25133060828215
+          },
+          {
+            "chain": 1,
+            "plane_angle_to_a_deg": 45.74866939171785,
+            "plane_angle_to_b_deg": 44.25133060828215
+          }
+        ]
+      },
+      "Pnam_max_closure_residual_A": 1.65058988900497e-15,
+      "Pnam_all_operation_residuals_A": [
+        8.251177519014164e-16,
+        9.900903014673699e-16,
+        1.65058988900497e-15,
+        1.1020252117256387e-15,
+        9.900903014673699e-16,
+        8.251177519014164e-16,
+        1.1020252117256387e-15,
+        1.65058988900497e-15
+      ]
+    },
+    {
+      "name": "g4_variable_cell_endpoint",
+      "natoms": 12,
+      "formula": "C4H8",
+      "a_A": 7.129505992653368,
+      "b_A": 4.908355808680994,
+      "c_A": 2.555579019463927,
+      "alpha_deg": 90.0,
+      "beta_deg": 90.0,
+      "gamma_deg": 90.0,
+      "volume_A3": 89.43032104374859,
+      "density_g_cm3": 1.0418113774098499,
+      "mass_u": 56.108,
+      "geometry": {
+        "CH_A": [
+          1.1043450193970308,
+          1.1031752119310945,
+          1.1031752020023273,
+          1.1043450193970303,
+          1.1043450095204694,
+          1.1031752020023278,
+          1.103175211931095,
+          1.1043450095204697
+        ],
+        "CC_A": [
+          1.5269722545563886,
+          1.5269722541077961,
+          1.5269722541077961,
+          1.5269722545563889,
+          1.5269722585318986,
+          1.5269722589804913,
+          1.5269722585318986,
+          1.5269722589804913
+        ],
+        "HCH_deg": [
+          105.85458852049521,
+          105.85458858237601,
+          105.85458866364311,
+          105.85458860176229
+        ],
+        "CCC_deg": [
+          113.61009044381534,
+          113.61009044381535,
+          113.61008993635863,
+          113.61008993635865
+        ],
+        "chain_plane_angles": [
+          {
+            "chain": 0,
+            "plane_angle_to_a_deg": 45.901980359600906,
+            "plane_angle_to_b_deg": 44.098019640399094
+          },
+          {
+            "chain": 1,
+            "plane_angle_to_a_deg": 45.901980076173544,
+            "plane_angle_to_b_deg": 44.098019923826456
+          }
+        ]
+      },
+      "Pnam_max_closure_residual_A": 1.3164000693027345e-08,
+      "Pnam_all_operation_residuals_A": [
+        8.408489388317029e-16,
+        7.468909095754879e-09,
+        1.3164000693027345e-08,
+        1.1622785953545948e-08,
+        1.2053160626450657e-08,
+        9.73196388195424e-09,
+        6.7524125551964436e-09,
+        9.419474825999343e-09
+      ]
+    },
+    {
+      "name": "Tashiro_reference",
+      "natoms": 12,
+      "formula": "C4H8",
+      "a_A": 7.432,
+      "b_A": 4.929,
+      "c_A": 2.545,
+      "alpha_deg": 90.0,
+      "beta_deg": 90.0,
+      "gamma_deg": 90.0,
+      "volume_A3": 93.22927476000005,
+      "density_g_cm3": 0.9993591196396082,
+      "mass_u": 56.108,
+      "geometry": {
+        "CH_A": [
+          1.0950347824385476,
+          1.0952324022120006,
+          1.0952324022120006,
+          1.0950347824385473,
+          1.095034782438547,
+          1.0952324022120006,
+          1.0952324022120001,
+          1.0950347824385476
+        ],
+        "CC_A": [
+          1.5374567030103188,
+          1.5374567030103188,
+          1.5374567030103188,
+          1.5374567030103188,
+          1.537456703010319,
+          1.537456703010319,
+          1.5374567030103188,
+          1.5374567030103188
+        ],
+        "HCH_deg": [
+          108.12465900239917,
+          108.1246590023992,
+          108.12465900239927,
+          108.12465900239913
+        ],
+        "CCC_deg": [
+          111.71935702952294,
+          111.71935702952294,
+          111.71935702952291,
+          111.71935702952294
+        ],
+        "chain_plane_angles": [
+          {
+            "chain": 0,
+            "plane_angle_to_a_deg": 46.98642923055239,
+            "plane_angle_to_b_deg": 43.01357076944761
+          },
+          {
+            "chain": 1,
+            "plane_angle_to_a_deg": 46.9864292305524,
+            "plane_angle_to_b_deg": 43.0135707694476
+          }
+        ]
+      },
+      "Pnam_max_closure_residual_A": 2.1889157153509588e-15,
+      "Pnam_all_operation_residuals_A": [
+        5.472289288377397e-16,
+        1.6502355038028328e-15,
+        1.6502355038028328e-15,
+        2.1889157153509588e-15,
+        1.6502355038028328e-15,
+        5.472289288377397e-16,
+        2.1889157153509588e-15,
+        1.6502355038028328e-15
+      ]
+    },
+    {
+      "name": "Kawaguchi_4p5K_C_plus_ideal_H",
+      "natoms": 12,
+      "formula": "C4H8",
+      "a_A": 7.128,
+      "b_A": 4.852,
+      "c_A": 2.553,
+      "alpha_deg": 90.0,
+      "beta_deg": 90.0,
+      "gamma_deg": 90.0,
+      "volume_A3": 88.29564796800005,
+      "density_g_cm3": 1.0551995267372536,
+      "mass_u": 56.108,
+      "geometry": {
+        "CH_A": [
+          1.0999999999999994,
+          1.1000000000000008,
+          1.1000000000000005,
+          1.0999999999999994,
+          1.100000000000001,
+          1.0999999999999992,
+          1.0999999999999999,
+          1.0999999999999996
+        ],
+        "CC_A": [
+          1.5675945233943627,
+          1.5675945233943627,
+          1.5675945233943627,
+          1.5675945233943627,
+          1.567594523394363,
+          1.567594523394363,
+          1.567594523394363,
+          1.5675945233943631
+        ],
+        "HCH_deg": [
+          109.99999999999997,
+          109.99999999999993,
+          110.0,
+          110.0
+        ],
+        "CCC_deg": [
+          109.0373920895613,
+          109.0373920895613,
+          109.03739208956125,
+          109.03739208956125
+        ],
+        "chain_plane_angles": [
+          {
+            "chain": 0,
+            "plane_angle_to_a_deg": 43.88605478397567,
+            "plane_angle_to_b_deg": 46.11394521602433
+          },
+          {
+            "chain": 1,
+            "plane_angle_to_a_deg": 43.88605478397578,
+            "plane_angle_to_b_deg": 46.11394521602422
+          }
+        ]
+      },
+      "Pnam_max_closure_residual_A": 1.6718920741197926e-15,
+      "Pnam_all_operation_residuals_A": [
+        7.913669719528116e-16,
+        5.38680211548126e-16,
+        1.6718920741197926e-15,
+        1.6718920741197926e-15,
+        5.38680211548126e-16,
+        7.913669719528116e-16,
+        1.6718920741197926e-15,
+        1.6718920741197926e-15
+      ]
+    }
+  ],
+  "g4_start_to_end": {
+    "basis": "Cartesian row vectors; each structure retains its actual cell. Global z+1/2 aligns both g4 states to the same Tashiro phase.",
+    "equations": {
+      "total": "r1-r0 = f1 H1-f0 H0",
+      "affine_cell": "f0 (H1-H0)",
+      "internal": "(f1-f0) H1",
+      "identity": "total = affine_cell + internal"
+    },
+    "fractional_coordinates": "Unwrapped fractional positions after the declared common global origin and common integer image offsets. No best-fit rotation, translation, or volume normalization.",
+    "interpretation": "Total and affine displacements depend on the stated origin/image choice. Internal displacements isolate fractional-coordinate relaxation in the final metric. RMS magnitudes are not additive because vectors need not be parallel.",
+    "strain_a_b_c": [
+      -0.04070156180659745,
+      -0.004188312298438968,
+      0.004156785643979255
+    ],
+    "engineering_strain_a_b_c_percent": [
+      -4.070156180659746,
+      -0.41883122984389676,
+      0.4156785643979255
+    ],
+    "log_strain_a_b_c": [
+      -0.041553055228566456,
+      -0.004197107845984495,
+      0.004148170077657079
+    ],
+    "volume_change_percent": -4.074850658262763,
+    "total": {
+      "all": {
+        "rms_A": 0.10741725182644805,
+        "max_A": 0.1559807225625477,
+        "mean_A": 0.0791086531737868
+      },
+      "C": {
+        "rms_A": 0.10736965422167569,
+        "max_A": 0.15327695711583172,
+        "mean_A": 0.07863082602135925
+      },
+      "H": {
+        "rms_A": 0.10744104272147928,
+        "max_A": 0.1559807225625477,
+        "mean_A": 0.07934756675000057
+      }
+    },
+    "affine_cell": {
+      "all": {
+        "rms_A": 0.11250340104893722,
+        "max_A": 0.20810602083684338,
+        "mean_A": 0.08916629289812206
+      },
+      "C": {
+        "rms_A": 0.10802427572254913,
+        "max_A": 0.16359033984829904,
+        "mean_A": 0.08251363892467241
+      },
+      "H": {
+        "rms_A": 0.11467737701341255,
+        "max_A": 0.20810602083684338,
+        "mean_A": 0.09249261988484689
+      }
+    },
+    "internal": {
+      "all": {
+        "rms_A": 0.03252889951538221,
+        "max_A": 0.05509242907118155,
+        "mean_A": 0.023652713182894358
+      },
+      "C": {
+        "rms_A": 0.010516673976155268,
+        "max_A": 0.010516676597619002,
+        "mean_A": 0.010516673976154889
+      },
+      "H": {
+        "rms_A": 0.03913941414689774,
+        "max_A": 0.05509242907118155,
+        "mean_A": 0.030220732786264096
+      }
+    },
+    "decomposition_max_residual_A": 4.926614671774132e-16
+  },
+  "g4_final_vs_reference": {
+    "g4_start": {
+      "cell_percent": {
+        "a_A": -4.070156180659746,
+        "b_A": -0.41883122984389676,
+        "c_A": 0.4156785643979255,
+        "volume_A3": -4.074850658262763,
+        "density_g_cm3": 4.247948203599816
+      },
+      "display_coordinate_difference": {
+        "all": {
+          "rms_A": 0.10741725182644805,
+          "max_A": 0.1559807225625477,
+          "mean_A": 0.0791086531737868
+        },
+        "C": {
+          "rms_A": 0.10736965422167569,
+          "max_A": 0.15327695711583172,
+          "mean_A": 0.07863082602135925
+        },
+        "H": {
+          "rms_A": 0.10744104272147928,
+          "max_A": 0.1559807225625477,
+          "mean_A": 0.07934756675000057
+        }
+      },
+      "fractional_internal_difference_in_g4_final_metric": {
+        "all": {
+          "rms_A": 0.03252889951538221,
+          "max_A": 0.05509242907118155,
+          "mean_A": 0.023652713182894358
+        },
+        "C": {
+          "rms_A": 0.010516673976155268,
+          "max_A": 0.010516676597619002,
+          "mean_A": 0.010516673976154889
+        },
+        "H": {
+          "rms_A": 0.03913941414689774,
+          "max_A": 0.05509242907118155,
+          "mean_A": 0.030220732786264096
+        }
+      }
+    },
+    "Tashiro": {
+      "cell_percent": {
+        "a_A": -4.070156180659746,
+        "b_A": -0.41883122984389676,
+        "c_A": 0.4156785643979255,
+        "volume_A3": -4.074850658262763,
+        "density_g_cm3": 4.247948203599816
+      },
+      "display_coordinate_difference": {
+        "all": {
+          "rms_A": 0.11000691079103014,
+          "max_A": 0.18704507777085752,
+          "mean_A": 0.0875330469485159
+        },
+        "C": {
+          "rms_A": 0.10849396639713592,
+          "max_A": 0.1549549029496796,
+          "mean_A": 0.08460333818512569
+        },
+        "H": {
+          "rms_A": 0.11075563308648038,
+          "max_A": 0.18704507777085752,
+          "mean_A": 0.08899790133021099
+        }
+      },
+      "fractional_internal_difference_in_g4_final_metric": {
+        "all": {
+          "rms_A": 0.043662846795956604,
+          "max_A": 0.06236919914892554,
+          "mean_A": 0.03941636089979169
+        },
+        "C": {
+          "rms_A": 0.016361188773450767,
+          "max_A": 0.016361192759267788,
+          "mean_A": 0.01636118877345058
+        },
+        "H": {
+          "rms_A": 0.052209405632036465,
+          "max_A": 0.06236919914892554,
+          "mean_A": 0.05094394696296225
+        }
+      }
+    },
+    "Kawaguchi_4p5K": {
+      "cell_percent": {
+        "a_A": 0.021127843060719798,
+        "b_A": 1.1614964691053942,
+        "c_A": 0.10101917210838529,
+        "volume_A3": 1.2850838086150729,
+        "density_g_cm3": -1.268778935942172
+      },
+      "display_coordinate_difference": {
+        "all": {
+          "rms_A": 0.05553588928343721,
+          "max_A": 0.09609435208093933,
+          "mean_A": 0.05298209821362213
+        },
+        "C": {
+          "rms_A": 0.044717414286490446,
+          "max_A": 0.056560186364055444,
+          "mean_A": 0.04413856858957818
+        },
+        "H": {
+          "rms_A": 0.0602206686073684,
+          "max_A": 0.09609435208093933,
+          "mean_A": 0.05740386302564411
+        }
+      },
+      "fractional_internal_difference_in_g4_final_metric": {
+        "all": {
+          "rms_A": 0.05377964397281344,
+          "max_A": 0.06766438264985099,
+          "mean_A": 0.05264096586123681
+        },
+        "C": {
+          "rms_A": 0.041594998726490924,
+          "max_A": 0.041595003276813064,
+          "mean_A": 0.041594998726490834
+        },
+        "H": {
+          "rms_A": 0.058934736779215895,
+          "max_A": 0.06766438264985099,
+          "mean_A": 0.05816394942860979
+        }
+      }
+    }
+  },
+  "alignment": {
+    "common_setting": "Pnam (No. 62, Hall 297), a/b/c axes unchanged, orthorhombic cells",
+    "global_fractional_shifts": {
+      "g4_fixed_cell_start": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "g4_variable_cell_endpoint": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "Tashiro_reference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Kawaguchi_4p5K_C_plus_ideal_H": [
+        0.0,
+        0.0,
+        0.5
+      ]
+    },
+    "permutations_raw_index_0based": {
+      "g4_fixed_cell_start": [
+        3,
+        2,
+        1,
+        0,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4
+      ],
+      "g4_variable_cell_endpoint": [
+        3,
+        2,
+        1,
+        0,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4
+      ],
+      "Tashiro_reference": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "Kawaguchi_4p5K_C_plus_ideal_H": [
+        3,
+        2,
+        1,
+        0,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4
+      ]
+    },
+    "matching_role": "Element-preserving assignment only establishes atom correspondence after the declared global shift. The same g4-start permutation is used for the endpoint. It is not a structural-family test.",
+    "periodic_image_offsets": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "chain_ids": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "no_metric_rescaling": true,
+    "no_continuous_best_fit": true,
+    "no_axis_permutation_or_rotation": true,
+    "display_origin_note": "Whole-cell z+1/2 for g4 start/end and 4.5 K aligns chain phase to Tashiro. Two chains are unwrapped about transverse axes (0,0) and (1/2,1/2); some atoms lie across the drawn conventional-cell edge."
+  },
+  "kawaguchi_reconstruction": {
+    "source_table": "Table I, printed p221",
+    "source_H_note": "H neglected in refinement, p223; ideal CH=1.1 Angstrom and HCH=110 deg used for Fig3, p222.",
+    "abc_A": [
+      7.128,
+      4.852,
+      2.553
+    ],
+    "independent_C_fractional": [
+      0.046,
+      0.065,
+      0.25
+    ],
+    "independent_C_H_H_fractional": [
+      [
+        0.046,
+        0.065,
+        0.25
+      ],
+      [
+        0.022162049038212887,
+        0.28898953845894676,
+        0.25
+      ],
+      [
+        0.19742681744114954,
+        0.021299077218413214,
+        0.25
+      ]
+    ],
+    "hydrogen_status": "Ideal model only, not experimentally refined H. Light diamond markers.",
+    "construction": "H vectors lie in the carbon mirror plane, symmetrically about the outward bisector of the two C-C bonds. No scaling of Tashiro coordinates.",
+    "limitation": "Ignoring H during carbon refinement may bias C; this is not an uncertainty-free reference. Table I used consistently rather than mixing Table III last digits."
+  },
+  "reference_boundaries": [
+    "Tashiro H positions are constrained model coordinates; the temperature is not assigned here.",
+    "Static DFT coordinates are not finite-temperature free-energy or zero-point-motion corrected.",
+    "Literature-coordinate RMS uses the declared correspondence and origin and is not a unique structure-family criterion.",
+    "The old Tashiro-start variable-cell terminal model is deliberately not substituted for current g4."
+  ],
+  "sources": [
+    {
+      "path": "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/input_structure.extxyz",
+      "sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d",
+      "bytes": 746
+    },
+    {
+      "path": "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/symmetrized_initial.extxyz",
+      "sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d",
+      "bytes": 746
+    },
+    {
+      "path": "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/final_structure.extxyz",
+      "sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+      "bytes": 782
+    },
+    {
+      "path": "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/result.json",
+      "sha256": "22d8cb295f8bd598e945c9a14e798e129e31df7332c3abbab806e5899f427ee0",
+      "bytes": 300369
+    },
+    {
+      "path": "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/input.json",
+      "sha256": "c79419458ce5bc83c8ecdf5f9d0febcbfc7f03c8dbac0c56c571dd84be9f888d",
+      "bytes": 755
+    },
+    {
+      "path": "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/protocol_snapshot.json",
+      "sha256": "d06a01320ff45653e400e21ab881b03744df8993ff07250fc5a8ccc738322b96",
+      "bytes": 1975
+    },
+    {
+      "path": "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/run_relax_snapshot.py",
+      "sha256": "b5009e3d38d422643a39a04a10a7f22caad954b4509d204d75e5e1824898bea6",
+      "bytes": 26788
+    },
+    {
+      "path": "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/source/final_structure.extxyz",
+      "sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d",
+      "bytes": 746
+    },
+    {
+      "path": "E:/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final_structure.extxyz",
+      "sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d",
+      "bytes": 746
+    },
+    {
+      "path": "E:/PE_DFT/reports/PE_final_coordinates_vs_Tashiro_20261023/inputs/Tashiro_1997_PE_Pnam_REFERENCE_ONLY.cif",
+      "sha256": "549389469555824386f66822e9a27e4586570642d29af6277dfe5c8b18a22e14",
+      "bytes": 1140
+    },
+    {
+      "path": "E:/PE_DFT/reports/PE计算实验报告_20261021/audit/low_temperature_comparison_20261021/raw/Kawaguchi_1977_4p5K_PE.pdf",
+      "sha256": "57045e282b01e055d9c2c534de348e9b355e4c87ad084a41255ea3200d69c291",
+      "bytes": 2313740
+    }
+  ],
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "ase": "3.29.0",
+    "scipy": "1.18.1",
+    "gemmi": "0.7.5",
+    "spglib": "2.7.0"
+  }
+}

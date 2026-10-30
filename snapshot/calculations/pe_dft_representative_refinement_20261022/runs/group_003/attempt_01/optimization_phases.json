@@ -1,0 +1,78 @@
+[
+  {
+    "phase": "initial",
+    "optimizer_fmax_target": 0.002,
+    "fixed_cell_max_delta_A": 0.0,
+    "optimizer_converged": true,
+    "total_optimizer_steps": 20,
+    "raw_fmax_eV_A": 0.0007362319701523169,
+    "raw_stress_max_kbar": 12.975216391767983,
+    "terminal_symmetry": {
+      "passed": true,
+      "Hall297_input_setting": {
+        "valid": true,
+        "number": 62,
+        "international": "Pnam",
+        "hall_number": 297,
+        "hall": "-P 2c 2n",
+        "choice": "a-cb",
+        "transformation_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "origin_shift": [
+          -1.1102230246251565e-16,
+          -2.7755575615628914e-16,
+          0.0
+        ],
+        "operations": 8
+      },
+      "default_standard_setting": {
+        "valid": true,
+        "number": 62,
+        "international": "Pnma",
+        "hall_number": 292,
+        "hall": "-P 2ac 2n",
+        "choice": "",
+        "transformation_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ],
+        "origin_shift": [
+          0.5,
+          0.0,
+          0.5000000000000001
+        ],
+        "operations": 8
+      },
+      "policy": "Require #62 with eight operations; a higher-symmetry endpoint is recorded but not automatically accepted."
+    },
+    "physical_acceptance_pass": true
+  }
+]

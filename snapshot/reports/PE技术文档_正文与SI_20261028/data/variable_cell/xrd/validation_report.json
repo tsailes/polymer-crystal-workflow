@@ -1,0 +1,107 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "source_hashes_unchanged": true,
+    "indexed_rows_59": true,
+    "unique_printed_d_45": true,
+    "same_sources_and_cold_acceptance": true,
+    "fixed_arithmetic_mean_matches": true,
+    "variable_arithmetic_mean_matches": true,
+    "9001_same_grid_points": true,
+    "finite_normalized_profiles": true,
+    "g4_variable_cell_xrd.same_canvas": true,
+    "g4_variable_cell_xrd.dpi_600": true,
+    "g4_variable_cell_xrd.label_count_matches": true,
+    "g4_variable_cell_xrd.all_label_boxes_within_canvas": true,
+    "g4_variable_cell_xrd.reference_svg_keeps_editable_text": true,
+    "g4_variable_cell_xrd.background_svg_contains_no_text": true,
+    "g4_variable_cell_xrd.native_label_text_has_no_latex_markup": true,
+    "g4_variable_cell_xrd.pdf_one_page": true,
+    "g4_variable_cell_xrd.background_pdf_contains_no_text": true,
+    "g4_xrd_indexed_errors.same_canvas": true,
+    "g4_xrd_indexed_errors.dpi_600": true,
+    "g4_xrd_indexed_errors.label_count_matches": true,
+    "g4_xrd_indexed_errors.all_label_boxes_within_canvas": true,
+    "g4_xrd_indexed_errors.reference_svg_keeps_editable_text": true,
+    "g4_xrd_indexed_errors.background_svg_contains_no_text": true,
+    "g4_xrd_indexed_errors.native_label_text_has_no_latex_markup": true,
+    "g4_xrd_indexed_errors.pdf_one_page": true,
+    "g4_xrd_indexed_errors.background_pdf_contains_no_text": true
+  },
+  "images": [
+    {
+      "figure": "g4_variable_cell_xrd",
+      "checks": {
+        "same_canvas": true,
+        "dpi_600": true,
+        "label_count_matches": true,
+        "all_label_boxes_within_canvas": true,
+        "reference_svg_keeps_editable_text": true,
+        "background_svg_contains_no_text": true,
+        "native_label_text_has_no_latex_markup": true,
+        "pdf_one_page": true,
+        "background_pdf_contains_no_text": true
+      },
+      "pdf": {
+        "page_size_points": [
+          0.0,
+          0.0,
+          1008.0,
+          360.0
+        ],
+        "embedded_fonts": [
+          [
+            "DFIMHP+MicrosoftYaHei",
+            "ttf"
+          ],
+          [
+            "HBGWOI+MicrosoftYaHei-Bold",
+            "ttf"
+          ]
+        ]
+      }
+    },
+    {
+      "figure": "g4_xrd_indexed_errors",
+      "checks": {
+        "same_canvas": true,
+        "dpi_600": true,
+        "label_count_matches": true,
+        "all_label_boxes_within_canvas": true,
+        "reference_svg_keeps_editable_text": true,
+        "background_svg_contains_no_text": true,
+        "native_label_text_has_no_latex_markup": true,
+        "pdf_one_page": true,
+        "background_pdf_contains_no_text": true
+      },
+      "pdf": {
+        "page_size_points": [
+          0.0,
+          0.0,
+          813.5999755859375,
+          273.6000061035156
+        ],
+        "embedded_fonts": [
+          [
+            "GCWXDV+DejaVuSans-Oblique",
+            "ttf"
+          ],
+          [
+            "BMQQDV+DejaVuSans",
+            "ttf"
+          ],
+          [
+            "DFIMHP+MicrosoftYaHei",
+            "ttf"
+          ],
+          [
+            "HBGWOI+MicrosoftYaHei-Bold",
+            "ttf"
+          ]
+        ]
+      }
+    }
+  ],
+  "visual_review": "Reference PNGs reviewed: Chinese glyphs render, labels clear, no clipping or overlap. Main profile and zoom share exactly the same data and y offset. Background has no textual content; native label coordinates preserve the full original canvas.",
+  "limits": "No independent continuous experimental intensities, error bars, or fit quality metrics are claimed. 59 indexed rows are 45 distinct printed d values; statistics are descriptive. Final numerical densification is separate and was running when this artifact was generated."
+}

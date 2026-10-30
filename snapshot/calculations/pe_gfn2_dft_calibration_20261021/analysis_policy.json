@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "policy_id": "user_scoped_empirical_sigma_20261021",
+  "authority": "Direct user instruction in the current conversation",
+  "user_instruction": "没必要搞那么严苛，有适用范围的sigma也是好的，检验实际省下多少DFT计算更是不在重点考虑之内",
+  "role": "Analysis interpretation update; frozen calculation protocol, queues, parameters, samples and raw results are unchanged.",
+  "empirical_scoped_sigma_accepted": true,
+  "scope_initial_only": true,
+  "require_independent_validation_for_empirical_sigma": false,
+  "require_demonstrated_DFT_savings": false,
+  "expand_samples_for_coverage": false,
+  "domain": "PE C4H8, fixed Tashiro cell 7.432 x 4.929 x 2.545 angstrom, same all-trans chain construction, initial setting angles 0 to 75 degrees in 5 degree steps.",
+  "primary_reference": "PBE-D3(BJ), same frozen geometry and cell as GFN2-xTB, relative to final_group_001",
+  "error_definition": "e_i = DeltaE_DFT_i - DeltaE_GFN2_i, in meV per CH2",
+  "bias_definition": "Arithmetic mean of the 16 initial-geometry relative-energy errors",
+  "sigma_definition": "Sample standard deviation (ddof=1) of e_i minus the sample mean; report mean bias separately",
+  "three_sigma_role": "Empirical error margin for the declared PE initial-geometry domain; useful without an asserted population coverage probability.",
+  "coverage_probability_guarantee": null,
+  "blocked_validation_role": "Supplementary diagnostic, not a prerequisite for accepting the scoped empirical sigma",
+  "numerical_precision_and_data_integrity_checks_retained": true,
+  "screening_window_meV_CH2": null,
+  "screening_window_handling": "Report the empirical 3-sigma margin. Do not invent a low-energy window or force candidate removal when no window has been specified.",
+  "endpoint_handling": "Compare the four preoptimized representatives using their actual paired DFT results; do not silently pool them into the 16 initial samples or apply the initial-domain sigma to them.",
+  "research_outputs": [
+    "Paired GFN2 and DFT relative energies with cutoff, k mesh and provenance",
+    "Mean energy error, scoped empirical sigma and 3-sigma margin",
+    "Candidate energy ordering and retention rationale within the declared domain",
+    "Three-functional comparison on the four representative endpoints"
+  ],
+  "calculation_budget_change": "None: finish the already authorized batch; do not add jobs solely for coverage guarantees or DFT cost-saving demonstrations."
+}

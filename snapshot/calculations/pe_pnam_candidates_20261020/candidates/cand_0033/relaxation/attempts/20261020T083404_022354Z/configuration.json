@@ -1,0 +1,255 @@
+{
+  "candidate_id": "cand_0033",
+  "parameters": {
+    "setting_angle_deg": 20,
+    "center_fractional": [
+      0,
+      0
+    ],
+    "carbon_phase_fractional": 0.25,
+    "conformation": "all-trans"
+  },
+  "input_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0033/input.extxyz",
+  "input_sha256": "59865e4ad48c438b23bfcac4151e6a599ad5c2402465dca1bc7f22f56c372e2d",
+  "script_sha256": "b6a61a8247ad2f15bf789a91d467cd71169ab15fdaca9a32cd155e19e4493f8c",
+  "workflow_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_first_run_20261020/convergence_relaxation/workflow.py",
+  "workflow_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+  "manifest_sha256": "6a7ec562b822e7d6c294cade09bd49c4212ca5e1aef19871f6a3fc5fb836157f",
+  "method_settings": {
+    "method": "GFN2-xTB",
+    "charge": 0,
+    "multiplicity": 1,
+    "accuracy": 0.01,
+    "max_iterations": 500,
+    "electronic_temperature": 300.0,
+    "verbosity": 1
+  },
+  "packages": {
+    "ase": "3.29.0",
+    "tblite": "0.7.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "spglib": "2.7.0",
+    "gemmi": "0.7.5"
+  },
+  "fine_repeat": [
+    2,
+    3,
+    8
+  ],
+  "fine_fmax_eV_A": 0.01,
+  "coarse_repeat": [
+    2,
+    2,
+    6
+  ],
+  "coarse_fmax_eV_A": 0.03,
+  "max_steps_per_stage": 100,
+  "maxstep_A": 0.05,
+  "threads": 2,
+  "python": "/opt/pe_dft/envs/gfn2-pe-20261020/bin/python",
+  "symmetry_source": "generation_manifest.target_symmetry",
+  "rotations": [
+    [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  ],
+  "translations": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ]
+  ],
+  "fixed_cell_A": [
+    [
+      7.432,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      4.929,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.545
+    ]
+  ],
+  "sampling_scope": "Gamma exact replicas; new-candidate dense-grid recheck pending",
+  "resume_mode": "geometry checkpoint, fresh BFGS Hessian",
+  "no_energy_elimination": true,
+  "generator_sha256": "5a5177cbfbc77df45a736f0dd3487b3627dc766047c2dd603e37d7c83fbc873d",
+  "reference_topology_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0033/reference_topology.json",
+  "reference_topology_sha256": "03057e3142ba1b8c57c3f7c5e9885b9611b7868d906882baf12893fda8576c2d"
+}

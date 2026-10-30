@@ -1,0 +1,411 @@
+{
+  "status": "prepared",
+  "input": {
+    "method": "PBE-D3(BJ)",
+    "structure": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/structures/group_002/POSCAR",
+    "source_geometry_sha256_expected": "c106d595aa5ec7c121bb7c87ffe8c3a916e20bb1669f2a4ba7b92631a4b351fe",
+    "protocol_sha256_expected": "430393ee12839e0a749a13809ae9df17bb9827ed1c87a13127ddfba2fbaa824a",
+    "point_runner": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/scripts/run_point.py",
+    "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+    "sample_id": "group_002",
+    "point_group": true,
+    "cell_fixed": true,
+    "cell_tolerance_A": 1e-10,
+    "fmax_eV_A": 0.002,
+    "maxsteps": 200,
+    "maxstep": 0.05,
+    "symprec_A": 1e-05,
+    "ecut_eV": 1800,
+    "kmesh": [
+      4,
+      8,
+      12
+    ],
+    "gpts": [
+      112,
+      72,
+      44
+    ],
+    "xc_stencil": 4,
+    "nbands": 16,
+    "mpi_ranks": 4,
+    "scf_energy_eV_electron": 1e-09,
+    "scf_density_electron_electron": 1e-09,
+    "scf_eigenstates_eV2_electron": 1e-11
+  },
+  "input_sha256": "79c6fe6c6a6613024e0e121ec5e42ae10018d1ad754e700880d3610ef5d71081",
+  "runner_sha256": "8c859ef50c3d873a8e8a7bc6ccf903fb649c34bc3a4ecee1a7041658163a61aa",
+  "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+  "protocol_sha256": "430393ee12839e0a749a13809ae9df17bb9827ed1c87a13127ddfba2fbaa824a",
+  "environment_manifest_sha256": "4fd377c5f8e92233b8d55b01b88e54200a8b746741d5ebf6425e1c8a7355a805",
+  "source_geometry_sha256": "c106d595aa5ec7c121bb7c87ffe8c3a916e20bb1669f2a4ba7b92631a4b351fe",
+  "source_geometry_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/structures/group_002/POSCAR",
+  "software": {
+    "python": "3.12.15 (main, Oct 13 2026, 16:52:04) [GCC 15.3.0]",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "gpaw": "26.7.0",
+    "ase": "3.29.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "dftd3": "1.6.0",
+    "dftd4": "4.2.0",
+    "spglib": "2.7.0"
+  },
+  "mpi_world_size": 4,
+  "start_unix": 1792664883.4326174,
+  "units": {
+    "energy": "eV/cell",
+    "forces": "eV/Angstrom",
+    "stress": "eV/Angstrom^3; ASE tensile-positive",
+    "stress_voigt_order": [
+      "xx",
+      "yy",
+      "zz",
+      "yz",
+      "xz",
+      "xy"
+    ]
+  },
+  "symmetry_refinement": {
+    "before_Hall297": {
+      "valid": true,
+      "number": 62,
+      "international": "Pnam",
+      "hall_number": 297,
+      "hall": "-P 2c 2n",
+      "choice": "a-cb",
+      "transformation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin_shift": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "operations": 8
+    },
+    "after_Hall297": {
+      "valid": true,
+      "number": 62,
+      "international": "Pnam",
+      "hall_number": 297,
+      "hall": "-P 2c 2n",
+      "choice": "a-cb",
+      "transformation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin_shift": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "operations": 8
+    },
+    "before_default_standard_setting": {
+      "valid": true,
+      "number": 62,
+      "international": "Pnma",
+      "hall_number": 292,
+      "hall": "-P 2ac 2n",
+      "choice": "",
+      "transformation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "origin_shift": [
+        0.5,
+        0.0,
+        0.5
+      ],
+      "operations": 8
+    },
+    "after_default_standard_setting": {
+      "valid": true,
+      "number": 62,
+      "international": "Pnma",
+      "hall_number": 292,
+      "hall": "-P 2ac 2n",
+      "choice": "",
+      "transformation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "origin_shift": [
+        0.5,
+        0.0,
+        0.5
+      ],
+      "operations": 8
+    },
+    "max_initial_refinement_displacement_A": 1.831026719408895e-15,
+    "initial_refinement_cell_delta_A": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "Pnam_operation_max_residual_A": 1.6502355038028328e-15,
+    "fixed_rotations": [
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ]
+    ],
+    "fixed_translations": [
+      [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.5,
+        -0.0
+      ],
+      [
+        0.5,
+        0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.5
+      ]
+    ],
+    "note": "Pnam is the input setting; Pnma may be reported as the equivalent standard setting. No axis permutation is applied."
+  },
+  "optimizer": {
+    "name": "LBFGS",
+    "maxstep": 0.05,
+    "maxsteps": 200,
+    "filter": null,
+    "cell_fixed": true
+  },
+  "acceptance": {
+    "raw_atomic_fmax_eV_A": 0.002,
+    "stress_role": "Recorded only; fixed cell need not have zero stress",
+    "fixed_cell_max_delta_A": 1e-10,
+    "requires_final_cold_check": true,
+    "requires_optimizer_convergence": true,
+    "requires_Pnam_closure": true
+  },
+  "cell_comparison": "Frozen Tashiro cell; this run optimizes only atomic positions within Pnam."
+}

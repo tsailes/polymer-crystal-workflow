@@ -1,0 +1,24 @@
+{
+  "png": "E:/PE_DFT/reports/progress_deck_20261026/build/revision10/figures/g4_atom_compare_four_models.png",
+  "math_background_png": "E:/PE_DFT/reports/progress_deck_20261026/build/revision10/figures/g4_atom_compare_four_models_math_background.png",
+  "labels_json": "E:/PE_DFT/reports/progress_deck_20261026/build/revision10/figures/g4_atom_compare_four_models_math_labels.json",
+  "title": "g4 变胞终态：按真实晶胞比较全原子结构",
+  "lead": "g4 起点、变胞终态与两组文献参照；两链全 4C8H，统一原点与 Å 比例。",
+  "conclusion": "a 方向收缩 4.07%，V=89.430 Å³，ρ=1.0418 g·cm⁻³；内部位移 RMS=0.0325 Å。",
+  "foot": "g4 弛豫运行完成；加密数值复核待验收。4.5 K 浅色菱形 H 为理想模型，非精修氢位置。",
+  "notes": "# g4 变胞终态的全原子几何对照（候选图）\n\n主图四列依次为 g4 固定胞起点、g4 变胞终态、Tashiro 全原子参考、Kawaguchi 4.5 K 文献碳骨架加理想氢模型。上排 ab 投影、下排 ac 投影；每个模型均为两条链、4C8H。各面板采用相同 Å 比例和真实晶胞尺寸，未缩放任何参考晶胞。实心圆为 C，空心圆为 H；4.5 K 的浅色菱形 H 是模型坐标，不是实测或精修 H。备用图分三组叠合：g4 起点/终态、Tashiro/终态、4.5 K/终态，保留真实晶胞边界。\n\n本次 g4 结果来自已记录的 20 步变胞弛豫；仅确认该运行记录为 passed_relaxation。本图与后处理不证明独立初始化或加密数值复核通过，后者仍待验收。旧 Tashiro 起点变胞结果属于另一分支，未混入本次 g4 终态。\n\n当前 g4：a/b/c=7.129505993/4.908355809/2.555579019 Å，V=89.430321 Å³，ρ=1.041811 g·cm⁻³（完整 C4H8 质量 56.108 u）。相对起点，a/b/c 工程应变为 -4.07016%/-0.41883%/+0.41568%，体积变化 -4.07485%。晶胞角保持 90°；Pnam 闭合残差小于 1e−6 Å（坐标文件保留八位小数）。\n\n对齐只使用声明的整体原点规范和周期像：g4 起点、终态及 4.5 K 全体原子统一加 z=1/2，Tashiro 原点不变，以统一链相位。原子对应在元素内指定；g4 终态沿用起点的相同排序。无逐原子拟合、轴交换、刚体最佳拟合或体积归一化。链 A/B 围绕 (0,0) 和 (1/2,1/2) 展开，越出传统晶胞边框的原子是所选完整链的周期像，不是额外原子。\n\n起点到终态位移分解采用 r1−r0 = f0(H1−H0) + (f1−f0)H1，其中前项为晶胞仿射变形，后项为内坐标变化。按声明原点，全原子内部位移 RMS=0.032529 Å，C/H 分别为 0.010517/0.039139 Å。总位移和仿射项依赖原点及周期像；三项的 RMS 不可直接相加。文献原子位置差仅用于声明对应下的比较，不能据此单独判定结构家族。\n\n4.5 K 的晶胞 a/b/c=7.128/4.852/2.553 Å 与独立 C=(0.046,0.065,0.25) 来自 Kawaguchi 原文 Table I（p221）；p223 说明精修忽略 H。H 依 Fig3 的 C−H=1.1 Å、H−C−H=110°，在碳邻键外角平分方向两侧、镜面内对称构造。Pnam 展开后 4C8H，8 根 C−H 与 4 个 H−C−H 均验算通过。4.5 K V=88.295648 Å³、ρ=1.055200 g·cm⁻³。Tashiro H 也为原文约束模型；忽略 H 的 4.5 K 碳精修亦可能有系统偏差。未为 Tashiro 指定未经核实的温度。所有模型均未做温度或零点运动校正。\n\n图形输出为 8400×3000 px、600 dpi，另有可编辑文本的 SVG/PDF。无字背景与原图几何完全一致；标签 JSON 使用整幅画布左上角归一坐标，并记录 source font pt、旋转及颜色，便于 PowerPoint 原生公式叠加。坐标、位移、摘要 CSV 和来源 SHA-256 随图保存。\n",
+  "sources": [
+    "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/input_structure.extxyz",
+    "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/symmetrized_initial.extxyz",
+    "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/final_structure.extxyz",
+    "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/result.json",
+    "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/input.json",
+    "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/protocol_snapshot.json",
+    "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/run_relax_snapshot.py",
+    "E:/PE_DFT/calculations/pe_g4_variable_cell_20261027/source/final_structure.extxyz",
+    "E:/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final_structure.extxyz",
+    "E:/PE_DFT/reports/PE_final_coordinates_vs_Tashiro_20261023/inputs/Tashiro_1997_PE_Pnam_REFERENCE_ONLY.cif",
+    "E:/PE_DFT/reports/PE计算实验报告_20261021/audit/low_temperature_comparison_20261021/raw/Kawaguchi_1977_4p5K_PE.pdf"
+  ],
+  "overlay_png": "E:/PE_DFT/reports/progress_deck_20261026/build/revision10/figures/g4_atom_compare_overlays.png"
+}

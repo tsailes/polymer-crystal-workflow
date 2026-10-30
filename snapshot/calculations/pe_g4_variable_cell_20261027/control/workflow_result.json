@@ -1,0 +1,20 @@
+{
+  "status": "accepted_after_independent_cold_verification",
+  "coordinator_pid": 299,
+  "started_unix": 1793070875.1114686,
+  "root": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027",
+  "source_sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d",
+  "child_pid": 2164,
+  "current_work": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/cold_verification",
+  "verification": {
+    "passed": true,
+    "independent_density_and_wavefunctions": true,
+    "geometry_sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+    "raw_fmax_eV_A": 0.0006209922404323713,
+    "raw_max_stress_component_kbar": 0.011392943840518,
+    "energy_delta_cold_minus_relax_eV": -5.258016244624741e-13,
+    "source_relaxation_status": "passed_relaxation"
+  },
+  "finished_unix": 1793078652.2194405,
+  "wall_seconds": 7777.107972145081
+}

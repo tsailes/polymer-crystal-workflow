@@ -1,0 +1,44 @@
+{
+  "asu_fractional": [
+    [
+      0.05835424602842629,
+      0.0,
+      0.25
+    ],
+    [
+      0.14515272290668516,
+      0.1782541373799691,
+      0.25
+    ],
+    [
+      0.14515272290668516,
+      -0.1782541373799691,
+      0.25
+    ]
+  ],
+  "asu_elements": [
+    "C",
+    "H",
+    "H"
+  ],
+  "chain_centers_fractional": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.5
+    ]
+  ],
+  "cc_A": 1.54,
+  "ch_A": 1.09,
+  "CCC_deg": 111.44076283224123,
+  "setting_angle_deg": 0,
+  "center_fractional": [
+    0,
+    0
+  ],
+  "carbon_phase_fractional": 0.25,
+  "conformation": "all-trans"
+}

@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "dataset_id": "TASHIRO1997_PE_TABLE_I_OBSERVED_POSITIONS_ONLY",
+  "data_kind": "published_processed_fiber_diffraction_peak_positions",
+  "wavelength_A": 0.71073,
+  "radiation": "Mo Kalpha, numerical wavelength reported in original PDF page 16",
+  "measurement_temperature_K": null,
+  "observations": [
+    {
+      "observation_id": "dobs_01",
+      "d_obs_A": 4.1338,
+      "q_A_inv": 1.5199538698484654,
+      "two_theta_deg": 9.86311706284954
+    },
+    {
+      "observation_id": "dobs_02",
+      "d_obs_A": 3.7372,
+      "q_A_inv": 1.681254764845228,
+      "two_theta_deg": 10.91283503674969
+    },
+    {
+      "observation_id": "dobs_03",
+      "d_obs_A": 2.9786,
+      "q_A_inv": 2.10944245859786,
+      "two_theta_deg": 13.704108894260369
+    },
+    {
+      "observation_id": "dobs_04",
+      "d_obs_A": 2.4764,
+      "q_A_inv": 2.537225531892904,
+      "two_theta_deg": 16.50092911059177
+    },
+    {
+      "observation_id": "dobs_05",
+      "d_obs_A": 2.3457,
+      "q_A_inv": 2.678597138244271,
+      "two_theta_deg": 17.427304964602154
+    },
+    {
+      "observation_id": "dobs_06",
+      "d_obs_A": 2.2653,
+      "q_A_inv": 2.7736658752393,
+      "two_theta_deg": 18.05091097648593
+    },
+    {
+      "observation_id": "dobs_07",
+      "d_obs_A": 2.2141,
+      "q_A_inv": 2.8378055675803195,
+      "two_theta_deg": 18.47194063043457
+    },
+    {
+      "observation_id": "dobs_08",
+      "d_obs_A": 2.1669,
+      "q_A_inv": 2.8996194135306594,
+      "two_theta_deg": 18.87794092487701
+    },
+    {
+      "observation_id": "dobs_09",
+      "d_obs_A": 2.103,
+      "q_A_inv": 2.9877248250972825,
+      "two_theta_deg": 19.457042128902753
+    },
+    {
+      "observation_id": "dobs_10",
+      "d_obs_A": 2.0567,
+      "q_A_inv": 3.0549838611268467,
+      "two_theta_deg": 19.899460967516845
+    },
+    {
+      "observation_id": "dobs_11",
+      "d_obs_A": 1.9342,
+      "q_A_inv": 3.2484672253022366,
+      "two_theta_deg": 21.17385980581363
+    },
+    {
+      "observation_id": "dobs_12",
+      "d_obs_A": 1.8559,
+      "q_A_inv": 3.385519320642053,
+      "two_theta_deg": 22.078163964784355
+    },
+    {
+      "observation_id": "dobs_13",
+      "d_obs_A": 1.7446,
+      "q_A_inv": 3.6015048189725936,
+      "two_theta_deg": 23.50614548762146
+    },
+    {
+      "observation_id": "dobs_14",
+      "d_obs_A": 1.723,
+      "q_A_inv": 3.6466542699823483,
+      "two_theta_deg": 23.80511041713084
+    },
+    {
+      "observation_id": "dobs_15",
+      "d_obs_A": 1.6709,
+      "q_A_inv": 3.7603598702373486,
+      "two_theta_deg": 24.558765777711205
+    },
+    {
+      "observation_id": "dobs_16",
+      "d_obs_A": 1.608,
+      "q_A_inv": 3.907453549241036,
+      "two_theta_deg": 25.53532995973049
+    },
+    {
+      "observation_id": "dobs_17",
+      "d_obs_A": 1.5995,
+      "q_A_inv": 3.928218385232627,
+      "two_theta_deg": 25.673339318536204
+    },
+    {
+      "observation_id": "dobs_18",
+      "d_obs_A": 1.5034,
+      "q_A_inv": 4.179317086057993,
+      "two_theta_deg": 27.345284188716114
+    },
+    {
+      "observation_id": "dobs_19",
+      "d_obs_A": 1.4694,
+      "q_A_inv": 4.276021033877491,
+      "two_theta_deg": 27.990754550291587
+    },
+    {
+      "observation_id": "dobs_20",
+      "d_obs_A": 1.439,
+      "q_A_inv": 4.366355321181088,
+      "two_theta_deg": 28.5945286103946
+    },
+    {
+      "observation_id": "dobs_21",
+      "d_obs_A": 1.4202,
+      "q_A_inv": 4.4241552648778955,
+      "two_theta_deg": 28.981275071525324
+    },
+    {
+      "observation_id": "dobs_22",
+      "d_obs_A": 1.379,
+      "q_A_inv": 4.556334522972869,
+      "two_theta_deg": 29.866980064192173
+    },
+    {
+      "observation_id": "dobs_23",
+      "d_obs_A": 1.366,
+      "q_A_inv": 4.599696418140253,
+      "two_theta_deg": 30.15793428268711
+    },
+    {
+      "observation_id": "dobs_24",
+      "d_obs_A": 1.2916,
+      "q_A_inv": 4.864652606983266,
+      "two_theta_deg": 31.940177387597295
+    },
+    {
+      "observation_id": "dobs_25",
+      "d_obs_A": 1.2698,
+      "q_A_inv": 4.948169244904383,
+      "two_theta_deg": 32.50358307101251
+    },
+    {
+      "observation_id": "dobs_26",
+      "d_obs_A": 1.2396,
+      "q_A_inv": 5.068719996111315,
+      "two_theta_deg": 33.3182524995613
+    },
+    {
+      "observation_id": "dobs_27",
+      "d_obs_A": 1.2298,
+      "q_A_inv": 5.109111487379725,
+      "two_theta_deg": 33.59159985539729
+    },
+    {
+      "observation_id": "dobs_28",
+      "d_obs_A": 1.2066,
+      "q_A_inv": 5.207347345582287,
+      "two_theta_deg": 34.25723198067894
+    },
+    {
+      "observation_id": "dobs_29",
+      "d_obs_A": 1.1978,
+      "q_A_inv": 5.245604697929192,
+      "two_theta_deg": 34.51677970952687
+    },
+    {
+      "observation_id": "dobs_30",
+      "d_obs_A": 1.1704,
+      "q_A_inv": 5.368408498957267,
+      "two_theta_deg": 35.35115580239818
+    },
+    {
+      "observation_id": "dobs_31",
+      "d_obs_A": 1.1312,
+      "q_A_inv": 5.554442456841926,
+      "two_theta_deg": 36.6188574866614
+    },
+    {
+      "observation_id": "dobs_32",
+      "d_obs_A": 1.1046,
+      "q_A_inv": 5.688199626271579,
+      "two_theta_deg": 37.53319294625245
+    },
+    {
+      "observation_id": "dobs_33",
+      "d_obs_A": 1.1018,
+      "q_A_inv": 5.702655025575955,
+      "two_theta_deg": 37.63215440060219
+    },
+    {
+      "observation_id": "dobs_34",
+      "d_obs_A": 1.1016,
+      "q_A_inv": 5.703690365994541,
+      "two_theta_deg": 37.63924344282003
+    },
+    {
+      "observation_id": "dobs_35",
+      "d_obs_A": 1.0816,
+      "q_A_inv": 5.809158013294736,
+      "two_theta_deg": 38.36217677839495
+    },
+    {
+      "observation_id": "dobs_36",
+      "d_obs_A": 1.0499,
+      "q_A_inv": 5.98455596454861,
+      "two_theta_deg": 39.567991390381735
+    },
+    {
+      "observation_id": "dobs_37",
+      "d_obs_A": 1.0282,
+      "q_A_inv": 6.11085908109277,
+      "two_theta_deg": 40.43911866574974
+    },
+    {
+      "observation_id": "dobs_38",
+      "d_obs_A": 1.0128,
+      "q_A_inv": 6.203776962065152,
+      "two_theta_deg": 41.08154172596383
+    },
+    {
+      "observation_id": "dobs_39",
+      "d_obs_A": 0.9981,
+      "q_A_inv": 6.295146084740593,
+      "two_theta_deg": 41.71457542549974
+    },
+    {
+      "observation_id": "dobs_40",
+      "d_obs_A": 0.9852,
+      "q_A_inv": 6.377573393401935,
+      "two_theta_deg": 42.28680229557772
+    },
+    {
+      "observation_id": "dobs_41",
+      "d_obs_A": 0.9702,
+      "q_A_inv": 6.476175332075434,
+      "two_theta_deg": 42.972772953947775
+    },
+    {
+      "observation_id": "dobs_42",
+      "d_obs_A": 0.959,
+      "q_A_inv": 6.551809496537629,
+      "two_theta_deg": 43.500053701823745
+    },
+    {
+      "observation_id": "dobs_43",
+      "d_obs_A": 0.9482,
+      "q_A_inv": 6.62643462052266,
+      "two_theta_deg": 44.02125032700629
+    },
+    {
+      "observation_id": "dobs_44",
+      "d_obs_A": 0.9123,
+      "q_A_inv": 6.887192049961182,
+      "two_theta_deg": 45.850076581104396
+    },
+    {
+      "observation_id": "dobs_45",
+      "d_obs_A": 0.8982,
+      "q_A_inv": 6.995307623223765,
+      "two_theta_deg": 46.61195042682287
+    }
+  ],
+  "observation_count": 45,
+  "intensity_available_in_this_input": false,
+  "position_sigma_available": false,
+  "is_continuous_powder_profile": false,
+  "is_raw_detector_data": false,
+  "source_table_complete_reflection_set": false,
+  "source_doi": "10.1002/(SICI)1099-0488(199708)35:11<1677::AID-POLB3>3.0.CO;2-Q",
+  "source_pdf_sha256": "4750738ed0c2e29a569d3b402d1a94d46db920f3f5f40f4ba953b0d937ad15f0",
+  "transformation": "Retain printed d(obs), deduplicate exact printed values, sort by increasing Q; Q=2*pi/d; 2theta=2*asin(lambda/(2*d)). No profile/intensity generated.",
+  "limitations": [
+    "Published processed peak positions from an oriented fiber specimen, not raw pixels or a continuous powder scan.",
+    "Peak extraction and indexing were performed by the authors; removing labels avoids direct structural input but does not make acquisition/processing independent of that workflow.",
+    "Duplicate printed d(obs) are deduplicated only at exact printed precision; unresolved overlap and rounding remain.",
+    "No positional standard deviations are supplied; four printed decimal places do not establish accuracy.",
+    "Missing listed reflections must not be assigned zero intensity or treated as confirmed systematic absences.",
+    "Peak positions alone constrain lattice metrics far more than atomic coordinates and do not uniquely determine a complete crystal structure."
+  ]
+}

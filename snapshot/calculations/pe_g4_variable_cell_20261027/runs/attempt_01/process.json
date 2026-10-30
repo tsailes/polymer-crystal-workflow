@@ -1,0 +1,21 @@
+{
+  "stage": "optimizing_cell",
+  "pid": 409,
+  "coordinator_pid": 299,
+  "command": [
+    "/opt/pe_dft/envs/pe-gpaw-20261020/bin/mpiexec",
+    "--allow-run-as-root",
+    "--bind-to",
+    "none",
+    "-n",
+    "4",
+    "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+    "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/scripts/run_relax.py",
+    "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/input.json"
+  ],
+  "started_unix": 1793070875.1180217,
+  "input_sha256": "c79419458ce5bc83c8ecdf5f9d0febcbfc7f03c8dbac0c56c571dd84be9f888d",
+  "source_sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d",
+  "exit_code": 0,
+  "finished_unix": 1793078307.2812176
+}

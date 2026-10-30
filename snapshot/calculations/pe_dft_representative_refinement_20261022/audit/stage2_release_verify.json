@@ -1,0 +1,8 @@
+{
+  "status": "release_files_and_runtime_verified",
+  "quantum_calculations_started": false,
+  "release": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/releases/20261021T043247_514339Z",
+  "verification_command_exit_code": 0,
+  "verified_on": "2026-10-22",
+  "output_source": "release_parameters.py --verify-release stdout; execution captured in this chat"
+}

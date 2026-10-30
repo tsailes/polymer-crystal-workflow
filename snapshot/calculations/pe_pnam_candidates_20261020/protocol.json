@@ -1,0 +1,314 @@
+{
+  "scope": "Finite rigid-chain grid under specified cell, Pnam, two chains, 2-carbon axial period",
+  "coverage_claim": "Exhaustive only over the declared grid; not all continuous polymer conformations",
+  "cell_A": [
+    [
+      7.432,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      4.929,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.545
+    ]
+  ],
+  "spacegroup": "Pnam",
+  "hall_number": 297,
+  "chemistry": "C4H8, two infinite all-trans PE chains along c",
+  "solved_coordinates_used": false,
+  "angle_grid_deg": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100,
+    105,
+    110,
+    115,
+    120,
+    125,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170,
+    175
+  ],
+  "angle_180": "Same chain plane as 0; endpoint equivalence separately tested",
+  "transverse_center_grid": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0.5
+    ],
+    [
+      0.5,
+      0
+    ],
+    [
+      0.5,
+      0.5
+    ]
+  ],
+  "carbon_phase_grid": [
+    0.25,
+    0.75
+  ],
+  "translation_scope": "All symmetry-compatible discrete centers/phases for this two-chain generic-orientation model",
+  "nonbonded_filter": {
+    "vdw_radii_A": {
+      "C": 1.7,
+      "H": 1.2
+    },
+    "factor": 0.85,
+    "excluded_graph_distances": [
+      1,
+      2
+    ],
+    "source": "Bondi 1964, DOI 10.1021/j100785a001; ASE data.vdw"
+  },
+  "additional_interchain_CC_min_A": 3.4,
+  "density_reference": {
+    "value_g_cm3": 0.997,
+    "kind": "Crystallographic crystalline-PE literature reference; not independently measured density of Tashiro sample",
+    "source": "Martin and Passaglia 1966, J Res NBS 70A, 221-225",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6687595/",
+    "ratio_limits": [
+      0.95,
+      1.05
+    ],
+    "limitation": "Fixed cell and composition make density identical across candidate packings"
+  },
+  "initial_cc_A": 1.54,
+  "initial_ch_A": 1.09,
+  "target_symmetry": {
+    "rotations": [
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    "translations": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.0
+      ]
+    ],
+    "operations_xyz": [
+      "x,y,z",
+      "-x,-y,z+1/2",
+      "x+1/2,-y+1/2,-z+1/2",
+      "-x+1/2,y+1/2,-z",
+      "-x,-y,-z",
+      "x,y,-z+1/2",
+      "-x+1/2,y+1/2,z+1/2",
+      "x+1/2,-y+1/2,z"
+    ]
+  },
+  "software": {
+    "ase": "3.29.0",
+    "gemmi": "0.7.5",
+    "spglib": "2.7.0",
+    "numpy": "2.5.4"
+  },
+  "generator_sha256": "5a5177cbfbc77df45a736f0dd3487b3627dc766047c2dd603e37d7c83fbc873d",
+  "xrd_role": "Tashiro measured d positions as external benchmark only; no solved atomic coordinates",
+  "numerical_optimizer_policy": "All geometrically distinct survivors receive GFN2; no coarse-energy cutoff"
+}

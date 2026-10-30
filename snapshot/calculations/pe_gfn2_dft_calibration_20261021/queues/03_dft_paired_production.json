@@ -1,0 +1,761 @@
+{
+  "phase": "03_dft_paired_production",
+  "max_workers": 2,
+  "stop_on_failure": true,
+  "requires": [
+    "audit/dft_transfer_gate.json",
+    "audit/gfn2_temperature_gate.json"
+  ],
+  "points": [
+    {
+      "id": "final_group_002_pbe_d3bj_H",
+      "sample_id": "final_group_002",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_002/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "final_group_003_pbe_d3bj_H",
+      "sample_id": "final_group_003",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_003/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0009_pbe_d3bj_H",
+      "sample_id": "initial_cand_0009",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0009/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0017_pbe_d3bj_H",
+      "sample_id": "initial_cand_0017",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0017/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0025_pbe_d3bj_H",
+      "sample_id": "initial_cand_0025",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0025/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0033_pbe_d3bj_H",
+      "sample_id": "initial_cand_0033",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0033/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0041_pbe_d3bj_H",
+      "sample_id": "initial_cand_0041",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0041/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0049_pbe_d3bj_H",
+      "sample_id": "initial_cand_0049",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0049/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0057_pbe_d3bj_H",
+      "sample_id": "initial_cand_0057",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0057/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0065_pbe_d3bj_H",
+      "sample_id": "initial_cand_0065",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0065/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0073_pbe_d3bj_H",
+      "sample_id": "initial_cand_0073",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0073/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0081_pbe_d3bj_H",
+      "sample_id": "initial_cand_0081",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0081/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0089_pbe_d3bj_H",
+      "sample_id": "initial_cand_0089",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0089/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0097_pbe_d3bj_H",
+      "sample_id": "initial_cand_0097",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0097/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0105_pbe_d3bj_H",
+      "sample_id": "initial_cand_0105",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0105/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "initial_cand_0113_pbe_d3bj_H",
+      "sample_id": "initial_cand_0113",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0113/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "unstable_cand_0001_pbe_d3bj_H",
+      "sample_id": "unstable_cand_0001",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/unstable_cand_0001/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "final_group_001_optb88_vdw_H",
+      "sample_id": "final_group_001",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "optB88-vdW",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_001/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "final_group_002_optb88_vdw_H",
+      "sample_id": "final_group_002",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "optB88-vdW",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_002/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "final_group_003_optb88_vdw_H",
+      "sample_id": "final_group_003",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "optB88-vdW",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_003/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "final_group_004_optb88_vdw_H",
+      "sample_id": "final_group_004",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "optB88-vdW",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_004/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "final_group_001_r2scan_d4_H",
+      "sample_id": "final_group_001",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "r2SCAN-D4",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_001/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "final_group_002_r2scan_d4_H",
+      "sample_id": "final_group_002",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "r2SCAN-D4",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_002/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "final_group_003_r2scan_d4_H",
+      "sample_id": "final_group_003",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "r2SCAN-D4",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_003/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    },
+    {
+      "id": "final_group_004_r2scan_d4_H",
+      "sample_id": "final_group_004",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 1800,
+        "kmesh": [
+          4,
+          8,
+          12
+        ],
+        "gpts": [
+          112,
+          72,
+          44
+        ],
+        "method": "r2SCAN-D4",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_004/POSCAR",
+        "stage": "stage3_calibration_H",
+        "precision_label": "H"
+      }
+    }
+  ]
+}

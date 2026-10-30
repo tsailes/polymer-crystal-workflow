@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/opt/pe_dft/envs/gfn2-pe-20261020/bin/python",
+    "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/unstable_cand_0001_gfn2_F_T000/runner_snapshot.py",
+    "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/unstable_cand_0001_gfn2_F_T000/input.json"
+  ],
+  "pid": 3932,
+  "started_unix": 1792568632.0610585,
+  "backend": "gfn2",
+  "sample_id": "unstable_cand_0001",
+  "environment_overrides": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "finished_unix": 1792568684.0636735,
+  "wall_seconds": 52.00261569023132
+}

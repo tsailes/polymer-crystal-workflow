@@ -1,0 +1,59 @@
+{
+  "purpose": "Immediate variable-cell relaxation from accepted final fixed-cell g4, user authorized 2026-10-27",
+  "source_original": "E:\\PE_DFT\\calculations\\pe_dft_tight_force_refinement_20261022\\runs\\group_004\\attempt_01\\final_structure.extxyz",
+  "source_sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d",
+  "source_cold_passed": true,
+  "source_cold_fmax_eV_A": 0.00017161635721423321,
+  "parameters": {
+    "method": "PBE-D3(BJ)",
+    "structure": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/source/final_structure.extxyz",
+    "ecut_eV": 1800,
+    "kmesh": [
+      4,
+      8,
+      12
+    ],
+    "gpts": [
+      112,
+      72,
+      44
+    ],
+    "xc_stencil": 4,
+    "nbands": 16,
+    "mpi_ranks": 4,
+    "point_group": true,
+    "scf_energy_eV_electron": 1E-09,
+    "scf_density_electron_electron": 1E-09,
+    "scf_eigenstates_eV2_electron": 1E-11,
+    "fmax_eV_A": 0.002,
+    "stress_max_kbar": 0.05,
+    "maxsteps": 200,
+    "maxstep": 0.05,
+    "symprec_A": 1E-05,
+    "point_runner": "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/scripts/run_point.py",
+    "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae"
+  },
+  "optimizer": "ASE LBFGS + FrechetCellFilter",
+  "atomic_constraint": "FixSymmetry Pnam Hall297",
+  "cell_mask": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "all_Pnam_allowed_cell_degrees_of_freedom": true,
+  "constant_volume": false,
+  "hydrostatic_strain_only": false,
+  "external_pressure_eV_A3": 0,
+  "angles_degrees": [
+    90,
+    90,
+    90
+  ],
+  "engine_source": "E:\\PE_DFT\\calculations\\pe_gpaw_convergence_20261020\\relaxations\\cell_reference_resume_02\\run_relax_snapshot.py",
+  "runner_sha256": "b5009e3d38d422643a39a04a10a7f22caad954b4509d204d75e5e1824898bea6",
+  "terminal_independent_electronic_verification_required": true,
+  "no_reference_structure_start": true
+}

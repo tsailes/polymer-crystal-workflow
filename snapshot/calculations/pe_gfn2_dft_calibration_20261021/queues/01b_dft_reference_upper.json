@@ -1,0 +1,38 @@
+{
+  "phase": "01b_dft_reference_upper",
+  "max_workers": 1,
+  "stop_on_failure": true,
+  "reason": "Matched R0 upper-precision point needed to resolve relative-energy numerical differences, not just absolute energies.",
+  "points": [
+    {
+      "id": "final_group_001_pbe_d3bj_U",
+      "sample_id": "final_group_001",
+      "backend": "dft",
+      "spec": {
+        "mpi_ranks": 4,
+        "point_group": true,
+        "xc_stencil": 4,
+        "nbands": 16,
+        "scf_energy_eV_electron": 1e-09,
+        "scf_density_electron_electron": 1e-09,
+        "scf_eigenstates_eV2_electron": 1e-11,
+        "checkpoint": false,
+        "ecut_eV": 2000,
+        "kmesh": [
+          5,
+          10,
+          15
+        ],
+        "gpts": [
+          128,
+          80,
+          48
+        ],
+        "method": "PBE-D3(BJ)",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_001/POSCAR",
+        "stage": "stage3_calibration_U",
+        "precision_label": "U"
+      }
+    }
+  ]
+}

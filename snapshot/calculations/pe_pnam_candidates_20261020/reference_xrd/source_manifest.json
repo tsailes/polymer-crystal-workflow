@@ -1,0 +1,37 @@
+{
+  "purpose": "Immutable clean position-only input archive; no reference atom coordinates",
+  "original_pdf": {
+    "path": "/mnt/e/PE_DFT/examples/PE_Tashiro_1997/sources/Tashiro_1997_original_Wiley.pdf",
+    "sha256": "4750738ed0c2e29a569d3b402d1a94d46db920f3f5f40f4ba953b0d937ad15f0",
+    "table": "Table I, PDF page 11 / printed page 1687",
+    "wavelength": "PDF page 16 / printed page 1692",
+    "intensity_limitation": "Eq.11-13, PDF page 17: overlapping apparent Fobs use Fcalc-derived weights"
+  },
+  "clean_files": [
+    {
+      "source_path": "/mnt/e/PE_DFT/reports/pe_xrd_seed_search_20260922/source_audit/tashiro1997_dobs_only.json",
+      "archive_name": "tashiro1997_dobs_only.json",
+      "sha256": "8bbd18402e44ba9c4bfca364411917a4289a075d161157294177b693333ac4b3",
+      "bytes": 8791
+    },
+    {
+      "source_path": "/mnt/e/PE_DFT/reports/pe_xrd_seed_search_20260922/source_audit/tashiro1997_dobs_only.csv",
+      "archive_name": "tashiro1997_dobs_only.csv",
+      "sha256": "1fb6db866d63a81227825b902c3fd4c9f08ede54fe75ff5524cbc816dcbb8086",
+      "bytes": 2395
+    }
+  ],
+  "observed_count": 45,
+  "raw_table_rows": 59,
+  "deduplication": "Exact printed d(obs) values",
+  "observations_not_included": [
+    "Fobs",
+    "Fcalc",
+    "Iobs",
+    "dcalc",
+    "author_hkl",
+    "refined_atom_coordinates",
+    "ADP"
+  ],
+  "primary_source_doi": "10.1002/(SICI)1099-0488(199708)35:11<1677::AID-POLB3>3.0.CO;2-Q"
+}

@@ -1,0 +1,280 @@
+{
+  "phase": "02_gfn2_validation",
+  "max_workers": 1,
+  "stop_on_failure": true,
+  "points": [
+    {
+      "id": "initial_cand_0001_gfn2_F_T000",
+      "backend": "gfn2",
+      "sample_id": "initial_cand_0001",
+      "spec": {
+        "id": "initial_cand_0001_gfn2_F_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0001/POSCAR",
+        "repeat": [
+          2,
+          3,
+          8
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "F"
+      }
+    },
+    {
+      "id": "initial_cand_0001_gfn2_F_T300",
+      "backend": "gfn2",
+      "sample_id": "initial_cand_0001",
+      "spec": {
+        "id": "initial_cand_0001_gfn2_F_T300",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0001/POSCAR",
+        "repeat": [
+          2,
+          3,
+          8
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 300,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "F"
+      }
+    },
+    {
+      "id": "initial_cand_0121_gfn2_F_T000",
+      "backend": "gfn2",
+      "sample_id": "initial_cand_0121",
+      "spec": {
+        "id": "initial_cand_0121_gfn2_F_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0121/POSCAR",
+        "repeat": [
+          2,
+          3,
+          8
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "F"
+      }
+    },
+    {
+      "id": "initial_cand_0121_gfn2_F_T300",
+      "backend": "gfn2",
+      "sample_id": "initial_cand_0121",
+      "spec": {
+        "id": "initial_cand_0121_gfn2_F_T300",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0121/POSCAR",
+        "repeat": [
+          2,
+          3,
+          8
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 300,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "F"
+      }
+    },
+    {
+      "id": "final_group_002_gfn2_F_T000",
+      "backend": "gfn2",
+      "sample_id": "final_group_002",
+      "spec": {
+        "id": "final_group_002_gfn2_F_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_002/POSCAR",
+        "repeat": [
+          2,
+          3,
+          8
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "F"
+      }
+    },
+    {
+      "id": "final_group_003_gfn2_F_T000",
+      "backend": "gfn2",
+      "sample_id": "final_group_003",
+      "spec": {
+        "id": "final_group_003_gfn2_F_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_003/POSCAR",
+        "repeat": [
+          2,
+          3,
+          8
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "F"
+      }
+    },
+    {
+      "id": "final_group_004_gfn2_F_T000",
+      "backend": "gfn2",
+      "sample_id": "final_group_004",
+      "spec": {
+        "id": "final_group_004_gfn2_F_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_004/POSCAR",
+        "repeat": [
+          2,
+          3,
+          8
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "F"
+      }
+    },
+    {
+      "id": "final_group_001_gfn2_D_T000",
+      "backend": "gfn2",
+      "sample_id": "final_group_001",
+      "spec": {
+        "id": "final_group_001_gfn2_D_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_001/POSCAR",
+        "repeat": [
+          3,
+          4,
+          10
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "D"
+      }
+    },
+    {
+      "id": "final_group_002_gfn2_D_T000",
+      "backend": "gfn2",
+      "sample_id": "final_group_002",
+      "spec": {
+        "id": "final_group_002_gfn2_D_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_002/POSCAR",
+        "repeat": [
+          3,
+          4,
+          10
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "D"
+      }
+    },
+    {
+      "id": "final_group_003_gfn2_D_T000",
+      "backend": "gfn2",
+      "sample_id": "final_group_003",
+      "spec": {
+        "id": "final_group_003_gfn2_D_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_003/POSCAR",
+        "repeat": [
+          3,
+          4,
+          10
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "D"
+      }
+    },
+    {
+      "id": "final_group_004_gfn2_D_T000",
+      "backend": "gfn2",
+      "sample_id": "final_group_004",
+      "spec": {
+        "id": "final_group_004_gfn2_D_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_004/POSCAR",
+        "repeat": [
+          3,
+          4,
+          10
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "D"
+      }
+    },
+    {
+      "id": "initial_cand_0001_gfn2_D_T000",
+      "backend": "gfn2",
+      "sample_id": "initial_cand_0001",
+      "spec": {
+        "id": "initial_cand_0001_gfn2_D_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0001/POSCAR",
+        "repeat": [
+          3,
+          4,
+          10
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "D"
+      }
+    },
+    {
+      "id": "initial_cand_0121_gfn2_D_T000",
+      "backend": "gfn2",
+      "sample_id": "initial_cand_0121",
+      "spec": {
+        "id": "initial_cand_0121_gfn2_D_T000",
+        "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0121/POSCAR",
+        "repeat": [
+          3,
+          4,
+          10
+        ],
+        "accuracy": 0.001,
+        "max_iterations": 1000,
+        "threads": 4,
+        "electronic_temperature_K": 0,
+        "charge": 0,
+        "multiplicity": 1,
+        "precision_label": "D"
+      }
+    }
+  ]
+}

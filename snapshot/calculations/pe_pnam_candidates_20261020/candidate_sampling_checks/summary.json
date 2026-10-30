@@ -1,0 +1,117 @@
+{
+  "passed": false,
+  "results": [
+    {
+      "group_id": "candidate_cand_0041",
+      "candidate_id": "cand_0041",
+      "representative_file": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0041/relaxation/attempts/20261020T082717_914272Z/final.extxyz",
+      "representative_sha256": "c8c18360c5321c705e989302216b97b7408c88195e31953af4307933932c54ac",
+      "dense_input_sha256": "c8c18360c5321c705e989302216b97b7408c88195e31953af4307933932c54ac",
+      "source_final_result_sha256": "503ff614dbb49235b550414cf1018a25a6161210fc9edff65a05ebaf25917577",
+      "fine_repeat": [
+        2,
+        3,
+        8
+      ],
+      "dense_repeat": [
+        3,
+        4,
+        10
+      ],
+      "dense_natoms": 1440,
+      "comparison_accuracy": 0.001,
+      "energy_change_meV_per_CH2": -0.26633215087201734,
+      "max_force_vector_change_eV_A": 0.004099323910754666,
+      "fine_fmax_eV_A": 0.0049959996041913785,
+      "dense_fmax_eV_A": 0.008054012637664844,
+      "replica_force_deviation_eV_A": 2.3551949534493004e-13,
+      "sampling_change_passed": true,
+      "dense_force_target_passed": true,
+      "replica_equivalence_passed": true,
+      "thresholds": {
+        "delta_E_meV_per_CH2": 1,
+        "delta_F_eV_A": 0.005,
+        "dense_fmax_eV_A": 0.01,
+        "replica_force_eV_A": 1e-05
+      },
+      "script_sha256": "78acc2c635265a9bed371087f79d86bcaceb1729b5391ee27de70b63649fd2f9",
+      "workflow_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+      "passed": true
+    },
+    {
+      "group_id": "candidate_cand_0025",
+      "candidate_id": "cand_0025",
+      "representative_file": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0025/relaxation/attempts/20261020T082926_911743Z/final.extxyz",
+      "representative_sha256": "fa8529c210f63fb12e44d3192eb093e273bda856664c34073acb463bbd6d8273",
+      "dense_input_sha256": "fa8529c210f63fb12e44d3192eb093e273bda856664c34073acb463bbd6d8273",
+      "source_final_result_sha256": "512630b812f26682260f70da23df4749b0be540f8340de1939a152859223427b",
+      "fine_repeat": [
+        2,
+        3,
+        8
+      ],
+      "dense_repeat": [
+        3,
+        4,
+        10
+      ],
+      "dense_natoms": 1440,
+      "comparison_accuracy": 0.001,
+      "energy_change_meV_per_CH2": -0.27285492944884027,
+      "max_force_vector_change_eV_A": 0.004029613050086834,
+      "fine_fmax_eV_A": 0.0094924870614895,
+      "dense_fmax_eV_A": 0.011525420009805382,
+      "replica_force_deviation_eV_A": 2.5323304826183753e-13,
+      "sampling_change_passed": true,
+      "dense_force_target_passed": false,
+      "replica_equivalence_passed": true,
+      "thresholds": {
+        "delta_E_meV_per_CH2": 1,
+        "delta_F_eV_A": 0.005,
+        "dense_fmax_eV_A": 0.01,
+        "replica_force_eV_A": 1e-05
+      },
+      "script_sha256": "78acc2c635265a9bed371087f79d86bcaceb1729b5391ee27de70b63649fd2f9",
+      "workflow_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+      "passed": false
+    },
+    {
+      "group_id": "candidate_cand_0081",
+      "candidate_id": "cand_0081",
+      "representative_file": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0081/relaxation/attempts/20261020T084327_349291Z/final.extxyz",
+      "representative_sha256": "1aeee1f2a75258fa23f3c5c5abf5045212d619ae8443be23a15fd64c06d24240",
+      "dense_input_sha256": "1aeee1f2a75258fa23f3c5c5abf5045212d619ae8443be23a15fd64c06d24240",
+      "source_final_result_sha256": "5c99c26c3890569583315a64c8f27002f23200f8e839356d84d6fddb46ea4106",
+      "fine_repeat": [
+        2,
+        3,
+        8
+      ],
+      "dense_repeat": [
+        3,
+        4,
+        10
+      ],
+      "dense_natoms": 1440,
+      "comparison_accuracy": 0.001,
+      "energy_change_meV_per_CH2": -0.23199341508473026,
+      "max_force_vector_change_eV_A": 0.0044998834135591415,
+      "fine_fmax_eV_A": 0.006345211148816569,
+      "dense_fmax_eV_A": 0.008397481504242094,
+      "replica_force_deviation_eV_A": 2.5267097307950243e-13,
+      "sampling_change_passed": true,
+      "dense_force_target_passed": true,
+      "replica_equivalence_passed": true,
+      "thresholds": {
+        "delta_E_meV_per_CH2": 1,
+        "delta_F_eV_A": 0.005,
+        "dense_fmax_eV_A": 0.01,
+        "replica_force_eV_A": 1e-05
+      },
+      "script_sha256": "5ebb71c18ae8167d5dee44547ad3367d788479b100325392ad1559cd6bea8dfd",
+      "workflow_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+      "passed": true
+    }
+  ],
+  "scope": "Completed candidate geometry checks; final representatives may differ"
+}

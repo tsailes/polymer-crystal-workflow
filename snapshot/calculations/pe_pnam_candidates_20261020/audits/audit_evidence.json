@@ -1,0 +1,60 @@
+{
+  "scope": "Read-only source/code audit; no generation or energy calculation",
+  "created_utc": "2026-10-20T08:24:57.079897+00:00",
+  "source_table": "Tashiro 1997 Table I PDF p11 printed p1687",
+  "visually_reviewed_pdf_pages": [
+    11,
+    16,
+    17
+  ],
+  "pdf_table_rows": 59,
+  "unique_dobs": 45,
+  "whitelisted_observations": 45,
+  "position_sets_match": true,
+  "source_files": [
+    {
+      "path": "E:\\PE_DFT\\examples\\PE_Tashiro_1997\\sources\\Tashiro_1997_original_Wiley.pdf",
+      "sha256": "4750738ed0c2e29a569d3b402d1a94d46db920f3f5f40f4ba953b0d937ad15f0"
+    },
+    {
+      "path": "E:\\PE_DFT\\reports\\pe_xrd_seed_search_20260922\\source_audit\\tashiro1997_dobs_only.json",
+      "sha256": "8bbd18402e44ba9c4bfca364411917a4289a075d161157294177b693333ac4b3"
+    },
+    {
+      "path": "E:\\PE_DFT\\external\\MASTERS\\src\\polycrystal_data\\chain_builder.py",
+      "sha256": "303ed438b83eadb4a641f441ff2dbac38c05fbb008801f17f1755fa4150d66af"
+    },
+    {
+      "path": "E:\\PE_DFT\\external\\MASTERS\\src\\polycrystal_data\\candidate_screening.py",
+      "sha256": "e82cc808e52f340d6ec7c7e6b807efef3ea3f0f436ed36217777b3ebcf2a9aeb"
+    },
+    {
+      "path": "E:\\PE_DFT\\reports\\pe_xrd_rerun_v2_20260922\\pe_seed_model.py",
+      "sha256": "8657346d3368e1aa50e7714984eefa2d2243dd7d17d3c0ac3d92050bbb502bf5"
+    },
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_gfn2_first_run_20261020\\convergence_relaxation\\workflow.py",
+      "sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc"
+    },
+    {
+      "path": "E:\\PE_DFT\\external\\MASTERS\\output\\程序规范\\18_候选结构搜索计划与界面入口.md",
+      "sha256": "fafad9110c300d82c361c13bc6daae41dbf5c612f616425874c6af004dd0132c"
+    },
+    {
+      "path": "E:\\PE_DFT\\external\\MASTERS\\output\\程序规范\\19_候选登记去重与Pareto初筛.md",
+      "sha256": "42b79ba366f5d9733d1490180cc5df7f11d4b00ed47e0a155136b9350c31573f"
+    },
+    {
+      "path": "E:\\PE_DFT\\external\\MASTERS\\output\\程序规范\\20_周期链模板与聚乙烯候选生成器.md",
+      "sha256": "d89c5aec55b2a21e24f3af92deedb81862ba628096dd939892811faa1277d45e"
+    },
+    {
+      "path": "E:\\PE_DFT\\external\\MASTERS\\output\\程序规范\\21_AIREBO快速能量批处理与能量归一化.md",
+      "sha256": "93893d53a9e83b2963d1238aa9ea6e3c7ddf403ccaada0ef3c90bac04191fd8d"
+    },
+    {
+      "path": "E:\\PE_DFT\\external\\MASTERS\\output\\程序规范\\22_候选Fcalc衍射失配与Pareto筛选.md",
+      "sha256": "8dee2bf0f5ec9cc02d539c4b23cc779bfdec736bcb49f326f1fcf6081967083c"
+    }
+  ]
+}

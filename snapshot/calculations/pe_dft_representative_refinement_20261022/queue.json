@@ -1,0 +1,26 @@
+{
+  "max_workers": 2,
+  "protocol_sha256": "430393ee12839e0a749a13809ae9df17bb9827ed1c87a13127ddfba2fbaa824a",
+  "points": [
+    {
+      "id": "group_001",
+      "input": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/inputs/group_001.json",
+      "input_sha256": "af555654f9a0ed7d226304d91593123b5017487362ef4b93e943fd15d07609ac"
+    },
+    {
+      "id": "group_002",
+      "input": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/inputs/group_002.json",
+      "input_sha256": "79c6fe6c6a6613024e0e121ec5e42ae10018d1ad754e700880d3610ef5d71081"
+    },
+    {
+      "id": "group_003",
+      "input": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/inputs/group_003.json",
+      "input_sha256": "885122b76ec2cd4070020e1b3399d1b387f699cfc4313dd8b884d70c27107e8a"
+    },
+    {
+      "id": "group_004",
+      "input": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/inputs/group_004.json",
+      "input_sha256": "2e8a11e6f70a0ef4e2cc1e4d505540117c468bd8d6cbad7e54a9803b022fb448"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "purpose": "Separate terminal k-point, grid, and Ecut checks; no cross-functional calculations or geometry changes",
+  "baseline": "../cold_verification/result.json",
+  "geometry_sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+  "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+  "plan": [
+    {
+      "name": "k_only",
+      "ecut_eV": 1800,
+      "kmesh": [
+        5,
+        10,
+        15
+      ],
+      "gpts": [
+        112,
+        72,
+        44
+      ],
+      "comparison": "baseline"
+    },
+    {
+      "name": "grid_only",
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        128,
+        80,
+        48
+      ],
+      "comparison": "baseline"
+    },
+    {
+      "name": "ecut_only",
+      "ecut_eV": 2000,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        128,
+        80,
+        48
+      ],
+      "comparison": "grid_only"
+    }
+  ],
+  "strict_absolute_endpoint_thresholds": {
+    "fmax_eV_A": 0.002,
+    "stress_max_kbar": 0.05
+  },
+  "historical_difference_diagnostics_only": {
+    "energy_meV_atom": 0.5,
+    "force_vector_eV_A": 0.005,
+    "stress_component_kbar": 0.1
+  },
+  "note": "Historical difference criteria do not relax the strict absolute terminal force/stress thresholds. Ecut comparison uses the same denser grid at both cutoffs."
+}

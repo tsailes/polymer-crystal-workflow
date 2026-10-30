@@ -1,0 +1,122 @@
+{
+  "schema_version": "pe_analytic_start/1.0",
+  "purpose": "First periodic GFN2-xTB energy/force input; independent initial hypothesis",
+  "builder": "/mnt/e/PE_DFT/calculations/pe_gfn2_first_run_20261020/build_pe.py",
+  "builder_sha256": "d63be67139488dbb000ad17a59b2906fddc9bb838916180469a45ee8d9e552f3",
+  "versions": {
+    "numpy": "2.5.3",
+    "ase": "3.29.0"
+  },
+  "solved_atomic_coordinates_read_or_copied": false,
+  "input_structure_files": [],
+  "cell_prior": {
+    "lengths_A": [
+      7.432,
+      4.929,
+      2.545
+    ],
+    "angles_deg": [
+      90.0,
+      90.0,
+      90.0
+    ],
+    "source": "Experimental PE cell prior from this project's Tashiro 1997 literature record and operation note: 7.432, 4.929, 2.545 A. These values were not supplied directly by the user. Only cell metadata was checked; no solved atomic coordinates are read or imported by this builder.",
+    "source_record": {
+      "path": "E:/PE_DFT/examples/PE_Tashiro_1997/sources/Tashiro_1997_literature_record.json",
+      "sha256": "ca1efa9c62a5cfc01f8b927ef4d532c9f6371e0edd854a1f623e19f3d73a1281",
+      "evidence_span_id": "evidence_pe_cell_symmetry"
+    },
+    "source_note": {
+      "path": "E:/PE_DFT/examples/PE_Tashiro_1997/操作说明.txt",
+      "sha256": "2e3b17cc4f3f4daab0622ef99a4b4d3d464fe26c987de0390e3d2bd4e2d61bd6",
+      "lines": [10, 11]
+    },
+    "role": "Declared experimental-cell prior; cell is not predicted in this first run."
+  },
+  "chemical_assumptions": {
+    "polymer": "PE",
+    "conformation": "all-trans infinite zigzag",
+    "CC_length_A": 1.54,
+    "CH_length_A": 1.09,
+    "chain_axis": "c",
+    "chain_count": 2,
+    "formula_per_cell": "C4H8",
+    "chemical_repeat": "CH2",
+    "chemical_repeat_count": 4,
+    "pbc": [
+      true,
+      true,
+      true
+    ],
+    "charge": 0,
+    "unpaired_electrons": 0
+  },
+  "arbitrary_packing_choices": {
+    "fractional_transverse_centers": [
+      [
+        0.25,
+        0.25
+      ],
+      [
+        0.75,
+        0.75
+      ]
+    ],
+    "chain_rotations_deg": [
+      17.0,
+      43.0
+    ],
+    "chain_axial_phases_fractional": [
+      0.0,
+      0.17
+    ],
+    "selection_reason": "Distinct arbitrary rotations; 17/43 degrees replaces the initial 17/103-degree geometry trial to avoid its short 1.77-A interchain contact. Selection uses only generated geometries, with no energies, diffraction or solved coordinates.",
+    "geometric_trials": {
+      "first_chain_rotation_deg": 17.0,
+      "second_chain_rotations_deg": [
+        43,
+        57,
+        73,
+        87,
+        103,
+        117,
+        137,
+        157
+      ],
+      "selection": "First tested geometry with minimum interchain distance > 2.1 A."
+    }
+  },
+  "construction": {
+    "carbon_axial_step_A": 1.2725,
+    "carbon_transverse_step_A": 0.8673775129665283,
+    "CCC_angle_deg": 111.44076283224123,
+    "CCH_angle_deg": 109.47122063449069,
+    "HCH_angle_deg": 107.42714139552393,
+    "hydrogen_rule": "All four C-C-H angles at each carbon equal acos(-1/3); H-C-H adjusts to the C-C-C angle imposed by c and C-C length.",
+    "atom_roles": [
+      "chain1_C1",
+      "chain1_C1_H1",
+      "chain1_C1_H2",
+      "chain1_C2",
+      "chain1_C2_H1",
+      "chain1_C2_H2",
+      "chain2_C1",
+      "chain2_C1_H1",
+      "chain2_C1_H2",
+      "chain2_C2",
+      "chain2_C2_H1",
+      "chain2_C2_H2"
+    ]
+  },
+  "scope": [
+    "All H atoms are constructed analytically.",
+    "Cell metric is orthorhombic; no final space group or recovered packing is claimed.",
+    "Two chains and the two-carbon translation are explicit model assumptions.",
+    "A single initial model is an engine check, not a candidate search or method validation."
+  ],
+  "artifacts_sha256": {
+    "pe_initial.cif": "df531b241c6716a985df38da608735b421b01f14d5f5eeaeefe59f19f55d878e",
+    "pe_initial.extxyz": "4f4a5187c34987a94733ccc397e0bbcbba75266427c98d2a84f922cddd02993e",
+    "geometry_validation.json": "9dda4960289b74fc39d873c89e4bfa93d67ef8e0569f630106363b10b098c33a"
+  }
+}

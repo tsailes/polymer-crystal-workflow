@@ -1,0 +1,779 @@
+{
+  "background_png": "E:\\PE_DFT\\reports\\progress_deck_20261026\\build\\revision10\\xrd\\g4_xrd_indexed_errors_math_background.png",
+  "reference_png": "E:\\PE_DFT\\reports\\progress_deck_20261026\\build\\revision10\\xrd\\g4_xrd_indexed_errors.png",
+  "canvas_px": {
+    "width": 6780,
+    "height": 2280
+  },
+  "canvas_inches": {
+    "width": 11.3,
+    "height": 3.8
+  },
+  "render_dpi": 600,
+  "coordinate_system": "Top-left origin; x rightwards, y downwards; full original canvas, no tight crop.",
+  "placement_rule": "Place bbox using image-relative normalized coordinates. Actual PPT font_size_pt = source font_size_pt * image_width_pt / (canvas_inches.width * 72). Use native editable math for mathematical spans. For rotation=90 degrees, use PowerPoint rotation=270 and swap pre-rotation dimensions.",
+  "note": "Only Matplotlib Text artists are hidden in the background. All profiles, ticks, axes, arrow geometry and data are unchanged; no measured intensity is fabricated.",
+  "count": 20,
+  "labels": [
+    {
+      "id": 1,
+      "panel": "axes_1",
+      "role": "x_axis_label",
+      "text": "文献 d_obs (Å)",
+      "source_text_latex": "文献 $d_{\\mathrm{obs}}$ (Å)",
+      "bbox_norm_top_left": {
+        "x": 0.4871518079369469,
+        "y": 0.8958187134502924,
+        "w": 0.0856963841261062,
+        "h": 0.049605263157894736
+      },
+      "bbox_px_top_left": {
+        "x": 3302.8892578125,
+        "y": 2042.4666666666667,
+        "w": 581.021484375,
+        "h": 113.1
+      },
+      "anchor_norm_top_left": {
+        "x": 0.53,
+        "y": 0.8958187134502924
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 2,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "0.5",
+      "source_text_latex": "0.5",
+      "bbox_norm_top_left": {
+        "x": 0.025806991756576567,
+        "y": 0.8355847953216374,
+        "w": 0.020851769911504423,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 174.97140410958912,
+        "y": 1905.1333333333332,
+        "w": 141.375,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.036232876712328776,
+        "y": 0.8355847953216374
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 3,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "1.0",
+      "source_text_latex": "1.0",
+      "bbox_norm_top_left": {
+        "x": 0.1477247999757547,
+        "y": 0.8355847953216374,
+        "w": 0.020851769911504423,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 1001.5741438356167,
+        "y": 1905.1333333333332,
+        "w": 141.375,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.15815068493150689,
+        "y": 0.8355847953216374
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 4,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "1.5",
+      "source_text_latex": "1.5",
+      "bbox_norm_top_left": {
+        "x": 0.2696333899058472,
+        "y": 0.8355847953216374,
+        "w": 0.020870206489675518,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 1828.114383561644,
+        "y": 1905.1333333333332,
+        "w": 141.5,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.28006849315068494,
+        "y": 0.8355847953216374
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 5,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "2.0",
+      "source_text_latex": "2.0",
+      "bbox_norm_top_left": {
+        "x": 0.39156963470319645,
+        "y": 0.8355847953216374,
+        "w": 0.020833333333333332,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 2654.8421232876717,
+        "y": 1905.1333333333332,
+        "w": 141.25,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.4019863013698631,
+        "y": 0.8355847953216374
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 6,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "2.5",
+      "source_text_latex": "2.5",
+      "bbox_norm_top_left": {
+        "x": 0.513478224633289,
+        "y": 0.8355847953216374,
+        "w": 0.020851769911504423,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 3481.3823630136994,
+        "y": 1905.1333333333332,
+        "w": 141.375,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.5239041095890412,
+        "y": 0.8355847953216374
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 7,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "3.0",
+      "source_text_latex": "3.0",
+      "bbox_norm_top_left": {
+        "x": 0.6354052511415526,
+        "y": 0.8355847953216374,
+        "w": 0.020833333333333332,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 4308.047602739726,
+        "y": 1905.1333333333332,
+        "w": 141.25,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.6458219178082192,
+        "y": 0.8355847953216374
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 8,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "3.5",
+      "source_text_latex": "3.5",
+      "bbox_norm_top_left": {
+        "x": 0.7573138410716451,
+        "y": 0.8355847953216374,
+        "w": 0.020851769911504423,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 5134.587842465754,
+        "y": 1905.1333333333332,
+        "w": 141.375,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7677397260273974,
+        "y": 0.8355847953216374
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 9,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "4.0",
+      "source_text_latex": "4.0",
+      "bbox_norm_top_left": {
+        "x": 0.8792408675799088,
+        "y": 0.8355847953216374,
+        "w": 0.020833333333333332,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 5961.253082191782,
+        "y": 1905.1333333333332,
+        "w": 141.25,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.8896575342465755,
+        "y": 0.8355847953216374
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 10,
+      "panel": "axes_1",
+      "role": "y_axis_label",
+      "text": "(d_calc − d_obs) / d_obs (%)",
+      "source_text_latex": "($d_{\\mathrm{calc}}$ − $d_{\\mathrm{obs}}$) / $d_{\\mathrm{obs}}$ (%)",
+      "bbox_norm_top_left": {
+        "x": 0.037740904621435596,
+        "y": 0.2504173198499179,
+        "w": 0.014159292035398242,
+        "h": 0.4291653603001644
+      },
+      "bbox_px_top_left": {
+        "x": 255.88333333333335,
+        "y": 570.9514892578127,
+        "w": 96.00000000000009,
+        "h": 978.4970214843748
+      },
+      "anchor_norm_top_left": {
+        "x": 0.05190019665683383,
+        "y": 0.46499999999999997
+      },
+      "font_size_pt": 11.0,
+      "rotation_deg_matplotlib_counterclockwise": 90.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "bottom",
+      "rotation_mode": "anchor",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 11,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "−6",
+      "source_text_latex": "−6",
+      "bbox_norm_top_left": {
+        "x": 0.05679818092428712,
+        "y": 0.8523050682261208,
+        "w": 0.019598082595870207,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 385.0916666666667,
+        "y": 1943.2555555555555,
+        "w": 132.875,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.07639626352015733,
+        "y": 0.8696296296296295
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 12,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "−4",
+      "source_text_latex": "−4",
+      "bbox_norm_top_left": {
+        "x": 0.056816617502458214,
+        "y": 0.6819346978557504,
+        "w": 0.019579646017699116,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 385.2166666666667,
+        "y": 1554.8111111111111,
+        "w": 132.75,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.07639626352015733,
+        "y": 0.6992592592592592
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 13,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "−2",
+      "source_text_latex": "−2",
+      "bbox_norm_top_left": {
+        "x": 0.056816617502458214,
+        "y": 0.51156432748538,
+        "w": 0.019579646017699116,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 385.2166666666667,
+        "y": 1166.3666666666666,
+        "w": 132.75,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.07639626352015733,
+        "y": 0.5288888888888889
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 14,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "0",
+      "source_text_latex": "0",
+      "bbox_norm_top_left": {
+        "x": 0.06774950835791545,
+        "y": 0.34119395711500977,
+        "w": 0.008646755162241887,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 459.3416666666667,
+        "y": 777.9222222222222,
+        "w": 58.625,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.07639626352015733,
+        "y": 0.35851851851851857
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 15,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "2",
+      "source_text_latex": "2",
+      "bbox_norm_top_left": {
+        "x": 0.06774950835791545,
+        "y": 0.17082358674463938,
+        "w": 0.008646755162241887,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 459.3416666666667,
+        "y": 389.4777777777779,
+        "w": 58.625,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.07639626352015733,
+        "y": 0.18814814814814818
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 16,
+      "panel": "axes_1",
+      "role": "tick_label",
+      "text": "4",
+      "source_text_latex": "4",
+      "bbox_norm_top_left": {
+        "x": 0.06774950835791545,
+        "y": 0.0004532163742689832,
+        "w": 0.008646755162241887,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 459.3416666666667,
+        "y": 1.033333333333303,
+        "w": 58.625,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.07639626352015733,
+        "y": 0.01777777777777778
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 17,
+      "panel": "axes_1",
+      "role": "annotation",
+      "text": "g4 固定胞",
+      "source_text_latex": "g4 固定胞",
+      "bbox_norm_top_left": {
+        "x": 0.8059918879056047,
+        "y": 0.15299753289473705,
+        "w": 0.05562315634218289,
+        "h": 0.03956962719298246
+      },
+      "bbox_px_top_left": {
+        "x": 5464.625,
+        "y": 348.8343750000006,
+        "w": 377.125,
+        "h": 90.21875
+      },
+      "anchor_norm_top_left": {
+        "x": 0.8059918879056047,
+        "y": 0.18335663377193012
+      },
+      "font_size_pt": 10.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 18,
+      "panel": "axes_1",
+      "role": "annotation",
+      "text": "g4 变胞",
+      "source_text_latex": "g4 变胞",
+      "bbox_norm_top_left": {
+        "x": 0.9206120943952802,
+        "y": 0.15289473684210553,
+        "w": 0.0433259587020649,
+        "h": 0.039672423245614034
+      },
+      "bbox_px_top_left": {
+        "x": 6241.75,
+        "y": 348.6000000000006,
+        "w": 293.75,
+        "h": 90.453125
+      },
+      "anchor_norm_top_left": {
+        "x": 0.9206120943952802,
+        "y": 0.18335663377193012
+      },
+      "font_size_pt": 10.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 19,
+      "panel": "figure",
+      "role": "annotation",
+      "text": "59 条索引：平均绝对相对 d 偏差 0.2879% → 1.6479%",
+      "source_text_latex": "59 条索引：平均绝对相对 d 偏差 0.2879% → 1.6479%",
+      "bbox_norm_top_left": {
+        "x": 0.085,
+        "y": 0.015350877192982448,
+        "w": 0.37295353982300883,
+        "h": 0.0456140350877193
+      },
+      "bbox_px_top_left": {
+        "x": 576.3000000000001,
+        "y": 35.0,
+        "w": 2528.625,
+        "h": 104.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.085,
+        "y": 0.050000000000000044
+      },
+      "font_size_pt": 12.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "bold",
+      "color_rgba": [
+        0.1607843137254902,
+        0.14901960784313725,
+        0.17647058823529413,
+        1.0
+      ],
+      "color_hex": "#29262d",
+      "is_math_or_contains_math": true
+    },
+    {
+      "id": 20,
+      "panel": "figure",
+      "role": "annotation",
+      "text": "59 行对应 45 个不同印刷 d 值；这是描述性峰位误差，无实验误差棒或强度拟合。",
+      "source_text_latex": "59 行对应 45 个不同印刷 d 值；这是描述性峰位误差，无实验误差棒或强度拟合。",
+      "bbox_norm_top_left": {
+        "x": 0.085,
+        "y": 0.9460526315789474,
+        "w": 0.4484513274336283,
+        "h": 0.038157894736842106
+      },
+      "bbox_px_top_left": {
+        "x": 576.3000000000001,
+        "y": 2157.0,
+        "w": 3040.5,
+        "h": 87.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.085,
+        "y": 0.975
+      },
+      "font_size_pt": 10.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.43529411764705883,
+        0.45098039215686275,
+        0.47843137254901963,
+        1.0
+      ],
+      "color_hex": "#6f737a",
+      "is_math_or_contains_math": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "relaxations/cell_candidate/evaluations.jsonl",
+    "sha256": "cf9bdffcdc8ca6e907364c6f0217875d3f7102ef0f0e06240f3b566435e5067f"
+  },
+  {
+    "file": "relaxations/cell_candidate/input.json",
+    "sha256": "f25603e8e00cbc1a1b2e6446058be212cbcd9163a8558c22d51d1d27d3f14382"
+  },
+  {
+    "file": "relaxations/cell_candidate/status.json",
+    "sha256": "2db88f9912cc2f45951d131e937a6e8d0748b3aabc5188e64ff39338d5dbb6f7"
+  }
+]

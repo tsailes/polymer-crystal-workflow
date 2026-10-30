@@ -1,0 +1,98 @@
+[
+  {
+    "symbol": "C",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/C.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "4aa54d4b901d75f77cc0ea3eec22967b",
+    "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+  },
+  {
+    "symbol": "C",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/C.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "4aa54d4b901d75f77cc0ea3eec22967b",
+    "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+  },
+  {
+    "symbol": "C",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/C.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "4aa54d4b901d75f77cc0ea3eec22967b",
+    "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+  },
+  {
+    "symbol": "C",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/C.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "4aa54d4b901d75f77cc0ea3eec22967b",
+    "file_sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+  },
+  {
+    "symbol": "H",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "d65de229564ff8ea4db303e23b6d1ecf",
+    "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+  },
+  {
+    "symbol": "H",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "d65de229564ff8ea4db303e23b6d1ecf",
+    "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+  },
+  {
+    "symbol": "H",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "d65de229564ff8ea4db303e23b6d1ecf",
+    "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+  },
+  {
+    "symbol": "H",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "d65de229564ff8ea4db303e23b6d1ecf",
+    "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+  },
+  {
+    "symbol": "H",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "d65de229564ff8ea4db303e23b6d1ecf",
+    "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+  },
+  {
+    "symbol": "H",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "d65de229564ff8ea4db303e23b6d1ecf",
+    "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+  },
+  {
+    "symbol": "H",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "d65de229564ff8ea4db303e23b6d1ecf",
+    "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+  },
+  {
+    "symbol": "H",
+    "type": "paw",
+    "filename": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+    "setupname": "PBE",
+    "fingerprint": "d65de229564ff8ea4db303e23b6d1ecf",
+    "file_sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "sample_id": "group_001",
+  "command": [
+    "/opt/pe_dft/envs/pe-gpaw-20261020/bin/mpiexec",
+    "--allow-run-as-root",
+    "--bind-to",
+    "none",
+    "-n",
+    "4",
+    "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/runner_snapshot.py",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/input.json"
+  ],
+  "started_unix": 1792664880.478785,
+  "input_sha256": "af555654f9a0ed7d226304d91593123b5017487362ef4b93e943fd15d07609ac",
+  "runner_sha256": "8c859ef50c3d873a8e8a7bc6ccf903fb649c34bc3a4ecee1a7041658163a61aa",
+  "frozen_files": {
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/queue.json": "ead45b6d0c878f53a4ee2b834d03c551e85790d922345cd0d073df7ffe6c2827",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/protocol.json": "430393ee12839e0a749a13809ae9df17bb9827ed1c87a13127ddfba2fbaa824a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/scripts/run_point.py": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/scripts/run_fixedcell_relax.py": "8c859ef50c3d873a8e8a7bc6ccf903fb649c34bc3a4ecee1a7041658163a61aa",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/inputs/group_001.json": "af555654f9a0ed7d226304d91593123b5017487362ef4b93e943fd15d07609ac",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/inputs/group_002.json": "79c6fe6c6a6613024e0e121ec5e42ae10018d1ad754e700880d3610ef5d71081",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/inputs/group_003.json": "885122b76ec2cd4070020e1b3399d1b387f699cfc4313dd8b884d70c27107e8a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/inputs/group_004.json": "2e8a11e6f70a0ef4e2cc1e4d505540117c468bd8d6cbad7e54a9803b022fb448"
+  },
+  "scheduler_recovery_of_interrupted_attempt": false,
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "GPAW_MPI_BACKEND": "cgpaw",
+    "GPAW_SETUP_PATH": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups"
+  },
+  "pid": 392,
+  "exit_code": 0,
+  "finished_unix": 1792669812.9711552,
+  "wall_seconds": 4932.492370843887
+}

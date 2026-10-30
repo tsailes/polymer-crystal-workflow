@@ -1,0 +1,31 @@
+{
+  "purpose": "Prepare frozen variable-cell g4 cold single-point rerun",
+  "quantum_calculations_started": 0,
+  "input_source": "snapshot/calculations/pe_g4_variable_cell_20261027/cold_verification/input.json",
+  "input_source_sha256": "1109ad628ec3c7ebde655b5b13b41f5185916fc3fd4de05994f8a6cecddd6894",
+  "prepared_input_sha256": "af98b49da540b491e5c54107c67002360e57058c994c9f061f66d370f840c606",
+  "changed_fields": [
+    "structure",
+    "point_runner"
+  ],
+  "all_scientific_parameters_preserved": true,
+  "files": [
+    {
+      "source": "snapshot/calculations/pe_g4_variable_cell_20261027/runs/attempt_01/final_structure.extxyz",
+      "output": "structure.extxyz",
+      "sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab"
+    },
+    {
+      "source": "snapshot/calculations/pe_g4_variable_cell_20261027/scripts/run_point.py",
+      "output": "run_point.py",
+      "sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae"
+    },
+    {
+      "source": "snapshot/calculations/pe_g4_variable_cell_20261027/cold_verification/result.json",
+      "output": "expected_result.json",
+      "sha256": "7d0a2a008376755399c050223b7b9e30daee495e85faca8b0a150669b9a17e9a"
+    }
+  ],
+  "mpi_ranks_in_historical_input": 4,
+  "historical_result_is_not_a_new_rerun_result": true
+}

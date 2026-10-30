@@ -1,0 +1,154 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "group_id": "group_001",
+      "candidate_id": "cand_0025",
+      "representative_file": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_001/representative.extxyz",
+      "representative_sha256": "42627e475decb02dfe08b9cb9ae6c0a0694a7ee9225db3c27b3ce3b5184ae895",
+      "dense_input_sha256": "42627e475decb02dfe08b9cb9ae6c0a0694a7ee9225db3c27b3ce3b5184ae895",
+      "source_final_result_sha256": "6430273a451f7a7ae7eeb2bab9346b387830f623b3240e616471ad03497ae211",
+      "fine_repeat": [
+        2,
+        3,
+        8
+      ],
+      "dense_repeat": [
+        3,
+        4,
+        10
+      ],
+      "dense_natoms": 1440,
+      "comparison_accuracy": 0.001,
+      "energy_change_meV_per_CH2": -0.2492587631763854,
+      "max_force_vector_change_eV_A": 0.004286916748495539,
+      "fine_fmax_eV_A": 0.0016579766037317493,
+      "dense_fmax_eV_A": 0.003914133233274613,
+      "replica_force_deviation_eV_A": 2.298827888517879e-13,
+      "sampling_change_passed": true,
+      "dense_force_target_passed": true,
+      "replica_equivalence_passed": true,
+      "thresholds": {
+        "delta_E_meV_per_CH2": 1,
+        "delta_F_eV_A": 0.005,
+        "dense_fmax_eV_A": 0.01,
+        "replica_force_eV_A": 1e-05
+      },
+      "script_sha256": "f772f3060bc3b2a69fccd090db82ee04e8fb7cec90424733a64ba43b85bf90c7",
+      "workflow_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+      "passed": true
+    },
+    {
+      "group_id": "group_002",
+      "candidate_id": "cand_0113",
+      "representative_file": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_002/representative.extxyz",
+      "representative_sha256": "d9d383364029a48883ac1bee59d09df647b4e9fd14444a1d7356ad8ce58dbe02",
+      "dense_input_sha256": "d9d383364029a48883ac1bee59d09df647b4e9fd14444a1d7356ad8ce58dbe02",
+      "source_final_result_sha256": "6db9225314b2379014fab2d50e191132c8ced93126a1d9c13aa391544fed57a3",
+      "fine_repeat": [
+        2,
+        3,
+        8
+      ],
+      "dense_repeat": [
+        3,
+        4,
+        10
+      ],
+      "dense_natoms": 1440,
+      "comparison_accuracy": 0.001,
+      "energy_change_meV_per_CH2": -0.24413917660126572,
+      "max_force_vector_change_eV_A": 0.004350959722623592,
+      "fine_fmax_eV_A": 0.0068888850640354896,
+      "dense_fmax_eV_A": 0.008303461992820161,
+      "replica_force_deviation_eV_A": 2.249468708641577e-13,
+      "sampling_change_passed": true,
+      "dense_force_target_passed": true,
+      "replica_equivalence_passed": true,
+      "thresholds": {
+        "delta_E_meV_per_CH2": 1,
+        "delta_F_eV_A": 0.005,
+        "dense_fmax_eV_A": 0.01,
+        "replica_force_eV_A": 1e-05
+      },
+      "script_sha256": "f772f3060bc3b2a69fccd090db82ee04e8fb7cec90424733a64ba43b85bf90c7",
+      "workflow_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+      "passed": true
+    },
+    {
+      "group_id": "group_003",
+      "candidate_id": "cand_0041",
+      "representative_file": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_003/representative.extxyz",
+      "representative_sha256": "c8c18360c5321c705e989302216b97b7408c88195e31953af4307933932c54ac",
+      "dense_input_sha256": "c8c18360c5321c705e989302216b97b7408c88195e31953af4307933932c54ac",
+      "source_final_result_sha256": "503ff614dbb49235b550414cf1018a25a6161210fc9edff65a05ebaf25917577",
+      "fine_repeat": [
+        2,
+        3,
+        8
+      ],
+      "dense_repeat": [
+        3,
+        4,
+        10
+      ],
+      "dense_natoms": 1440,
+      "comparison_accuracy": 0.001,
+      "energy_change_meV_per_CH2": -0.26633215087201734,
+      "max_force_vector_change_eV_A": 0.004099323910754666,
+      "fine_fmax_eV_A": 0.0049959996041913785,
+      "dense_fmax_eV_A": 0.008054012637664844,
+      "replica_force_deviation_eV_A": 2.3551949534493004e-13,
+      "sampling_change_passed": true,
+      "dense_force_target_passed": true,
+      "replica_equivalence_passed": true,
+      "thresholds": {
+        "delta_E_meV_per_CH2": 1,
+        "delta_F_eV_A": 0.005,
+        "dense_fmax_eV_A": 0.01,
+        "replica_force_eV_A": 1e-05
+      },
+      "script_sha256": "f772f3060bc3b2a69fccd090db82ee04e8fb7cec90424733a64ba43b85bf90c7",
+      "workflow_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+      "passed": true
+    },
+    {
+      "group_id": "group_004",
+      "candidate_id": "cand_0081",
+      "representative_file": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_004/representative.extxyz",
+      "representative_sha256": "1aeee1f2a75258fa23f3c5c5abf5045212d619ae8443be23a15fd64c06d24240",
+      "dense_input_sha256": "1aeee1f2a75258fa23f3c5c5abf5045212d619ae8443be23a15fd64c06d24240",
+      "source_final_result_sha256": "5c99c26c3890569583315a64c8f27002f23200f8e839356d84d6fddb46ea4106",
+      "fine_repeat": [
+        2,
+        3,
+        8
+      ],
+      "dense_repeat": [
+        3,
+        4,
+        10
+      ],
+      "dense_natoms": 1440,
+      "comparison_accuracy": 0.001,
+      "energy_change_meV_per_CH2": -0.23199341508473026,
+      "max_force_vector_change_eV_A": 0.0044998834135591415,
+      "fine_fmax_eV_A": 0.006345211148816569,
+      "dense_fmax_eV_A": 0.008397481504242094,
+      "replica_force_deviation_eV_A": 2.5267097307950243e-13,
+      "sampling_change_passed": true,
+      "dense_force_target_passed": true,
+      "replica_equivalence_passed": true,
+      "thresholds": {
+        "delta_E_meV_per_CH2": 1,
+        "delta_F_eV_A": 0.005,
+        "dense_fmax_eV_A": 0.01,
+        "replica_force_eV_A": 1e-05
+      },
+      "script_sha256": "f772f3060bc3b2a69fccd090db82ee04e8fb7cec90424733a64ba43b85bf90c7",
+      "workflow_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+      "passed": true
+    }
+  ],
+  "scope": "Exact delivered representatives only; no transfer of force convergence to every cluster member"
+}

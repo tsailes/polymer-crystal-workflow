@@ -1,0 +1,19 @@
+{
+  "cluster_id": "group_001",
+  "representative_id": "cand_0025",
+  "energy_eV_per_CH2": -86.15632254466367,
+  "members": [
+    "cand_0025",
+    "cand_0065",
+    "cand_0097",
+    "cand_0057",
+    "cand_0033",
+    "cand_0009",
+    "cand_0017",
+    "cand_0121",
+    "cand_0073",
+    "cand_0049",
+    "cand_0089",
+    "cand_0105"
+  ]
+}

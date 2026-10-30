@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "status": "pilot_protocol_frozen_before_dispatch",
+  "scope": "Fixed Tashiro cell C4H8 PE; 16 rigid-angle inputs, four preoptimized representatives, and one excluded stationary control.",
+  "reference_id": "final_group_001",
+  "normalization": "meV per CH2; 4 CH2 per primitive cell",
+  "same_geometry_pairing_required": true,
+  "same_cell_required": true,
+  "main_DFT_method": "PBE-D3(BJ)",
+  "cross_methods": [
+    "optB88-vdW",
+    "r2SCAN-D4"
+  ],
+  "DFT_science_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+  "stage2_lock": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/releases/20261021T043247_514339Z/parameters_lock.json",
+  "stage2_lock_sha256": "d3d0de948aebb52865c5e5a391dbfa4d964ae93cae654fbb1c0d6a2e606b10d1",
+  "stage2_release_check_sha256": "65239227c43dfe5bcbfd2e1dbb449428b0f4135498bf4af20d1bac619fa47c83",
+  "DFT_production_precision": {
+    "ecut_eV": 1800,
+    "kmesh": [
+      4,
+      8,
+      12
+    ],
+    "gpts": [
+      112,
+      72,
+      44
+    ]
+  },
+  "DFT_previous_candidate_precision": {
+    "ecut_eV": 1400,
+    "kmesh": [
+      3,
+      6,
+      9
+    ],
+    "gpts": [
+      96,
+      60,
+      36
+    ]
+  },
+  "DFT_verification_upper_point": {
+    "ecut_eV": 2000,
+    "kmesh": [
+      5,
+      10,
+      15
+    ],
+    "gpts": [
+      128,
+      80,
+      48
+    ]
+  },
+  "upper_point_role": "New-geometry transfer verification only; does not edit the prior locked candidate template.",
+  "GFN2_proposed_sampling": {
+    "repeat": [
+      2,
+      3,
+      8
+    ],
+    "accuracy": 0.001,
+    "threads": 4,
+    "max_iterations": 1000
+  },
+  "temperature_gate": "Explicit T=0 and 300 K electronic singlepoints; no silent substitution. Native energy/free_energy alias is not evidence of zero entropy.",
+  "temperature_change_thresholds": {
+    "energy_meV_CH2": 0.1,
+    "max_force_vector_eV_A": 0.001,
+    "max_stress_component_kbar": 0.1
+  },
+  "numerical_transfer_thresholds": {
+    "energy_abs_meV_atom": 0.5,
+    "force_vector_eV_A": 0.005,
+    "stress_component_kbar": 0.1
+  },
+  "split_strategy": "Four contiguous initial-angle blocks; leave one block out. Preoptimized endpoints and unstable control are separate diagnostic domains, never pooled to inflate independent n.",
+  "calibration_models_to_audit": [
+    "identity",
+    "mean_gap_bias_only",
+    "affine_gap_model"
+  ],
+  "model_selection_rule": "Report blocked held-out residuals and bias; no training-residual sigma presented as prediction error. Do not apply a fitted high-energy input model to near-minimum endpoints without separate evidence.",
+  "sigma_definition": "Standard deviation of held-out DFT-minus-predicted relative-energy residuals, for a declared domain and fixed R0. Not the spread of candidate energies.",
+  "screening_rule": "Only consider rejection if predicted relative energy minus 3*sigma_deltaE exceeds a predeclared low-energy window; requires independent validation and numerical uncertainty below the relevant signal.",
+  "production_rejection_enabled": false,
+  "screening_window_meV_CH2": null,
+  "small_sample_policy": "Four closely related endpoint groups cannot establish a robust 3sigma coverage claim. Keep all four unless later evidence validates a conservative decision.",
+  "cross_functional_policy": "Differences between DFT methods are reported separately, never mixed into a single GFN2 sigma.",
+  "raw_data_retention": "All inputs, source/frozen structure hashes, stdout, stderr, SCF records, complete energy/force/stress JSON and failed attempts retained.",
+  "sample_manifest_sha256": "60037c970d3f15b6d62ec714e5115646576b0620b02820e709160fc59853148f"
+}

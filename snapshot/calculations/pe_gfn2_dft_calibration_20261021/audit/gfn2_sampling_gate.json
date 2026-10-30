@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-21T07:32:40.172850+00:00",
+  "kind": "GFN2_Gamma_repeated_cell_F_vs_D",
+  "passed": true,
+  "status": "passed",
+  "required_sample_count": 6,
+  "verified_pair_count": 6,
+  "thresholds": {
+    "energy_abs_meV_CH2": 1.0,
+    "max_force_vector_eV_A": 0.005,
+    "replica_force_max_deviation_eV_A": 1e-05,
+    "comparison": "strictly smaller than each threshold",
+    "residual_force_requirement": "not imposed; initial geometries are not optimized",
+    "stress_requirement": "recorded only; no new stress threshold invented"
+  },
+  "checks": [
+    {
+      "sample_id": "final_group_001",
+      "status": "verified_pair",
+      "passed": true,
+      "threshold_checks": {
+        "same_geometry": true,
+        "energy": true,
+        "forces": true,
+        "F_replicas": true,
+        "D_replicas": true
+      },
+      "geometry": {
+        "atomic_numbers_equal": true,
+        "max_cell_component_difference_A": 0.0,
+        "max_position_component_difference_A": 0.0,
+        "same_frozen_structure_hash": true
+      },
+      "metrics": {
+        "energy_D_minus_F_meV_CH2": -0.24925876786596746,
+        "max_force_vector_difference_eV_A": 0.004287094152891132,
+        "max_stress_component_difference_kbar": 0.1743407180391833,
+        "F_replica_force_max_deviation_eV_A": 1.657601573320853e-13,
+        "D_replica_force_max_deviation_eV_A": 2.541494158369753e-13
+      },
+      "fine_F_source": {
+        "origin": "explicit_reused_point",
+        "sample_id": "final_group_001",
+        "precision_label": "F",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T000/result.json",
+        "result_sha256": "c935810d29b6cdee389188b29ef251b3e620c6e1e6d360938f61b0a45142896a",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T000/input.json",
+        "input_sha256": "c4b2ac7834ec2e07c8793e7959148bb087840bb4a3b502ed985afbf156f4f8f2",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T000/process.json",
+        "process_sha256": "a02f2c07c814c90fe20bb596e9a0e34af2ef0206c026cb77049e24f3c686d78f",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_001/POSCAR",
+        "frozen_structure_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.15632254465898,
+        "replica_force_max_deviation_eV_A": 1.657601573320853e-13
+      },
+      "dense_D_source": {
+        "origin": "current_run",
+        "sample_id": "final_group_001",
+        "precision_label": "D",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_001_gfn2_D_T000/result.json",
+        "result_sha256": "a5398f0c159c93880985e11ed79102c62c6a242f9d1eb294b1f7f41614c7c364",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_001_gfn2_D_T000/input.json",
+        "input_sha256": "13ac3b00fc133d5c2055f359681b417a1163de9c8d316fd814a3f04f5b276b39",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_001_gfn2_D_T000/process.json",
+        "process_sha256": "52e8a29a661e2d198153cbe1c83074d57b0264ee1471c75a3ba75e628b52360d",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_001/POSCAR",
+        "frozen_structure_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.15657180342684,
+        "replica_force_max_deviation_eV_A": 2.541494158369753e-13
+      }
+    },
+    {
+      "sample_id": "final_group_002",
+      "status": "verified_pair",
+      "passed": true,
+      "threshold_checks": {
+        "same_geometry": true,
+        "energy": true,
+        "forces": true,
+        "F_replicas": true,
+        "D_replicas": true
+      },
+      "geometry": {
+        "atomic_numbers_equal": true,
+        "max_cell_component_difference_A": 0.0,
+        "max_position_component_difference_A": 0.0,
+        "same_frozen_structure_hash": true
+      },
+      "metrics": {
+        "energy_D_minus_F_meV_CH2": -0.24413920037602566,
+        "max_force_vector_difference_eV_A": 0.004351076096681802,
+        "max_stress_component_difference_kbar": 0.17633810523209165,
+        "F_replica_force_max_deviation_eV_A": 1.773320559100063e-13,
+        "D_replica_force_max_deviation_eV_A": 2.321790112350618e-13
+      },
+      "fine_F_source": {
+        "origin": "current_run",
+        "sample_id": "final_group_002",
+        "precision_label": "F",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_002_gfn2_F_T000/result.json",
+        "result_sha256": "0046f1fac80c7449954458260615f26f4f17b637efbd10a3df230676e67b25d7",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_002_gfn2_F_T000/input.json",
+        "input_sha256": "b6c86a12ce984a43d178136f0f11cb3e4d959a2c3a50e7139b16db06a3332c02",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_002_gfn2_F_T000/process.json",
+        "process_sha256": "85346124603ef8151f644b0c7b006ee420bbb46074312b435ad60652259b33a4",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_002/POSCAR",
+        "frozen_structure_sha256": "c106d595aa5ec7c121bb7c87ffe8c3a916e20bb1669f2a4ba7b92631a4b351fe",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.15628909739695,
+        "replica_force_max_deviation_eV_A": 1.773320559100063e-13
+      },
+      "dense_D_source": {
+        "origin": "current_run",
+        "sample_id": "final_group_002",
+        "precision_label": "D",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_002_gfn2_D_T000/result.json",
+        "result_sha256": "258e9b7a918dc7ccda2b5c34c8c390a13a12ffdeb1f73c9662e7c87cc0350426",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_002_gfn2_D_T000/input.json",
+        "input_sha256": "4b1941b9910eb2525ba0646282f82a921dfdc98943fde65b8aab64164a5f2935",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_002_gfn2_D_T000/process.json",
+        "process_sha256": "79a2f849298bdc46adfec67e38211b89dbfb0174d279a94418b6cbe058139f14",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_002/POSCAR",
+        "frozen_structure_sha256": "c106d595aa5ec7c121bb7c87ffe8c3a916e20bb1669f2a4ba7b92631a4b351fe",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.15653323659733,
+        "replica_force_max_deviation_eV_A": 2.321790112350618e-13
+      }
+    },
+    {
+      "sample_id": "final_group_003",
+      "status": "verified_pair",
+      "passed": true,
+      "threshold_checks": {
+        "same_geometry": true,
+        "energy": true,
+        "forces": true,
+        "F_replicas": true,
+        "D_replicas": true
+      },
+      "geometry": {
+        "atomic_numbers_equal": true,
+        "max_cell_component_difference_A": 0.0,
+        "max_position_component_difference_A": 0.0,
+        "same_frozen_structure_hash": true
+      },
+      "metrics": {
+        "energy_D_minus_F_meV_CH2": -0.2663321238571825,
+        "max_force_vector_difference_eV_A": 0.0040995992513976716,
+        "max_stress_component_difference_kbar": 0.1723092961810293,
+        "F_replica_force_max_deviation_eV_A": 1.6467024114693093e-13,
+        "D_replica_force_max_deviation_eV_A": 2.1367302707812152e-13
+      },
+      "fine_F_source": {
+        "origin": "current_run",
+        "sample_id": "final_group_003",
+        "precision_label": "F",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_003_gfn2_F_T000/result.json",
+        "result_sha256": "1c6cd54107d760a162167afa68dfbb4248ba53a013d9e677959e003229a7b696",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_003_gfn2_F_T000/input.json",
+        "input_sha256": "1340a27be303339201b89a64d09394c788752efba0bd0e9bfb86c608b04bb96c",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_003_gfn2_F_T000/process.json",
+        "process_sha256": "636deb154a4b801682ebe8f838357ee330aaa8d9ead63801170479d7a0fcd18f",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_003/POSCAR",
+        "frozen_structure_sha256": "e88cfef80af39137dee5b94b08e5e5c5c4bcdea5f475a760db15aafef1216e93",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.15612277805256,
+        "replica_force_max_deviation_eV_A": 1.6467024114693093e-13
+      },
+      "dense_D_source": {
+        "origin": "current_run",
+        "sample_id": "final_group_003",
+        "precision_label": "D",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_003_gfn2_D_T000/result.json",
+        "result_sha256": "e0e1adead33cb3e3df1b92b1495497da5e9e123603eda6ae090cd5fdc70f4639",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_003_gfn2_D_T000/input.json",
+        "input_sha256": "86a5fb26263307599961d5ac9267688023c5ad86badd48ea41beec93f83377ac",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_003_gfn2_D_T000/process.json",
+        "process_sha256": "07bd4a5d213f5ef5ba2290a046ae7c55ef248073c922af9e71cd6d5481049beb",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_003/POSCAR",
+        "frozen_structure_sha256": "e88cfef80af39137dee5b94b08e5e5c5c4bcdea5f475a760db15aafef1216e93",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.15638911017642,
+        "replica_force_max_deviation_eV_A": 2.1367302707812152e-13
+      }
+    },
+    {
+      "sample_id": "final_group_004",
+      "status": "verified_pair",
+      "passed": true,
+      "threshold_checks": {
+        "same_geometry": true,
+        "energy": true,
+        "forces": true,
+        "F_replicas": true,
+        "D_replicas": true
+      },
+      "geometry": {
+        "atomic_numbers_equal": true,
+        "max_cell_component_difference_A": 0.0,
+        "max_position_component_difference_A": 0.0,
+        "same_frozen_structure_hash": true
+      },
+      "metrics": {
+        "energy_D_minus_F_meV_CH2": -0.23199341799795548,
+        "max_force_vector_difference_eV_A": 0.004500217322064148,
+        "max_stress_component_difference_kbar": 0.18480123177369878,
+        "F_replica_force_max_deviation_eV_A": 1.77322699539101e-13,
+        "D_replica_force_max_deviation_eV_A": 2.693134054681132e-13
+      },
+      "fine_F_source": {
+        "origin": "current_run",
+        "sample_id": "final_group_004",
+        "precision_label": "F",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_004_gfn2_F_T000/result.json",
+        "result_sha256": "751fdbfa4a2c24f17f4f010f560f610c4f28ccf83333158177e4c12660930544",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_004_gfn2_F_T000/input.json",
+        "input_sha256": "18eb0df98e1a02cfb2e15793bc1200beb9c96b6425a76176c6f552d74abdaae4",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_004_gfn2_F_T000/process.json",
+        "process_sha256": "6abaaa8859425a1e120e320d809cf7674989c6eb5cee6efdb9a10bb47b5549f7",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_004/POSCAR",
+        "frozen_structure_sha256": "f84b664538cb5235f180ad3fbb104fbab0b20a9555348383fcc8bda2162e1640",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.15577133792164,
+        "replica_force_max_deviation_eV_A": 1.77322699539101e-13
+      },
+      "dense_D_source": {
+        "origin": "current_run",
+        "sample_id": "final_group_004",
+        "precision_label": "D",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_004_gfn2_D_T000/result.json",
+        "result_sha256": "a4f8a8aa706c215801dc09b4a37f676fd499a09573071b7fd46e04324bbd3c57",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_004_gfn2_D_T000/input.json",
+        "input_sha256": "d32498418995e48b95ec7380a91de3b9e9efe2c0088bd67180ad7b59c816de7b",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_004_gfn2_D_T000/process.json",
+        "process_sha256": "c5b16b7ac27714b18a0068a0b4ae4240322a58d34c53056dd2f64dca39527791",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_004/POSCAR",
+        "frozen_structure_sha256": "f84b664538cb5235f180ad3fbb104fbab0b20a9555348383fcc8bda2162e1640",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.15600333133963,
+        "replica_force_max_deviation_eV_A": 2.693134054681132e-13
+      }
+    },
+    {
+      "sample_id": "initial_cand_0001",
+      "status": "verified_pair",
+      "passed": true,
+      "threshold_checks": {
+        "same_geometry": true,
+        "energy": true,
+        "forces": true,
+        "F_replicas": true,
+        "D_replicas": true
+      },
+      "geometry": {
+        "atomic_numbers_equal": true,
+        "max_cell_component_difference_A": 0.0,
+        "max_position_component_difference_A": 0.0,
+        "same_frozen_structure_hash": true
+      },
+      "metrics": {
+        "energy_D_minus_F_meV_CH2": -0.46230200003094524,
+        "max_force_vector_difference_eV_A": 0.004503570939437762,
+        "max_stress_component_difference_kbar": 0.2572934598877694,
+        "F_replica_force_max_deviation_eV_A": 1.8379448891252604e-13,
+        "D_replica_force_max_deviation_eV_A": 2.5243772477161655e-13
+      },
+      "fine_F_source": {
+        "origin": "current_run",
+        "sample_id": "initial_cand_0001",
+        "precision_label": "F",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0001_gfn2_F_T000/result.json",
+        "result_sha256": "5eb13528ad79c558d3c1d2a14ee087a50c66b5a963c3261bf58272f883e34d09",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0001_gfn2_F_T000/input.json",
+        "input_sha256": "08b736c235614cdb5584dad60e5a855f1191355932d63a2494f328b9b6ebe704",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0001_gfn2_F_T000/process.json",
+        "process_sha256": "29a70d84410de5eb6970ed3cff0fca97a7925ba573f7bf2c0288b8cc1275aa7a",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0001/POSCAR",
+        "frozen_structure_sha256": "1ab3f42578da0215b376861df3818a300bbd75b5354e946af9d31b3a9b9db326",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.11500863454641,
+        "replica_force_max_deviation_eV_A": 1.8379448891252604e-13
+      },
+      "dense_D_source": {
+        "origin": "current_run",
+        "sample_id": "initial_cand_0001",
+        "precision_label": "D",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0001_gfn2_D_T000/result.json",
+        "result_sha256": "5611c1a0e882faadc5671533fa8473696d32877b048cc03cd5a75a0d37147d50",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0001_gfn2_D_T000/input.json",
+        "input_sha256": "2fd610b3a0027ad7a6a614b7a90f59f97d49411e4f18086c0515ba56cfafe0ae",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0001_gfn2_D_T000/process.json",
+        "process_sha256": "e62263ca98a246ac727e414450582ba6b8caa6d26403baa4c2a23eaa3afb0146",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0001/POSCAR",
+        "frozen_structure_sha256": "1ab3f42578da0215b376861df3818a300bbd75b5354e946af9d31b3a9b9db326",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.11547093654644,
+        "replica_force_max_deviation_eV_A": 2.5243772477161655e-13
+      }
+    },
+    {
+      "sample_id": "initial_cand_0121",
+      "status": "verified_pair",
+      "passed": true,
+      "threshold_checks": {
+        "same_geometry": true,
+        "energy": true,
+        "forces": true,
+        "F_replicas": true,
+        "D_replicas": true
+      },
+      "geometry": {
+        "atomic_numbers_equal": true,
+        "max_cell_component_difference_A": 0.0,
+        "max_position_component_difference_A": 0.0,
+        "same_frozen_structure_hash": true
+      },
+      "metrics": {
+        "energy_D_minus_F_meV_CH2": -0.39541777360341257,
+        "max_force_vector_difference_eV_A": 0.0039236396512697695,
+        "max_stress_component_difference_kbar": 0.27268427958821206,
+        "F_replica_force_max_deviation_eV_A": 1.895426539360925e-13,
+        "D_replica_force_max_deviation_eV_A": 2.5840695770113063e-13
+      },
+      "fine_F_source": {
+        "origin": "current_run",
+        "sample_id": "initial_cand_0121",
+        "precision_label": "F",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0121_gfn2_F_T000/result.json",
+        "result_sha256": "c43a910eca5ba0dfaab152abf8c0580164f9bb0984d1c7ccd429064a5dcda51c",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0121_gfn2_F_T000/input.json",
+        "input_sha256": "071cf8e9bc52f2c0d89cd206d15e2a4b4b3deb099324fac6eafb5d7d0fc5938d",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0121_gfn2_F_T000/process.json",
+        "process_sha256": "2bb29e811a1ba55d01838a38075b49010f322c167ad14eaed4d9923dfdfe920e",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0121/POSCAR",
+        "frozen_structure_sha256": "2cbc8278b3a3303fbb37d1738af0ede055c0fa1af8e1aeacd7080b9dc6cea5a5",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.13873778825507,
+        "replica_force_max_deviation_eV_A": 1.895426539360925e-13
+      },
+      "dense_D_source": {
+        "origin": "current_run",
+        "sample_id": "initial_cand_0121",
+        "precision_label": "D",
+        "temperature_K": 0.0,
+        "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0121_gfn2_D_T000/result.json",
+        "result_sha256": "9e15e71846b40b21bd8d65f8075d9f4c4f36d08e100bbb82bf3dee4c639e8df0",
+        "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0121_gfn2_D_T000/input.json",
+        "input_sha256": "dd5d179fffa213e8f1e8b2e5231c88bff07f278e71fe3152b73746e8143cbdc6",
+        "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0121_gfn2_D_T000/process.json",
+        "process_sha256": "e9a7b22ffc21a643279ebcb98aa9f47b6e5c726f3bae7cc67f812ba739afd6e7",
+        "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0121/POSCAR",
+        "frozen_structure_sha256": "2cbc8278b3a3303fbb37d1738af0ede055c0fa1af8e1aeacd7080b9dc6cea5a5",
+        "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+        "energy_eV_CH2": -86.13913320602867,
+        "replica_force_max_deviation_eV_A": 2.5840695770113063e-13
+      }
+    }
+  ],
+  "provenance": {
+    "evaluator_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/scripts/evaluate_gfn2_gates.py",
+    "evaluator_sha256": "e7005481b61195c9c8fc40c97e9804fc3c6fac3015784627d665ccbad8364c75",
+    "sample_manifest_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/samples.json",
+    "sample_manifest_sha256": "60037c970d3f15b6d62ec714e5115646576b0620b02820e709160fc59853148f",
+    "protocol_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/protocol.json",
+    "protocol_sha256": "2cce4e16814ed3de93361f2e5474a2c6c0c9b17c78405c11955f48fbe137738e",
+    "rejected_or_incomplete_attempts": [],
+    "accepted_duplicates": [],
+    "errors": [],
+    "reused_points_manifest_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/audit/reused_points.json",
+    "reused_points_manifest_sha256": "e1b1afd6aa4bc78105fa3cb23a1b15d5f0acc3f975dc847099a88c265e3fedff"
+  },
+  "quantum_calculations_started": false,
+  "scope_note": "Only the listed frozen PE geometries were tested. This gate does not prove convergence for every candidate or a different cell/phase.",
+  "relative_energy_sampling": {
+    "reference_id": "final_group_001",
+    "normalization": "meV/CH2",
+    "status": "complete",
+    "records": [
+      {
+        "sample_id": "final_group_001",
+        "is_reference": true,
+        "relative_energy_F_meV_CH2": 0.0,
+        "relative_energy_D_meV_CH2": 0.0,
+        "D_minus_F_relative_energy_change_meV_CH2": 0.0,
+        "F_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T000/result.json",
+        "F_result_sha256": "c935810d29b6cdee389188b29ef251b3e620c6e1e6d360938f61b0a45142896a",
+        "D_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_001_gfn2_D_T000/result.json",
+        "D_result_sha256": "a5398f0c159c93880985e11ed79102c62c6a242f9d1eb294b1f7f41614c7c364"
+      },
+      {
+        "sample_id": "final_group_002",
+        "is_reference": false,
+        "relative_energy_F_meV_CH2": 0.0334472620266979,
+        "relative_energy_D_meV_CH2": 0.0385668295166397,
+        "D_minus_F_relative_energy_change_meV_CH2": 0.005119567489941801,
+        "F_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_002_gfn2_F_T000/result.json",
+        "F_result_sha256": "0046f1fac80c7449954458260615f26f4f17b637efbd10a3df230676e67b25d7",
+        "D_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_002_gfn2_D_T000/result.json",
+        "D_result_sha256": "258e9b7a918dc7ccda2b5c34c8c390a13a12ffdeb1f73c9662e7c87cc0350426"
+      },
+      {
+        "sample_id": "final_group_003",
+        "is_reference": false,
+        "relative_energy_F_meV_CH2": 0.19976660641418675,
+        "relative_energy_D_meV_CH2": 0.1826932504229717,
+        "D_minus_F_relative_energy_change_meV_CH2": -0.017073355991215067,
+        "F_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_003_gfn2_F_T000/result.json",
+        "F_result_sha256": "1c6cd54107d760a162167afa68dfbb4248ba53a013d9e677959e003229a7b696",
+        "D_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_003_gfn2_D_T000/result.json",
+        "D_result_sha256": "e0e1adead33cb3e3df1b92b1495497da5e9e123603eda6ae090cd5fdc70f4639"
+      },
+      {
+        "sample_id": "final_group_004",
+        "is_reference": false,
+        "relative_energy_F_meV_CH2": 0.5512067373416585,
+        "relative_energy_D_meV_CH2": 0.5684720872096705,
+        "D_minus_F_relative_energy_change_meV_CH2": 0.01726534986801198,
+        "F_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_004_gfn2_F_T000/result.json",
+        "F_result_sha256": "751fdbfa4a2c24f17f4f010f560f610c4f28ccf83333158177e4c12660930544",
+        "D_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_004_gfn2_D_T000/result.json",
+        "D_result_sha256": "a4f8a8aa706c215801dc09b4a37f676fd499a09573071b7fd46e04324bbd3c57"
+      },
+      {
+        "sample_id": "initial_cand_0001",
+        "is_reference": false,
+        "relative_energy_F_meV_CH2": 41.31391011256369,
+        "relative_energy_D_meV_CH2": 41.10086688039871,
+        "D_minus_F_relative_energy_change_meV_CH2": -0.21304323216497778,
+        "F_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0001_gfn2_F_T000/result.json",
+        "F_result_sha256": "5eb13528ad79c558d3c1d2a14ee087a50c66b5a963c3261bf58272f883e34d09",
+        "D_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0001_gfn2_D_T000/result.json",
+        "D_result_sha256": "5611c1a0e882faadc5671533fa8473696d32877b048cc03cd5a75a0d37147d50"
+      },
+      {
+        "sample_id": "initial_cand_0121",
+        "is_reference": false,
+        "relative_energy_F_meV_CH2": 17.584756403906,
+        "relative_energy_D_meV_CH2": 17.438597398168554,
+        "D_minus_F_relative_energy_change_meV_CH2": -0.1461590057374451,
+        "F_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0121_gfn2_F_T000/result.json",
+        "F_result_sha256": "c43a910eca5ba0dfaab152abf8c0580164f9bb0984d1c7ccd429064a5dcda51c",
+        "D_result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/initial_cand_0121_gfn2_D_T000/result.json",
+        "D_result_sha256": "9e15e71846b40b21bd8d65f8075d9f4c4f36d08e100bbb82bf3dee4c639e8df0"
+      }
+    ],
+    "max_absolute_change_meV_CH2": 0.21304323216497778,
+    "acceptance_role": "diagnostic; no additional tolerance is silently imposed",
+    "reference_F_source": {
+      "origin": "explicit_reused_point",
+      "sample_id": "final_group_001",
+      "precision_label": "F",
+      "temperature_K": 0.0,
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T000/result.json",
+      "result_sha256": "c935810d29b6cdee389188b29ef251b3e620c6e1e6d360938f61b0a45142896a",
+      "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T000/input.json",
+      "input_sha256": "c4b2ac7834ec2e07c8793e7959148bb087840bb4a3b502ed985afbf156f4f8f2",
+      "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T000/process.json",
+      "process_sha256": "a02f2c07c814c90fe20bb596e9a0e34af2ef0206c026cb77049e24f3c686d78f",
+      "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_001/POSCAR",
+      "frozen_structure_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+      "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+      "energy_eV_CH2": -86.15632254465898,
+      "replica_force_max_deviation_eV_A": 1.657601573320853e-13
+    },
+    "reference_D_source": {
+      "origin": "current_run",
+      "sample_id": "final_group_001",
+      "precision_label": "D",
+      "temperature_K": 0.0,
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_001_gfn2_D_T000/result.json",
+      "result_sha256": "a5398f0c159c93880985e11ed79102c62c6a242f9d1eb294b1f7f41614c7c364",
+      "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_001_gfn2_D_T000/input.json",
+      "input_sha256": "13ac3b00fc133d5c2055f359681b417a1163de9c8d316fd814a3f04f5b276b39",
+      "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_001_gfn2_D_T000/process.json",
+      "process_sha256": "52e8a29a661e2d198153cbe1c83074d57b0264ee1471c75a3ba75e628b52360d",
+      "frozen_structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/final_group_001/POSCAR",
+      "frozen_structure_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+      "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+      "energy_eV_CH2": -86.15657180342684,
+      "replica_force_max_deviation_eV_A": 2.541494158369753e-13
+    }
+  }
+}

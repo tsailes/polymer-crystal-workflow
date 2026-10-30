@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-21T02:41:39.097759+00:00",
+  "status": "cancelled_by_user",
+  "scope": "16-candidate DREIDING+DFTB versus GFN2-xTB comparison; all 32 production optimizations",
+  "reason": "User says the comparison is outside the research core and wastes computing resources.",
+  "DFT_continues": true,
+  "GFN2_primary_screening_and_DFT_calibration_remain_in_scope": true,
+  "automatic_restart_allowed": false,
+  "production_attempts_started": 0,
+  "all_existing_data_and_logs_retained": true,
+  "idle_dispatcher_pid": 438,
+  "dispatcher_exit_verified": true,
+  "DFT_processes_signalled": []
+}

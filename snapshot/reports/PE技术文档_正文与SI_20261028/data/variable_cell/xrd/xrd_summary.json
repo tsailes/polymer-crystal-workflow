@@ -1,0 +1,254 @@
+{
+  "generated_utc": "2026-10-27T05:41:50.485551+00:00",
+  "identity": "current_g4_fixed_to_variable_cell_20261027",
+  "fixed_geometry_sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d",
+  "variable_geometry_sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+  "structural_relaxation_status": "passed_relaxation",
+  "independent_cold_verification": {
+    "passed": true,
+    "independent_density_and_wavefunctions": true,
+    "geometry_sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+    "raw_fmax_eV_A": 0.0006209922404323713,
+    "raw_max_stress_component_kbar": 0.011392943840518,
+    "energy_delta_cold_minus_relax_eV": -5.258016244624741e-13,
+    "source_relaxation_status": "passed_relaxation"
+  },
+  "numerical_densification_snapshot": {
+    "status": "running",
+    "coordinator_pid": 298,
+    "started_unix": 1793079373.6523588,
+    "geometry_sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+    "stages": [],
+    "current_stage": "k_only",
+    "child_pid": 408
+  },
+  "wavelength_A": 0.71073,
+  "two_theta_range_deg": [
+    5.0,
+    50.0
+  ],
+  "step_deg": 0.005,
+  "fwhm_deg": 0.15,
+  "pseudo_voigt_lorentz_fraction": 0.5,
+  "B_iso_A2": 0.0,
+  "ADPs_used": false,
+  "scattering": "neutral-atom IT92 form factors; full reciprocal enumeration, one Friedel member times two; unpolarized random-powder LP",
+  "normalization": "each profile separately normalized to maximum=100; variable profile vertically offset by 125 only for display",
+  "pre_normalization_profile_max_arbitrary": {
+    "fixed": 1748708.0231464766,
+    "variable": 1630728.728117613
+  },
+  "fixed_cell_A": [
+    [
+      7.432,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      4.929,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.545
+    ]
+  ],
+  "variable_cell_A": [
+    [
+      7.129505992653368,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      4.908355808680994,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.555579019463927
+    ]
+  ],
+  "indexed_rows": 59,
+  "distinct_printed_d_positions": 45,
+  "statistics": {
+    "fixed": {
+      "indexed_rows": 59,
+      "mean_abs_relative_d_error_pct": 0.28790630744834406,
+      "mean_signed_relative_d_error_pct": -0.07053990202701708,
+      "relative_d_rmse_pct": 0.4542100279999856,
+      "max_abs_relative_d_error_pct": 2.1260587852097284,
+      "mean_abs_d_error_A": 0.004489139004765071,
+      "mean_abs_two_theta_error_deg": 0.09295671037581144,
+      "equal_observation_group_weighted_mean_abs_relative_d_error_pct": 0.2790270217708805
+    },
+    "variable": {
+      "indexed_rows": 59,
+      "mean_abs_relative_d_error_pct": 1.6479146381070815,
+      "mean_signed_relative_d_error_pct": -1.6392539813637461,
+      "relative_d_rmse_pct": 2.0738865854718957,
+      "max_abs_relative_d_error_pct": 4.6143370350346755,
+      "mean_abs_d_error_A": 0.026439592811448982,
+      "mean_abs_two_theta_error_deg": 0.5256337509225392,
+      "equal_observation_group_weighted_mean_abs_relative_d_error_pct": 1.5585386135141546
+    }
+  },
+  "statistics_definition": "Unweighted arithmetic statistics over 59 indexed rows. The equal-observation statistic first averages absolute relative error within each identical d_obs group, then averages 45 groups; it does not choose a best-matching hkl.",
+  "key_reflections": [
+    {
+      "row_id": 1,
+      "h": 1,
+      "k": 1,
+      "l": 0,
+      "d_obs_A": 4.1338,
+      "d_fixed_g4_A": 4.107711582564287,
+      "d_variable_g4_A": 4.042884537605365,
+      "d_4p5K_cell_only_A": 4.010949145766253,
+      "two_theta_obs_deg": 9.86311706284954,
+      "two_theta_fixed_g4_deg": 9.925915176740823,
+      "two_theta_variable_g4_deg": 10.085484691336482,
+      "two_theta_4p5K_cell_only_deg": 10.16599635003561,
+      "shift_variable_minus_fixed_deg": 0.1595695145956597,
+      "fixed_minus_obs_d_A": -0.026088417435713218,
+      "variable_minus_obs_d_A": -0.09091546239463533,
+      "fixed_relative_d_error_pct": -0.631100136332508,
+      "variable_relative_d_error_pct": -2.19931932833314,
+      "fixed_minus_obs_two_theta_deg": 0.06279811389128298,
+      "variable_minus_obs_two_theta_deg": 0.2223676284869427,
+      "same_d_group_id": "l0_d4.1338",
+      "pdf_page": 11,
+      "printed_page": 1687
+    },
+    {
+      "row_id": 2,
+      "h": 2,
+      "k": 0,
+      "l": 0,
+      "d_obs_A": 3.7372,
+      "d_fixed_g4_A": 3.716,
+      "d_variable_g4_A": 3.564752996326684,
+      "d_4p5K_cell_only_A": 3.564,
+      "two_theta_obs_deg": 10.91283503674969,
+      "two_theta_fixed_g4_deg": 10.975283932131276,
+      "two_theta_variable_g4_deg": 11.442470328216723,
+      "two_theta_4p5K_cell_only_deg": 11.444895945178509,
+      "shift_variable_minus_fixed_deg": 0.467186396085447,
+      "fixed_minus_obs_d_A": -0.021199999999999886,
+      "variable_minus_obs_d_A": -0.1724470036733159,
+      "fixed_relative_d_error_pct": -0.5672696136144677,
+      "variable_relative_d_error_pct": -4.6143370350346755,
+      "fixed_minus_obs_two_theta_deg": 0.0624488953815856,
+      "variable_minus_obs_two_theta_deg": 0.5296352914670326,
+      "same_d_group_id": "l0_d3.7372",
+      "pdf_page": 11,
+      "printed_page": 1687
+    },
+    {
+      "row_id": 4,
+      "h": 0,
+      "k": 2,
+      "l": 0,
+      "d_obs_A": 2.4764,
+      "d_fixed_g4_A": 2.4645,
+      "d_variable_g4_A": 2.454177904340497,
+      "d_4p5K_cell_only_A": 2.426,
+      "two_theta_obs_deg": 16.50092911059177,
+      "two_theta_fixed_g4_deg": 16.581164317872748,
+      "two_theta_variable_g4_deg": 16.651397474913345,
+      "two_theta_4p5K_cell_only_deg": 16.846200057680996,
+      "shift_variable_minus_fixed_deg": 0.0702331570405974,
+      "fixed_minus_obs_d_A": -0.0118999999999998,
+      "variable_minus_obs_d_A": -0.022222095659502727,
+      "fixed_relative_d_error_pct": -0.48053626231625746,
+      "variable_relative_d_error_pct": -0.8973548562228528,
+      "fixed_minus_obs_two_theta_deg": 0.08023520728097822,
+      "variable_minus_obs_two_theta_deg": 0.15046836432157562,
+      "same_d_group_id": "l0_d2.4764",
+      "pdf_page": 11,
+      "printed_page": 1687
+    }
+  ],
+  "optional_4p5K_cell_predictions": {
+    "cell_A": [
+      7.128,
+      4.852,
+      2.553
+    ],
+    "source_pdf": "E:\\PE_DFT\\reports\\PE计算实验报告_20261021\\audit\\low_temperature_comparison_20261021\\raw\\Kawaguchi_1977_4p5K_PE.pdf",
+    "source_table": "Table I, printed page 221",
+    "kind": "Bragg positions computed from published 4.5 K cell only; NOT independently observed reflection positions or simulated intensities. Not shown in the main figure."
+  },
+  "validation": {
+    "formula_each": "C4H8",
+    "atom_count_each": 12,
+    "same_angular_grid": true,
+    "angular_samples": 9001,
+    "finite_profiles": true,
+    "cold_geometry_hash_matched": true,
+    "reflection_counts_including_profile_padding": {
+      "fixed": 489,
+      "variable": 480
+    }
+  },
+  "limitations": [
+    "Published d values are processed fiber-diffraction positions, not a continuous measured powder trace.",
+    "Observed measurement temperature is not established.",
+    "Fixed cell already uses experimental lattice parameters, so its smaller d error is not independent validation of atomic coordinates.",
+    "Each simulated profile normalized to its own max=100; no absolute intensity comparison.",
+    "Same-method numerical densification is separate from completed structural and cold-electronic acceptance.",
+    "The 0 K static calculation does not include zero-point vibrational or thermal expansion effects.",
+    "Input source extxyz positions are saved to eight decimal places; XRD is forward evaluated without geometric fitting.",
+    "No background fitting, zero-shift fitting, peak fitting, Rietveld refinement, Rwp, R-squared or experimental continuous-intensity reconstruction was performed."
+  ],
+  "sources": [
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_g4_variable_cell_20261027\\source\\final_structure.extxyz",
+      "sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d"
+    },
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_g4_variable_cell_20261027\\runs\\attempt_01\\final_structure.extxyz",
+      "sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab"
+    },
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_g4_variable_cell_20261027\\runs\\attempt_01\\result.json",
+      "sha256": "22d8cb295f8bd598e945c9a14e798e129e31df7332c3abbab806e5899f427ee0"
+    },
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_g4_variable_cell_20261027\\final_cold_verification.json",
+      "sha256": "32fafd534b84de321d27c32872834c8b17bc2df0110f4740cfe9ccd90505bbc9"
+    },
+    {
+      "path": "E:\\PE_DFT\\reports\\PE_final_XRD_comparison_20261023\\inputs\\tashiro_indexed_positions_only.csv",
+      "sha256": "7ae4486ad6669fa172d4b308ea64c64e8772ddc1e4a27755bf66aae5674ee71c"
+    },
+    {
+      "path": "E:\\PE_DFT\\reports\\PE_final_XRD_comparison_20261023\\analysis\\forward_pxrd.py",
+      "sha256": "2a2d34f99832a92eff5803105df38762a85b7c35413ac90399035c7c13c97b57"
+    },
+    {
+      "path": "E:\\PE_DFT\\reports\\PE计算实验报告_20261021\\audit\\low_temperature_comparison_20261021\\raw\\Kawaguchi_1977_4p5K_PE.pdf",
+      "sha256": "57045e282b01e055d9c2c534de348e9b355e4c87ad084a41255ea3200d69c291"
+    }
+  ],
+  "products": [
+    {
+      "figure": "g4_variable_cell_xrd",
+      "labels": 27,
+      "raster_px": [
+        8400,
+        3000
+      ]
+    },
+    {
+      "figure": "g4_xrd_indexed_errors",
+      "labels": 20,
+      "raster_px": [
+        6780,
+        2280
+      ]
+    }
+  ]
+}

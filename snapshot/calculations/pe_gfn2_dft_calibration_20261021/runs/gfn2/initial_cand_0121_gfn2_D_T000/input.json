@@ -1,0 +1,21 @@
+{
+  "id": "initial_cand_0121_gfn2_D_T000",
+  "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0121/POSCAR",
+  "repeat": [
+    3,
+    4,
+    10
+  ],
+  "accuracy": 0.001,
+  "max_iterations": 1000,
+  "threads": 4,
+  "electronic_temperature_K": 0,
+  "charge": 0,
+  "multiplicity": 1,
+  "precision_label": "D",
+  "sample_id": "initial_cand_0121",
+  "protocol_sha256": "2cce4e16814ed3de93361f2e5474a2c6c0c9b17c78405c11955f48fbe137738e",
+  "queue_sha256": "be9e6bf5bfd048b8d53613b42b103af548cb7022ab30253aa03bb66e5dc3f61e",
+  "runner_sha256_at_submission": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+  "source_geometry_sha256_expected": "2cbc8278b3a3303fbb37d1738af0ede055c0fa1af8e1aeacd7080b9dc6cea5a5"
+}

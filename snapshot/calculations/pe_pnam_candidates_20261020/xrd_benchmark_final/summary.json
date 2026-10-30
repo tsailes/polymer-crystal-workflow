@@ -1,0 +1,73 @@
+{
+  "status": "position_only_diagnostic_completed",
+  "candidate_count": 4,
+  "unique_cell_group_position_tables": 1,
+  "all_candidates_share_cell_and_target_group": true,
+  "packing_ranking_produced": false,
+  "energy_calculations_run": 0,
+  "target_space_group": "P n a m",
+  "observed_count": 45,
+  "q_tolerance_A_inv": 0.03,
+  "builder_sha256": "b47301a5b7277e6dd15521fd50e7d7146007e154b3191eed29142ca3709e158d",
+  "versions": {
+    "ase": "3.29.0",
+    "gemmi": "0.7.5"
+  },
+  "candidates": [
+    {
+      "candidate_id": "group_001__representative",
+      "cell_group_signature": "532bc73d33d27eb26cdf7b56267da7f82f3edbe4d7bd5dee368a2c2233db3b36",
+      "target_symmetry_pass": true,
+      "max_target_symmetry_error_A": 1.7763568394002505e-15,
+      "observations_within_tolerance": 44,
+      "mean_abs_delta_q_A_inv": 0.0067908924734763655,
+      "rms_delta_q_A_inv": 0.009747555592778017,
+      "max_abs_delta_q_A_inv": 0.04096756258500367,
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/xrd_benchmark_final/group_001__representative/result.json"
+    },
+    {
+      "candidate_id": "group_002__representative",
+      "cell_group_signature": "532bc73d33d27eb26cdf7b56267da7f82f3edbe4d7bd5dee368a2c2233db3b36",
+      "target_symmetry_pass": true,
+      "max_target_symmetry_error_A": 1.6502355038028328e-15,
+      "observations_within_tolerance": 44,
+      "mean_abs_delta_q_A_inv": 0.0067908924734763655,
+      "rms_delta_q_A_inv": 0.009747555592778017,
+      "max_abs_delta_q_A_inv": 0.04096756258500367,
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/xrd_benchmark_final/group_002__representative/result.json"
+    },
+    {
+      "candidate_id": "group_003__representative",
+      "cell_group_signature": "532bc73d33d27eb26cdf7b56267da7f82f3edbe4d7bd5dee368a2c2233db3b36",
+      "target_symmetry_pass": true,
+      "max_target_symmetry_error_A": 1.7763568394002505e-15,
+      "observations_within_tolerance": 44,
+      "mean_abs_delta_q_A_inv": 0.0067908924734763655,
+      "rms_delta_q_A_inv": 0.009747555592778017,
+      "max_abs_delta_q_A_inv": 0.04096756258500367,
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/xrd_benchmark_final/group_003__representative/result.json"
+    },
+    {
+      "candidate_id": "group_004__representative",
+      "cell_group_signature": "532bc73d33d27eb26cdf7b56267da7f82f3edbe4d7bd5dee368a2c2233db3b36",
+      "target_symmetry_pass": true,
+      "max_target_symmetry_error_A": 1.9860273225978185e-15,
+      "observations_within_tolerance": 44,
+      "mean_abs_delta_q_A_inv": 0.0067908924734763655,
+      "rms_delta_q_A_inv": 0.009747555592778017,
+      "max_abs_delta_q_A_inv": 0.04096756258500367,
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/xrd_benchmark_final/group_004__representative/result.json"
+    }
+  ],
+  "limitations": [
+    "Only published, processed fiber-diffraction positions are compared; this is not a continuous powder profile.",
+    "The target space group and cell are supplied priors, not inferred from these observations.",
+    "Position matches contain no intensity, ADP, atomic-scattering-factor or refined-reference-coordinate information.",
+    "At identical cell and target group, all packings have identical allowed lattice positions and position residuals.",
+    "The reported Q tolerance is a descriptive threshold, not an experimental standard deviation or statistical confidence interval.",
+    "Matching is observed-to-nearest-allowed-position, permits many-to-one assignments, and does not prove indexing.",
+    "No penalty is assigned to unobserved predicted positions: the published list is not known to be complete.",
+    "No full-pattern R factor, chi-square, probability, or packing ranking is produced.",
+    "Extra structure-specific intensity cancellations and experimental detection thresholds are not modeled."
+  ]
+}

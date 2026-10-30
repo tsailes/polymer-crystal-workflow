@@ -1,0 +1,40 @@
+{
+  "source": "POSCAR",
+  "strain_matrix": [
+    [
+      0.0,
+      0.004,
+      0.003
+    ],
+    [
+      0.004,
+      0.0,
+      -0.002
+    ],
+    [
+      0.003,
+      -0.002,
+      0.0
+    ]
+  ],
+  "additional_cartesian_displacements_A": {
+    "0": [
+      0.01,
+      0.007,
+      0.005
+    ],
+    "4": [
+      -0.006,
+      0.009,
+      -0.004
+    ],
+    "8": [
+      0.008,
+      -0.004,
+      0.01
+    ]
+  },
+  "purpose": "Break mirror and orthorhombic symmetries to test nonzero force and shear stress.",
+  "not_a_candidate_for_physical_ranking": true,
+  "sha256": "12cb1a32dc3cb7e4f14ffa71103c467741bbe7ea07957de0d7784deb7cefe9f2"
+}

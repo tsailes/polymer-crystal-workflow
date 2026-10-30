@@ -1,0 +1,7 @@
+{
+  "status": "passed_relaxation",
+  "exit_code": 0,
+  "wall_seconds": 5028.660185575485,
+  "optimizer_steps": 9,
+  "last_evaluation_id": 10
+}

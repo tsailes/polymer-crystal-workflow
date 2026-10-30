@@ -1,0 +1,56 @@
+{
+  "started_utc": "2026-10-20T11:00:59.743064+00:00",
+  "official_source_archive": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/downloads/gpaw-26.7.0.tar.gz",
+  "source_sha256": "1509af00cfcd032bbbce197a5b3e37edb82bf458db5e200f6a105ec74efbca15",
+  "source_directory": "/opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0",
+  "scientific_source_modifications": [],
+  "configuration_sha256": "0b38defcd88d457a6b1f9edddeeb716ce91f3744e287a874b8b898d5aaf0a237",
+  "pybind11_version": "3.0.1",
+  "pybind11_url": "https://files.pythonhosted.org/packages/cd/8a/37362fc2b949d5f733a8b0f2ff51ba423914cabefe69f1d1b6aab710f5fe/pybind11-3.0.1-py3-none-any.whl",
+  "pybind11_sha256": "aa8f0aa6e0a94d3b64adfc38f560f33f15e589be2175e103c0a33c6bce55ee89",
+  "commands": [
+    [
+      "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+      "-m",
+      "pip",
+      "install",
+      "--no-deps",
+      "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/downloads/pybind11-3.0.1-py3-none-any.whl"
+    ],
+    [
+      "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+      "-m",
+      "pip",
+      "wheel",
+      "--no-build-isolation",
+      "--no-deps",
+      "--wheel-dir",
+      "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/wheels",
+      "/opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0",
+      "--verbose"
+    ],
+    [
+      "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+      "-m",
+      "pip",
+      "install",
+      "--no-deps",
+      "--force-reinstall",
+      "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/wheels/gpaw-26.7.0-cp312-cp312-linux_x86_64.whl"
+    ]
+  ],
+  "environment": {
+    "GPAW_CONFIG": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/siteconfig.py",
+    "GPAW_BUILD_JOBS": "4",
+    "OMPI_CC": "/usr/bin/gcc",
+    "OMPI_CXX": "/usr/bin/g++",
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "note": "Replaces only GPAW inside the newly created isolated environment; the original conda GPAW package metadata remains historical. The installed wheel and its hash identify the final GPAW build.",
+  "wheel_sha256": "3dab89f93c8042c70a5a158447204fea7b7e8c9764079c07f38f5891c6104f03",
+  "wheel_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/environment/wheels/gpaw-26.7.0-cp312-cp312-linux_x86_64.whl",
+  "exit_code": 0,
+  "finished_utc": "2026-10-20T11:01:11.390164+00:00"
+}

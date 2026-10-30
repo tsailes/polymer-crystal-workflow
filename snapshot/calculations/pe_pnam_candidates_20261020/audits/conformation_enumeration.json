@@ -1,0 +1,405 @@
+{
+  "scope": "All nine ordered pairs over {t,g+,g-} for one nondegenerate two-carbon chain under pure translation T=(0,0,c). This is not an enumeration of longer-period, helical, defective or disordered chains.",
+  "experimental_refined_coordinates_read": false,
+  "quantum_calculations_performed": false,
+  "inputs": {
+    "cell_A": [
+      [
+        7.432,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.929,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.545
+      ]
+    ],
+    "CC_A": 1.54,
+    "CH_A": 1.09,
+    "spacegroup": "Pnam",
+    "hall_number": 297,
+    "hall_symbol": "-P 2c 2n",
+    "number_of_chains": 2,
+    "CH2_per_cell": 4
+  },
+  "torsion_convention": {
+    "t_deg": 180.0,
+    "g_plus_deg": 60.0,
+    "g_minus_deg": -60.0,
+    "values_equivalent_modulo_360": true
+  },
+  "enumerated_count": 9,
+  "closure_compatible_count": 1,
+  "analytic_rejection_count": 8,
+  "records": [
+    {
+      "torsion_labels": [
+        "t",
+        "t"
+      ],
+      "requested_torsions_deg": [
+        180.0,
+        180.0
+      ],
+      "periodic_closure_compatible": true,
+      "decision": "accepted_analytic_with_geometric_check",
+      "rejection_basis": null,
+      "numerical_construction_attempted": true,
+      "construction_failure_claimed": false,
+      "geometric_torsions_deg": [
+        180.0,
+        180.0
+      ],
+      "quantum_calculation_performed": false
+    },
+    {
+      "torsion_labels": [
+        "t",
+        "g+"
+      ],
+      "requested_torsions_deg": [
+        180.0,
+        60.0
+      ],
+      "periodic_closure_compatible": false,
+      "decision": "analytic closure rejection",
+      "rejection_basis": "Two-carbon pure-translation periodicity requires both nondegenerate consecutive dihedrals to equal 180 degrees modulo 360; at least one requested gauche dihedral contradicts this necessary condition.",
+      "numerical_construction_attempted": false,
+      "construction_failure_claimed": false,
+      "geometric_torsions_deg": null,
+      "quantum_calculation_performed": false
+    },
+    {
+      "torsion_labels": [
+        "t",
+        "g-"
+      ],
+      "requested_torsions_deg": [
+        180.0,
+        -60.0
+      ],
+      "periodic_closure_compatible": false,
+      "decision": "analytic closure rejection",
+      "rejection_basis": "Two-carbon pure-translation periodicity requires both nondegenerate consecutive dihedrals to equal 180 degrees modulo 360; at least one requested gauche dihedral contradicts this necessary condition.",
+      "numerical_construction_attempted": false,
+      "construction_failure_claimed": false,
+      "geometric_torsions_deg": null,
+      "quantum_calculation_performed": false
+    },
+    {
+      "torsion_labels": [
+        "g+",
+        "t"
+      ],
+      "requested_torsions_deg": [
+        60.0,
+        180.0
+      ],
+      "periodic_closure_compatible": false,
+      "decision": "analytic closure rejection",
+      "rejection_basis": "Two-carbon pure-translation periodicity requires both nondegenerate consecutive dihedrals to equal 180 degrees modulo 360; at least one requested gauche dihedral contradicts this necessary condition.",
+      "numerical_construction_attempted": false,
+      "construction_failure_claimed": false,
+      "geometric_torsions_deg": null,
+      "quantum_calculation_performed": false
+    },
+    {
+      "torsion_labels": [
+        "g+",
+        "g+"
+      ],
+      "requested_torsions_deg": [
+        60.0,
+        60.0
+      ],
+      "periodic_closure_compatible": false,
+      "decision": "analytic closure rejection",
+      "rejection_basis": "Two-carbon pure-translation periodicity requires both nondegenerate consecutive dihedrals to equal 180 degrees modulo 360; at least one requested gauche dihedral contradicts this necessary condition.",
+      "numerical_construction_attempted": false,
+      "construction_failure_claimed": false,
+      "geometric_torsions_deg": null,
+      "quantum_calculation_performed": false
+    },
+    {
+      "torsion_labels": [
+        "g+",
+        "g-"
+      ],
+      "requested_torsions_deg": [
+        60.0,
+        -60.0
+      ],
+      "periodic_closure_compatible": false,
+      "decision": "analytic closure rejection",
+      "rejection_basis": "Two-carbon pure-translation periodicity requires both nondegenerate consecutive dihedrals to equal 180 degrees modulo 360; at least one requested gauche dihedral contradicts this necessary condition.",
+      "numerical_construction_attempted": false,
+      "construction_failure_claimed": false,
+      "geometric_torsions_deg": null,
+      "quantum_calculation_performed": false
+    },
+    {
+      "torsion_labels": [
+        "g-",
+        "t"
+      ],
+      "requested_torsions_deg": [
+        -60.0,
+        180.0
+      ],
+      "periodic_closure_compatible": false,
+      "decision": "analytic closure rejection",
+      "rejection_basis": "Two-carbon pure-translation periodicity requires both nondegenerate consecutive dihedrals to equal 180 degrees modulo 360; at least one requested gauche dihedral contradicts this necessary condition.",
+      "numerical_construction_attempted": false,
+      "construction_failure_claimed": false,
+      "geometric_torsions_deg": null,
+      "quantum_calculation_performed": false
+    },
+    {
+      "torsion_labels": [
+        "g-",
+        "g+"
+      ],
+      "requested_torsions_deg": [
+        -60.0,
+        60.0
+      ],
+      "periodic_closure_compatible": false,
+      "decision": "analytic closure rejection",
+      "rejection_basis": "Two-carbon pure-translation periodicity requires both nondegenerate consecutive dihedrals to equal 180 degrees modulo 360; at least one requested gauche dihedral contradicts this necessary condition.",
+      "numerical_construction_attempted": false,
+      "construction_failure_claimed": false,
+      "geometric_torsions_deg": null,
+      "quantum_calculation_performed": false
+    },
+    {
+      "torsion_labels": [
+        "g-",
+        "g-"
+      ],
+      "requested_torsions_deg": [
+        -60.0,
+        -60.0
+      ],
+      "periodic_closure_compatible": false,
+      "decision": "analytic closure rejection",
+      "rejection_basis": "Two-carbon pure-translation periodicity requires both nondegenerate consecutive dihedrals to equal 180 degrees modulo 360; at least one requested gauche dihedral contradicts this necessary condition.",
+      "numerical_construction_attempted": false,
+      "construction_failure_claimed": false,
+      "geometric_torsions_deg": null,
+      "quantum_calculation_performed": false
+    }
+  ],
+  "proof": [
+    "Two-carbon pure-translation periodicity makes consecutive carbon positions A, B, A+T, B+T, A+2T, ... . Set v=B-A and w=T-v.",
+    "Consecutive bond vectors are v,w,v,w,... . The normals for the first dihedral are v cross w and w cross v = -(v cross w); the next dihedral has the same opposite-normal relation. If v cross w != 0, both dihedrals are trans, 180 degrees modulo 360.",
+    "Equal C-C bond lengths give |v|^2=|T-v|^2, hence v dot T=|T|^2/2. For |T|=c and bond length l, each bond has axial projection c/2 and transverse magnitude sqrt(l^2-c^2/4). Here l>c/2, so the chain is noncollinear and the dihedrals are defined.",
+    "A gauche request is rejected by this analytic necessary closure condition. No failed numerical builder or optimization is asserted."
+  ],
+  "geometric_check": {
+    "constructed_from": "Chemical bond length, cell translation, arbitrary setting angle 35 degrees; no coordinate template",
+    "carbon_positions_A": [
+      [
+        0.3552570314584166,
+        0.24875365142918726,
+        0.63625
+      ],
+      [
+        -0.3552570314584166,
+        -0.24875365142918726,
+        1.90875
+      ],
+      [
+        0.3552570314584166,
+        0.24875365142918726,
+        3.18125
+      ],
+      [
+        -0.3552570314584166,
+        -0.24875365142918726,
+        4.453749999999999
+      ],
+      [
+        0.3552570314584166,
+        0.24875365142918726,
+        5.72625
+      ]
+    ],
+    "torsions_deg": [
+      180.0,
+      180.0
+    ],
+    "CC_lengths_A": [
+      1.54,
+      1.54,
+      1.5399999999999996,
+      1.5400000000000007
+    ],
+    "two_step_translation_error_A": 4.440892098500626e-16,
+    "CCC_deg": 111.44076283224123,
+    "zigzag_half_width_A": 0.43368875648326416
+  },
+  "symmetry": {
+    "gemmi_spglib_operation_sets_identical": true,
+    "operations_xyz": [
+      "x,y,z",
+      "-x,-y,z+1/2",
+      "x+1/2,-y+1/2,-z+1/2",
+      "-x+1/2,y+1/2,-z",
+      "-x,-y,-z",
+      "x,y,-z+1/2",
+      "-x+1/2,y+1/2,z+1/2",
+      "x+1/2,-y+1/2,z"
+    ],
+    "fixed_origin_convention": "Pnam Hall 297, -P 2c 2n",
+    "chain_centers_fractional": [
+      {
+        "first": [
+          0.0,
+          0.0
+        ],
+        "second": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "first": [
+          0.0,
+          0.5
+        ],
+        "second": [
+          0.5,
+          0.0
+        ]
+      },
+      {
+        "first": [
+          0.5,
+          0.0
+        ],
+        "second": [
+          0.0,
+          0.5
+        ]
+      },
+      {
+        "first": [
+          0.5,
+          0.5
+        ],
+        "second": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "carbon_phase_fractional": [
+      0.25,
+      0.75
+    ],
+    "mirror_argument": "The operation (x,y,1/2-z) fixes the transverse coordinates. The two carbons on a nonzero-width zigzag have distinct transverse positions. Thus each carbon lies on a mirror plane: z=1/4 or 3/4 modulo 1. This imposes no condition on its x,y coordinates and therefore no condition on the in-plane setting angle.",
+    "axis_argument": "The operation G:(x,y,z)->(x+1/2,1/2-y,z) exchanges the two chain axes, so Baxis=(X+1/2,1/2-Y). The screw S:(x,y,z)->(-x,-y,z+1/2) cannot exchange these two axes, because its y equation would require -Y=1/2-Y modulo 1. It therefore fixes each axis, requiring 2X=2Y=0 modulo 1.",
+    "atomic_sites": "Each initial C/H independent atom is on a 4c mirror site (x,y,1/4); x and y are free. Fixed chain axes must not be misdescribed as fixed atomic coordinates.",
+    "setting_angle": "Continuous angle of the whole trans zigzag plane around c; the second chain is symmetry related. It is not a C-C-C-C torsion.",
+    "origin_preserving_global_translations": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.5
+      ],
+      [
+        0.0,
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.0,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.5,
+        0.5
+      ]
+    ],
+    "general_origin_change_rule": "For f'=f+delta, keep the same physical structure by transforming each translation to t'=t+(I-R)delta modulo integers. An arbitrary origin change is a gauge choice, not an independent packing or axial-slide degree of freedom.",
+    "independent_relative_chain_slide_allowed_in_this_model": false,
+    "independent_relative_chain_rotation_allowed_in_this_model": false,
+    "linear_target_group_displacement_dimension": 6,
+    "rigid_initial_geometry_continuous_parameter_count": 1
+  },
+  "generation_reconciliation": {
+    "setting_angles_deg": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95,
+      100,
+      105,
+      110,
+      115,
+      120,
+      125,
+      130,
+      135,
+      140,
+      145,
+      150,
+      155,
+      160,
+      165,
+      170,
+      175
+    ],
+    "centers_count": 4,
+    "phases_count": 2,
+    "grid_count": 288,
+    "excluded_endpoint_180": "Same physical chain-plane family as 0; verified separately by periodic atom matching.",
+    "expected_geometric_survivors": 248,
+    "expected_distinct_initial_structures": 16,
+    "interpretation": "These counts concern the declared rigid-chain grid after analytic torsion closure; not an exhaustive search of continuous molecular crystal structures."
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "unstable_cand_0001",
+  "geometry": {
+    "numbers": [
+      6,
+      6,
+      6,
+      6,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "symbols": [
+      "C",
+      "C",
+      "C",
+      "C",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H"
+    ],
+    "positions_A": [
+      [
+        0.4219870699999997,
+        0.0,
+        0.63625
+      ],
+      [
+        7.010012930000001,
+        0.0,
+        1.90875
+      ],
+      [
+        4.13798707,
+        2.4645,
+        0.63625
+      ],
+      [
+        3.2940129300000005,
+        2.4645,
+        1.90875
+      ],
+      [
+        1.0613000999999997,
+        0.8840581200000001,
+        0.63625
+      ],
+      [
+        6.3706999,
+        4.04494188,
+        1.90875
+      ],
+      [
+        4.7773001,
+        1.58044188,
+        0.63625
+      ],
+      [
+        2.6546999,
+        3.3485581200000003,
+        1.90875
+      ],
+      [
+        1.0613000999999997,
+        4.04494188,
+        0.63625
+      ],
+      [
+        6.3706999,
+        0.8840581200000001,
+        1.90875
+      ],
+      [
+        4.7773001,
+        3.3485581200000003,
+        0.63625
+      ],
+      [
+        2.6546999,
+        1.58044188,
+        1.90875
+      ]
+    ],
+    "cell_A": [
+      [
+        7.432,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.929,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.545
+      ]
+    ],
+    "pbc": [
+      true,
+      true,
+      true
+    ]
+  },
+  "geometry_sha256": "7ed9021eb60d19482458ed3e1d1692a5d222e86bebdfe309d63e641ff7ebd55e",
+  "source_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0001/relaxation/attempts/20261020T082926_910950Z/final.extxyz",
+  "source_sha256": "4c99c9fc7d57392595667d46a5dd51eeada967bfc299f88b4ada7df8c0f33aab",
+  "structure_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/unstable_cand_0001/POSCAR",
+  "structure_sha256": "2bb82333480ea6b914b93dca64de96f919abae1f33565e88f962ee05e2d197cd",
+  "source_to_frozen_max_cartesian_difference_A": 8.881784197001252e-16,
+  "Pnam_Hall297_max_operation_residual_A": 1.7386019436801195e-15,
+  "detected_spacegroup_number": 63,
+  "electronic_calculator_removed": true,
+  "old_source_modified": false
+}

@@ -1,0 +1,758 @@
+{
+  "passed": true,
+  "errors": [],
+  "formula": "C4H8",
+  "atom_count": 12,
+  "composition": {
+    "C": 4,
+    "H": 8
+  },
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "cell_A": [
+    [
+      7.432,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      4.929,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.545
+    ]
+  ],
+  "volume_A3": 93.22927476000005,
+  "density_g_cm3": 0.9993591196396083,
+  "chemical_repeat_unit": "CH2",
+  "chemical_repeat_count": 4,
+  "two_carbon_chain_periods_per_cell": 2,
+  "periodic_CC_edge_count": 4,
+  "CH_edge_count": 8,
+  "CC_edges_crossing_cell_boundary": [
+    {
+      "i": 0,
+      "j": 3,
+      "shift": [
+        0,
+        0,
+        -1
+      ],
+      "distance_A": 1.54,
+      "kind": "CC"
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "shift": [
+        0,
+        0,
+        -1
+      ],
+      "distance_A": 1.5399999999999994,
+      "kind": "CC"
+    }
+  ],
+  "minimum_pair_distance_A": 1.0899999999999999,
+  "minimum_nonbonded_distance_A": 1.7572292862917347,
+  "minimum_interchain_distance_A": 1.769884854988744,
+  "screen_thresholds_A": {
+    "CC_bond_cutoff": 1.8,
+    "CH_bond_cutoff": 1.3,
+    "minimum_pair": 0.75,
+    "minimum_nonbonded": 1.0,
+    "minimum_interchain": 1.2
+  },
+  "periodic_bonds": [
+    {
+      "i": 0,
+      "j": 1,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "distance_A": 1.0900000000000003,
+      "kind": "CH"
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "distance_A": 1.09,
+      "kind": "CH"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "distance_A": 1.5399999999999996,
+      "kind": "CC"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "shift": [
+        0,
+        0,
+        -1
+      ],
+      "distance_A": 1.54,
+      "kind": "CC"
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "distance_A": 1.0900000000000003,
+      "kind": "CH"
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "distance_A": 1.09,
+      "kind": "CH"
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "distance_A": 1.5399999999999994,
+      "kind": "CC"
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "distance_A": 1.0899999999999999,
+      "kind": "CH"
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "distance_A": 1.0900000000000003,
+      "kind": "CH"
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "shift": [
+        0,
+        0,
+        -1
+      ],
+      "distance_A": 1.5399999999999994,
+      "kind": "CC"
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "shift": [
+        0,
+        1,
+        0
+      ],
+      "distance_A": 1.0900000000000003,
+      "kind": "CH"
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "distance_A": 1.0900000000000003,
+      "kind": "CH"
+    }
+  ],
+  "atoms": [
+    {
+      "index": 0,
+      "element": "C",
+      "chain_id": 0,
+      "neighbour_counts": {
+        "C": 2,
+        "H": 2
+      },
+      "neighbours": [
+        {
+          "index": 1,
+          "element": "H",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.0900000000000003,
+          "vector_A": [
+            -0.8737811387336818,
+            0.6516183864757585,
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "element": "H",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.09,
+          "vector_A": [
+            -0.36001701671184905,
+            -1.0288283373225586,
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.5399999999999996,
+          "vector_A": [
+            0.8294772408652802,
+            0.2535966421041915,
+            1.2724999999999997
+          ]
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            -1
+          ],
+          "distance_A": 1.54,
+          "vector_A": [
+            0.8294772408652802,
+            0.2535966421041915,
+            -1.2725000000000002
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "element": "H",
+      "chain_id": 0,
+      "neighbour_counts": {
+        "C": 1,
+        "H": 0
+      },
+      "neighbours": [
+        {
+          "index": 0,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.0900000000000003,
+          "vector_A": [
+            0.8737811387336818,
+            -0.6516183864757585,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "element": "H",
+      "chain_id": 0,
+      "neighbour_counts": {
+        "C": 1,
+        "H": 0
+      },
+      "neighbours": [
+        {
+          "index": 0,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.09,
+          "vector_A": [
+            0.36001701671184905,
+            1.0288283373225586,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "element": "C",
+      "chain_id": 0,
+      "neighbour_counts": {
+        "C": 2,
+        "H": 2
+      },
+      "neighbours": [
+        {
+          "index": 4,
+          "element": "H",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.0900000000000003,
+          "vector_A": [
+            0.3600170167118488,
+            1.0288283373225589,
+            0.0
+          ]
+        },
+        {
+          "index": 5,
+          "element": "H",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.09,
+          "vector_A": [
+            0.8737811387336816,
+            -0.6516183864757583,
+            0.0
+          ]
+        },
+        {
+          "index": 0,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.5399999999999996,
+          "vector_A": [
+            -0.8294772408652802,
+            -0.2535966421041915,
+            -1.2724999999999997
+          ]
+        },
+        {
+          "index": 0,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            1
+          ],
+          "distance_A": 1.54,
+          "vector_A": [
+            -0.8294772408652802,
+            -0.2535966421041915,
+            1.2725000000000002
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "element": "H",
+      "chain_id": 0,
+      "neighbour_counts": {
+        "C": 1,
+        "H": 0
+      },
+      "neighbours": [
+        {
+          "index": 3,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.0900000000000003,
+          "vector_A": [
+            -0.3600170167118488,
+            -1.0288283373225589,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "element": "H",
+      "chain_id": 0,
+      "neighbour_counts": {
+        "C": 1,
+        "H": 0
+      },
+      "neighbours": [
+        {
+          "index": 3,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.09,
+          "vector_A": [
+            -0.8737811387336816,
+            0.6516183864757583,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "element": "C",
+      "chain_id": 1,
+      "neighbour_counts": {
+        "C": 2,
+        "H": 2
+      },
+      "neighbours": [
+        {
+          "index": 9,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.5399999999999994,
+          "vector_A": [
+            -0.19511748605597923,
+            0.8451466835024517,
+            1.2725
+          ]
+        },
+        {
+          "index": 7,
+          "element": "H",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.0899999999999999,
+          "vector_A": [
+            -0.7109829678987163,
+            -0.8261980509284275,
+            0.0
+          ]
+        },
+        {
+          "index": 8,
+          "element": "H",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.0900000000000003,
+          "vector_A": [
+            1.001208645627874,
+            -0.4309074702531843,
+            0.0
+          ]
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            -1
+          ],
+          "distance_A": 1.5399999999999994,
+          "vector_A": [
+            -0.19511748605597923,
+            0.8451466835024517,
+            -1.2725
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "element": "H",
+      "chain_id": 1,
+      "neighbour_counts": {
+        "C": 1,
+        "H": 0
+      },
+      "neighbours": [
+        {
+          "index": 6,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.0899999999999999,
+          "vector_A": [
+            0.7109829678987163,
+            0.8261980509284275,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "element": "H",
+      "chain_id": 1,
+      "neighbour_counts": {
+        "C": 1,
+        "H": 0
+      },
+      "neighbours": [
+        {
+          "index": 6,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.0900000000000003,
+          "vector_A": [
+            -1.001208645627874,
+            0.4309074702531843,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "element": "C",
+      "chain_id": 1,
+      "neighbour_counts": {
+        "C": 2,
+        "H": 2
+      },
+      "neighbours": [
+        {
+          "index": 11,
+          "element": "H",
+          "shift": [
+            0,
+            1,
+            0
+          ],
+          "distance_A": 1.0900000000000003,
+          "vector_A": [
+            0.7109829678987163,
+            0.8261980509284284,
+            0.0
+          ]
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            1
+          ],
+          "distance_A": 1.5399999999999994,
+          "vector_A": [
+            0.19511748605597923,
+            -0.8451466835024517,
+            1.2725
+          ]
+        },
+        {
+          "index": 10,
+          "element": "H",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.0900000000000003,
+          "vector_A": [
+            -1.001208645627874,
+            0.4309074702531843,
+            0.0
+          ]
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.5399999999999994,
+          "vector_A": [
+            0.19511748605597923,
+            -0.8451466835024517,
+            -1.2725
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "element": "H",
+      "chain_id": 1,
+      "neighbour_counts": {
+        "C": 1,
+        "H": 0
+      },
+      "neighbours": [
+        {
+          "index": 9,
+          "element": "C",
+          "shift": [
+            0,
+            0,
+            0
+          ],
+          "distance_A": 1.0900000000000003,
+          "vector_A": [
+            1.001208645627874,
+            -0.4309074702531843,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "element": "H",
+      "chain_id": 1,
+      "neighbour_counts": {
+        "C": 1,
+        "H": 0
+      },
+      "neighbours": [
+        {
+          "index": 9,
+          "element": "C",
+          "shift": [
+            0,
+            -1,
+            0
+          ],
+          "distance_A": 1.0900000000000003,
+          "vector_A": [
+            -0.7109829678987163,
+            -0.8261980509284284,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "angles": [
+    {
+      "carbon_index": 0,
+      "CCC_deg": 111.44076283224123,
+      "HCH_deg": 107.42714139552393,
+      "CCH_deg": [
+        109.47122063449069,
+        109.47122063449069,
+        109.47122063449069,
+        109.47122063449069
+      ]
+    },
+    {
+      "carbon_index": 3,
+      "CCC_deg": 111.44076283224123,
+      "HCH_deg": 107.42714139552393,
+      "CCH_deg": [
+        109.47122063449069,
+        109.47122063449069,
+        109.47122063449069,
+        109.47122063449069
+      ]
+    },
+    {
+      "carbon_index": 6,
+      "CCC_deg": 111.44076283224128,
+      "HCH_deg": 107.42714139552389,
+      "CCH_deg": [
+        109.4712206344907,
+        109.47122063449068,
+        109.4712206344907,
+        109.47122063449068
+      ]
+    },
+    {
+      "carbon_index": 9,
+      "CCC_deg": 111.44076283224128,
+      "HCH_deg": 107.42714139552386,
+      "CCH_deg": [
+        109.47122063449073,
+        109.47122063449068,
+        109.47122063449073,
+        109.47122063449068
+      ]
+    }
+  ],
+  "interpretation": "Connectivity and close-contact validation only; no physical equilibrium, stable crystal or final phase is asserted.",
+  "file_roundtrip": {
+    "pe_initial.cif": {
+      "passed": true,
+      "maximum_periodic_displacement_A": 0.0
+    },
+    "pe_initial.extxyz": {
+      "passed": true,
+      "maximum_periodic_displacement_A": 5.559183486657686e-09
+    }
+  }
+}

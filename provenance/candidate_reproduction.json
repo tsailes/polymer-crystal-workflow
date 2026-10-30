@@ -1,0 +1,37 @@
+{
+  "purpose": "Geometric candidate reproduction only; no quantum calculations",
+  "quantum_calculations_started": 0,
+  "source_generator_sha256": "5a5177cbfbc77df45a736f0dd3487b3627dc766047c2dd603e37d7c83fbc873d",
+  "archived_manifest_sha256": "6a7ec562b822e7d6c294cade09bd49c4212ca5e1aef19871f6a3fc5fb836157f",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "package_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "ase": "3.29.0",
+    "gemmi": "0.7.5",
+    "spglib": "2.7.0"
+  },
+  "exit_code": 0,
+  "wall_seconds": 6.527297968999989,
+  "expected_counts": {
+    "enumerated_count": 288,
+    "physical_survivor_count": 248,
+    "unique_initial_count": 16,
+    "rejected_count": 40,
+    "exact_duplicates_count": 232
+  },
+  "passed": true,
+  "observed_counts": {
+    "enumerated_count": 288,
+    "physical_survivor_count": 248,
+    "unique_initial_count": 16,
+    "rejected_count": 40,
+    "exact_duplicates_count": 232
+  },
+  "counts_match": true,
+  "all_candidate_identities_and_classifications_match": true,
+  "unique_candidate_ids_match": true,
+  "source_generator_unchanged": true,
+  "copied_generator_unchanged": true
+}

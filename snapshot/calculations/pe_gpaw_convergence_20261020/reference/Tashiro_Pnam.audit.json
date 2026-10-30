@@ -1,0 +1,1364 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-20T12:15:31.461476+00:00",
+  "status": "passed_symmetry_and_roundtrip",
+  "quantum_calculations_started": false,
+  "source": {
+    "source_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/reference/POSCAR",
+    "source_sha256": "e54173a343c8a1bac20d048fdeaa99241986ee699e9f4591d65fc0985b76ef73",
+    "frame_index": -1,
+    "relaxation_status_checked": false
+  },
+  "exporter_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/scripts/export_pnam_cif.py",
+  "exporter_sha256": "9b6e86e260f6b62c0bb75396907363f085c8c4a54838cd4bf90f4871a66f4bca",
+  "software": {
+    "ase": "3.29.0",
+    "spglib": "2.7.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "settings": {
+    "symprec_A": 1e-05,
+    "matching_tolerance_A": 1e-07,
+    "space_group_number": 62,
+    "Hall_number": 297
+  },
+  "geometry": {
+    "input_symmetry_Hall297": {
+      "number": 62,
+      "hall_number": 297,
+      "international": "Pnam",
+      "hall": "-P 2c 2n",
+      "choice": "a-cb",
+      "operation_count": 8,
+      "transformation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin_shift": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "equivalent_atoms": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8
+      ],
+      "wyckoff_letters": [
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c"
+      ]
+    },
+    "input_standard_symmetry": {
+      "number": 62,
+      "hall_number": 292,
+      "international": "Pnma",
+      "hall": "-P 2ac 2n",
+      "choice": "",
+      "operation_count": 8,
+      "transformation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "origin_shift": [
+        0.5,
+        0.0,
+        0.5
+      ],
+      "equivalent_atoms": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8
+      ],
+      "wyckoff_letters": [
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c",
+        "c"
+      ]
+    },
+    "operations_xyz": [
+      "x,y,z",
+      "-x,-y,-z",
+      "-x,-y,z+1/2",
+      "x,y,-z+1/2",
+      "x+1/2,-y+1/2,-z+1/2",
+      "-x+1/2,y+1/2,z+1/2",
+      "-x+1/2,y+1/2,-z",
+      "x+1/2,-y+1/2,z"
+    ],
+    "rotations": [
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    "translations": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.5,
+        0.0
+      ]
+    ],
+    "operation_count": 8,
+    "independent_site_count": 3,
+    "sites": [
+      {
+        "label": "C1",
+        "element": "C",
+        "representative_input_index": 0,
+        "equivalent_input_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "multiplicity": 4,
+        "wyckoff_letter": "c",
+        "fractional_coordinates": [
+          0.46040000000000003,
+          0.564,
+          0.25
+        ],
+        "orbit_validation": {
+          "maximum_periodic_distance_A": 1.7763568394002505e-15,
+          "rms_periodic_distance_A": 9.25971927890472e-16,
+          "maximum_cell_component_error_A": 0.0,
+          "matching_tolerance_A": 1e-07,
+          "element_preserving_assignments": [
+            {
+              "reference_atom": 0,
+              "other_atom": 0,
+              "atomic_number": 6,
+              "distance_A": 0.0
+            },
+            {
+              "reference_atom": 1,
+              "other_atom": 1,
+              "atomic_number": 6,
+              "distance_A": 4.440892098500626e-16
+            },
+            {
+              "reference_atom": 2,
+              "other_atom": 2,
+              "atomic_number": 6,
+              "distance_A": 1.7763568394002505e-15
+            },
+            {
+              "reference_atom": 3,
+              "other_atom": 3,
+              "atomic_number": 6,
+              "distance_A": 2.7755575615628914e-16
+            }
+          ]
+        }
+      },
+      {
+        "label": "H1",
+        "element": "H",
+        "representative_input_index": 4,
+        "equivalent_input_indices": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "multiplicity": 4,
+        "wyckoff_letter": "c",
+        "fractional_coordinates": [
+          0.31412,
+          0.53706,
+          0.25
+        ],
+        "orbit_validation": {
+          "maximum_periodic_distance_A": 8.881784197001252e-16,
+          "rms_periodic_distance_A": 4.440892098500626e-16,
+          "maximum_cell_component_error_A": 0.0,
+          "matching_tolerance_A": 1e-07,
+          "element_preserving_assignments": [
+            {
+              "reference_atom": 0,
+              "other_atom": 0,
+              "atomic_number": 1,
+              "distance_A": 0.0
+            },
+            {
+              "reference_atom": 1,
+              "other_atom": 1,
+              "atomic_number": 1,
+              "distance_A": 0.0
+            },
+            {
+              "reference_atom": 2,
+              "other_atom": 2,
+              "atomic_number": 1,
+              "distance_A": 0.0
+            },
+            {
+              "reference_atom": 3,
+              "other_atom": 3,
+              "atomic_number": 1,
+              "distance_A": 8.881784197001252e-16
+            }
+          ]
+        }
+      },
+      {
+        "label": "H2",
+        "element": "H",
+        "representative_input_index": 8,
+        "equivalent_input_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "multiplicity": 4,
+        "wyckoff_letter": "c",
+        "fractional_coordinates": [
+          0.48892,
+          0.7819600000000001,
+          0.25
+        ],
+        "orbit_validation": {
+          "maximum_periodic_distance_A": 1.2560739669470201e-15,
+          "rms_periodic_distance_A": 9.485749680535094e-16,
+          "maximum_cell_component_error_A": 0.0,
+          "matching_tolerance_A": 1e-07,
+          "element_preserving_assignments": [
+            {
+              "reference_atom": 0,
+              "other_atom": 0,
+              "atomic_number": 1,
+              "distance_A": 0.0
+            },
+            {
+              "reference_atom": 1,
+              "other_atom": 1,
+              "atomic_number": 1,
+              "distance_A": 8.881784197001252e-16
+            },
+            {
+              "reference_atom": 2,
+              "other_atom": 2,
+              "atomic_number": 1,
+              "distance_A": 1.2560739669470201e-15
+            },
+            {
+              "reference_atom": 3,
+              "other_atom": 3,
+              "atomic_number": 1,
+              "distance_A": 1.1102230246251565e-15
+            }
+          ]
+        }
+      }
+    ],
+    "full_cell_atom_count": 12,
+    "formula": "C4H8",
+    "occupancy": "All sites full occupancy; inherited PE model assumption.",
+    "full_cell_operation_closure": [
+      {
+        "operation_id": 1,
+        "maximum_periodic_distance_A": 8.881784197001252e-16,
+        "rms_periodic_distance_A": 2.5639502485114184e-16,
+        "maximum_cell_component_error_A": 0.0,
+        "matching_tolerance_A": 1e-07,
+        "element_preserving_assignments": [
+          {
+            "reference_atom": 4,
+            "other_atom": 4,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 5,
+            "other_atom": 5,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 6,
+            "other_atom": 6,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 7,
+            "other_atom": 7,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 8,
+            "other_atom": 8,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 9,
+            "other_atom": 9,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 10,
+            "other_atom": 10,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 11,
+            "other_atom": 11,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 0,
+            "other_atom": 0,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 1,
+            "other_atom": 1,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 2,
+            "other_atom": 2,
+            "atomic_number": 6,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 3,
+            "other_atom": 3,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          }
+        ]
+      },
+      {
+        "operation_id": 2,
+        "maximum_periodic_distance_A": 3.552713678800501e-15,
+        "rms_periodic_distance_A": 1.7007321910901718e-15,
+        "maximum_cell_component_error_A": 0.0,
+        "matching_tolerance_A": 1e-07,
+        "element_preserving_assignments": [
+          {
+            "reference_atom": 4,
+            "other_atom": 5,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 5,
+            "other_atom": 4,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 6,
+            "other_atom": 7,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 7,
+            "other_atom": 6,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 8,
+            "other_atom": 9,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 9,
+            "other_atom": 8,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 10,
+            "other_atom": 11,
+            "atomic_number": 1,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 11,
+            "other_atom": 10,
+            "atomic_number": 1,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 0,
+            "other_atom": 1,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 1,
+            "other_atom": 0,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 2,
+            "other_atom": 3,
+            "atomic_number": 6,
+            "distance_A": 3.552713678800501e-15
+          },
+          {
+            "reference_atom": 3,
+            "other_atom": 2,
+            "atomic_number": 6,
+            "distance_A": 3.552713678800501e-15
+          }
+        ]
+      },
+      {
+        "operation_id": 3,
+        "maximum_periodic_distance_A": 3.552713678800501e-15,
+        "rms_periodic_distance_A": 1.7007321910901718e-15,
+        "maximum_cell_component_error_A": 0.0,
+        "matching_tolerance_A": 1e-07,
+        "element_preserving_assignments": [
+          {
+            "reference_atom": 4,
+            "other_atom": 5,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 5,
+            "other_atom": 4,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 6,
+            "other_atom": 7,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 7,
+            "other_atom": 6,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 8,
+            "other_atom": 9,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 9,
+            "other_atom": 8,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 10,
+            "other_atom": 11,
+            "atomic_number": 1,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 11,
+            "other_atom": 10,
+            "atomic_number": 1,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 0,
+            "other_atom": 1,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 1,
+            "other_atom": 0,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 2,
+            "other_atom": 3,
+            "atomic_number": 6,
+            "distance_A": 3.552713678800501e-15
+          },
+          {
+            "reference_atom": 3,
+            "other_atom": 2,
+            "atomic_number": 6,
+            "distance_A": 3.552713678800501e-15
+          }
+        ]
+      },
+      {
+        "operation_id": 4,
+        "maximum_periodic_distance_A": 8.881784197001252e-16,
+        "rms_periodic_distance_A": 2.5639502485114184e-16,
+        "maximum_cell_component_error_A": 0.0,
+        "matching_tolerance_A": 1e-07,
+        "element_preserving_assignments": [
+          {
+            "reference_atom": 4,
+            "other_atom": 4,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 5,
+            "other_atom": 5,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 6,
+            "other_atom": 6,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 7,
+            "other_atom": 7,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 8,
+            "other_atom": 8,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 9,
+            "other_atom": 9,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 10,
+            "other_atom": 10,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 11,
+            "other_atom": 11,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 0,
+            "other_atom": 0,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 1,
+            "other_atom": 1,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 2,
+            "other_atom": 2,
+            "atomic_number": 6,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 3,
+            "other_atom": 3,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          }
+        ]
+      },
+      {
+        "operation_id": 5,
+        "maximum_periodic_distance_A": 1.8740699355233253e-15,
+        "rms_periodic_distance_A": 9.560587836080766e-16,
+        "maximum_cell_component_error_A": 0.0,
+        "matching_tolerance_A": 1e-07,
+        "element_preserving_assignments": [
+          {
+            "reference_atom": 4,
+            "other_atom": 6,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 5,
+            "other_atom": 7,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 6,
+            "other_atom": 4,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 7,
+            "other_atom": 5,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 8,
+            "other_atom": 10,
+            "atomic_number": 1,
+            "distance_A": 1.8740699355233253e-15
+          },
+          {
+            "reference_atom": 9,
+            "other_atom": 11,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 10,
+            "other_atom": 8,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 11,
+            "other_atom": 9,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 0,
+            "other_atom": 2,
+            "atomic_number": 6,
+            "distance_A": 1.6502355038028328e-15
+          },
+          {
+            "reference_atom": 1,
+            "other_atom": 3,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 2,
+            "other_atom": 0,
+            "atomic_number": 6,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 3,
+            "other_atom": 1,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          }
+        ]
+      },
+      {
+        "operation_id": 6,
+        "maximum_periodic_distance_A": 1.7763568394002505e-15,
+        "rms_periodic_distance_A": 1.1399762249900603e-15,
+        "maximum_cell_component_error_A": 0.0,
+        "matching_tolerance_A": 1e-07,
+        "element_preserving_assignments": [
+          {
+            "reference_atom": 4,
+            "other_atom": 7,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 5,
+            "other_atom": 6,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 6,
+            "other_atom": 5,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 7,
+            "other_atom": 4,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 8,
+            "other_atom": 11,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 9,
+            "other_atom": 10,
+            "atomic_number": 1,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 10,
+            "other_atom": 9,
+            "atomic_number": 1,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 11,
+            "other_atom": 8,
+            "atomic_number": 1,
+            "distance_A": 1.0944578576754794e-15
+          },
+          {
+            "reference_atom": 0,
+            "other_atom": 3,
+            "atomic_number": 6,
+            "distance_A": 4.440892098500626e-16
+          },
+          {
+            "reference_atom": 1,
+            "other_atom": 2,
+            "atomic_number": 6,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 2,
+            "other_atom": 1,
+            "atomic_number": 6,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 3,
+            "other_atom": 0,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          }
+        ]
+      },
+      {
+        "operation_id": 7,
+        "maximum_periodic_distance_A": 1.7763568394002505e-15,
+        "rms_periodic_distance_A": 1.1399762249900603e-15,
+        "maximum_cell_component_error_A": 0.0,
+        "matching_tolerance_A": 1e-07,
+        "element_preserving_assignments": [
+          {
+            "reference_atom": 4,
+            "other_atom": 7,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 5,
+            "other_atom": 6,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 6,
+            "other_atom": 5,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 7,
+            "other_atom": 4,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 8,
+            "other_atom": 11,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 9,
+            "other_atom": 10,
+            "atomic_number": 1,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 10,
+            "other_atom": 9,
+            "atomic_number": 1,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 11,
+            "other_atom": 8,
+            "atomic_number": 1,
+            "distance_A": 1.0944578576754794e-15
+          },
+          {
+            "reference_atom": 0,
+            "other_atom": 3,
+            "atomic_number": 6,
+            "distance_A": 4.440892098500626e-16
+          },
+          {
+            "reference_atom": 1,
+            "other_atom": 2,
+            "atomic_number": 6,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 2,
+            "other_atom": 1,
+            "atomic_number": 6,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 3,
+            "other_atom": 0,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          }
+        ]
+      },
+      {
+        "operation_id": 8,
+        "maximum_periodic_distance_A": 1.8740699355233253e-15,
+        "rms_periodic_distance_A": 9.560587836080766e-16,
+        "maximum_cell_component_error_A": 0.0,
+        "matching_tolerance_A": 1e-07,
+        "element_preserving_assignments": [
+          {
+            "reference_atom": 4,
+            "other_atom": 6,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 5,
+            "other_atom": 7,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 6,
+            "other_atom": 4,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 7,
+            "other_atom": 5,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 8,
+            "other_atom": 10,
+            "atomic_number": 1,
+            "distance_A": 1.8740699355233253e-15
+          },
+          {
+            "reference_atom": 9,
+            "other_atom": 11,
+            "atomic_number": 1,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 10,
+            "other_atom": 8,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 11,
+            "other_atom": 9,
+            "atomic_number": 1,
+            "distance_A": 8.881784197001252e-16
+          },
+          {
+            "reference_atom": 0,
+            "other_atom": 2,
+            "atomic_number": 6,
+            "distance_A": 1.6502355038028328e-15
+          },
+          {
+            "reference_atom": 1,
+            "other_atom": 3,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          },
+          {
+            "reference_atom": 2,
+            "other_atom": 0,
+            "atomic_number": 6,
+            "distance_A": 1.7763568394002505e-15
+          },
+          {
+            "reference_atom": 3,
+            "other_atom": 1,
+            "atomic_number": 6,
+            "distance_A": 0.0
+          }
+        ]
+      }
+    ],
+    "reconstruction_from_three_sites": {
+      "maximum_periodic_distance_A": 1.7763568394002505e-15,
+      "rms_periodic_distance_A": 8.07141810663646e-16,
+      "maximum_cell_component_error_A": 0.0,
+      "matching_tolerance_A": 1e-07,
+      "element_preserving_assignments": [
+        {
+          "reference_atom": 4,
+          "other_atom": 4,
+          "atomic_number": 1,
+          "distance_A": 0.0
+        },
+        {
+          "reference_atom": 5,
+          "other_atom": 5,
+          "atomic_number": 1,
+          "distance_A": 0.0
+        },
+        {
+          "reference_atom": 6,
+          "other_atom": 6,
+          "atomic_number": 1,
+          "distance_A": 0.0
+        },
+        {
+          "reference_atom": 7,
+          "other_atom": 7,
+          "atomic_number": 1,
+          "distance_A": 8.881784197001252e-16
+        },
+        {
+          "reference_atom": 8,
+          "other_atom": 8,
+          "atomic_number": 1,
+          "distance_A": 0.0
+        },
+        {
+          "reference_atom": 9,
+          "other_atom": 9,
+          "atomic_number": 1,
+          "distance_A": 8.881784197001252e-16
+        },
+        {
+          "reference_atom": 10,
+          "other_atom": 10,
+          "atomic_number": 1,
+          "distance_A": 1.2560739669470201e-15
+        },
+        {
+          "reference_atom": 11,
+          "other_atom": 11,
+          "atomic_number": 1,
+          "distance_A": 1.1102230246251565e-15
+        },
+        {
+          "reference_atom": 0,
+          "other_atom": 0,
+          "atomic_number": 6,
+          "distance_A": 0.0
+        },
+        {
+          "reference_atom": 1,
+          "other_atom": 1,
+          "atomic_number": 6,
+          "distance_A": 4.440892098500626e-16
+        },
+        {
+          "reference_atom": 2,
+          "other_atom": 2,
+          "atomic_number": 6,
+          "distance_A": 1.7763568394002505e-15
+        },
+        {
+          "reference_atom": 3,
+          "other_atom": 3,
+          "atomic_number": 6,
+          "distance_A": 2.7755575615628914e-16
+        }
+      ]
+    }
+  },
+  "output_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/reference/Tashiro_Pnam.cif",
+  "note": "Three inequivalent sites, not twelve full-cell atoms with symmetry added. No coordinate fitting, standardization, axis permutation or optimization was performed.",
+  "ASE_roundtrip": {
+    "maximum_periodic_distance_A": 1.7763568394002505e-15,
+    "rms_periodic_distance_A": 8.07141810663646e-16,
+    "maximum_cell_component_error_A": 0.0,
+    "matching_tolerance_A": 1e-07,
+    "element_preserving_assignments": [
+      {
+        "reference_atom": 4,
+        "other_atom": 4,
+        "atomic_number": 1,
+        "distance_A": 0.0
+      },
+      {
+        "reference_atom": 5,
+        "other_atom": 5,
+        "atomic_number": 1,
+        "distance_A": 0.0
+      },
+      {
+        "reference_atom": 6,
+        "other_atom": 6,
+        "atomic_number": 1,
+        "distance_A": 0.0
+      },
+      {
+        "reference_atom": 7,
+        "other_atom": 7,
+        "atomic_number": 1,
+        "distance_A": 8.881784197001252e-16
+      },
+      {
+        "reference_atom": 8,
+        "other_atom": 8,
+        "atomic_number": 1,
+        "distance_A": 0.0
+      },
+      {
+        "reference_atom": 9,
+        "other_atom": 9,
+        "atomic_number": 1,
+        "distance_A": 8.881784197001252e-16
+      },
+      {
+        "reference_atom": 10,
+        "other_atom": 10,
+        "atomic_number": 1,
+        "distance_A": 1.2560739669470201e-15
+      },
+      {
+        "reference_atom": 11,
+        "other_atom": 11,
+        "atomic_number": 1,
+        "distance_A": 1.1102230246251565e-15
+      },
+      {
+        "reference_atom": 0,
+        "other_atom": 0,
+        "atomic_number": 6,
+        "distance_A": 0.0
+      },
+      {
+        "reference_atom": 1,
+        "other_atom": 1,
+        "atomic_number": 6,
+        "distance_A": 4.440892098500626e-16
+      },
+      {
+        "reference_atom": 2,
+        "other_atom": 2,
+        "atomic_number": 6,
+        "distance_A": 1.7763568394002505e-15
+      },
+      {
+        "reference_atom": 3,
+        "other_atom": 3,
+        "atomic_number": 6,
+        "distance_A": 2.7755575615628914e-16
+      }
+    ]
+  },
+  "reloaded_symmetry_Hall297": {
+    "number": 62,
+    "hall_number": 297,
+    "international": "Pnam",
+    "hall": "-P 2c 2n",
+    "choice": "a-cb",
+    "operation_count": 8,
+    "transformation_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "origin_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "equivalent_atoms": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      4,
+      8,
+      8,
+      8,
+      8
+    ],
+    "wyckoff_letters": [
+      "c",
+      "c",
+      "c",
+      "c",
+      "c",
+      "c",
+      "c",
+      "c",
+      "c",
+      "c",
+      "c",
+      "c"
+    ]
+  },
+  "reloaded_formula": "C4H8",
+  "reloaded_atom_count": 12,
+  "output_sha256": "ce855a08a7cc9e2b9327e78635f7320a68d96651b1ee4354639a61d58f371f9c"
+}

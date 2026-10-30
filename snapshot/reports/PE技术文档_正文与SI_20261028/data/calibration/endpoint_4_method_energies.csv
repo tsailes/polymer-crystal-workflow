@@ -1,0 +1,5 @@
+﻿sample_id,group_member_count,reference_id,GFN2-xTB_relative_energy_meV_CH2,PBE-D3(BJ)_relative_energy_meV_CH2,optB88-vdW_relative_energy_meV_CH2,r2SCAN-D4_relative_energy_meV_CH2
+final_group_001,12,final_group_001,0.0,0.0,0.0,0.0
+final_group_002,1,final_group_001,0.0334472620266979,-0.023503649053679965,0.0054752000089308694,0.06634339914768361
+final_group_003,1,final_group_001,0.19976660641418675,0.4388175585887666,0.4581107190446687,0.22967386222561004
+final_group_004,1,final_group_001,0.5512067373416585,0.3085682295171921,0.4275698460780575,1.2653287103816524

@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "status": "locked_after_all_required_checks_passed",
+  "created_utc": "2026-10-21T04:35:38.122672+00:00",
+  "release_id": "20261021T043247_514339Z",
+  "scope": "Validated two frozen C4H8 geometries, and a PBE-D3(BJ) Pnam cell comparison. Reuse on PE candidates of similar composition/size requires sampled geometry transfer checks; new elements, substantially changed cells, other phases, or untested methods are not automatically validated.",
+  "methods": [
+    "PBE-D3(BJ)",
+    "optB88-vdW",
+    "r2SCAN-D4"
+  ],
+  "candidate_precision": {
+    "ecut_eV": 1400,
+    "kmesh": [
+      3,
+      6,
+      9
+    ],
+    "gpts": [
+      96,
+      60,
+      36
+    ]
+  },
+  "fixed_parameters": {
+    "mpi_ranks": 4,
+    "point_group": true,
+    "xc_stencil": 4,
+    "nbands": 16,
+    "scf_energy_eV_electron": 1e-09,
+    "scf_density_electron_electron": 1e-09,
+    "scf_eigenstates_eV2_electron": 1e-11
+  },
+  "physics": {
+    "status": "audited_method_definition; actual run inputs remain authoritative",
+    "methods": {
+      "PBE-D3(BJ)": {
+        "xc": "PBE",
+        "setups": "paw",
+        "dispersion_method": "pbe",
+        "damping": "d3bj",
+        "atm": true,
+        "cutoff_bohr": {
+          "disp2": 60,
+          "disp3": 40,
+          "cn": 60,
+          "width2": 0.05,
+          "width3": 0.05
+        },
+        "parameters": {
+          "s6": 1.0,
+          "s9": 1.0,
+          "alp": 14.0,
+          "damping": "rational",
+          "a1": 0.4289,
+          "s8": 0.7875,
+          "a2": 4.4407,
+          "doi": "10.1002/jcc.21759"
+        }
+      },
+      "optB88-vdW": {
+        "xc": {
+          "name": "optB88-vdW",
+          "backend": "libvdwxc"
+        },
+        "setups": "paw",
+        "added_empirical_dispersion": null
+      },
+      "r2SCAN-D4": {
+        "xc": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+        "setups": "paw",
+        "dispersion_method": "r2scan",
+        "model": "d4",
+        "atm": true,
+        "cutoff_bohr": {
+          "disp2": 60,
+          "disp3": 40,
+          "cn": 30,
+          "width2": 0.05,
+          "width3": 0.05
+        },
+        "parameters": {
+          "s6": 1.0,
+          "s9": 1.0,
+          "alp": 16.0,
+          "damping": "bj",
+          "mbd": "approx-atm",
+          "s8": 0.6018749,
+          "a1": 0.51559235,
+          "a2": 5.77342911,
+          "doi": "10.1063/5.0041008"
+        }
+      }
+    },
+    "legacy_gpaw": true,
+    "free_energy_rule": "GPAW free_energy plus dispersion energy; no nuclear/phonon free energy",
+    "stress_sign": "ASE tensile positive",
+    "stress_voigt": [
+      "xx",
+      "yy",
+      "zz",
+      "yz",
+      "xz",
+      "xy"
+    ],
+    "PAW_is_SSSP_selected_UPF": false,
+    "paw_sha256": {
+      "C": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd",
+      "H": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+    },
+    "DFT_computed_by_this_audit": false
+  },
+  "environment": {
+    "versions": {
+      "gpaw": "26.7.0",
+      "ase": "3.29.0",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "gpaw-data": "1.0.1",
+      "dftd3": "1.6.0",
+      "dftd4": "4.2.0",
+      "pybind11": "3.0.1",
+      "tomli": "2.4.0",
+      "spglib": "2.7.0"
+    },
+    "important_binary_files": [
+      {
+        "path": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+        "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python3.12",
+        "size": 31890400,
+        "sha256": "a63412ceeebebadefa899615af9e491d729af4da774650986598d54ed0acab99"
+      },
+      {
+        "path": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/mpiexec",
+        "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/mpirun",
+        "size": 194648,
+        "sha256": "caf08f4d59d91dee7318441165c428447e2c54c4c158cd980430442948dd70b6"
+      },
+      {
+        "path": "/opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0/_gpaw.cpython-312-x86_64-linux-gnu.so",
+        "resolved_path": "/opt/pe_dft/src/gpaw-26.7.0-pe-20261020/gpaw-26.7.0/_gpaw.cpython-312-x86_64-linux-gnu.so",
+        "size": 475840,
+        "sha256": "0716163fef129df502d1bb6338a739d3bf9e21aa36ba8cd6d05b8079cca85ab2"
+      },
+      {
+        "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libxc.so",
+        "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libxc.so.15",
+        "size": 69899208,
+        "sha256": "647b88ab1b5de62d3828a6fdc5e71bf9a3c5e216314fac1175c64ef46839b524"
+      },
+      {
+        "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libvdwxc.so",
+        "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libvdwxc.so.0.0.0",
+        "size": 3357248,
+        "sha256": "f4ccfe1ef5dec5b38b729ae79f86c1430d635b1696482d2d319f64f56ac3222d"
+      },
+      {
+        "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libmpi.so",
+        "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libmpi.so.40.40.8",
+        "size": 3965464,
+        "sha256": "107674a8ec51e5c85f99ca0389ac089ce3956b78ac9db4e3e0d7ac14d0ae654e"
+      },
+      {
+        "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libblas.so",
+        "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libopenblasp-r0.3.34.so",
+        "size": 41542616,
+        "sha256": "f1424288e9ac125331102c0150b66fbd244560987779552e0e97d5cfd9de572b"
+      },
+      {
+        "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libdftd4.so",
+        "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libdftd4.so.4.2.0",
+        "size": 777624,
+        "sha256": "5eaf8f6a243643fba2a9cb32ab18348ece9c23913a73a6f5cc15d3534f643e5f"
+      },
+      {
+        "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libs-dftd3.so",
+        "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/libs-dftd3.so.1.6.0",
+        "size": 2865768,
+        "sha256": "6319181c7c07406b046f7bbd2141ca9b52913c7c7686f636c39ca084a0ba63b8"
+      }
+    ],
+    "PAW": [
+      {
+        "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/C.PBE.gz",
+        "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/C.PBE.gz",
+        "size": 45424,
+        "sha256": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd"
+      },
+      {
+        "path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+        "resolved_path": "/opt/pe_dft/envs/pe-gpaw-20261020/lib/python3.12/site-packages/gpaw_data/setups/H.PBE.gz",
+        "size": 12501,
+        "sha256": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+      }
+    ],
+    "official_scientific_source_files_checked": 2408,
+    "method_definition": {
+      "status": "audited_method_definition; actual run inputs remain authoritative",
+      "methods": {
+        "PBE-D3(BJ)": {
+          "xc": "PBE",
+          "setups": "paw",
+          "dispersion_method": "pbe",
+          "damping": "d3bj",
+          "atm": true,
+          "cutoff_bohr": {
+            "disp2": 60,
+            "disp3": 40,
+            "cn": 60,
+            "width2": 0.05,
+            "width3": 0.05
+          },
+          "parameters": {
+            "s6": 1.0,
+            "s9": 1.0,
+            "alp": 14.0,
+            "damping": "rational",
+            "a1": 0.4289,
+            "s8": 0.7875,
+            "a2": 4.4407,
+            "doi": "10.1002/jcc.21759"
+          }
+        },
+        "optB88-vdW": {
+          "xc": {
+            "name": "optB88-vdW",
+            "backend": "libvdwxc"
+          },
+          "setups": "paw",
+          "added_empirical_dispersion": null
+        },
+        "r2SCAN-D4": {
+          "xc": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+          "setups": "paw",
+          "dispersion_method": "r2scan",
+          "model": "d4",
+          "atm": true,
+          "cutoff_bohr": {
+            "disp2": 60,
+            "disp3": 40,
+            "cn": 30,
+            "width2": 0.05,
+            "width3": 0.05
+          },
+          "parameters": {
+            "s6": 1.0,
+            "s9": 1.0,
+            "alp": 16.0,
+            "damping": "bj",
+            "mbd": "approx-atm",
+            "s8": 0.6018749,
+            "a1": 0.51559235,
+            "a2": 5.77342911,
+            "doi": "10.1063/5.0041008"
+          }
+        }
+      },
+      "legacy_gpaw": true,
+      "free_energy_rule": "GPAW free_energy plus dispersion energy; no nuclear/phonon free energy",
+      "stress_sign": "ASE tensile positive",
+      "stress_voigt": [
+        "xx",
+        "yy",
+        "zz",
+        "yz",
+        "xz",
+        "xy"
+      ],
+      "PAW_is_SSSP_selected_UPF": false,
+      "paw_sha256": {
+        "C": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd",
+        "H": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+      },
+      "DFT_computed_by_this_audit": false
+    },
+    "engine": "GPAW 26.7.0, legacy CPU plane-wave implementation",
+    "note": "Historical environment interface status is not a quantum validation gate."
+  },
+  "code_sha256": {
+    "run_point": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+    "run_queue": "544c7814c0ba0f7f2deabbab79791335ad8ba78515c7326430ab0e9ba729d544",
+    "run_relax": "b5009e3d38d422643a39a04a10a7f22caad954b4509d204d75e5e1824898bea6",
+    "analyze_convergence": "d2541f7032612d1d2f92bd4dd1db27d37c2d1792757cf9b9e7d8e70d43a686b6",
+    "analyze_relative_energies": "bca2274b7f91b2d54719d733a2d6dc201a625c0924bc95549dd3ba75b05df321",
+    "analyze_relaxations": "a1f4f44266e8ce9f118cd68c68d7f7f6fc57e61c0b769a35ea11e558b383b694",
+    "analyze_derivatives": "a9a2c14bb7c32f81d9b2f6573ab19267d1cd24cd723c0b08490fee148bc0d689",
+    "analyze_scf_noise": "40e9936e045c8dc5c21affc337db415d315288550c41e96816be1a3cc09f4a35"
+  },
+  "source_geometry": {
+    "Tashiro": [
+      "reference/POSCAR",
+      "e54173a343c8a1bac20d048fdeaa99241986ee699e9f4591d65fc0985b76ef73"
+    ],
+    "GFN2": [
+      "reference/POSCAR_GFN2",
+      "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0"
+    ]
+  },
+  "checks": [
+    {
+      "gate": "environment_method_and_code",
+      "status": "passed"
+    },
+    {
+      "gate": "derivatives_and_SCF_noise",
+      "status": "passed"
+    },
+    {
+      "gate": "PBE_selected_cutoff_k_grid",
+      "status": "passed"
+    },
+    {
+      "gate": "relative_structure_energies",
+      "status": "passed"
+    },
+    {
+      "gate": "three_methods_two_geometries_LMH_E_F_stress",
+      "status": "passed"
+    },
+    {
+      "gate": "MPI_and_reference_grid_bridge",
+      "status": "passed"
+    },
+    {
+      "gate": "two_relaxations_and_cold_start",
+      "status": "passed"
+    },
+    {
+      "gate": "evidence_unchanged_during_check",
+      "status": "passed"
+    }
+  ],
+  "template_sha256": {
+    "queue_pbe_d3bj.json": "a3ba79128b0134303d403eecd3d1455f132668d6deb6fbfdc7bc6b1dd4c4bf85",
+    "queue_optb88_vdw.json": "235acd2436866dcfdacb67c836df73dfd33ed8375a3305e2dad1aea052974580",
+    "queue_r2scan_d4.json": "9817fa5a11f4e1c8044d88f154e7ac9d4e56f1ceea0e91a2aef0944512d89d62"
+  },
+  "evidence_manifest_sha256": "25028d2d71890aa95288c42cf28c28cc7d8a5613a6b05f6dbd4169819d7c2a8d",
+  "release_check_sha256": "65239227c43dfe5bcbfd2e1dbb449428b0f4135498bf4af20d1bac619fa47c83",
+  "runtime_instructions": {
+    "verify": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python /mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/scripts/release_parameters.py --verify-release /mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/releases/20261021T043247_514339Z",
+    "run_queue": "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python /mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/scripts/run_queue.py <queue_PATH>",
+    "required_order": "Verify release first; only then explicitly invoke run_queue. This release tool never launches the queue."
+  }
+}

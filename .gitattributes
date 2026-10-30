@@ -1,0 +1,7 @@
+# Archived source bytes are checksummed; do not change their line endings.
+snapshot/** -text
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+snapshot/** -text

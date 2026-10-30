@@ -1,0 +1,16 @@
+{
+  "status": "cancelled_by_user",
+  "complete": false,
+  "selected_count": 1,
+  "accepted_count": 0,
+  "rows": [],
+  "ranking_comparison_available": false,
+  "interpretation": "One group: supplemental fixed-geometry energy only; no ranking validation",
+  "relative_zero": "Each method uses its own minimum among selected representatives",
+  "EXX_kpoint_convergence_certified": false,
+  "SCF_converged": false,
+  "valid_final_energy_available": false,
+  "cancellation_record": "/mnt/e/PE_DFT/calculations/pe_pbe0_singlepoint_review_20261023/control/cancellation_20261023T112717Z/cancellation_record.json",
+  "termination_is_scientific_failure": false,
+  "termination_reason": "Explicit user cancellation after verified slow useful EXX progress"
+}

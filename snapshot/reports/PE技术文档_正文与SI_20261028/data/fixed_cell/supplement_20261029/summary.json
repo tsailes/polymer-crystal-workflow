@@ -1,0 +1,41 @@
+{
+  "representative": "fixed-cell strict g4 / original cand_0081",
+  "optimization_max_displacement_A": 0.10919868430730152,
+  "optimization_RMS_A": 0.08357230199913906,
+  "literature_max_distance_A": 0.03981087287958075,
+  "literature_max_coordinate_component_A": 0.039776637171313176,
+  "literature_RMS_A": 0.026947065663917802,
+  "literature_carbon_max_distance_A": 0.015486967149275976,
+  "literature_hydrogen_max_distance_A": 0.03981087287958075,
+  "xrd_mean_absolute_relative_d_error_pct": 0.28790630744834617,
+  "xrd_max_absolute_relative_d_error_pct": 2.126058785209728,
+  "xrd_d_RMS_A": 0.007623534382137078,
+  "xrd_mean_absolute_two_theta_error_deg": 0.09295671037581138,
+  "xrd_max_absolute_two_theta_error_deg": 0.5942025049170319,
+  "xrd_indexed_rows": 59,
+  "xrd_distinct_printed_d_values": 45,
+  "Rwp": null,
+  "profile_fit_R_squared": null,
+  "optimization_reference": "GFN2 preoptimized representative, same atom order and origin; periodic minimum image",
+  "literature_reference": "Tashiro Table II expanded in Pnam; global shift (0,0,0.5), same-element bijection, periodic minimum image",
+  "spectrum_scope": "Peak positions only; no observed continuous intensity fit. Do not convert position error to a match percentage.",
+  "sources": [
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_gfn2_dft_calibration_20261021\\structures\\final_group_004\\POSCAR",
+      "sha256": "f84b664538cb5235f180ad3fbb104fbab0b20a9555348383fcc8bda2162e1640"
+    },
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_dft_tight_force_refinement_20261022\\runs\\group_004\\attempt_01\\final_POSCAR",
+      "sha256": "06fa4d340ced6459b27f208641ce4a2cd59e1533a16b606c971a8f3152fdbbd1"
+    },
+    {
+      "path": "E:\\PE_DFT\\reports\\PE技术文档_正文与SI_20261028\\data\\fixed_cell\\final_12_atom_coordinates.csv",
+      "sha256": "297b8228951b7f5bf23ebe9937ec2ff8952383b90442ea8f43de5382fcd76c84"
+    },
+    {
+      "path": "E:\\PE_DFT\\reports\\PE技术文档_正文与SI_20261028\\data\\fixed_cell\\xrd_indexed_59.csv",
+      "sha256": "17f593d1529f178de3598618818c62c547c3f69bbadee928e2f3d472612366a1"
+    }
+  ],
+  "new_quantum_calculations": 0
+}

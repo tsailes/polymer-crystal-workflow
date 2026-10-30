@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "exit_code": 0,
+  "start_unix": 1792562526.074852,
+  "wall_seconds": 29.057085275650024,
+  "command": [
+    "/opt/pe_dft/envs/gfn2-pe-20261020/bin/python",
+    "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/scripts/gfn2_point.py",
+    "input.json"
+  ],
+  "pid": null,
+  "pid_note": "Pilot launched through bounded executor; process PID was not separately captured.",
+  "files": {
+    "exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "input.json": "c4b2ac7834ec2e07c8793e7959148bb087840bb4a3b502ed985afbf156f4f8f2",
+    "input_structure.extxyz": "35e5f7abcbe967aad58f540fee21019ac37cda879c2ee72197bd4b39755956bb",
+    "result.json": "c935810d29b6cdee389188b29ef251b3e620c6e1e6d360938f61b0a45142896a",
+    "status.json": "c935810d29b6cdee389188b29ef251b3e620c6e1e6d360938f61b0a45142896a",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "047e4d4f74137db45dc3b7623b039721fbb728aa3be3ffb00def9f9c458e28cb",
+    "supercell_input.extxyz": "94129a869fb97f11b04ad89d8a4201fd327c4bf0daa9f3bd369d384d303c6cd7"
+  }
+}

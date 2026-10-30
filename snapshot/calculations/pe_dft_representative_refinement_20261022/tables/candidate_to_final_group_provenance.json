@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-22T14:46:58.7803757Z",
+  "source_files": [
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_dft_representative_refinement_20261022\\tables\\refinement_summary.json",
+      "sha256": "c9d02d9a8cca159e5d7c09195339b74d48957468c56d4df538224112c0d59a3a"
+    },
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_pnam_candidates_20261020\\optimization_catalog.csv",
+      "sha256": "fbe6c19ff1013cfcefccaaeb5bce3803f1a00bb628706ffe3ab267f3946dd8e8"
+    },
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_pnam_candidates_20261020\\representatives\\group_001\\members.json",
+      "sha256": "813f22329e0b6daf3ca221f3ef4a10ec9670b350ce50ffad2715377eaf59f2fc"
+    },
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_pnam_candidates_20261020\\representatives\\group_002\\members.json",
+      "sha256": "8bfd43e4ef52ec84c4da06c3eccd3084b671a013d4588518699c1f21d05ef4e1"
+    },
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_pnam_candidates_20261020\\representatives\\group_003\\members.json",
+      "sha256": "dc2d3e638b7d583e7ecbcfab2e08165dd6ccc706346ba01d65b06f19cac44aa4"
+    },
+    {
+      "path": "E:\\PE_DFT\\calculations\\pe_pnam_candidates_20261020\\representatives\\group_004\\members.json",
+      "sha256": "bbcee1424a1c7765045caacf62db09211bee11e65ab261cba5eecf14120b7ae9"
+    }
+  ],
+  "candidate_count": 16,
+  "individually_DFT_refined_count": 4,
+  "represented_candidate_count": 15,
+  "excluded_candidate": "cand_0001",
+  "scope": "Only four representatives were DFT refined. Other candidate mappings are inherited through previous GFN clustering and do not prove individual DFT convergence to these final groups.",
+  "quantum_calculations_started": false
+}

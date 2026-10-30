@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       C4H8
+_chemical_formula_sum              "C4 H8"
+_cell_length_a       7.432
+_cell_length_b       4.929
+_cell_length_c       2.545
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.04026421360871722  0.059487658587634794  0.25  1.0000
+  C   C2        1.0  0.959735786391283  0.9405123414123652  0.75  1.0000
+  C   C3        1.0  0.5402642136087171  0.4405123414123653  0.25  1.0000
+  C   C4        1.0  0.4597357863912828  0.5594876585876347  0.75  1.0000
+  H   H1        1.0  0.020800769922400993  0.2816542207235193  0.25  1.0000
+  H   H2        1.0  0.9791992300775989  0.7183457792764807  0.75  1.0000
+  H   H3        1.0  0.5208007699224009  0.21834577927648072  0.25  1.0000
+  H   H4        1.0  0.479199230077599  0.7816542207235193  0.75  1.0000
+  H   H5        1.0  0.18718719675321452  0.02688740887044183  0.25  1.0000
+  H   H6        1.0  0.8128128032467856  0.9731125911295582  0.75  1.0000
+  H   H7        1.0  0.6871871967532144  0.4731125911295582  0.25  1.0000
+  H   H8        1.0  0.3128128032467855  0.5268874088704419  0.75  1.0000

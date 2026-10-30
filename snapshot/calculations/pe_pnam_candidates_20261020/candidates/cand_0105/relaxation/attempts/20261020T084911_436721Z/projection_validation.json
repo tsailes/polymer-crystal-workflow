@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "idempotence_max": 1.1102230246251565e-16,
+  "adjoint_error": 8.881784197001252e-16,
+  "symmetry_after_tangent_step_A": 1.6502355038028328e-15,
+  "quadratic_directional_derivative_error": 1.2566836460337072e-09
+}

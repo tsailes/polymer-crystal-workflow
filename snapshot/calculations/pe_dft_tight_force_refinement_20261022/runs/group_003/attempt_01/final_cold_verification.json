@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "independent_density_and_wavefunctions": true,
+  "raw_fmax_eV_A": 4.620400982103696e-05,
+  "fixed_cell_max_delta_A": 0.0,
+  "SCF_converged": true,
+  "terminal_symmetry": {
+    "passed": true,
+    "Hall297_input_setting": {
+      "valid": true,
+      "number": 62,
+      "international": "Pnam",
+      "hall_number": 297,
+      "hall": "-P 2c 2n",
+      "choice": "a-cb",
+      "transformation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin_shift": [
+        0.0,
+        -2.220446049250313e-16,
+        0.0
+      ],
+      "operations": 8
+    },
+    "default_standard_setting": {
+      "valid": true,
+      "number": 62,
+      "international": "Pnma",
+      "hall_number": 292,
+      "hall": "-P 2ac 2n",
+      "choice": "",
+      "transformation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "origin_shift": [
+        0.5,
+        0.0,
+        0.5000000000000002
+      ],
+      "operations": 8
+    },
+    "policy": "Require #62 with eight operations; a higher-symmetry endpoint is recorded but not automatically accepted."
+  },
+  "energy_change_eV_cell": 1.3642420526593924e-12,
+  "max_force_vector_change_eV_A": 6.543875080006321e-09,
+  "stress_change_kbar": [
+    4.067068415380959e-07,
+    4.728708815626703e-07,
+    1.1554917733747061e-07,
+    -1.7434286800147166e-12,
+    -2.730837386880292e-12,
+    -5.741172933245916e-12
+  ],
+  "stress_acceptance_required": false
+}

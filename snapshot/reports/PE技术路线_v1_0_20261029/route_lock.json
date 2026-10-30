@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "route_id": "PE_CRYSTAL_ROUTE_V1_0",
+  "version": "1.0",
+  "frozen_date_Asia_Shanghai": "2026-10-29",
+  "status": "documented_baseline_from_completed_PE_mainline",
+  "canonical_document": "reports/PE技术路线_v1_0_20261029/技术路线.md",
+  "purpose_zh": "以PE为典型对象，固定聚合物晶体结构重建、分层精修、数值验收及实验对照流程",
+  "scope": "PE C4H8; experimental fixed cell and Pnam prior; finite all-trans short-period candidate space; constrained local optimization.",
+  "not_an_executable_queue": true,
+  "new_quantum_calculations_started_by_freeze": 0,
+  "historical_protocols_unchanged": true,
+  "stages": [
+    "S0_input_and_prior_freeze",
+    "S1_candidate_generation",
+    "S2_geometry_filter_and_equivalence",
+    "S3_GFN2_preoptimization",
+    "S4_same_geometry_DFT_calibration",
+    "S5_fixed_cell_DFT_and_complete_link_merge",
+    "S6_representative_variable_cell",
+    "S7_independent_checks_and_experiment",
+    "S8_archive"
+  ],
+  "dependencies": {
+    "S4": [
+      "S3",
+      "N_DFT_numerical_validation"
+    ],
+    "S5": [
+      "S4",
+      "N_DFT_numerical_validation"
+    ]
+  },
+  "PE_model": {
+    "formula": "C4H8",
+    "atoms": 12,
+    "N_CH2": 4,
+    "chains": 2,
+    "chain_axis": "c",
+    "cell_A": [
+      7.432,
+      4.929,
+      2.545
+    ],
+    "angles_deg": [
+      90,
+      90,
+      90
+    ],
+    "spacegroup": "Pnam",
+    "number": 62,
+    "hall_number": 297,
+    "initial_CC_A": 1.54,
+    "initial_CH_A": 1.09
+  },
+  "candidate_counts": {
+    "enumerated_count": 288,
+    "physical_survivor_count": 248,
+    "unique_initial_count": 16,
+    "rejected_count": 40,
+    "exact_duplicates_count": 232,
+    "GFN2_completed": 16,
+    "directionally_unstable": 1,
+    "retained_endpoints": 15,
+    "GFN2_representatives": 4,
+    "tight_DFT_groups": 1,
+    "energy_rejections": 0
+  },
+  "GFN2": {
+    "backend": "tblite 0.7.0",
+    "model": "GFN2-xTB",
+    "sampling": "Gamma repeated supercell, not explicit k mesh",
+    "coarse_repeat": [
+      2,
+      2,
+      6
+    ],
+    "fine_repeat": [
+      2,
+      3,
+      8
+    ],
+    "check_repeat": [
+      3,
+      4,
+      10
+    ],
+    "coarse_fmax_eV_A": 0.03,
+    "fine_fmax_eV_A": 0.01,
+    "optimization_accuracy": 0.01,
+    "cold_accuracy": 0.001,
+    "optimization_electronic_K": 300,
+    "calibration_electronic_K": 0,
+    "check_abs_delta_energy_meV_CH2_lt": 1,
+    "check_max_delta_force_eV_A_lt": 0.005
+  },
+  "DFT": {
+    "engine": "GPAW 26.7.0 legacy CPU PW",
+    "PAW": "gpaw-data 1.0.1 native PBE C/H",
+    "method_primary": "PBE-D3(BJ)",
+    "ATM": true,
+    "same_geometry_comparison_methods": [
+      "PBE-D3(BJ)",
+      "optB88-vdW",
+      "r2SCAN-D4"
+    ],
+    "historical_L": {
+      "ecut_eV": 1400,
+      "kmesh": [
+        3,
+        6,
+        9
+      ],
+      "gpts": [
+        96,
+        60,
+        36
+      ]
+    },
+    "production_H": {
+      "ecut_eV": 1800,
+      "kmesh": [
+        4,
+        8,
+        12
+      ],
+      "gpts": [
+        112,
+        72,
+        44
+      ],
+      "xc_stencil": 4,
+      "nbands": 16,
+      "mpi_ranks": 4,
+      "scf_energy_eV_electron": 1e-09,
+      "scf_density_electron_electron": 1e-09,
+      "scf_eigenstates_eV2_electron": 1e-11
+    },
+    "electronic_temperature_K": 0,
+    "PAW_sha256": {
+      "C": "5a769dd14bb5d462c57fadc4dd8d3b7e70428b90701eca0d20b6f0666495cdfd",
+      "H": "43da6533cea08dec1ee7861140be503c9945863d6d8c7791e01e55e2161a88b8"
+    },
+    "method_details_source_role": "dft_original_release"
+  },
+  "fixed_cell": {
+    "normal_fmax_eV_A": 0.002,
+    "tight_fmax_eV_A": 0.0002,
+    "stress_is_acceptance_target": false,
+    "optimizer": {
+      "name": "LBFGS",
+      "fmax_eV_A": 0.0002,
+      "maxstep_A": 0.05,
+      "maxsteps": 200
+    },
+    "merge": {
+      "rms_A": 0.02,
+      "max_A": 0.05,
+      "energy_meV_CH2": 1.0,
+      "algorithm": "all six pairs; complete linkage; report nontransitive ambiguous matches"
+    },
+    "accepted_count": 4,
+    "representative": "group_004",
+    "accepted_attempts": {
+      "group_001": "attempt_02",
+      "group_002": "attempt_02",
+      "group_003": "attempt_01",
+      "group_004": "attempt_01"
+    },
+    "max_pairwise_rms_A": 0.0003247469262362015,
+    "source_role": "fixed_g4",
+    "sha256": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d"
+  },
+  "variable_cell": {
+    "source_role": "fixed_g4",
+    "cell_mask": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "external_pressure_eV_A3": 0,
+    "angles_degrees": [
+      90,
+      90,
+      90
+    ],
+    "fmax_eV_A": 0.002,
+    "stress_max_kbar": 0.05,
+    "terminal_cold": {
+      "passed": true,
+      "independent_density_and_wavefunctions": true,
+      "geometry_sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+      "raw_fmax_eV_A": 0.0006209922404323713,
+      "raw_max_stress_component_kbar": 0.011392943840518,
+      "energy_delta_cold_minus_relax_eV": -5.258016244624741e-13,
+      "source_relaxation_status": "passed_relaxation"
+    },
+    "numerical_check_status": "passed",
+    "ecut_comparison_rule": "compare E2000/g128 with E1800/g128 grid_only; same geometry",
+    "stricter_settings_reoptimization_completed": false
+  },
+  "calibration": {
+    "frozen_geometries": 21,
+    "production_DFT_pairs": 29,
+    "initial_n": 16,
+    "reference_id": "final_group_001",
+    "error": "DeltaE_DFT - DeltaE_GFN2",
+    "unit": "meV/CH2",
+    "bias": 4.638333875888634,
+    "sigma": 1.920697507166551,
+    "ddof": 1,
+    "three_sigma": 5.762092521499653,
+    "screening_window": null,
+    "energy_rejections": 0,
+    "scope": "PE C4H8, fixed Tashiro cell 7.432 x 4.929 x 2.545 angstrom, same all-trans chain construction, initial setting angles 0 to 75 degrees in 5 degree steps.",
+    "coverage_probability_guarantee": null,
+    "independent_coverage_validation_required": false,
+    "DFT_savings_demonstration_required": false
+  },
+  "open_or_cancelled_branches": {
+    "PBE0": "cancelled_by_user",
+    "PBE0_accepted": 0,
+    "formal_cost_comparison_started": 0,
+    "supplemental_80_85_90_deg": "inputs_only_not_run"
+  },
+  "claim_limits": [
+    "not a global-minimum proof",
+    "not a phonon or Hessian stability proof",
+    "no ZPE or finite-temperature nuclear free energy",
+    "fixed and variable cells reported separately",
+    "no final-g4 cross-functional geometry optimization",
+    "indexed XRD positions only; no full intensity fit",
+    "3sigma does not imply probabilistic coverage or executed pruning"
+  ],
+  "reuse_rule": "Reuse stages and evidence rules; re-establish material-specific search domain, numerical convergence and calibration.",
+  "sources": {
+    "candidate_protocol": "calculations/pe_pnam_candidates_20261020/protocol.json",
+    "input_provenance": "calculations/pe_pnam_candidates_20261020/input_provenance.json",
+    "candidate_catalog": "calculations/pe_pnam_candidates_20261020/candidate_catalog.csv",
+    "optimization_summary": "calculations/pe_pnam_candidates_20261020/optimization_summary.json",
+    "optimization_catalog": "calculations/pe_pnam_candidates_20261020/optimization_catalog.csv",
+    "dft_original_release": "calculations/pe_gpaw_convergence_20261020/releases/20261021T043247_514339Z/parameters_lock.json",
+    "dft_release_acceptance": "calculations/pe_gpaw_convergence_20261020/releases/20261021T043247_514339Z/release_check.json",
+    "calibration_protocol": "calculations/pe_gfn2_dft_calibration_20261021/protocol.json",
+    "calibration_policy": "calculations/pe_gfn2_dft_calibration_20261021/analysis_policy.json",
+    "initial_calibration": "reports/PE_GFN2_3sigma_20261021/data/initial_16_energy_calibration.csv",
+    "paired_production": "calculations/pe_gfn2_dft_calibration_20261021/tables/paired_energy_results.csv",
+    "normal_fixed_protocol": "calculations/pe_dft_representative_refinement_20261022/protocol.json",
+    "normal_fixed_results": "calculations/pe_dft_representative_refinement_20261022/tables/final_energy_results.csv",
+    "tight_fixed_protocol": "calculations/pe_dft_tight_force_refinement_20261022/protocol.json",
+    "tight_fixed_results": "calculations/pe_dft_tight_force_refinement_20261022/tables/final_energy_results.csv",
+    "tight_pairwise": "calculations/pe_dft_tight_force_refinement_20261022/tables/pairwise_geometry_energy.csv",
+    "fixed_g4": "calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final_structure.extxyz",
+    "variable_protocol": "calculations/pe_g4_variable_cell_20261027/protocol.json",
+    "variable_result": "calculations/pe_g4_variable_cell_20261027/runs/attempt_01/result.json",
+    "variable_g4": "calculations/pe_g4_variable_cell_20261027/runs/attempt_01/final_structure.extxyz",
+    "variable_cold": "calculations/pe_g4_variable_cell_20261027/final_cold_verification.json",
+    "variable_convergence_protocol": "calculations/pe_g4_variable_cell_20261027/convergence_checks/protocol.json",
+    "variable_convergence_result": "calculations/pe_g4_variable_cell_20261027/convergence_checks/result.json",
+    "variable_convergence_review": "calculations/pe_g4_variable_cell_20261027/convergence_checks/independent_review.json",
+    "angle_coverage": "reports/pe_questions_audit_20261028/全取向角覆盖与阈值敏感性.md",
+    "supplement_not_run": "reports/pe_questions_audit_20261028/supplemental_angles_080_085_090/README_补充输入说明.md",
+    "pbe0_status": "calculations/pe_pbe0_singlepoint_review_20261023/tables/singlepoint_summary.json",
+    "cost_comparison_status": "calculations/pe_energy_models_benchmark_20261020/state.json",
+    "latest_fixed_supplement": "reports/PE技术文档_正文与SI_20261028/data/fixed_cell/supplement_20261029/summary.json",
+    "latest_technical_report": "reports/PE技术文档_正文与SI_20261028/outputs/PE技术文档_正文与SI_固定胞结果补充版_20261029.md",
+    "methods_audit": "reports/PE技术文档_正文与SI_20261028/audit/methods_results.md",
+    "search_audit": "reports/PE技术文档_正文与SI_20261028/audit/search_calibration.md"
+  }
+}

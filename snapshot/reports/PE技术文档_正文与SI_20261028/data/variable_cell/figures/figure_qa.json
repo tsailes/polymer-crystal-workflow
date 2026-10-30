@@ -1,0 +1,20 @@
+[
+  {
+    "stem": "g4_atom_compare_four_models",
+    "canvas_px": [
+      8400,
+      3000
+    ],
+    "labels": 111,
+    "changed_pixels_outside_text_bbox": 0
+  },
+  {
+    "stem": "g4_atom_compare_overlays",
+    "canvas_px": [
+      8400,
+      3000
+    ],
+    "labels": 85,
+    "changed_pixels_outside_text_bbox": 0
+  }
+]

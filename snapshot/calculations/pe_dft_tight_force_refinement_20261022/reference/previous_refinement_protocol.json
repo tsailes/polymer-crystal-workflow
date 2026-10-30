@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "batch_id": "pe_dft_representative_refinement_20261022",
+  "scope": "Four GFN2-preoptimized PE representatives; PBE-D3(BJ) fixed-cell Pnam refinement and complete-link geometric deduplication.",
+  "authorization": "User requested DFT refinement of all four representatives, merge count, retention of all energy data and logs.",
+  "method": "PBE-D3(BJ)",
+  "ecut_eV": 1800,
+  "kmesh": [
+    4,
+    8,
+    12
+  ],
+  "gpts": [
+    112,
+    72,
+    44
+  ],
+  "xc_stencil": 4,
+  "nbands": 16,
+  "mpi_ranks": 4,
+  "max_workers": 2,
+  "scf_energy_eV_electron": 1e-09,
+  "scf_density_electron_electron": 1e-09,
+  "scf_eigenstates_eV2_electron": 1e-11,
+  "cell_lengths_A": [
+    7.432,
+    4.929,
+    2.545
+  ],
+  "cell_fixed": true,
+  "cell_tolerance_A": 1e-10,
+  "spacegroup": {
+    "number": 62,
+    "setting": "Pnam",
+    "hall_number": 297,
+    "symprec_A": 1e-05
+  },
+  "optimizer": {
+    "name": "LBFGS",
+    "fmax_eV_A": 0.002,
+    "maxstep_A": 0.05,
+    "maxsteps": 200
+  },
+  "stress_role": "Record raw and symmetry-projected stress; not a fixed-cell convergence target.",
+  "cold_final_verification": true,
+  "merge": {
+    "rms_A": 0.02,
+    "max_A": 0.05,
+    "energy_meV_CH2": 1.0,
+    "algorithm": "all six pairs; complete linkage; report nontransitive ambiguous matches"
+  },
+  "N_CH2": 4,
+  "electronic_temperature_K": 0,
+  "precision_provenance": "Stage3 H production settings; stage2 immutable release is preserved, not rewritten.",
+  "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+  "stage2_lock_sha256": "d3d0de948aebb52865c5e5a391dbfa4d964ae93cae654fbb1c0d6a2e606b10d1",
+  "raw_retention": "Frozen inputs, hashes, every evaluated geometry, E/F/stress, SCF iterations, trajectory, optimizer checkpoints, stdout/stderr, failures, final gpw and cold-start verification.",
+  "failure_policy": "Stop new submissions on SCF, geometry, integrity or final-force failure. Keep already-running jobs and all failed outputs. No automatic scientific threshold changes.",
+  "claims": "Constrained local stationary structures and tolerance-based duplicate groups; not proof of global minima or distinct polymorphs.",
+  "scope_exclusions": [
+    "No automatic cross-functional optimization in this queue",
+    "No variable-cell optimization",
+    "No sigma-based candidate rejection"
+  ]
+}

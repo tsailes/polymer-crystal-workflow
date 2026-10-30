@@ -1,0 +1,26 @@
+{
+  "max_workers": 2,
+  "protocol_sha256": "ca28e5de1680f8c59b50bc6fe82ceed90feb59d232e248579ad9af7009bdd245",
+  "points": [
+    {
+      "id": "group_001",
+      "input": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/inputs/group_001.json",
+      "input_sha256": "0e2becd864346c4037279c47969b1da9c5fbbc90e818ce7935fb6319c4c60fd6"
+    },
+    {
+      "id": "group_002",
+      "input": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/inputs/group_002.json",
+      "input_sha256": "5b3f60c3d5617289fbb3ec6166ce2324180b20c139d7d80b09d293f030c1e3da"
+    },
+    {
+      "id": "group_003",
+      "input": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/inputs/group_003.json",
+      "input_sha256": "10c06d1d635ed792dd3b2e72b83854a70bd37dab92813d9fd632127072cba692"
+    },
+    {
+      "id": "group_004",
+      "input": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/inputs/group_004.json",
+      "input_sha256": "f7220345e095f45521d5672830fbee5971d5b19fba420f7b4103953be93fb558"
+    }
+  ]
+}

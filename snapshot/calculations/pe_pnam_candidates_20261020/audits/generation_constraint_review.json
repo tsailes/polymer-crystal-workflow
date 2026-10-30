@@ -1,0 +1,585 @@
+{
+  "passed": true,
+  "quantum_calculations_performed": false,
+  "experimental_refined_coordinates_read": false,
+  "scope": "Generated candidate data and target-group algebra, before quantum optimization",
+  "reviewed_scripts": {
+    "generate_candidates.py": "5a5177cbfbc77df45a736f0dd3487b3627dc766047c2dd603e37d7c83fbc873d",
+    "relax_candidates.py": "b6a61a8247ad2f15bf789a91d467cd71169ab15fdaca9a32cd155e19e4493f8c"
+  },
+  "manifest_operations_match_spglib_hall_297": true,
+  "symmetry_source": "generation_manifest.target_symmetry",
+  "candidate_count": 16,
+  "file_roundtrip_count": 48,
+  "validated_duplicate_mappings": 232,
+  "duplicate_mapping_max_error_A": 4.906154343675772e-09,
+  "minimum_pair_signature_max_difference_A": 0.10687838008804418,
+  "all_distinct_representatives_have_different_isometry_invariants": true,
+  "records": [
+    {
+      "candidate_id": "cand_0001",
+      "setting_angle_deg": 0,
+      "independent_construction_max_error_A": 4.6010218415561135e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 5.039305861487264e-09,
+      "vdw_threshold_ratio_comparison_error": 1.3825758315988423e-09,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.6502355038028328e-15,
+        "quadratic_directional_derivative_error": 6.026079635290671e-10
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "53c7c07d575bf2c718373dc48c2de71f10ac23bf10f378878b1ad8e839be8d1f"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.600998004218801e-09,
+          "sha256": "7fdf997bdef85b79a5500de646e39e54698819e52ff0b61349ed3defaca21fdc"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.6010218415561135e-09,
+          "sha256": "1ab3f42578da0215b376861df3818a300bbd75b5354e946af9d31b3a9b9db326"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0009",
+      "setting_angle_deg": 5,
+      "independent_construction_max_error_A": 4.310721821022821e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 2.428355294625817e-10,
+      "vdw_threshold_ratio_comparison_error": 1.117519410342993e-09,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.6542676800811649e-15,
+        "quadratic_directional_derivative_error": 1.4296945849423537e-09
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "cd325f5ed271e52954c3dee9c49811478f5f7c8ef800e65602d9cdc7b91331c2"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.310703646736148e-09,
+          "sha256": "edf75912f3b6101b62293e53af7dad59cce3bee42d8edff14b6376e8c8f818ac"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.310722367829197e-09,
+          "sha256": "e9f7ad3a1f747ddd0cf0aa13de7e8a4e96ee457f524406305e0f1f1bcc9ea523"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0017",
+      "setting_angle_deg": 10,
+      "independent_construction_max_error_A": 3.5816363130486887e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 3.1747582340813096e-10,
+      "vdw_threshold_ratio_comparison_error": 7.099223431339396e-10,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 8.251177519014164e-16,
+        "quadratic_directional_derivative_error": 6.083640258225387e-10
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "359c589f663853a37369a7a92f839e3da086b9f89c58e43b5e8d28cad105424b"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 3.5816532474994828e-09,
+          "sha256": "ba02271f39866796ba3028d783ea4be3b701e98749e9d442eb723cfe9c26bb2c"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 3.581636236661074e-09,
+          "sha256": "11a765df78bf058693a560203b7f8e1a85aa61c975e483a3aa9a6076b8856122"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0025",
+      "setting_angle_deg": 15,
+      "independent_construction_max_error_A": 4.30333356069273e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 6.601186264276748e-10,
+      "vdw_threshold_ratio_comparison_error": 9.213998453105887e-10,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.837377154945317e-15,
+        "quadratic_directional_derivative_error": 3.6778668999204456e-10
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "84f17e20c0ad4df51ae96ed175d9c0a6eb4e7fd835668f3bbd03606692acc519"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.303299060868069e-09,
+          "sha256": "8f986c75ffa8e22fba121d6d398453b919b3d12697b0d19024fa2a273ef27e60"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.303334385783824e-09,
+          "sha256": "47cb5057571214524fc61e1f30dc0b615554ff8b62ecd7cc6e46217a896c4a32"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0033",
+      "setting_angle_deg": 20,
+      "independent_construction_max_error_A": 4.803141095484158e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 6.049940104446705e-09,
+      "vdw_threshold_ratio_comparison_error": 2.0246357923525693e-09,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.7386019436801195e-15,
+        "quadratic_directional_derivative_error": 1.0757732482602478e-09
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "59865e4ad48c438b23bfcac4151e6a599ad5c2402465dca1bc7f22f56c372e2d"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.803147246323285e-09,
+          "sha256": "b32f988099947990cd849284a44b972c335a7c1a602e03271717b9a4266e2751"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.803140763641793e-09,
+          "sha256": "e3f506cb11dd8ab0e63e6769e53f74197b4564f68183bda25c5ca4699f8c9b78"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0041",
+      "setting_angle_deg": 25,
+      "independent_construction_max_error_A": 4.714505706333974e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 4.137893583333607e-09,
+      "vdw_threshold_ratio_comparison_error": 1.0082499279917556e-09,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.7386019436801195e-15,
+        "quadratic_directional_derivative_error": 1.3471748161464348e-09
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "ae18f70842d50c092ab846ed03bbfa7e95cc8bde5adea1a01771db74ce8f66c4"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.7145278686483894e-09,
+          "sha256": "4f430c07d1fcd8d4d8617308afdfb8c5ff3117ee88602b91d5e37da75845af79"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.7145054926060136e-09,
+          "sha256": "4f004b4a7f0d5d8eff8072c7e64cd6e1374ecc41167697197d1832ae8804697e"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0049",
+      "setting_angle_deg": 30,
+      "independent_construction_max_error_A": 4.906153537845478e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 6.575122668550648e-10,
+      "vdw_threshold_ratio_comparison_error": 9.440026538243274e-11,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.3706412027698742e-15,
+        "quadratic_directional_derivative_error": 9.459251160137683e-10
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "abae2bc2cdd1ac365f47d27dd38dffe5e0d8f4c71f5893dcfc0590efeb588f92"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.9061552303812835e-09,
+          "sha256": "d5e5c0b8cd791508cd46e913fd9e41c1911fad4fda7c91418f185f044ad2fe20"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.906153537845478e-09,
+          "sha256": "83cd6fc8e170765d637fd6df4ad8aa74337e8aa45b91897b212bb98e0b9894be"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0057",
+      "setting_angle_deg": 35,
+      "independent_construction_max_error_A": 2.535953003733713e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 2.1435351271748004e-09,
+      "vdw_threshold_ratio_comparison_error": 2.3268831306211268e-10,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.6502355038028328e-15,
+        "quadratic_directional_derivative_error": 2.6188295976226073e-09
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "72dd13e7812ad90a926b4f53680637c68ba64bfbb9817333d6148fefb375086d"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 2.535981326152942e-09,
+          "sha256": "b7aa602873ab52aea170e4eb9d4d7974a27e68a60ccaafa78bccfe1805a18d45"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 2.535953018123445e-09,
+          "sha256": "45160fe3f0c3decebe18d279e0252b8900c4b623c97988b2e36e1a531aaf1e7b"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0065",
+      "setting_angle_deg": 40,
+      "independent_construction_max_error_A": 4.668323027536313e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 2.881837879442628e-09,
+      "vdw_threshold_ratio_comparison_error": 5.551223924982196e-10,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.113727618746625e-15,
+        "quadratic_directional_derivative_error": 2.5351867272149775e-09
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "d4bd3da2514f9c9d0bf7fb2835417342cc0b31c4f48b84616152a2898a89ddec"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.668310302856767e-09,
+          "sha256": "5dcf504bfc49ec98bae3a2ee5114037cdcb2009bdd4f40757412d97069a138b4"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.668323027536313e-09,
+          "sha256": "b40572c6a3566f8ddda6b7b743a0c05c39d141c5e06eea4b6d352ba223a88fa8"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0073",
+      "setting_angle_deg": 45,
+      "independent_construction_max_error_A": 4.2930679174713665e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 5.651097367831426e-10,
+      "vdw_threshold_ratio_comparison_error": 7.536431478882832e-10,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.0944578576754794e-15,
+        "quadratic_directional_derivative_error": 5.369547029232535e-10
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "a21569d33c6fc65e7af8851712feb45b235c2b19ec5289d17f96215ed1350c57"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.293086613834932e-09,
+          "sha256": "3ac07816621da7206497f7cb5993da7fd1a4cd8188583c4724ee8a22de874c50"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.293068101918189e-09,
+          "sha256": "a9f3f08a0529eb730db7fcc1904646e6ddc3f7687257b91bbcdda22967597713"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0081",
+      "setting_angle_deg": 50,
+      "independent_construction_max_error_A": 4.668322331027897e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 1.6977521610783697e-09,
+      "vdw_threshold_ratio_comparison_error": 5.551221704536147e-10,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.6502355038028328e-15,
+        "quadratic_directional_derivative_error": 1.5987481338797238e-09
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "835f2f1d9108beea35012b8583f81da73c9f93672b8c449e205ba497e0944219"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.668316343874822e-09,
+          "sha256": "b89350003c088d73c6aff9842ab3280dc0c0f888bb3ffb60ef8520d4dd55691e"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.668322331027897e-09,
+          "sha256": "dd1c3971a4cb86e4d63b89df2b2a663583444cd5ac03fe3da5a59a79a2dcf1ef"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0089",
+      "setting_angle_deg": 55,
+      "independent_construction_max_error_A": 2.5359532225982297e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 1.2450467323787962e-09,
+      "vdw_threshold_ratio_comparison_error": 2.3268809101750776e-10,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.0944578576754794e-15,
+        "quadratic_directional_derivative_error": 2.093232254196664e-09
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "b814f1e9ae91f82cf1390278e3df53f5052460f1b5087666bb27c81788fd42ef"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 2.5359356693924666e-09,
+          "sha256": "61abdd7dc2357c5f351a1a9a63933019a6353093ceca18dfeffd7c94cbc73fd3"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 2.5359532225982297e-09,
+          "sha256": "a54d26638b9b825ed4a3456a7648be2538ac59ecc6d459eb02c90569d769c0c0"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0097",
+      "setting_angle_deg": 60,
+      "independent_construction_max_error_A": 4.906154343675772e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 3.7699443566907576e-10,
+      "vdw_threshold_ratio_comparison_error": 1.941267147032022e-10,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.3706412027698742e-15,
+        "quadratic_directional_derivative_error": 1.5206058634475994e-10
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "3cfe41eaa34713cde7d99da88b047b92faf5a06c3934751fcf5945bcf0c1f7c6"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.906146190294436e-09,
+          "sha256": "4e7613e6a26c5f065ce6945e5b03ffb69b9e95c0f4ccf31fc97ddb7f9692a0f5"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.906154343675772e-09,
+          "sha256": "88620970ddf81be85356241d50e881ea2da1172988e5ee8ac7d9a46186bb5de1"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0105",
+      "setting_angle_deg": 65,
+      "independent_construction_max_error_A": 4.714506386127882e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 2.3454287401136753e-09,
+      "vdw_threshold_ratio_comparison_error": 3.0202877976392983e-09,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.6502355038028328e-15,
+        "quadratic_directional_derivative_error": 1.2566836460337072e-09
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "8aa040e0ae9b472157309fbd8ceb2fdd63d956beafbe882a16038888f11f4fec"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.714508560426724e-09,
+          "sha256": "63350f9add0b78459b330da8be2abf8d34f298b9298cde7f7747a4ff411f726c"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.714506386127882e-09,
+          "sha256": "09bf6ba3b6400b1f84c41163309536edf3d6168fdb1fc083868fd3b1eff6b7be"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0113",
+      "setting_angle_deg": 70,
+      "independent_construction_max_error_A": 4.8031412181389264e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 3.3958409417778057e-09,
+      "vdw_threshold_ratio_comparison_error": 8.833758169402017e-10,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.9801806029347397e-15,
+        "quadratic_directional_derivative_error": 4.5623949063156033e-10
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "fc0385053fcea8bb2a4da02cc5724c044c82ced95dd87982684aa784b3dd9d1f"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.803139035899069e-09,
+          "sha256": "d4318a64cedef0482c7635f57a051eeeefca8750851a69c503561cca97bdc627"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.803141644400239e-09,
+          "sha256": "0c90fe79c37a39b0e370f9d6e1597daf83dfda90567d8e27698daa7558f4fcc2"
+        }
+      }
+    },
+    {
+      "candidate_id": "cand_0121",
+      "setting_angle_deg": 75,
+      "independent_construction_max_error_A": 4.303333366525324e-09,
+      "periodic_graph_matches_independent_chemistry": true,
+      "nonbonded_exclusions_and_contacts_match": true,
+      "interchain_CC_comparison_error_A": 3.6762592969807883e-10,
+      "vdw_threshold_ratio_comparison_error": 8.12181433218484e-11,
+      "target_group_projector_rank": 6,
+      "independent_cartesian_projection_max_error": 1.1102230246251565e-16,
+      "projection_validation": {
+        "passed": true,
+        "idempotence_max": 1.1102230246251565e-16,
+        "adjoint_error": 8.881784197001252e-16,
+        "symmetry_after_tangent_step_A": 1.6516525883815854e-15,
+        "quadratic_directional_derivative_error": 1.0664882310607027e-09
+      },
+      "file_roundtrips": {
+        "input.extxyz": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 0.0,
+          "sha256": "96db98cdfb375b52fd967bcd530d6af421d02ce264dcb11df811113764493ad1"
+        },
+        "input.cif": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.30332324491498e-09,
+          "sha256": "f0e884548a785ac2e7d10cb13913775b2ffcf4fd4fa32d002c5c3f6ed9190637"
+        },
+        "POSCAR": {
+          "species_preserved": true,
+          "periodic_positions_max_error_A": 4.303333346627972e-09,
+          "sha256": "2cc185b7be596d70cb3b8f410c39b5d166288add8cb5c89206057460f3eb7410"
+        }
+      }
+    }
+  ],
+  "nonblocking_scope_notes": [
+    "Final preoptimized status tests the stationary point and chemical safety bounds, not original strict nonbonded filters. Consult the separate final_original_geometric_filters_passed field before calling the final structure a survivor of those filters.",
+    "2x3x8 sampling was validated on the pilot. A new candidate's converged preoptimization is not by itself a completed dense-grid convergence proof.",
+    "Stored wrap_image and immutable edge shifts remain valid because the optimizer does not independently wrap atom coordinates."
+  ]
+}

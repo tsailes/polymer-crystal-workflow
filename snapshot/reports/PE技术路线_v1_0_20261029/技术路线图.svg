@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">PE 晶体计算技术路线</title>
+  <desc id="desc">版本 v1.0，2026年10月29日。沿编号一至十，从实验晶胞与Pnam先验出发，经独立候选生成、几何过滤、GFN2预优化、同几何DFT标定、固定胞DFT精修、零压正交变胞、冷启动与数值复核、实验对照，最终归档。上排由左向右，下排由右向左。DFT生产前置条件为实现和数值验证通过。此图汇总既有结果，不表示新增计算。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L8,5 L1,9" fill="none" stroke="#376575" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="gatearrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L8,5 L1,9" fill="none" stroke="#157D8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif; }
+      .title { font-size: 44px; font-weight: 700; fill: #102F47; }
+      .subtitle { font-size: 22px; fill: #4F6676; }
+      .card { fill: #F4F8FB; stroke: #C7D7E1; stroke-width: 1.5; }
+      .card-accent { fill: #EEF8F7; stroke: #A8D2D0; stroke-width: 1.5; }
+      .badge { fill: #173C55; }
+      .badge-accent { fill: #167D88; }
+      .num { font-size: 20px; font-weight: 700; fill: white; text-anchor: middle; dominant-baseline: middle; }
+      .heading { font-size: 25px; font-weight: 700; fill: #13394E; }
+      .body { font-size: 22px; fill: #355366; }
+      .metric { font-size: 25px; font-weight: 700; fill: #126A76; }
+      .small { font-size: 19px; fill: #4E6775; }
+      .flow { fill: none; stroke: #376575; stroke-width: 2.5; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1100" fill="#FFFFFF"/>
+  <rect x="64" y="49" width="7" height="48" rx="3" fill="#16848C"/>
+  <text x="91" y="88" class="title">PE 晶体计算技术路线</text>
+  <text x="1536" y="82" text-anchor="end" class="subtitle">v1.0　·　2026-10-29</text>
+  <text x="64" y="126" class="subtitle">实验先验约束下的候选搜索、分级精修与独立验收</text>
+
+  <rect x="64" y="161" width="1472" height="94" rx="13" fill="#E8F3F4"/>
+  <text x="88" y="198" class="heading">DFT 生产前置条件</text>
+  <text x="338" y="198" class="body">实现、导数与数值收敛验证通过；软件版本及 PAW 来源可追溯</text>
+  <text x="88" y="234" class="body">本轮生产 H 档：1800 eV　｜　k 点 4 × 8 × 12　｜　实空间网格 112 × 72 × 44</text>
+  <path d="M1396 255 V294" fill="none" stroke="#157D8A" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#gatearrow)"/>
+
+  <!-- Top row: 1 to 5 -->
+  <rect class="card" x="64" y="302" width="272" height="244" rx="16"/>
+  <circle class="badge" cx="98" cy="340" r="17"/>
+  <text class="num" x="98" y="340">1</text>
+  <text class="heading" x="126" y="349">实验先验</text>
+  <text class="body" x="88" y="395">晶胞 + Pnam 对称性</text>
+  <text class="body" x="88" y="433">12 原子 · 4 个 CH₂</text>
+  <text class="body" x="88" y="471">全反式短周期链</text>
+  <text class="small" x="88" y="515">明确输入与外部验证边界</text>
+
+  <rect class="card" x="364" y="302" width="272" height="244" rx="16"/>
+  <circle class="badge" cx="398" cy="340" r="17"/>
+  <text class="num" x="398" y="340">2</text>
+  <text class="heading" x="426" y="349">候选生成</text>
+  <text class="body" x="388" y="395">化学几何独立构造</text>
+  <text class="body" x="388" y="433">取向 × 位置 × 相位</text>
+  <text class="metric" x="388" y="476">288 个参数组合</text>
+  <text class="small" x="388" y="515">保留构造参数与来源</text>
+
+  <rect class="card" x="664" y="302" width="272" height="244" rx="16"/>
+  <circle class="badge" cx="698" cy="340" r="17"/>
+  <text class="num" x="698" y="340">3</text>
+  <text class="heading" x="726" y="349">几何过滤</text>
+  <text class="body" x="688" y="395">周期接触及化学检查</text>
+  <text class="metric" x="688" y="433">248 个通过</text>
+  <text class="metric" x="688" y="476">等价去重 → 16 初态</text>
+  <text class="small" x="688" y="515">记录每个排除与映射理由</text>
+
+  <rect class="card-accent" x="964" y="302" width="272" height="244" rx="16"/>
+  <circle class="badge-accent" cx="998" cy="340" r="17"/>
+  <text class="num" x="998" y="340">4</text>
+  <text class="heading" x="1026" y="349">GFN2 预优化</text>
+  <text class="body" x="988" y="395">16 初态全部完成</text>
+  <text class="body" x="988" y="433">排除 1 个方向不稳点</text>
+  <text class="metric" x="988" y="476">15 终态 → 4 代表</text>
+  <text class="small" x="988" y="515">几何与能量联合合并</text>
+
+  <rect class="card-accent" x="1264" y="302" width="272" height="244" rx="16"/>
+  <circle class="badge-accent" cx="1298" cy="340" r="17"/>
+  <text class="num" x="1298" y="340">5</text>
+  <text class="heading" x="1326" y="349">同几何标定</text>
+  <text class="body" x="1288" y="395">GFN2 与 DFT 配对</text>
+  <text class="body" x="1288" y="433">16 初态的经验 σ</text>
+  <text class="metric" x="1288" y="473">3σ = 5.7621</text>
+  <text class="small" x="1288" y="510">meV/CH₂ · 能量淘汰 0</text>
+
+  <path class="flow" d="M338 424 H356"/>
+  <path class="flow" d="M638 424 H656"/>
+  <path class="flow" d="M938 424 H956"/>
+  <path class="flow" d="M1238 424 H1256"/>
+  <path class="flow" d="M1400 548 V616"/>
+  <text x="64" y="590" class="small">沿编号连续推进；各阶段保留冻结输入、实际参数、原始日志及接受或排除依据。</text>
+
+  <!-- Bottom row: 6 to 10, flowing right to left -->
+  <rect class="card-accent" x="1264" y="624" width="272" height="244" rx="16"/>
+  <circle class="badge-accent" cx="1298" cy="662" r="17"/>
+  <text class="num" x="1298" y="662">6</text>
+  <text class="heading" x="1326" y="671">固定胞精修</text>
+  <text class="body" x="1288" y="717">PBE-D3(BJ)</text>
+  <text class="body" style="font-size:20px" x="1288" y="755">Fmax：0.002 → 0.0002</text>
+  <text class="small" x="1288" y="788">单位 eV/Å · 冷启动验收</text>
+  <text class="metric" x="1288" y="837">4 代表 → 1 容差组</text>
+
+  <rect class="card-accent" x="964" y="624" width="272" height="244" rx="16"/>
+  <circle class="badge-accent" cx="998" cy="662" r="17"/>
+  <text class="num" x="998" y="662">7</text>
+  <text class="heading" x="1026" y="671">零压正交变胞</text>
+  <text class="body" x="988" y="717">从严格固定胞 g4 起步</text>
+  <text class="body" x="988" y="755">释放原子及 a / b / c</text>
+  <text class="body" x="988" y="793">保持胞角 90°</text>
+  <text class="small" x="988" y="837">原始力 + 六应力联合验收</text>
+
+  <rect class="card" x="664" y="624" width="272" height="244" rx="16"/>
+  <circle class="badge" cx="698" cy="662" r="17"/>
+  <text class="num" x="698" y="662">8</text>
+  <text class="heading" x="726" y="671">独立数值复核</text>
+  <text class="body" x="688" y="717">终态冷电子启动</text>
+  <text class="body" style="font-size:20px" x="688" y="755">分别加严 k / grid / ecut</text>
+  <text class="body" x="688" y="793">检查 ΔE / ΔF / Δσ</text>
+  <text class="small" x="688" y="837">同几何 · 可归因的单因素</text>
+
+  <rect class="card" x="364" y="624" width="272" height="244" rx="16"/>
+  <circle class="badge" cx="398" cy="662" r="17"/>
+  <text class="num" x="398" y="662">9</text>
+  <text class="heading" x="426" y="671">实验对照</text>
+  <text class="body" x="388" y="717">原子坐标及晶胞参数</text>
+  <text class="body" x="388" y="755">索引 XRD 峰位</text>
+  <text class="body" x="388" y="793">注明温度与误差口径</text>
+  <text class="small" x="388" y="837">固定胞与变胞分别报告</text>
+
+  <rect class="card" x="64" y="624" width="272" height="244" rx="16"/>
+  <circle class="badge" cx="98" cy="662" r="17"/>
+  <text class="num" x="98" y="662">10</text>
+  <text class="heading" x="126" y="671">证据归档</text>
+  <text class="body" x="88" y="717">结构、轨迹与计算表</text>
+  <text class="body" x="88" y="755">参数锁及文件哈希</text>
+  <text class="body" x="88" y="793">正文 / SI 来源索引</text>
+  <text class="small" x="88" y="837">版本化保存，便于复核复用</text>
+
+  <path class="flow" d="M1262 746 H1244"/>
+  <path class="flow" d="M962 746 H944"/>
+  <path class="flow" d="M662 746 H644"/>
+  <path class="flow" d="M362 746 H344"/>
+
+  <line x1="64" y1="916" x2="1536" y2="916" stroke="#D7E1E7" stroke-width="1.5"/>
+  <text x="64" y="958" class="heading">适用范围与结论边界</text>
+  <text x="64" y="998" class="body">• 指定 Pnam 与短周期模型内的局部搜索；收敛到同一容差组不证明全局最低能。</text>
+  <text x="64" y="1036" class="body">• 3σ 是限定初态域的经验量；固定胞结果和变胞预测分别报告，峰位一致性不等于整谱拟合。</text>
+  <text x="64" y="1074" class="small">本图概括已完成的 PE 主线；迁移到其他体系时，重新定义结构先验、搜索自由度并验证数值设置。</text>
+</svg>

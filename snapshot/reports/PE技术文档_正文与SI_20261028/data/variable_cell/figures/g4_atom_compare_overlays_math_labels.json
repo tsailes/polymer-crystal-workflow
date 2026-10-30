@@ -1,0 +1,3164 @@
+{
+  "background_png": "E:/PE_DFT/reports/progress_deck_20261026/build/revision10/figures/g4_atom_compare_overlays_math_background.png",
+  "reference_png": "E:/PE_DFT/reports/progress_deck_20261026/build/revision10/figures/g4_atom_compare_overlays.png",
+  "canvas_px": {
+    "width": 8400,
+    "height": 3000
+  },
+  "canvas_inches": {
+    "width": 14,
+    "height": 5
+  },
+  "render_dpi": 600,
+  "coordinates": "TOP-LEFT origin; normalized bbox fractions of complete canvas. x right, y down. Rotation in Matplotlib counterclockwise; 90 corresponds to PPT 270.",
+  "placement_rule": "PPT bbox=(imageX+x*imageW,imageY+y*imageH,w*imageW,h*imageH). Source font pt multiplied by (image width pt /72)/14. For 90-degree text swap unrotated box width/height around its center.",
+  "note": "All visible Text removed; atomic geometry, markers, cell edges and legend handles unchanged. No tight crop.",
+  "count": 85,
+  "labels": [
+    {
+      "id": 1,
+      "panel": "panel_1_1",
+      "role": "annotation",
+      "text": "a",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.05576095337870136,
+        "y": 0.06976960977239999,
+        "w": 0.009404761904761905,
+        "h": 0.03888888888888884
+      },
+      "bbox_px_top_left": {
+        "x": 468.3920083810914,
+        "y": 209.30882931719998,
+        "w": 79.0,
+        "h": 116.66666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.05576095337870136,
+        "y": 0.09931605074462213
+      },
+      "font_size_pt": 14.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "bold",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 2,
+      "panel": "panel_1_1",
+      "role": "annotation",
+      "text": "沿 c：ab 投影",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.08618042335346943,
+        "y": 0.13241036955322671,
+        "w": 0.05904761904761905,
+        "h": 0.028354085286458334
+      },
+      "bbox_px_top_left": {
+        "x": 723.9155561691432,
+        "y": 397.2311086596801,
+        "w": 496.0,
+        "h": 85.062255859375
+      },
+      "anchor_norm_top_left": {
+        "x": 0.08618042335346943,
+        "y": 0.13241036955322671
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        1.0
+      ],
+      "color_hex": "#555555"
+    },
+    {
+      "id": 3,
+      "panel": "panel_1_1",
+      "role": "x_axis_label",
+      "text": "a / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.17161796536796536,
+        "y": 0.5795123184408899,
+        "w": 0.023809523809523808,
+        "h": 0.0340068359375
+      },
+      "bbox_px_top_left": {
+        "x": 1441.590909090909,
+        "y": 1738.5369553226697,
+        "w": 200.0,
+        "h": 102.0205078125
+      },
+      "anchor_norm_top_left": {
+        "x": 0.18352272727272725,
+        "y": 0.5795123184408899
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 4,
+      "panel": "panel_1_1",
+      "role": "x_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.11463230882010401,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 962.9113940888737,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.1176084992962945,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 5,
+      "panel": "panel_1_1",
+      "role": "x_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.15764322430227873,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 1324.2030841391413,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.1606194147784692,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 6,
+      "panel": "panel_1_1",
+      "role": "x_tick",
+      "text": "4",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.20065413978445343,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 1685.4947741894089,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.20363033026064392,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 7,
+      "panel": "panel_1_1",
+      "role": "x_tick",
+      "text": "6",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.24366505526662818,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 2046.7864642396767,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.24664124574281865,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 8,
+      "panel": "panel_1_1",
+      "role": "y_axis_label",
+      "text": "b / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.04922522722042495,
+        "y": 0.2931728258871117,
+        "w": 0.012145298549107142,
+        "h": 0.06733333333333326
+      },
+      "bbox_px_top_left": {
+        "x": 413.4919086515696,
+        "y": 879.518477661335,
+        "w": 102.0205078125,
+        "h": 201.99999999999977
+      },
+      "anchor_norm_top_left": {
+        "x": 0.06137052576953209,
+        "y": 0.3268394925537783
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 90.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "bottom",
+      "rotation_mode": "anchor",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 9,
+      "panel": "panel_1_1",
+      "role": "y_tick",
+      "text": "−1",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.06137052576953209,
+        "y": 0.48451436668891645,
+        "w": 0.01380952380952381,
+        "h": 0.026388888888888837
+      },
+      "bbox_px_top_left": {
+        "x": 515.5124164640696,
+        "y": 1453.5431000667493,
+        "w": 116.0,
+        "h": 79.16666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.0751800495790559,
+        "y": 0.49453905201877746
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 10,
+      "panel": "panel_1_1",
+      "role": "y_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.06922766862667495,
+        "y": 0.4242990850138718,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888837
+      },
+      "bbox_px_top_left": {
+        "x": 581.5124164640696,
+        "y": 1272.8972550416154,
+        "w": 50.0,
+        "h": 79.16666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.0751800495790559,
+        "y": 0.43432377034373293
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 11,
+      "panel": "panel_1_1",
+      "role": "y_tick",
+      "text": "1",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.06922766862667495,
+        "y": 0.36408380333882717,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888837
+      },
+      "bbox_px_top_left": {
+        "x": 581.5124164640696,
+        "y": 1092.2514100164815,
+        "w": 50.0,
+        "h": 79.16666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.0751800495790559,
+        "y": 0.3741084886686883
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 12,
+      "panel": "panel_1_1",
+      "role": "y_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.06922766862667495,
+        "y": 0.3038685216637824,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 581.5124164640696,
+        "y": 911.6055649913474,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.0751800495790559,
+        "y": 0.31389320699364365
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 13,
+      "panel": "panel_1_1",
+      "role": "y_tick",
+      "text": "3",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.06922766862667495,
+        "y": 0.24365323998873778,
+        "w": 0.005952380952380952,
+        "h": 0.02638888888888899
+      },
+      "bbox_px_top_left": {
+        "x": 581.5124164640696,
+        "y": 730.9597199662135,
+        "w": 50.0,
+        "h": 79.16666666666697
+      },
+      "anchor_norm_top_left": {
+        "x": 0.0751800495790559,
+        "y": 0.253677925318599
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 14,
+      "panel": "panel_1_1",
+      "role": "y_tick",
+      "text": "4",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.06922766862667495,
+        "y": 0.18343795831369314,
+        "w": 0.005952380952380952,
+        "h": 0.02638888888888899
+      },
+      "bbox_px_top_left": {
+        "x": 581.5124164640696,
+        "y": 550.3138749410796,
+        "w": 50.0,
+        "h": 79.16666666666697
+      },
+      "anchor_norm_top_left": {
+        "x": 0.0751800495790559,
+        "y": 0.19346264364355437
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 15,
+      "panel": "panel_1_1",
+      "role": "y_tick",
+      "text": "5",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.06922766862667495,
+        "y": 0.12322267663864861,
+        "w": 0.005952380952380952,
+        "h": 0.02638888888888899
+      },
+      "bbox_px_top_left": {
+        "x": 581.5124164640696,
+        "y": 369.6680299159457,
+        "w": 50.0,
+        "h": 79.16666666666697
+      },
+      "anchor_norm_top_left": {
+        "x": 0.0751800495790559,
+        "y": 0.13324736196850973
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 16,
+      "panel": "panel_1_1",
+      "role": "title",
+      "text": "g4：起点与终态",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.1331655844155844,
+        "y": 0.05122222222222228,
+        "w": 0.10071428571428571,
+        "h": 0.042666666666666665
+      },
+      "bbox_px_top_left": {
+        "x": 1118.590909090909,
+        "y": 153.66666666666697,
+        "w": 846.0,
+        "h": 128.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.18352272727272725,
+        "y": 0.08388888888888901
+      },
+      "font_size_pt": 14.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 17,
+      "panel": "panel_1_2",
+      "role": "annotation",
+      "text": "b",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.39223822610597403,
+        "y": 0.06964938407795551,
+        "w": 0.01,
+        "h": 0.03900911458333333
+      },
+      "bbox_px_top_left": {
+        "x": 3294.801099290182,
+        "y": 208.9481522338665,
+        "w": 84.0,
+        "h": 117.02734375
+      },
+      "anchor_norm_top_left": {
+        "x": 0.39223822610597403,
+        "y": 0.09931605074462213
+      },
+      "font_size_pt": 14.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "bold",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 18,
+      "panel": "panel_1_2",
+      "role": "annotation",
+      "text": "沿 c：ab 投影",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.42265769608074216,
+        "y": 0.13241036955322671,
+        "w": 0.05904761904761905,
+        "h": 0.028354085286458334
+      },
+      "bbox_px_top_left": {
+        "x": 3550.324647078234,
+        "y": 397.2311086596801,
+        "w": 496.0,
+        "h": 85.062255859375
+      },
+      "anchor_norm_top_left": {
+        "x": 0.42265769608074216,
+        "y": 0.13241036955322671
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        1.0
+      ],
+      "color_hex": "#555555"
+    },
+    {
+      "id": 19,
+      "panel": "panel_1_2",
+      "role": "x_axis_label",
+      "text": "a / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.508095238095238,
+        "y": 0.5795123184408899,
+        "w": 0.023809523809523808,
+        "h": 0.0340068359375
+      },
+      "bbox_px_top_left": {
+        "x": 4268.0,
+        "y": 1738.5369553226697,
+        "w": 200.0,
+        "h": 102.0205078125
+      },
+      "anchor_norm_top_left": {
+        "x": 0.52,
+        "y": 0.5795123184408899
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 20,
+      "panel": "panel_1_2",
+      "role": "x_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.45110958154737674,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 3789.3204849979647,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.45408577202356726,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 21,
+      "panel": "panel_1_2",
+      "role": "x_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.49412049702955146,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 4150.6121750482325,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.497096687505742,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 22,
+      "panel": "panel_1_2",
+      "role": "x_tick",
+      "text": "4",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.5371314125117262,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 4511.9038650985,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.5401076029879167,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 23,
+      "panel": "panel_1_2",
+      "role": "x_tick",
+      "text": "6",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.580142327993901,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 4873.195555148768,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.5831185184700914,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 24,
+      "panel": "panel_1_2",
+      "role": "y_axis_label",
+      "text": "b / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.3857024999476977,
+        "y": 0.2931728258871117,
+        "w": 0.012145298549107142,
+        "h": 0.06733333333333326
+      },
+      "bbox_px_top_left": {
+        "x": 3239.9009995606602,
+        "y": 879.518477661335,
+        "w": 102.0205078125,
+        "h": 201.99999999999977
+      },
+      "anchor_norm_top_left": {
+        "x": 0.3978477984968048,
+        "y": 0.3268394925537783
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 90.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "bottom",
+      "rotation_mode": "anchor",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 25,
+      "panel": "panel_1_2",
+      "role": "y_tick",
+      "text": "−1",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.3978477984968048,
+        "y": 0.48451436668891645,
+        "w": 0.01380952380952381,
+        "h": 0.026388888888888837
+      },
+      "bbox_px_top_left": {
+        "x": 3341.9215073731602,
+        "y": 1453.5431000667493,
+        "w": 116.0,
+        "h": 79.16666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.4116573223063286,
+        "y": 0.49453905201877746
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 26,
+      "panel": "panel_1_2",
+      "role": "y_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.40570494135394763,
+        "y": 0.4242990850138718,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888837
+      },
+      "bbox_px_top_left": {
+        "x": 3407.9215073731602,
+        "y": 1272.8972550416154,
+        "w": 50.0,
+        "h": 79.16666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.4116573223063286,
+        "y": 0.43432377034373293
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 27,
+      "panel": "panel_1_2",
+      "role": "y_tick",
+      "text": "1",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.40570494135394763,
+        "y": 0.36408380333882717,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888837
+      },
+      "bbox_px_top_left": {
+        "x": 3407.9215073731602,
+        "y": 1092.2514100164815,
+        "w": 50.0,
+        "h": 79.16666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.4116573223063286,
+        "y": 0.3741084886686883
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 28,
+      "panel": "panel_1_2",
+      "role": "y_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.40570494135394763,
+        "y": 0.3038685216637824,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 3407.9215073731602,
+        "y": 911.6055649913474,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.4116573223063286,
+        "y": 0.31389320699364365
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 29,
+      "panel": "panel_1_2",
+      "role": "y_tick",
+      "text": "3",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.40570494135394763,
+        "y": 0.24365323998873778,
+        "w": 0.005952380952380952,
+        "h": 0.02638888888888899
+      },
+      "bbox_px_top_left": {
+        "x": 3407.9215073731602,
+        "y": 730.9597199662135,
+        "w": 50.0,
+        "h": 79.16666666666697
+      },
+      "anchor_norm_top_left": {
+        "x": 0.4116573223063286,
+        "y": 0.253677925318599
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 30,
+      "panel": "panel_1_2",
+      "role": "y_tick",
+      "text": "4",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.40570494135394763,
+        "y": 0.18343795831369314,
+        "w": 0.005952380952380952,
+        "h": 0.02638888888888899
+      },
+      "bbox_px_top_left": {
+        "x": 3407.9215073731602,
+        "y": 550.3138749410796,
+        "w": 50.0,
+        "h": 79.16666666666697
+      },
+      "anchor_norm_top_left": {
+        "x": 0.4116573223063286,
+        "y": 0.19346264364355437
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 31,
+      "panel": "panel_1_2",
+      "role": "y_tick",
+      "text": "5",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.40570494135394763,
+        "y": 0.12322267663864861,
+        "w": 0.005952380952380952,
+        "h": 0.02638888888888899
+      },
+      "bbox_px_top_left": {
+        "x": 3407.9215073731602,
+        "y": 369.6680299159457,
+        "w": 50.0,
+        "h": 79.16666666666697
+      },
+      "anchor_norm_top_left": {
+        "x": 0.4116573223063286,
+        "y": 0.13324736196850973
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 32,
+      "panel": "panel_1_2",
+      "role": "title",
+      "text": "终态与 Tashiro",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.4736300223214286,
+        "y": 0.05122222222222228,
+        "w": 0.09273995535714286,
+        "h": 0.04252180989583333
+      },
+      "bbox_px_top_left": {
+        "x": 3978.4921875,
+        "y": 153.66666666666697,
+        "w": 779.015625,
+        "h": 127.5654296875
+      },
+      "anchor_norm_top_left": {
+        "x": 0.52,
+        "y": 0.08388888888888901
+      },
+      "font_size_pt": 14.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 33,
+      "panel": "panel_1_3",
+      "role": "annotation",
+      "text": "c",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.7287154988332467,
+        "y": 0.06976960977239999,
+        "w": 0.008214285714285714,
+        "h": 0.03888888888888884
+      },
+      "bbox_px_top_left": {
+        "x": 6121.210190199273,
+        "y": 209.30882931719998,
+        "w": 69.0,
+        "h": 116.66666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7287154988332467,
+        "y": 0.09931605074462213
+      },
+      "font_size_pt": 14.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "bold",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 34,
+      "panel": "panel_1_3",
+      "role": "annotation",
+      "text": "沿 c：ab 投影",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.7591349688080148,
+        "y": 0.13241036955322671,
+        "w": 0.05904761904761905,
+        "h": 0.028354085286458334
+      },
+      "bbox_px_top_left": {
+        "x": 6376.733737987324,
+        "y": 397.2311086596801,
+        "w": 496.0,
+        "h": 85.062255859375
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7591349688080148,
+        "y": 0.13241036955322671
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        1.0
+      ],
+      "color_hex": "#555555"
+    },
+    {
+      "id": 35,
+      "panel": "panel_1_3",
+      "role": "x_axis_label",
+      "text": "a / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.8445725108225107,
+        "y": 0.5795123184408899,
+        "w": 0.023809523809523808,
+        "h": 0.0340068359375
+      },
+      "bbox_px_top_left": {
+        "x": 7094.40909090909,
+        "y": 1738.5369553226697,
+        "w": 200.0,
+        "h": 102.0205078125
+      },
+      "anchor_norm_top_left": {
+        "x": 0.8564772727272726,
+        "y": 0.5795123184408899
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 36,
+      "panel": "panel_1_3",
+      "role": "x_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7875868542746494,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 6615.729575907055,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7905630447508398,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 37,
+      "panel": "panel_1_3",
+      "role": "x_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.8305977697568241,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 6977.021265957323,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.8335739602330146,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 38,
+      "panel": "panel_1_3",
+      "role": "x_tick",
+      "text": "4",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.8736086852389988,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 7338.31295600759,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.8765848757151893,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 39,
+      "panel": "panel_1_3",
+      "role": "x_tick",
+      "text": "6",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.9166196007211735,
+        "y": 0.5531234295520009,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 7699.604646057858,
+        "y": 1659.370288656003,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.9195957911973641,
+        "y": 0.5531234295520009
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 40,
+      "panel": "panel_1_3",
+      "role": "y_axis_label",
+      "text": "b / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7221797726749704,
+        "y": 0.2931728258871117,
+        "w": 0.012145298549107142,
+        "h": 0.06733333333333326
+      },
+      "bbox_px_top_left": {
+        "x": 6066.310090469751,
+        "y": 879.518477661335,
+        "w": 102.0205078125,
+        "h": 201.99999999999977
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7343250712240775,
+        "y": 0.3268394925537783
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 90.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "bottom",
+      "rotation_mode": "anchor",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 41,
+      "panel": "panel_1_3",
+      "role": "y_tick",
+      "text": "−1",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7343250712240775,
+        "y": 0.48451436668891645,
+        "w": 0.01380952380952381,
+        "h": 0.026388888888888837
+      },
+      "bbox_px_top_left": {
+        "x": 6168.330598282251,
+        "y": 1453.5431000667493,
+        "w": 116.0,
+        "h": 79.16666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7481345950336014,
+        "y": 0.49453905201877746
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 42,
+      "panel": "panel_1_3",
+      "role": "y_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7421822140812204,
+        "y": 0.4242990850138718,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888837
+      },
+      "bbox_px_top_left": {
+        "x": 6234.330598282251,
+        "y": 1272.8972550416154,
+        "w": 50.0,
+        "h": 79.16666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7481345950336014,
+        "y": 0.43432377034373293
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 43,
+      "panel": "panel_1_3",
+      "role": "y_tick",
+      "text": "1",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7421822140812204,
+        "y": 0.36408380333882717,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888837
+      },
+      "bbox_px_top_left": {
+        "x": 6234.330598282251,
+        "y": 1092.2514100164815,
+        "w": 50.0,
+        "h": 79.16666666666652
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7481345950336014,
+        "y": 0.3741084886686883
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 44,
+      "panel": "panel_1_3",
+      "role": "y_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7421822140812204,
+        "y": 0.3038685216637824,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 6234.330598282251,
+        "y": 911.6055649913474,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7481345950336014,
+        "y": 0.31389320699364365
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 45,
+      "panel": "panel_1_3",
+      "role": "y_tick",
+      "text": "3",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7421822140812204,
+        "y": 0.24365323998873778,
+        "w": 0.005952380952380952,
+        "h": 0.02638888888888899
+      },
+      "bbox_px_top_left": {
+        "x": 6234.330598282251,
+        "y": 730.9597199662135,
+        "w": 50.0,
+        "h": 79.16666666666697
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7481345950336014,
+        "y": 0.253677925318599
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 46,
+      "panel": "panel_1_3",
+      "role": "y_tick",
+      "text": "4",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7421822140812204,
+        "y": 0.18343795831369314,
+        "w": 0.005952380952380952,
+        "h": 0.02638888888888899
+      },
+      "bbox_px_top_left": {
+        "x": 6234.330598282251,
+        "y": 550.3138749410796,
+        "w": 50.0,
+        "h": 79.16666666666697
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7481345950336014,
+        "y": 0.19346264364355437
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 47,
+      "panel": "panel_1_3",
+      "role": "y_tick",
+      "text": "5",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7421822140812204,
+        "y": 0.12322267663864861,
+        "w": 0.005952380952380952,
+        "h": 0.02638888888888899
+      },
+      "bbox_px_top_left": {
+        "x": 6234.330598282251,
+        "y": 369.6680299159457,
+        "w": 50.0,
+        "h": 79.16666666666697
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7481345950336014,
+        "y": 0.13324736196850973
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 48,
+      "panel": "panel_1_3",
+      "role": "title",
+      "text": "终态与 4.5 K 模型",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.8011201298701298,
+        "y": 0.05122222222222228,
+        "w": 0.11071428571428571,
+        "h": 0.04252180989583333
+      },
+      "bbox_px_top_left": {
+        "x": 6729.40909090909,
+        "y": 153.66666666666697,
+        "w": 930.0,
+        "h": 127.5654296875
+      },
+      "anchor_norm_top_left": {
+        "x": 0.8564772727272726,
+        "y": 0.08388888888888901
+      },
+      "font_size_pt": 14.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 49,
+      "panel": "panel_2_1",
+      "role": "annotation",
+      "text": "d",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.05576095337870139,
+        "y": 0.615597112396239,
+        "w": 0.010000000000000007,
+        "h": 0.03900911458333333
+      },
+      "bbox_px_top_left": {
+        "x": 468.39200838109167,
+        "y": 1846.791337188717,
+        "w": 84.00000000000006,
+        "h": 117.02734375
+      },
+      "anchor_norm_top_left": {
+        "x": 0.05576095337870139,
+        "y": 0.6452637790629057
+      },
+      "font_size_pt": 14.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "bold",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 50,
+      "panel": "panel_2_1",
+      "role": "annotation",
+      "text": "沿 b：ac 投影",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.08618042335346945,
+        "y": 0.6601008244676367,
+        "w": 0.05904761904761905,
+        "h": 0.028354085286458334
+      },
+      "bbox_px_top_left": {
+        "x": 723.9155561691434,
+        "y": 1980.3024734029102,
+        "w": 496.0,
+        "h": 85.062255859375
+      },
+      "anchor_norm_top_left": {
+        "x": 0.08618042335346945,
+        "y": 0.6601008244676367
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        1.0
+      ],
+      "color_hex": "#555555"
+    },
+    {
+      "id": 51,
+      "panel": "panel_2_1",
+      "role": "x_axis_label",
+      "text": "a / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.17161796536796536,
+        "y": 0.8858333333333334,
+        "w": 0.023809523809523808,
+        "h": 0.0340068359375
+      },
+      "bbox_px_top_left": {
+        "x": 1441.590909090909,
+        "y": 2657.5,
+        "w": 200.0,
+        "h": 102.0205078125
+      },
+      "anchor_norm_top_left": {
+        "x": 0.18352272727272725,
+        "y": 0.8858333333333334
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 52,
+      "panel": "panel_2_1",
+      "role": "x_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.11463230882010404,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 962.911394088874,
+        "y": 2578.3333333333335,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.11760849929629452,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 53,
+      "panel": "panel_2_1",
+      "role": "x_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.15764322430227876,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 1324.2030841391415,
+        "y": 2578.3333333333335,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.16061941477846922,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 54,
+      "panel": "panel_2_1",
+      "role": "x_tick",
+      "text": "4",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.20065413978445346,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 1685.494774189409,
+        "y": 2578.3333333333335,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.20363033026064395,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 55,
+      "panel": "panel_2_1",
+      "role": "x_tick",
+      "text": "6",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.24366505526662818,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 2046.7864642396767,
+        "y": 2578.3333333333335,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.24664124574281865,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 56,
+      "panel": "panel_2_1",
+      "role": "y_axis_label",
+      "text": "c / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.057082370077567834,
+        "y": 0.714935132887098,
+        "w": 0.012145298549107142,
+        "h": 0.06466666666666666
+      },
+      "bbox_px_top_left": {
+        "x": 479.4919086515698,
+        "y": 2144.805398661294,
+        "w": 102.0205078125,
+        "h": 194.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.06922766862667498,
+        "y": 0.7472684662204313
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 90.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "bottom",
+      "rotation_mode": "anchor",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 57,
+      "panel": "panel_2_1",
+      "role": "y_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.06922766862667498,
+        "y": 0.8191365639686309,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 581.5124164640698,
+        "y": 2457.4096919058925,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.07518004957905593,
+        "y": 0.829161249298492
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 58,
+      "panel": "panel_2_1",
+      "role": "y_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.06922766862667498,
+        "y": 0.6987060006185417,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 581.5124164640698,
+        "y": 2096.118001855625,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.07518004957905593,
+        "y": 0.7087306859484028
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 59,
+      "panel": "panel_2_2",
+      "role": "annotation",
+      "text": "e",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.39223822610597403,
+        "y": 0.6157173380906835,
+        "w": 0.009404761904761905,
+        "h": 0.03888888888888892
+      },
+      "bbox_px_top_left": {
+        "x": 3294.801099290182,
+        "y": 1847.1520142720503,
+        "w": 79.0,
+        "h": 116.66666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.39223822610597403,
+        "y": 0.6452637790629057
+      },
+      "font_size_pt": 14.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "bold",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 60,
+      "panel": "panel_2_2",
+      "role": "annotation",
+      "text": "沿 b：ac 投影",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.42265769608074216,
+        "y": 0.6601008244676367,
+        "w": 0.05904761904761905,
+        "h": 0.028354085286458334
+      },
+      "bbox_px_top_left": {
+        "x": 3550.324647078234,
+        "y": 1980.30247340291,
+        "w": 496.0,
+        "h": 85.062255859375
+      },
+      "anchor_norm_top_left": {
+        "x": 0.42265769608074216,
+        "y": 0.6601008244676367
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        1.0
+      ],
+      "color_hex": "#555555"
+    },
+    {
+      "id": 61,
+      "panel": "panel_2_2",
+      "role": "x_axis_label",
+      "text": "a / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.508095238095238,
+        "y": 0.8858333333333333,
+        "w": 0.023809523809523808,
+        "h": 0.0340068359375
+      },
+      "bbox_px_top_left": {
+        "x": 4268.0,
+        "y": 2657.5,
+        "w": 200.0,
+        "h": 102.0205078125
+      },
+      "anchor_norm_top_left": {
+        "x": 0.52,
+        "y": 0.8858333333333333
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 62,
+      "panel": "panel_2_2",
+      "role": "x_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.45110958154737674,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 3789.3204849979647,
+        "y": 2578.333333333333,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.45408577202356726,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 63,
+      "panel": "panel_2_2",
+      "role": "x_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.49412049702955146,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 4150.6121750482325,
+        "y": 2578.333333333333,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.497096687505742,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 64,
+      "panel": "panel_2_2",
+      "role": "x_tick",
+      "text": "4",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.5371314125117262,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 4511.9038650985,
+        "y": 2578.333333333333,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.5401076029879167,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 65,
+      "panel": "panel_2_2",
+      "role": "x_tick",
+      "text": "6",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.580142327993901,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 4873.195555148768,
+        "y": 2578.333333333333,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.5831185184700914,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 66,
+      "panel": "panel_2_2",
+      "role": "y_axis_label",
+      "text": "c / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.3935596428048405,
+        "y": 0.7149351328870979,
+        "w": 0.012145298549107142,
+        "h": 0.06466666666666666
+      },
+      "bbox_px_top_left": {
+        "x": 3305.9009995606602,
+        "y": 2144.805398661294,
+        "w": 102.0205078125,
+        "h": 194.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.40570494135394763,
+        "y": 0.7472684662204312
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 90.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "bottom",
+      "rotation_mode": "anchor",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 67,
+      "panel": "panel_2_2",
+      "role": "y_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.40570494135394763,
+        "y": 0.8191365639686308,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 3407.9215073731602,
+        "y": 2457.4096919058925,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.4116573223063286,
+        "y": 0.8291612492984919
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 68,
+      "panel": "panel_2_2",
+      "role": "y_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.40570494135394763,
+        "y": 0.6987060006185415,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 3407.9215073731602,
+        "y": 2096.1180018556247,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.4116573223063286,
+        "y": 0.7087306859484026
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 69,
+      "panel": "panel_2_3",
+      "role": "annotation",
+      "text": "f",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.7287154988332467,
+        "y": 0.615597112396239,
+        "w": 0.006071428571428571,
+        "h": 0.03900911458333333
+      },
+      "bbox_px_top_left": {
+        "x": 6121.210190199273,
+        "y": 1846.791337188717,
+        "w": 51.0,
+        "h": 117.02734375
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7287154988332467,
+        "y": 0.6452637790629057
+      },
+      "font_size_pt": 14.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "bold",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 70,
+      "panel": "panel_2_3",
+      "role": "annotation",
+      "text": "沿 b：ac 投影",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.7591349688080148,
+        "y": 0.6601008244676367,
+        "w": 0.05904761904761905,
+        "h": 0.028354085286458334
+      },
+      "bbox_px_top_left": {
+        "x": 6376.733737987324,
+        "y": 1980.30247340291,
+        "w": 496.0,
+        "h": 85.062255859375
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7591349688080148,
+        "y": 0.6601008244676367
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "Microsoft YaHei",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        1.0
+      ],
+      "color_hex": "#555555"
+    },
+    {
+      "id": 71,
+      "panel": "panel_2_3",
+      "role": "x_axis_label",
+      "text": "a / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.8445725108225107,
+        "y": 0.8858333333333334,
+        "w": 0.023809523809523808,
+        "h": 0.0340068359375
+      },
+      "bbox_px_top_left": {
+        "x": 7094.40909090909,
+        "y": 2657.5,
+        "w": 200.0,
+        "h": 102.0205078125
+      },
+      "anchor_norm_top_left": {
+        "x": 0.8564772727272726,
+        "y": 0.8858333333333334
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 72,
+      "panel": "panel_2_3",
+      "role": "x_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7875868542746494,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 6615.729575907055,
+        "y": 2578.3333333333335,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7905630447508398,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 73,
+      "panel": "panel_2_3",
+      "role": "x_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.8305977697568241,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 6977.021265957323,
+        "y": 2578.3333333333335,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.8335739602330146,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 74,
+      "panel": "panel_2_3",
+      "role": "x_tick",
+      "text": "4",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.8736086852389988,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 7338.31295600759,
+        "y": 2578.3333333333335,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.8765848757151893,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 75,
+      "panel": "panel_2_3",
+      "role": "x_tick",
+      "text": "6",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.9166196007211735,
+        "y": 0.8594444444444445,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 7699.604646057858,
+        "y": 2578.3333333333335,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.9195957911973641,
+        "y": 0.8594444444444445
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "top",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 76,
+      "panel": "panel_2_3",
+      "role": "y_axis_label",
+      "text": "c / Å",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7300369155321133,
+        "y": 0.7149351328870979,
+        "w": 0.012145298549107142,
+        "h": 0.06466666666666666
+      },
+      "bbox_px_top_left": {
+        "x": 6132.310090469751,
+        "y": 2144.805398661294,
+        "w": 102.0205078125,
+        "h": 194.0
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7421822140812204,
+        "y": 0.7472684662204312
+      },
+      "font_size_pt": 10.5,
+      "rotation_deg_matplotlib_counterclockwise": 90.0,
+      "horizontal_alignment": "center",
+      "vertical_alignment": "bottom",
+      "rotation_mode": "anchor",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 77,
+      "panel": "panel_2_3",
+      "role": "y_tick",
+      "text": "0",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7421822140812204,
+        "y": 0.8191365639686308,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888896
+      },
+      "bbox_px_top_left": {
+        "x": 6234.330598282251,
+        "y": 2457.4096919058925,
+        "w": 50.0,
+        "h": 79.16666666666669
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7481345950336014,
+        "y": 0.8291612492984919
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 78,
+      "panel": "panel_2_3",
+      "role": "y_tick",
+      "text": "2",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7421822140812204,
+        "y": 0.6987060006185415,
+        "w": 0.005952380952380952,
+        "h": 0.026388888888888913
+      },
+      "bbox_px_top_left": {
+        "x": 6234.330598282251,
+        "y": 2096.1180018556247,
+        "w": 50.0,
+        "h": 79.16666666666674
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7481345950336014,
+        "y": 0.7087306859484027
+      },
+      "font_size_pt": 9.5,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "right",
+      "vertical_alignment": "center_baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 79,
+      "panel": "figure",
+      "role": "legend",
+      "text": "C",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.2533308531746032,
+        "y": 0.9532222222222222,
+        "w": 0.006904761904761905,
+        "h": 0.027777777777777773
+      },
+      "bbox_px_top_left": {
+        "x": 2127.979166666667,
+        "y": 2859.6666666666665,
+        "w": 58.0,
+        "h": 83.33333333333331
+      },
+      "anchor_norm_top_left": {
+        "x": 0.2533308531746032,
+        "y": 0.9743268229166666
+      },
+      "font_size_pt": 10.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 80,
+      "panel": "figure",
+      "role": "legend",
+      "text": "H",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.3078546626984128,
+        "y": 0.9532222222222222,
+        "w": 0.007380952380952381,
+        "h": 0.027777777777777773
+      },
+      "bbox_px_top_left": {
+        "x": 2585.9791666666674,
+        "y": 2859.6666666666665,
+        "w": 62.0,
+        "h": 83.33333333333331
+      },
+      "anchor_norm_top_left": {
+        "x": 0.3078546626984128,
+        "y": 0.9743268229166666
+      },
+      "font_size_pt": 10.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 81,
+      "panel": "figure",
+      "role": "legend",
+      "text": "4.5 K ideal H",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.36285466269841277,
+        "y": 0.9532222222222222,
+        "w": 0.06273809523809523,
+        "h": 0.027777777777777773
+      },
+      "bbox_px_top_left": {
+        "x": 3047.9791666666674,
+        "y": 2859.6666666666665,
+        "w": 527.0,
+        "h": 83.33333333333331
+      },
+      "anchor_norm_top_left": {
+        "x": 0.36285466269841277,
+        "y": 0.9743268229166666
+      },
+      "font_size_pt": 10.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 82,
+      "panel": "figure",
+      "role": "legend",
+      "text": "g4 start",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.47321180555555564,
+        "y": 0.9532222222222222,
+        "w": 0.03880952380952386,
+        "h": 0.027777777777777773
+      },
+      "bbox_px_top_left": {
+        "x": 3974.9791666666674,
+        "y": 2859.6666666666665,
+        "w": 326.00000000000045,
+        "h": 83.33333333333331
+      },
+      "anchor_norm_top_left": {
+        "x": 0.47321180555555564,
+        "y": 0.9743268229166666
+      },
+      "font_size_pt": 10.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 83,
+      "panel": "figure",
+      "role": "legend",
+      "text": "g4 endpoint",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.559640376984127,
+        "y": 0.9532222222222222,
+        "w": 0.05976190476190476,
+        "h": 0.027777777777777773
+      },
+      "bbox_px_top_left": {
+        "x": 4700.979166666667,
+        "y": 2859.6666666666665,
+        "w": 502.0,
+        "h": 83.33333333333331
+      },
+      "anchor_norm_top_left": {
+        "x": 0.559640376984127,
+        "y": 0.9743268229166666
+      },
+      "font_size_pt": 10.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 84,
+      "panel": "figure",
+      "role": "legend",
+      "text": "Tashiro",
+      "is_math_or_contains_math": false,
+      "bbox_norm_top_left": {
+        "x": 0.6670213293650794,
+        "y": 0.9532222222222222,
+        "w": 0.03456845238095238,
+        "h": 0.027777777777777773
+      },
+      "bbox_px_top_left": {
+        "x": 5602.979166666667,
+        "y": 2859.6666666666665,
+        "w": 290.375,
+        "h": 83.33333333333331
+      },
+      "anchor_norm_top_left": {
+        "x": 0.6670213293650794,
+        "y": 0.9743268229166666
+      },
+      "font_size_pt": 10.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    },
+    {
+      "id": 85,
+      "panel": "figure",
+      "role": "legend",
+      "text": "4.5 K",
+      "is_math_or_contains_math": true,
+      "bbox_norm_top_left": {
+        "x": 0.7492088293650794,
+        "y": 0.9532222222222222,
+        "w": 0.025238095238095237,
+        "h": 0.027777777777777773
+      },
+      "bbox_px_top_left": {
+        "x": 6293.354166666667,
+        "y": 2859.6666666666665,
+        "w": 212.0,
+        "h": 83.33333333333331
+      },
+      "anchor_norm_top_left": {
+        "x": 0.7492088293650794,
+        "y": 0.9743268229166666
+      },
+      "font_size_pt": 10.0,
+      "rotation_deg_matplotlib_counterclockwise": 0.0,
+      "horizontal_alignment": "left",
+      "vertical_alignment": "baseline",
+      "rotation_mode": "default",
+      "font_name": "DejaVu Sans",
+      "font_weight": "normal",
+      "color_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "color_hex": "#000000"
+    }
+  ]
+}

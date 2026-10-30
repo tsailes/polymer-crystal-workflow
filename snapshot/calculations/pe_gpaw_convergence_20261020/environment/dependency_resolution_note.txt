@@ -1,0 +1,1 @@
+Attempt 01 failed without creating the target prefix: dftd4 4.3.0 requires mctc-lib >=0.6.1,<0.7; simple-dftd3 1.6.0 requires >=0.5.2,<0.6. Attempt 02 pins dftd4-python 4.2.0 (mctc-lib >=0.5.2,<0.6) and preserves D3 1.6.0. Functional identity and damping parameters require independent interface review.

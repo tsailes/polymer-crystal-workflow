@@ -1,0 +1,8 @@
+{
+  "status": "paused_by_user",
+  "last_evaluation_id": 13,
+  "optimizer_step": 13,
+  "raw_fmax_eV_A": 0.0011080858608124673,
+  "raw_stress_max_kbar": 12.966408233844554,
+  "pause_record": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_01/pause_record.json"
+}

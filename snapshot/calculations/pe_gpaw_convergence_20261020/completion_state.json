@@ -1,0 +1,45 @@
+{
+  "updated_utc": "2026-10-21T04:42:58.6543142Z",
+  "status": "PE_DFT_numerical_validation_completed_and_parameters_locked",
+  "release_id": "20261021T043247_514339Z",
+  "release_directory": "E:/PE_DFT/calculations/pe_gpaw_convergence_20261020/releases/20261021T043247_514339Z",
+  "release_verification": "release_files_and_runtime_verified",
+  "candidate_precision": {
+    "ecut_eV": 1400,
+    "kmesh": [
+      3,
+      6,
+      9
+    ],
+    "gpts": [
+      96,
+      60,
+      36
+    ],
+    "xc_stencil": 4
+  },
+  "reference_cell_precision": {
+    "ecut_eV": 1800,
+    "kmesh": [
+      4,
+      8,
+      12
+    ],
+    "gpts": [
+      96,
+      60,
+      36
+    ],
+    "xc_stencil": 4
+  },
+  "main_report": "E:/PE_DFT/reports/PE计算实验报告_20261021/outputs/PE正交相计算实验报告_20261021.docx",
+  "report_pdf": "E:/PE_DFT/reports/PE计算实验报告_20261021/outputs/PE正交相计算实验报告_20261021.pdf",
+  "report_data": "E:/PE_DFT/reports/PE计算实验报告_20261021/data",
+  "remaining_research": [
+    "GFN2-to-DFT model error calibration and conservative screening",
+    "Independent diffraction intensity validation",
+    "Experimental versus static-model structure discrepancy"
+  ],
+  "formal_three_sigma_calibration_started": false,
+  "cancelled_comparison_optimizations_started": 0
+}

@@ -1,0 +1,12 @@
+{
+  "python": "/opt/pe_dft/envs/gfn2-pe-20261020/bin/python",
+  "packages": {
+    "ase": "3.29.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "gemmi": "0.7.5",
+    "spglib": "2.7.0",
+    "tblite": "0.7.0",
+    "matplotlib": "3.11.2"
+  }
+}

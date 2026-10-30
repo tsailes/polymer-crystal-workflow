@@ -1,0 +1,37 @@
+{
+  "group_id": "group_001",
+  "candidate_id": "cand_0025",
+  "representative_file": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_001/representative.extxyz",
+  "representative_sha256": "42627e475decb02dfe08b9cb9ae6c0a0694a7ee9225db3c27b3ce3b5184ae895",
+  "dense_input_sha256": "42627e475decb02dfe08b9cb9ae6c0a0694a7ee9225db3c27b3ce3b5184ae895",
+  "source_final_result_sha256": "6430273a451f7a7ae7eeb2bab9346b387830f623b3240e616471ad03497ae211",
+  "fine_repeat": [
+    2,
+    3,
+    8
+  ],
+  "dense_repeat": [
+    3,
+    4,
+    10
+  ],
+  "dense_natoms": 1440,
+  "comparison_accuracy": 0.001,
+  "energy_change_meV_per_CH2": -0.2492587631763854,
+  "max_force_vector_change_eV_A": 0.004286916748495539,
+  "fine_fmax_eV_A": 0.0016579766037317493,
+  "dense_fmax_eV_A": 0.003914133233274613,
+  "replica_force_deviation_eV_A": 2.298827888517879e-13,
+  "sampling_change_passed": true,
+  "dense_force_target_passed": true,
+  "replica_equivalence_passed": true,
+  "thresholds": {
+    "delta_E_meV_per_CH2": 1,
+    "delta_F_eV_A": 0.005,
+    "dense_fmax_eV_A": 0.01,
+    "replica_force_eV_A": 1e-05
+  },
+  "script_sha256": "f772f3060bc3b2a69fccd090db82ee04e8fb7cec90424733a64ba43b85bf90c7",
+  "workflow_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+  "passed": true
+}

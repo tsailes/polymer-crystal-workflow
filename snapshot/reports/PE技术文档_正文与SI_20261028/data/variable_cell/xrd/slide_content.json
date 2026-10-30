@@ -1,0 +1,11 @@
+{
+  "title": "g4 变胞改变峰位，对现有索引的偏差增大",
+  "main_conclusion": "g4 变胞使 (110)/(200) 峰向高角移动 +0.160°/+0.467°；对现有文献索引的平均绝对相对 d 偏差由 0.2879% 增至 1.6479%。",
+  "figure": "E:\\PE_DFT\\reports\\progress_deck_20261026\\build\\revision10\\xrd\\g4_variable_cell_xrd.png",
+  "background": "E:\\PE_DFT\\reports\\progress_deck_20261026\\build\\revision10\\xrd\\g4_variable_cell_xrd_math_background.png",
+  "labels": "E:\\PE_DFT\\reports\\progress_deck_20261026\\build\\revision10\\xrd\\g4_variable_cell_xrd_math_labels.json",
+  "error_figure": "E:\\PE_DFT\\reports\\progress_deck_20261026\\build\\revision10\\xrd\\g4_xrd_indexed_errors.png",
+  "caption": "金色和紫色连续曲线分别由本次固定胞 g4 终态及其新变胞终态的真实坐标前向模拟。两者统一采用 Mo Kα 波长 0.71073 Å、2θ = 5–50°、0.005° 采样、pseudo-Voigt 展宽 FWHM = 0.15° 和 Lorentz 比例 0.5；逐条归一至最大值100并垂直错开。采用中性原子 IT92 散射因子和随机粉末 LP 因子，Biso = 0，不使用 ADP。灰色等高短线表示 Tashiro 文献59行索引对应的45个不同印刷 d 值，短线高度不代表实测强度。右图仅放大同一数据的 (110)/(200) 区域。峰位 CSV 使用晶胞导出的解析 Bragg 角，不以展宽曲线的局部极大值代替。",
+  "speaker_notes": "这两条曲线都是真实结构的前向模拟，不是实测粉末谱。固定胞阶段已经采用文献晶胞，因而同一 hkl 的峰位主要由输入晶胞决定；原子精修主要影响结构因子和强度。现在放开三个边长后，晶胞变化带来了明确的峰位移动。g4 变胞使 (110)/(200) 峰向高角移动 +0.160°/+0.467°；对现有文献索引的平均绝对相对 d 偏差由 0.2879% 增至 1.6479%。这说明新结构没有进一步贴近这份 Tashiro 峰位表。但不能把它简单归结为所有结构预测都变差：该实验表的测量温度尚未匹配，而计算是未含零点与热膨胀的静态结果。新终态已通过独立电子验收；更密 k 点和其他数值加密复核仍需单独报告。我们没有连续实测强度，也没有进行 Rietveld 或全谱拟合。",
+  "footnote": "曲线均为模拟，灰线仅为文献峰位。已独立电子验收；数值加密复核单独报告。"
+}

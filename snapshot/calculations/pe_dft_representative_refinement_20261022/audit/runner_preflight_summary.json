@@ -1,0 +1,38 @@
+[
+  {
+    "name": "preflight_group_001",
+    "exit_code": 0,
+    "wall_seconds": 2.973,
+    "quantum_calculation": false
+  },
+  {
+    "name": "preflight_group_002",
+    "exit_code": 0,
+    "wall_seconds": 2.257,
+    "quantum_calculation": false
+  },
+  {
+    "name": "preflight_group_003",
+    "exit_code": 0,
+    "wall_seconds": 2.257,
+    "quantum_calculation": false
+  },
+  {
+    "name": "preflight_group_004",
+    "exit_code": 0,
+    "wall_seconds": 2.299,
+    "quantum_calculation": false
+  },
+  {
+    "name": "preflight_mpi_world",
+    "exit_code": 0,
+    "wall_seconds": 2.066,
+    "quantum_calculation": false
+  },
+  {
+    "name": "preflight_group_001_mpi4",
+    "exit_code": 0,
+    "wall_seconds": 2.348,
+    "quantum_calculation": false
+  }
+]

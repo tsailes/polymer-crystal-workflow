@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "samples": [
+    {
+      "id": "group_001",
+      "source_sample_id": "group_001",
+      "source_candidate_id": "cand_0025",
+      "source_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/final_POSCAR",
+      "source_sha256": "0321e68526597ee0821a883e75b67a2fc157a0a73a1ba64552b2bd163f63e594",
+      "structure": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/structures/group_001/POSCAR",
+      "structure_sha256": "0321e68526597ee0821a883e75b67a2fc157a0a73a1ba64552b2bd163f63e594",
+      "original_group_member_count": 12,
+      "initial_angle_deg": 15,
+      "natoms": 12,
+      "N_CH2": 4,
+      "cell_A": [
+        [
+          7.432,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.545
+        ]
+      ],
+      "spacegroup_number": 62,
+      "previous_DFT_endpoint": {
+        "result.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/result.json",
+          "sha256": "0b9f5bd107b4629c355743018dfd43fd29e29ff75b2d3beb6e317f12733af7b5"
+        },
+        "process.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/process.json",
+          "sha256": "f68156bfb2fa14c958f6503048efbf14a7ccf18af68c88202d8c3c2df0ec4471"
+        },
+        "final_cold_verification.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/final_cold_verification.json",
+          "sha256": "c617a0c4f655c50784cdef89f1e54f4bda51766ca501a134bbd312d1a33a22ad"
+        },
+        "final_POSCAR": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/final_POSCAR",
+          "sha256": "0321e68526597ee0821a883e75b67a2fc157a0a73a1ba64552b2bd163f63e594"
+        }
+      },
+      "previous_DFT_energy_eV_cell": -66.77560670952218,
+      "previous_DFT_fmax_eV_A": 0.001754026379568219
+    },
+    {
+      "id": "group_002",
+      "source_sample_id": "group_002",
+      "source_candidate_id": "cand_0113",
+      "source_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/final_POSCAR",
+      "source_sha256": "d703a3d3b7e726b8a17fa40f396cef504b82dd2461e63641dd77c9d5d9bb12df",
+      "structure": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/structures/group_002/POSCAR",
+      "structure_sha256": "d703a3d3b7e726b8a17fa40f396cef504b82dd2461e63641dd77c9d5d9bb12df",
+      "original_group_member_count": 1,
+      "initial_angle_deg": 70,
+      "natoms": 12,
+      "N_CH2": 4,
+      "cell_A": [
+        [
+          7.432,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.545
+        ]
+      ],
+      "spacegroup_number": 62,
+      "previous_DFT_endpoint": {
+        "result.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/result.json",
+          "sha256": "aa334649238c6a6e803274513895bf35c059610ddb7463c9ffcf541edf50b74d"
+        },
+        "process.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/process.json",
+          "sha256": "275ea4b056ee92cb6154ab4d916d4a873da9f14f8aca9d8e20d20015fde70458"
+        },
+        "final_cold_verification.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/final_cold_verification.json",
+          "sha256": "5f8a3e837cbcf4d80e103910459b3ac801aa871eaa7f024bfe11ef5b8a57540a"
+        },
+        "final_POSCAR": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/final_POSCAR",
+          "sha256": "d703a3d3b7e726b8a17fa40f396cef504b82dd2461e63641dd77c9d5d9bb12df"
+        }
+      },
+      "previous_DFT_energy_eV_cell": -66.77581136546064,
+      "previous_DFT_fmax_eV_A": 0.00033043603482404917
+    },
+    {
+      "id": "group_003",
+      "source_sample_id": "group_003",
+      "source_candidate_id": "cand_0041",
+      "source_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/final_POSCAR",
+      "source_sha256": "dc9812c440667c5db76ad6c8856e278dd3dcccb4d11582bedd522094e8322b96",
+      "structure": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/structures/group_003/POSCAR",
+      "structure_sha256": "dc9812c440667c5db76ad6c8856e278dd3dcccb4d11582bedd522094e8322b96",
+      "original_group_member_count": 1,
+      "initial_angle_deg": 25,
+      "natoms": 12,
+      "N_CH2": 4,
+      "cell_A": [
+        [
+          7.432,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.545
+        ]
+      ],
+      "spacegroup_number": 62,
+      "previous_DFT_endpoint": {
+        "result.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/result.json",
+          "sha256": "103c8eb21bdaeebd12901a4178cb202030fb0a92cf84c7d7c7ecd98356f52066"
+        },
+        "process.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/process.json",
+          "sha256": "1a7366bad05ed7cd719d431afc6a2196de4b9fd36294d8fc1264267258a462ce"
+        },
+        "final_cold_verification.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/final_cold_verification.json",
+          "sha256": "3108f4d929530b65e966bd18b04b611a680124f7d2df4d27a0d5b68a6c2c47fd"
+        },
+        "final_POSCAR": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/final_POSCAR",
+          "sha256": "dc9812c440667c5db76ad6c8856e278dd3dcccb4d11582bedd522094e8322b96"
+        }
+      },
+      "previous_DFT_energy_eV_cell": -66.77581666973727,
+      "previous_DFT_fmax_eV_A": 0.0007362330572480677
+    },
+    {
+      "id": "group_004",
+      "source_sample_id": "group_004",
+      "source_candidate_id": "cand_0081",
+      "source_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/final_POSCAR",
+      "source_sha256": "eaead621b7195e99efffbb44180429e87fe86775bcfc5edf93cf9d6c13fa0050",
+      "structure": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/structures/group_004/POSCAR",
+      "structure_sha256": "eaead621b7195e99efffbb44180429e87fe86775bcfc5edf93cf9d6c13fa0050",
+      "original_group_member_count": 1,
+      "initial_angle_deg": 50,
+      "natoms": 12,
+      "N_CH2": 4,
+      "cell_A": [
+        [
+          7.432,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.929,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.545
+        ]
+      ],
+      "spacegroup_number": 62,
+      "previous_DFT_endpoint": {
+        "result.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/result.json",
+          "sha256": "e25caeae5dc26c74cc9926ee31327291d4dad1796665dbfff7198f3f3575d3f8"
+        },
+        "process.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/process.json",
+          "sha256": "343f62a9ba1ade0e2d415ae0f7f2383f5c89a8764541b8e459bcd4d54fba336d"
+        },
+        "final_cold_verification.json": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/final_cold_verification.json",
+          "sha256": "ee8f53c750366cd1c00edaa825414441209d6375f63ee55fd1e4163ba74c8f05"
+        },
+        "final_POSCAR": {
+          "path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/final_POSCAR",
+          "sha256": "eaead621b7195e99efffbb44180429e87fe86775bcfc5edf93cf9d6c13fa0050"
+        }
+      },
+      "previous_DFT_energy_eV_cell": -66.77581673830392,
+      "previous_DFT_fmax_eV_A": 0.000975282031517246
+    }
+  ]
+}

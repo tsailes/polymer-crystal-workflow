@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "PAW_hashes_verified": 2,
+  "source_terminal_checks": [
+    {
+      "id": "group_001",
+      "previous_result_sha256": "0b9f5bd107b4629c355743018dfd43fd29e29ff75b2d3beb6e317f12733af7b5",
+      "position_delta_max_A": 4.440892098500626e-16,
+      "changed_input_keys": [
+        "structure",
+        "source_geometry_sha256_expected",
+        "protocol_sha256_expected",
+        "point_runner",
+        "fmax_eV_A"
+      ],
+      "source_POSCAR_sha256": "0321e68526597ee0821a883e75b67a2fc157a0a73a1ba64552b2bd163f63e594"
+    },
+    {
+      "id": "group_002",
+      "previous_result_sha256": "aa334649238c6a6e803274513895bf35c059610ddb7463c9ffcf541edf50b74d",
+      "position_delta_max_A": 8.881784197001252e-16,
+      "changed_input_keys": [
+        "structure",
+        "source_geometry_sha256_expected",
+        "protocol_sha256_expected",
+        "point_runner",
+        "fmax_eV_A"
+      ],
+      "source_POSCAR_sha256": "d703a3d3b7e726b8a17fa40f396cef504b82dd2461e63641dd77c9d5d9bb12df"
+    },
+    {
+      "id": "group_003",
+      "previous_result_sha256": "103c8eb21bdaeebd12901a4178cb202030fb0a92cf84c7d7c7ecd98356f52066",
+      "position_delta_max_A": 8.881784197001252e-16,
+      "changed_input_keys": [
+        "structure",
+        "source_geometry_sha256_expected",
+        "protocol_sha256_expected",
+        "point_runner",
+        "fmax_eV_A"
+      ],
+      "source_POSCAR_sha256": "dc9812c440667c5db76ad6c8856e278dd3dcccb4d11582bedd522094e8322b96"
+    },
+    {
+      "id": "group_004",
+      "previous_result_sha256": "e25caeae5dc26c74cc9926ee31327291d4dad1796665dbfff7198f3f3575d3f8",
+      "position_delta_max_A": 8.881784197001252e-16,
+      "changed_input_keys": [
+        "structure",
+        "source_geometry_sha256_expected",
+        "protocol_sha256_expected",
+        "point_runner",
+        "fmax_eV_A"
+      ],
+      "source_POSCAR_sha256": "eaead621b7195e99efffbb44180429e87fe86775bcfc5edf93cf9d6c13fa0050"
+    }
+  ],
+  "force_target_before_eV_A": 0.002,
+  "force_target_after_eV_A": 0.0002,
+  "merge_criteria_unchanged": true,
+  "runner_byte_identical": true,
+  "quantum_calculations_started": false
+}

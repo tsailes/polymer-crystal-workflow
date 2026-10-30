@@ -1,0 +1,118 @@
+{
+  "candidate_id": "group_004__representative",
+  "candidate": {
+    "path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_004/representative.extxyz",
+    "sha256": "1aeee1f2a75258fa23f3c5c5abf5045212d619ae8443be23a15fd64c06d24240",
+    "formula": "C4H8",
+    "atom_count": 12,
+    "coordinate_usage": "Target-operation closure only; coordinates do not enter peak positions"
+  },
+  "cell_A": [
+    [
+      7.432,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      4.929,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.545
+    ]
+  ],
+  "target_space_group": {
+    "name": "P n a m",
+    "number": 62,
+    "hall": "-P 2c 2n",
+    "role": "Supplied target, not inferred"
+  },
+  "metric_invariance_max_error_A2": 0.0,
+  "target_symmetry_check": {
+    "checked": true,
+    "contains_supplied_target_operations": true,
+    "tolerance_A": 0.001,
+    "maximum_matching_distance_A": 1.9860273225978185e-15,
+    "origin_policy": "Use supplied setting/origin; no origin alignment or symmetry inference",
+    "operations": [
+      {
+        "operation": "x,y,z",
+        "max_matching_distance_A": 0.0
+      },
+      {
+        "operation": "-x,-y,z+1/2",
+        "max_matching_distance_A": 8.881784197001252e-16
+      },
+      {
+        "operation": "x+1/2,-y+1/2,-z+1/2",
+        "max_matching_distance_A": 1.9860273225978185e-15
+      },
+      {
+        "operation": "-x+1/2,y+1/2,-z",
+        "max_matching_distance_A": 8.881784197001252e-16
+      },
+      {
+        "operation": "-x,-y,-z",
+        "max_matching_distance_A": 8.881784197001252e-16
+      },
+      {
+        "operation": "x,y,-z+1/2",
+        "max_matching_distance_A": 0.0
+      },
+      {
+        "operation": "-x+1/2,y+1/2,z+1/2",
+        "max_matching_distance_A": 8.881784197001252e-16
+      },
+      {
+        "operation": "x+1/2,-y+1/2,z",
+        "max_matching_distance_A": 1.9860273225978185e-15
+      }
+    ]
+  },
+  "observed_input": {
+    "path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/reference_xrd/tashiro1997_dobs_only.json",
+    "sha256": "8bbd18402e44ba9c4bfca364411917a4289a075d161157294177b693333ac4b3",
+    "count": 45,
+    "wavelength_A": 0.71073
+  },
+  "enumeration": {
+    "q_min_A_inv": 0,
+    "q_max_A_inv": 7.145307623223766,
+    "distinct_allowed_positions": 89,
+    "hkl_policy": "Signed integer indices; one Friedel representative; equal-Q labels grouped; no intensity multiplicities",
+    "q_grouping_tolerance_A_inv": 1e-09
+  },
+  "cell_group_signature": "532bc73d33d27eb26cdf7b56267da7f82f3edbe4d7bd5dee368a2c2233db3b36",
+  "descriptive_statistics": {
+    "observed_count": 45,
+    "q_tolerance_A_inv": 0.03,
+    "tolerance_interpretation": "Descriptive proximity threshold; no uncertainty/confidence claim",
+    "observations_within_tolerance": 44,
+    "fraction_observations_within_tolerance": 0.9777777777777777,
+    "mean_abs_delta_q_A_inv": 0.0067908924734763655,
+    "rms_delta_q_A_inv": 0.009747555592778017,
+    "max_abs_delta_q_A_inv": 0.04096756258500367,
+    "unique_predicted_positions_selected": 44,
+    "predicted_positions_reused_by_multiple_observations": {
+      "allowed_0051": 2
+    },
+    "assignment_policy": "Independent nearest Q; not one-to-one indexing",
+    "unmatched_predicted_position_penalty": null,
+    "intensity_or_full_profile_R_factor": null,
+    "eligible_for_packing_ranking": false
+  },
+  "limitations": [
+    "Only published, processed fiber-diffraction positions are compared; this is not a continuous powder profile.",
+    "The target space group and cell are supplied priors, not inferred from these observations.",
+    "Position matches contain no intensity, ADP, atomic-scattering-factor or refined-reference-coordinate information.",
+    "At identical cell and target group, all packings have identical allowed lattice positions and position residuals.",
+    "The reported Q tolerance is a descriptive threshold, not an experimental standard deviation or statistical confidence interval.",
+    "Matching is observed-to-nearest-allowed-position, permits many-to-one assignments, and does not prove indexing.",
+    "No penalty is assigned to unobserved predicted positions: the published list is not known to be complete.",
+    "No full-pattern R factor, chi-square, probability, or packing ranking is produced.",
+    "Extra structure-specific intensity cancellations and experimental detection thresholds are not modeled."
+  ]
+}

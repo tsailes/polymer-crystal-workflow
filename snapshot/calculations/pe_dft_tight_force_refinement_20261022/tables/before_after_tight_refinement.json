@@ -1,0 +1,726 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-23T06:02:19.803216+00:00",
+  "status": "independently_verified_complete_before_after_comparison",
+  "before_batch": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022",
+  "after_batch": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022",
+  "method": "PBE-D3(BJ)",
+  "comparison_scope": "Four representative geometries, fixed Tashiro cell and Pnam constraints; fmax tightened from 0.002 to 0.0002 eV/A. This establishes merging under the unchanged numerical criteria, not a global ground state or distinct-polymorph classification.",
+  "quantum_calculations_started": false,
+  "existing_data_modified": false,
+  "unchanged_merge_criteria": {
+    "rms_A": 0.02,
+    "max_A": 0.05,
+    "energy_meV_CH2": 1.0,
+    "algorithm": "all six pairs; complete linkage; report nontransitive ambiguous matches"
+  },
+  "before": {
+    "group_count": 2,
+    "accepted_count": 4,
+    "pair_count": 6,
+    "passing_pairs": 3,
+    "max_pair_RMS_A": 0.027214971725029156,
+    "max_pair_displacement_A": 0.03262271081265087,
+    "max_pair_energy_difference_meV_CH2": 0.0525071954342593,
+    "max_final_raw_force_eV_A": 0.001754026379568219,
+    "setting_angle_range_deg": [
+      44.41696722468316,
+      45.748396152958094
+    ],
+    "grouping": {
+      "minimum_complete_link_group_count": 2,
+      "minimum_group_partitions": [
+        [
+          [
+            "group_004",
+            "group_003",
+            "group_002"
+          ],
+          [
+            "group_001"
+          ]
+        ]
+      ],
+      "selected_partition": [
+        [
+          "group_004",
+          "group_003",
+          "group_002"
+        ],
+        [
+          "group_001"
+        ]
+      ],
+      "partition_ambiguous": false,
+      "nontransitive_triples": [],
+      "all_four_merge": false,
+      "algorithm": "Enumerate all set partitions; every pair inside every group must pass both bounds. Select fewest groups; retain all tied partitions.",
+      "selected_groups": [
+        {
+          "id": "dft_group_001",
+          "members": [
+            "group_004",
+            "group_003",
+            "group_002"
+          ],
+          "representative": "group_004"
+        },
+        {
+          "id": "dft_group_002",
+          "members": [
+            "group_001"
+          ],
+          "representative": "group_001"
+        }
+      ]
+    }
+  },
+  "after": {
+    "group_count": 1,
+    "accepted_count": 4,
+    "pair_count": 6,
+    "passing_pairs": 6,
+    "max_pair_RMS_A": 0.0003247469262362015,
+    "max_pair_displacement_A": 0.00039445267155948933,
+    "max_pair_energy_difference_meV_CH2": 9.242377529972146e-06,
+    "max_final_raw_force_eV_A": 0.00017161635721423321,
+    "setting_angle_range_deg": [
+      45.73463461382593,
+      45.750785663542985
+    ],
+    "grouping": {
+      "minimum_complete_link_group_count": 1,
+      "minimum_group_partitions": [
+        [
+          [
+            "group_004",
+            "group_001",
+            "group_002",
+            "group_003"
+          ]
+        ]
+      ],
+      "selected_partition": [
+        [
+          "group_004",
+          "group_001",
+          "group_002",
+          "group_003"
+        ]
+      ],
+      "partition_ambiguous": false,
+      "nontransitive_triples": [],
+      "all_four_merge": true,
+      "algorithm": "Enumerate all set partitions; every pair inside every group must pass both bounds. Select fewest groups; retain all tied partitions.",
+      "selected_groups": [
+        {
+          "id": "dft_group_001",
+          "members": [
+            "group_004",
+            "group_001",
+            "group_002",
+            "group_003"
+          ],
+          "representative": "group_004"
+        }
+      ]
+    }
+  },
+  "representative_comparison": [
+    {
+      "representative_id": "group_001",
+      "source_candidate_id": "cand_0025",
+      "method": "PBE-D3(BJ)",
+      "fixed_cell": "Tashiro Pnam",
+      "ecut_eV": 1800,
+      "kmesh": "4x8x12",
+      "gpts": "112x72x44",
+      "before_fmax_tolerance_eV_A": 0.002,
+      "after_fmax_tolerance_eV_A": 0.0002,
+      "before_energy_eV_cell": -66.77560670952218,
+      "after_energy_eV_cell": -66.775816765051,
+      "energy_change_after_minus_before_meV_CH2": -0.05251388220628428,
+      "before_raw_fmax_eV_A": 0.001754026379568219,
+      "after_raw_fmax_eV_A": 0.00012612133304962023,
+      "before_setting_angle_deg": 44.41696722468316,
+      "after_setting_angle_deg": 45.749313010023144,
+      "before_DFT_group": "dft_group_002",
+      "after_tight_DFT_group": "dft_group_001",
+      "before_attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01",
+      "after_attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02",
+      "after_group_representative": "group_004",
+      "after_group_representative_candidate": "cand_0081"
+    },
+    {
+      "representative_id": "group_002",
+      "source_candidate_id": "cand_0113",
+      "method": "PBE-D3(BJ)",
+      "fixed_cell": "Tashiro Pnam",
+      "ecut_eV": 1800,
+      "kmesh": "4x8x12",
+      "gpts": "112x72x44",
+      "before_fmax_tolerance_eV_A": 0.002,
+      "after_fmax_tolerance_eV_A": 0.0002,
+      "before_energy_eV_cell": -66.77581136546064,
+      "after_energy_eV_cell": -66.77581676453569,
+      "energy_change_after_minus_before_meV_CH2": -0.001349768762537451,
+      "before_raw_fmax_eV_A": 0.00033043603482404917,
+      "after_raw_fmax_eV_A": 0.00016086461144370956,
+      "before_setting_angle_deg": 45.534187808858434,
+      "after_setting_angle_deg": 45.750785663542985,
+      "before_DFT_group": "dft_group_001",
+      "after_tight_DFT_group": "dft_group_001",
+      "before_attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01",
+      "after_attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02",
+      "after_group_representative": "group_004",
+      "after_group_representative_candidate": "cand_0081"
+    },
+    {
+      "representative_id": "group_003",
+      "source_candidate_id": "cand_0041",
+      "method": "PBE-D3(BJ)",
+      "fixed_cell": "Tashiro Pnam",
+      "ecut_eV": 1800,
+      "kmesh": "4x8x12",
+      "gpts": "112x72x44",
+      "before_fmax_tolerance_eV_A": 0.002,
+      "after_fmax_tolerance_eV_A": 0.0002,
+      "before_energy_eV_cell": -66.77581666973727,
+      "after_energy_eV_cell": -66.77581672813125,
+      "energy_change_after_minus_before_meV_CH2": -1.4598494857409605e-05,
+      "before_raw_fmax_eV_A": 0.0007362330572480677,
+      "after_raw_fmax_eV_A": 4.620400982103696e-05,
+      "before_setting_angle_deg": 45.733575575489596,
+      "after_setting_angle_deg": 45.73463461382593,
+      "before_DFT_group": "dft_group_001",
+      "after_tight_DFT_group": "dft_group_001",
+      "before_attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01",
+      "after_attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01",
+      "after_group_representative": "group_004",
+      "after_group_representative_candidate": "cand_0081"
+    },
+    {
+      "representative_id": "group_004",
+      "source_candidate_id": "cand_0081",
+      "method": "PBE-D3(BJ)",
+      "fixed_cell": "Tashiro Pnam",
+      "ecut_eV": 1800,
+      "kmesh": "4x8x12",
+      "gpts": "112x72x44",
+      "before_fmax_tolerance_eV_A": 0.002,
+      "after_fmax_tolerance_eV_A": 0.0002,
+      "before_energy_eV_cell": -66.77581673830392,
+      "after_energy_eV_cell": -66.77581676510076,
+      "energy_change_after_minus_before_meV_CH2": -6.699210075566953e-06,
+      "before_raw_fmax_eV_A": 0.000975282031517246,
+      "after_raw_fmax_eV_A": 0.00017161635721423321,
+      "before_setting_angle_deg": 45.748396152958094,
+      "after_setting_angle_deg": 45.74866939171787,
+      "before_DFT_group": "dft_group_001",
+      "after_tight_DFT_group": "dft_group_001",
+      "before_attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01",
+      "after_attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01",
+      "after_group_representative": "group_004",
+      "after_group_representative_candidate": "cand_0081"
+    }
+  ],
+  "pair_comparison_before_after": [
+    {
+      "first": "group_001",
+      "second": "group_002",
+      "before": {
+        "rms_A": 0.022825823649571385,
+        "max_A": 0.02735355873290417,
+        "energy_difference_meV_CH2": 0.05116398461524341,
+        "merge_pass": false
+      },
+      "after": {
+        "rms_A": 2.3494390110400244e-05,
+        "max_A": 2.9055398809907433e-05,
+        "energy_difference_meV_CH2": 1.2882850342066376e-07,
+        "merge_pass": true
+      }
+    },
+    {
+      "first": "group_001",
+      "second": "group_003",
+      "before": {
+        "rms_A": 0.02692557144325827,
+        "max_A": 0.03227717445304817,
+        "energy_difference_meV_CH2": 0.05249005377194749,
+        "merge_pass": false
+      },
+      "after": {
+        "rms_A": 0.0003015136260047987,
+        "max_A": 0.00036559331243921143,
+        "energy_difference_meV_CH2": 9.229939479382665e-06,
+        "merge_pass": true
+      }
+    },
+    {
+      "first": "group_001",
+      "second": "group_004",
+      "before": {
+        "rms_A": 0.027214971725029156,
+        "max_A": 0.03262271081265087,
+        "energy_difference_meV_CH2": 0.0525071954342593,
+        "merge_pass": false
+      },
+      "after": {
+        "rms_A": 1.3379129269218814e-05,
+        "max_A": 1.6679004767596976e-05,
+        "energy_difference_meV_CH2": 1.2438050589480554e-08,
+        "merge_pass": true
+      }
+    },
+    {
+      "first": "group_002",
+      "second": "group_003",
+      "before": {
+        "rms_A": 0.004099884247813089,
+        "max_A": 0.004925914392080493,
+        "energy_difference_meV_CH2": 0.0013260691567040794,
+        "merge_pass": true
+      },
+      "after": {
+        "rms_A": 0.0003247469262362015,
+        "max_A": 0.00039445267155948933,
+        "energy_difference_meV_CH2": 9.101110975962001e-06,
+        "merge_pass": true
+      }
+    },
+    {
+      "first": "group_002",
+      "second": "group_004",
+      "before": {
+        "rms_A": 0.004389414524496816,
+        "max_A": 0.0052715737572953895,
+        "energy_difference_meV_CH2": 0.0013432108190158942,
+        "merge_pass": true
+      },
+      "after": {
+        "rms_A": 3.658348625641557e-05,
+        "max_A": 4.565513552819573e-05,
+        "energy_difference_meV_CH2": 1.4126655401014432e-07,
+        "merge_pass": true
+      }
+    },
+    {
+      "first": "group_003",
+      "second": "group_004",
+      "before": {
+        "rms_A": 0.0002900117163148037,
+        "max_A": 0.0003476647760417334,
+        "energy_difference_meV_CH2": 1.7141662311814798e-05,
+        "merge_pass": true
+      },
+      "after": {
+        "rms_A": 0.0002885120652010217,
+        "max_A": 0.0003494277580560548,
+        "energy_difference_meV_CH2": 9.242377529972146e-06,
+        "merge_pass": true
+      }
+    }
+  ],
+  "raw_archive_checks": {
+    "before": {
+      "group_001": {
+        "attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01",
+        "accepted": true,
+        "cold_SCF_converged": true,
+        "independent_cold_verification": true,
+        "raw_force_passed": true,
+        "fixed_cell_verified": true,
+        "Pnam_verified": true,
+        "input_protocol_result_hashes_verified": true,
+        "POSCAR_max_coordinate_delta_A": 4.440892098500626e-16,
+        "POSCAR_max_cell_delta_A": 0.0,
+        "required_archive_file_sizes_bytes": {
+          "final_structure.extxyz": 746,
+          "final.cif": 1441,
+          "datasets.json": 3843,
+          "evaluations.jsonl": 1291622,
+          "scf_iterations.jsonl": 65066,
+          "final_cold_scf.jsonl": 8890,
+          "gpaw.txt": 52710,
+          "gpaw_final_cold.txt": 14884,
+          "trajectory.traj": 11951,
+          "optimizer.log": 581,
+          "optimizer_restart.json": 13541,
+          "final.gpw": 836436054,
+          "optimized_warm.gpw": 836436045
+        }
+      },
+      "group_002": {
+        "attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01",
+        "accepted": true,
+        "cold_SCF_converged": true,
+        "independent_cold_verification": true,
+        "raw_force_passed": true,
+        "fixed_cell_verified": true,
+        "Pnam_verified": true,
+        "input_protocol_result_hashes_verified": true,
+        "POSCAR_max_coordinate_delta_A": 8.881784197001252e-16,
+        "POSCAR_max_cell_delta_A": 0.0,
+        "required_archive_file_sizes_bytes": {
+          "final_structure.extxyz": 746,
+          "final.cif": 1439,
+          "datasets.json": 3843,
+          "evaluations.jsonl": 1291495,
+          "scf_iterations.jsonl": 64646,
+          "final_cold_scf.jsonl": 8883,
+          "gpaw.txt": 52660,
+          "gpaw_final_cold.txt": 14885,
+          "trajectory.traj": 11947,
+          "optimizer.log": 581,
+          "optimizer_restart.json": 13475,
+          "final.gpw": 836436079,
+          "optimized_warm.gpw": 836436079
+        }
+      },
+      "group_003": {
+        "attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01",
+        "accepted": true,
+        "cold_SCF_converged": true,
+        "independent_cold_verification": true,
+        "raw_force_passed": true,
+        "fixed_cell_verified": true,
+        "Pnam_verified": true,
+        "input_protocol_result_hashes_verified": true,
+        "POSCAR_max_coordinate_delta_A": 8.881784197001252e-16,
+        "POSCAR_max_cell_delta_A": 0.0,
+        "required_archive_file_sizes_bytes": {
+          "final_structure.extxyz": 746,
+          "final.cif": 1443,
+          "datasets.json": 3843,
+          "evaluations.jsonl": 2583564,
+          "scf_iterations.jsonl": 133106,
+          "final_cold_scf.jsonl": 8908,
+          "gpaw.txt": 97905,
+          "gpaw_final_cold.txt": 14886,
+          "trajectory.traj": 23334,
+          "optimizer.log": 1164,
+          "optimizer_restart.json": 30479,
+          "final.gpw": 836436096,
+          "optimized_warm.gpw": 836436095
+        }
+      },
+      "group_004": {
+        "attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01",
+        "accepted": true,
+        "cold_SCF_converged": true,
+        "independent_cold_verification": true,
+        "raw_force_passed": true,
+        "fixed_cell_verified": true,
+        "Pnam_verified": true,
+        "input_protocol_result_hashes_verified": true,
+        "POSCAR_max_coordinate_delta_A": 8.881784197001252e-16,
+        "POSCAR_max_cell_delta_A": 0.0,
+        "required_archive_file_sizes_bytes": {
+          "final_structure.extxyz": 746,
+          "final.cif": 1439,
+          "datasets.json": 3843,
+          "evaluations.jsonl": 2583704,
+          "scf_iterations.jsonl": 134579,
+          "final_cold_scf.jsonl": 8911,
+          "gpaw.txt": 98052,
+          "gpaw_final_cold.txt": 14887,
+          "trajectory.traj": 23319,
+          "optimizer.log": 1164,
+          "optimizer_restart.json": 30181,
+          "final.gpw": 836436072,
+          "optimized_warm.gpw": 836436071
+        }
+      }
+    },
+    "after": {
+      "group_001": {
+        "attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02",
+        "accepted": true,
+        "cold_SCF_converged": true,
+        "independent_cold_verification": true,
+        "raw_force_passed": true,
+        "fixed_cell_verified": true,
+        "Pnam_verified": true,
+        "input_protocol_result_hashes_verified": true,
+        "POSCAR_max_coordinate_delta_A": 8.881784197001252e-16,
+        "POSCAR_max_cell_delta_A": 0.0,
+        "required_archive_file_sizes_bytes": {
+          "final_structure.extxyz": 746,
+          "final.cif": 1443,
+          "datasets.json": 3843,
+          "evaluations.jsonl": 352602,
+          "scf_iterations.jsonl": 13450,
+          "final_cold_scf.jsonl": 8926,
+          "gpaw.txt": 19539,
+          "gpaw_final_cold.txt": 14878,
+          "trajectory.traj": 3689,
+          "optimizer.log": 53,
+          "optimizer_restart.json": 23168,
+          "final.gpw": 836436166,
+          "optimized_warm.gpw": 836436158
+        }
+      },
+      "group_002": {
+        "attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02",
+        "accepted": true,
+        "cold_SCF_converged": true,
+        "independent_cold_verification": true,
+        "raw_force_passed": true,
+        "fixed_cell_verified": true,
+        "Pnam_verified": true,
+        "input_protocol_result_hashes_verified": true,
+        "POSCAR_max_coordinate_delta_A": 8.881784197001252e-16,
+        "POSCAR_max_cell_delta_A": 0.0,
+        "required_archive_file_sizes_bytes": {
+          "final_structure.extxyz": 746,
+          "final.cif": 1443,
+          "datasets.json": 3843,
+          "evaluations.jsonl": 470211,
+          "scf_iterations.jsonl": 17674,
+          "final_cold_scf.jsonl": 8921,
+          "gpaw.txt": 23414,
+          "gpaw_final_cold.txt": 14880,
+          "trajectory.traj": 4722,
+          "optimizer.log": 106,
+          "optimizer_restart.json": 26485,
+          "final.gpw": 836436163,
+          "optimized_warm.gpw": 836436167
+        }
+      },
+      "group_003": {
+        "attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01",
+        "accepted": true,
+        "cold_SCF_converged": true,
+        "independent_cold_verification": true,
+        "raw_force_passed": true,
+        "fixed_cell_verified": true,
+        "Pnam_verified": true,
+        "input_protocol_result_hashes_verified": true,
+        "POSCAR_max_coordinate_delta_A": 8.881784197001252e-16,
+        "POSCAR_max_cell_delta_A": 0.0,
+        "required_archive_file_sizes_bytes": {
+          "final_structure.extxyz": 746,
+          "final.cif": 1438,
+          "datasets.json": 3843,
+          "evaluations.jsonl": 587758,
+          "scf_iterations.jsonl": 21808,
+          "final_cold_scf.jsonl": 8882,
+          "gpaw.txt": 27282,
+          "gpaw_final_cold.txt": 14880,
+          "trajectory.traj": 5756,
+          "optimizer.log": 263,
+          "optimizer_restart.json": 4649,
+          "final.gpw": 836436161,
+          "optimized_warm.gpw": 836436161
+        }
+      },
+      "group_004": {
+        "attempt_path": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01",
+        "accepted": true,
+        "cold_SCF_converged": true,
+        "independent_cold_verification": true,
+        "raw_force_passed": true,
+        "fixed_cell_verified": true,
+        "Pnam_verified": true,
+        "input_protocol_result_hashes_verified": true,
+        "POSCAR_max_coordinate_delta_A": 4.440892098500626e-16,
+        "POSCAR_max_cell_delta_A": 0.0,
+        "required_archive_file_sizes_bytes": {
+          "final_structure.extxyz": 746,
+          "final.cif": 1441,
+          "datasets.json": 3843,
+          "evaluations.jsonl": 352601,
+          "scf_iterations.jsonl": 13765,
+          "final_cold_scf.jsonl": 8875,
+          "gpaw.txt": 19587,
+          "gpaw_final_cold.txt": 14878,
+          "trajectory.traj": 3693,
+          "optimizer.log": 157,
+          "optimizer_restart.json": 1483,
+          "final.gpw": 836436167,
+          "optimized_warm.gpw": 836436166
+        }
+      }
+    }
+  },
+  "candidate_mapping_summary": {
+    "source_mapping_csv": "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/tables/candidate_to_final_group.csv",
+    "source_mapping_csv_sha256": "fe3ab563dec88a672f1fec60d543a8ccd4c8f69d96d25bc2580f7566bf418339",
+    "candidate_count": 16,
+    "directly_DFT_refined_representative_count": 4,
+    "inherited_through_GFN_representative_count": 11,
+    "total_represented_count": 15,
+    "excluded_candidate": "cand_0001",
+    "excluded_reason": "unstable_stationary at GFN stage; not an accepted or individually DFT refined endpoint",
+    "final_group_id": "dft_group_001",
+    "final_group_representative": "group_004",
+    "final_group_representative_candidate": "cand_0081",
+    "scope": "Eleven candidate mappings are inherited from the original GFN grouping, not evidence of eleven additional individual DFT optimizations."
+  },
+  "energy_interpretation": "Tiny final energy differences are numerical endpoint differences within one merged group, not a resolved energetic ranking.",
+  "source_file_hashes": {
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/scripts/analyze_refinement.py": "0f6e462e4b0556fdb82aa5841d1550266f348138b5e58c85212d315b45190fc5",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/scripts/structure_match.py": "5a25f913347c476dd32610c67d35d55b40e3a5c3d9e0ca4da3bf7bb7710763e4",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/protocol.json": "430393ee12839e0a749a13809ae9df17bb9827ed1c87a13127ddfba2fbaa824a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/tables/refinement_summary.json": "c9d02d9a8cca159e5d7c09195339b74d48957468c56d4df538224112c0d59a3a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/sample_manifest.json": "9b5dceccf9a6f9408cc412b29fc48eeb3c43fb8d7706c303a98a1e7faaf68e4d",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/result.json": "0b9f5bd107b4629c355743018dfd43fd29e29ff75b2d3beb6e317f12733af7b5",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/final_cold_verification.json": "c617a0c4f655c50784cdef89f1e54f4bda51766ca501a134bbd312d1a33a22ad",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/process.json": "f68156bfb2fa14c958f6503048efbf14a7ccf18af68c88202d8c3c2df0ec4471",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/input.json": "af555654f9a0ed7d226304d91593123b5017487362ef4b93e943fd15d07609ac",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/protocol_snapshot.json": "430393ee12839e0a749a13809ae9df17bb9827ed1c87a13127ddfba2fbaa824a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/final_POSCAR": "0321e68526597ee0821a883e75b67a2fc157a0a73a1ba64552b2bd163f63e594",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/final_structure.extxyz": "27473f1b5f74f6de0a564c01d49754eaaf518ae59c2a862a483817db826b9dbc",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/final.cif": "4a57484b207408f538006c45635e76cba21067ab6ff46d898c884f7a6521ee7b",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/datasets.json": "e78858735be56a3f60f2003d556a0f5378e02f12c8e9f4389960389f301ccfb2",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/evaluations.jsonl": "3bd9fd2d23dfaf22fbbdd502dd9ed5ffda401ea53d5b09d3c32965361fa44f45",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/scf_iterations.jsonl": "3ceb2be7e9253d5ba275f22e08a79d33c8871aae691c055dcdc1b5b45a9bfc20",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/final_cold_scf.jsonl": "52f72c6d17b9795b54cacf2bd805d490fb482bb911ddadf623cfb4af8212699b",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/gpaw.txt": "f0cb5552b0b1ed298d588043b2d61ae8c97458373e4766c36823868c6cae03ed",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/gpaw_final_cold.txt": "6857ec8d7ea808453ceeff4c5b1944dc0740434c007c6cb57f9b973e3ef6d776",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/trajectory.traj": "060f3263206838bf731a625a938ace27d86ca5cff3503de973eaceea82b8ff04",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/optimizer.log": "b2c3b460e5e592b56d00269795fd980515575718c549957ddc220d68d12eca36",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_001/attempt_01/optimizer_restart.json": "8be515b31da7afdfbbfa01dc4146d204b74b41c34c782c97950567db44ec15e1",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/result.json": "aa334649238c6a6e803274513895bf35c059610ddb7463c9ffcf541edf50b74d",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/final_cold_verification.json": "5f8a3e837cbcf4d80e103910459b3ac801aa871eaa7f024bfe11ef5b8a57540a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/process.json": "275ea4b056ee92cb6154ab4d916d4a873da9f14f8aca9d8e20d20015fde70458",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/input.json": "79c6fe6c6a6613024e0e121ec5e42ae10018d1ad754e700880d3610ef5d71081",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/protocol_snapshot.json": "430393ee12839e0a749a13809ae9df17bb9827ed1c87a13127ddfba2fbaa824a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/final_POSCAR": "d703a3d3b7e726b8a17fa40f396cef504b82dd2461e63641dd77c9d5d9bb12df",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/final_structure.extxyz": "dfb3e499f56031a23e723620435cb783acbd96348b4bce3b66914ab1497a05ee",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/final.cif": "88bf891da0070519b57c4581df76f26419161fb21b1ef30d9316817a7d79fee8",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/datasets.json": "e78858735be56a3f60f2003d556a0f5378e02f12c8e9f4389960389f301ccfb2",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/evaluations.jsonl": "fe3f996d8152957e96787621b9307e124e7417b724e5537e31b63ac91dd016f4",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/scf_iterations.jsonl": "5dac9672e50b7bb5ea8bb92fc70224c517853048fa0c65ffc278b667ea4951f9",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/final_cold_scf.jsonl": "f028e0a221a7177e83eb0e58e9b1fc2e399bcacd2e51bd4aa393799cca8f31a5",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/gpaw.txt": "400f6bf88150e4ccb264f9807f8eb2b9fef5da3cd0a7ba913097de0ac7b43570",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/gpaw_final_cold.txt": "a8a07d31df01e9c9270decf29495ddf3393bf4180f0dc08bb5eecee96a3e2f9a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/trajectory.traj": "e2ffa34d5f232b529b4a71ed22c1ebcb5b90d8adeb0a02df2f05370e54b3a7f8",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/optimizer.log": "865f13f1a3a86bb80eff565e94c200e6441c1261a210262547372472dababbaa",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_002/attempt_01/optimizer_restart.json": "8f6124a5dd0f717b70fb85e74eb95bce498c8328e6c36e0ca228c43bc1016872",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/result.json": "103c8eb21bdaeebd12901a4178cb202030fb0a92cf84c7d7c7ecd98356f52066",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/final_cold_verification.json": "3108f4d929530b65e966bd18b04b611a680124f7d2df4d27a0d5b68a6c2c47fd",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/process.json": "1a7366bad05ed7cd719d431afc6a2196de4b9fd36294d8fc1264267258a462ce",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/input.json": "885122b76ec2cd4070020e1b3399d1b387f699cfc4313dd8b884d70c27107e8a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/protocol_snapshot.json": "430393ee12839e0a749a13809ae9df17bb9827ed1c87a13127ddfba2fbaa824a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/final_POSCAR": "dc9812c440667c5db76ad6c8856e278dd3dcccb4d11582bedd522094e8322b96",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/final_structure.extxyz": "235a3c88ce55201a37dd65a3f127d0d284c7eae70dc96baac223dfd8bed7603a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/final.cif": "cfad9c9c1af1c05d6d002f5a641875f2ba9805613bbe07b4ceb6b4d3f00d26d5",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/datasets.json": "e78858735be56a3f60f2003d556a0f5378e02f12c8e9f4389960389f301ccfb2",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/evaluations.jsonl": "ff8726a1e12429f229095921342c1d64087cfe78db22fc5e0d96aacf0437eb4e",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/scf_iterations.jsonl": "5749959034dedca690e459032075d218766b9919635ab571c295400aa23a9ae4",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/final_cold_scf.jsonl": "c440f173c0714dc4450cf73019e6f6c7d8ba15e7921fc5dfdbfad796d6e44529",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/gpaw.txt": "72d8f995582fcf0e02a499eb891dea60fd98063b92b43ca0f3f36790bd31e6a6",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/gpaw_final_cold.txt": "889e49313b0651e62d5ca1558990ca69ab7ef93ad543c2742cbdb617d971d887",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/trajectory.traj": "55254fd4393c356c51b4c6fd37d0801911acafce677246018b67772ee3c0eef0",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/optimizer.log": "9c78ad3e95b15262d84da3ea162dc089fdf799583b81dd9128ee74da076d0555",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_003/attempt_01/optimizer_restart.json": "e8b98f5c7a16a32324f13819590962acba0a698039463ddd9d64541b9d428524",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/result.json": "e25caeae5dc26c74cc9926ee31327291d4dad1796665dbfff7198f3f3575d3f8",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/final_cold_verification.json": "ee8f53c750366cd1c00edaa825414441209d6375f63ee55fd1e4163ba74c8f05",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/process.json": "343f62a9ba1ade0e2d415ae0f7f2383f5c89a8764541b8e459bcd4d54fba336d",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/input.json": "2e8a11e6f70a0ef4e2cc1e4d505540117c468bd8d6cbad7e54a9803b022fb448",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/protocol_snapshot.json": "430393ee12839e0a749a13809ae9df17bb9827ed1c87a13127ddfba2fbaa824a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/final_POSCAR": "eaead621b7195e99efffbb44180429e87fe86775bcfc5edf93cf9d6c13fa0050",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/final_structure.extxyz": "09966bcac36c0057ce61c44524edec6684f681e236c23a68b2b635bc1e0f5349",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/final.cif": "62108fa79686c0ac0221f7029e5a6fff6108867e9d0e6956168e2ad3a8e2447d",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/datasets.json": "e78858735be56a3f60f2003d556a0f5378e02f12c8e9f4389960389f301ccfb2",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/evaluations.jsonl": "3f1b5f1c732ab1adf12caf2f89287180e87fab503bcb41201a6ebdf03f729e75",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/scf_iterations.jsonl": "fee7675baa9f771f36fef400fcdd54fa977962aa75cb68f5e5973ea08c35ee89",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/final_cold_scf.jsonl": "06c36b86a51b80c45b4a1d15b91a7767b5b16dbb37d1b2d842a40dad4eba3577",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/gpaw.txt": "6ada47cc796a1de66d750f4c145b6444e3e3a66aa3524c663387104f3b446de4",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/gpaw_final_cold.txt": "cf8d3cf055302565444494c9a5a003cd5d30f69ef409210c1d5f80c1e746a3de",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/trajectory.traj": "606f2e0bc7e33361a70674097ffc0ca19ecc83f9ef968a90b7160d6f25d7e59f",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/optimizer.log": "7d61671a92d4c4a77c23972eb0f08a17acef5d6655e9315d507681404f58ac58",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/runs/group_004/attempt_01/optimizer_restart.json": "893031507bbb5ad59423138688df6687214da8cd173a5a55ecc212f670b4c49e",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/scripts/analyze_refinement.py": "1f3160d90dd9e88b016f35c7844bba1b2d1f8301cad306d977f9d0a0915abf36",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/scripts/structure_match.py": "5a25f913347c476dd32610c67d35d55b40e3a5c3d9e0ca4da3bf7bb7710763e4",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/protocol.json": "ca28e5de1680f8c59b50bc6fe82ceed90feb59d232e248579ad9af7009bdd245",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/tables/refinement_summary.json": "e6d50239102868ab7610f0811bfe8c9ce8c4a5d653199284795f91ef9b4a8b5c",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/sample_manifest.json": "e7896a3163601f6b42da254ba3cbfa07fe56b63fa73b0582252c25a7cbe0a9f3",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/result.json": "e45771e106b5d588edcf0548379afc4f6f32901af327848ae107b08ff5fe40fa",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/final_cold_verification.json": "9b72773912c5e9cf4e7cea7f727d7f32dab580b43746001702370584929152e6",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/process.json": "4532171ee422e79b4d5ce99975826e51bd765275b06e999da8de27ee7b3003ef",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/input.json": "3145c612e1de1a2e26468c195e54e9fc4c2f66b3376a728aa0d6a0afb68abb60",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/protocol_snapshot.json": "ca28e5de1680f8c59b50bc6fe82ceed90feb59d232e248579ad9af7009bdd245",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/final_POSCAR": "e70ccc2eb7a373c8893e4d3fac2b5d0ba2cf34fac540c870b9d7fd95c1990925",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/final_structure.extxyz": "2bbbf728d5fdae44f924b18e19d154ead77707dc5d4afe137e55a83ca873d180",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/final.cif": "e3d301a724d86cea790966ba673f1c68700a8ea42287a060859ee6c2a9afc4f3",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/datasets.json": "e78858735be56a3f60f2003d556a0f5378e02f12c8e9f4389960389f301ccfb2",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/evaluations.jsonl": "2af16c17750b14ffb704fcc77f8b246e6d7591943f4f71262bb07c64f586585f",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/scf_iterations.jsonl": "2ce4226f137b7b725dbcae39cfac7e229edfbaf6e6e468a108597a10177c4f14",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/final_cold_scf.jsonl": "51d25d1c8f943358cb83a3026e53ef1f8678c87cc48b48c95bfcf771fe5ba0d7",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/gpaw.txt": "47c971b41dd03eb41a3154ac4570cadc7b11598d15d62e6c182421db7f6e4536",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/gpaw_final_cold.txt": "ddab1a53c7e749b545763a8364c8694679d97c2b23f30d37f5d6fd2152aa38be",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/trajectory.traj": "3f9379e340eb384c7aacd2416bf446a3b91a8fcec75aaacebe84b98d4a998bd8",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/optimizer.log": "4502fd1f6942ba0260247daa3b93a51ee421f24b53d5e585b8c6714af7a16e8d",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_02/optimizer_restart.json": "013941b0e4205285328637d34c87983bd084e089ef2b30e7d86049d556e1a18a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/result.json": "bd606dc121cf6f8645ba2be2fc25e837f32a480e9502c6cb9a53761c4e81c1f9",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/final_cold_verification.json": "24c4ad1b61cbb710ad6479b8db6175436d62457417374caad825b695fe361cae",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/process.json": "54d2d1fc3019edaf4df6b3cf524e8c123bc710afd276a0aff745ac7f45337c92",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/input.json": "72098b0765f0e33ea286a94cabd8a9d6a398eee64e2aceb87f14a404b2cd9488",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/protocol_snapshot.json": "ca28e5de1680f8c59b50bc6fe82ceed90feb59d232e248579ad9af7009bdd245",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/final_POSCAR": "e1fa9785f9868fa27a62ecce8c1e4e9047fc4bcb9ad3ffc872b4893f49544925",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/final_structure.extxyz": "55480e4f9a07fd023c94522e2bb2499df61ba614456898a059a7dc96fedd9bcb",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/final.cif": "5b889d7673cc3da82a42e011fb81fedaeb06287961eb97d146da48fd0a10611e",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/datasets.json": "e78858735be56a3f60f2003d556a0f5378e02f12c8e9f4389960389f301ccfb2",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/evaluations.jsonl": "5810b82038e043fdb95001e735415c1e933e6e7c08146c125eefce05322ff365",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/scf_iterations.jsonl": "7a6f1ff254a910dd4b8d24b6a4a752328380fca9f0b61432cce6ffeaef026781",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/final_cold_scf.jsonl": "94ad7ded9e840636e4fe3b38fa96767946679a7aa184dead035d9475e59334a3",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/gpaw.txt": "087b73775ee2fb4d732e59f46ba7addf608e105697b5a9cc04dad3a25ec3868a",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/gpaw_final_cold.txt": "59317f0e80511eea16d54a78c7bdff2d2c5847bba9ab8b64ad299d4a20e5f6ed",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/trajectory.traj": "a2ba14c0229287c67ab98796ba9a519a21dcb66e0b435124959b36680d854725",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/optimizer.log": "44a85ad685ec5fd95710a9d5edd9e706641fd1962622c76d797a536fe8709575",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_002/attempt_02/optimizer_restart.json": "f2fb60bb9d711ef2d3f75cd59a2d5b11d9775e77b478071b557ad93d352fa20d",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/result.json": "696cfa9bc0d2b9fb6b8805c0cc0a1e996589fe906628469bd37b06befc4e5bc0",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/final_cold_verification.json": "14c9d517c7f148973739aede56f629551e2e3ea820be3256b6e199bae115be88",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/process.json": "d0083c230be9e81a8696f757c6715dd3ce6e99ed79b41527602da8e87bcfbe21",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/input.json": "10c06d1d635ed792dd3b2e72b83854a70bd37dab92813d9fd632127072cba692",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/protocol_snapshot.json": "ca28e5de1680f8c59b50bc6fe82ceed90feb59d232e248579ad9af7009bdd245",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/final_POSCAR": "c8c8f724fd81cff5a6c1962459414dbc1a8a11c116668d5023f9f9ce17b34935",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/final_structure.extxyz": "ad7db19e820179cd1344981941a1c430fd28a0ca3f6756530cfab1be00ef8805",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/final.cif": "e73d879a7eede045ade2daef23d6cdf058b24f548c661bb7097ce38ec31bfbac",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/datasets.json": "e78858735be56a3f60f2003d556a0f5378e02f12c8e9f4389960389f301ccfb2",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/evaluations.jsonl": "bd9360a9b5403766013e31285f7b69af7760b6cb7900a71beb692c6533e83f10",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/scf_iterations.jsonl": "a1e289d22e4751897682448d0cf4adf9eb8e8c412c97e187cb75f0bc3ac10d55",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/final_cold_scf.jsonl": "dc4a7fed7dedaca314b4003a4354e508862c166b0c8cd4369376894423ebd5ad",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/gpaw.txt": "28993bdad2aa78805a248ecae7fe027e3e5267e9d2f0955ff85ac70fc7d528c4",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/gpaw_final_cold.txt": "98afacf3c8659fc86e9b2366488141c6cf3ac082212575eb6364df387e54051d",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/trajectory.traj": "52679ff82f5c99f9e1a8868c25242435dceeedccddda1ac91813fe62ddbdc310",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/optimizer.log": "eaff1481779ad7e6feeb16256a7538956a2e7cb264444cf2bbddb91620a50c64",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_003/attempt_01/optimizer_restart.json": "d46e089e3c793e68425eb54633f3f674dda43665800984f441a9c61852a87485",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/result.json": "5000ba183eee407e05843586d7da9125f699f72afce6af688630023754f30470",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final_cold_verification.json": "f3ee805b0d7f6c088c6560aa306d332f4676dbb24e3baf85fcff56cf45a100fa",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/process.json": "d63df71b59fa60987ab49a40ce6c72994b3ff826524721df0e8ceed6193f2635",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/input.json": "f7220345e095f45521d5672830fbee5971d5b19fba420f7b4103953be93fb558",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/protocol_snapshot.json": "ca28e5de1680f8c59b50bc6fe82ceed90feb59d232e248579ad9af7009bdd245",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final_POSCAR": "06fa4d340ced6459b27f208641ce4a2cd59e1533a16b606c971a8f3152fdbbd1",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final_structure.extxyz": "64594fc1266a1ca37fe0c711bf729d28bf5f03949dd81444ed4dd17517ad874d",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final.cif": "69b506a2cc337eb0cc676857e2a1a444063445a0ac3133a1e19b763f08f1d205",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/datasets.json": "e78858735be56a3f60f2003d556a0f5378e02f12c8e9f4389960389f301ccfb2",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/evaluations.jsonl": "def0d767c54b126eb94311cd7e69482645d5bbe51de083e602d8ddc233b88b96",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/scf_iterations.jsonl": "776441ef3ef82ff107275a88d98a43a6ac3155e1a15fe950307b2e004ac0e6f2",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/final_cold_scf.jsonl": "28203705f8174cff8b93b9b7b7284c9cab98b9b808648639bd25ae8a51618c1b",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/gpaw.txt": "db599fc7c5f1e536c7131ab939aa280d87e5e57bfc7c7417e1d5a9a4dde12710",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/gpaw_final_cold.txt": "f2ea0926f7d3f962c818cea5c35a1cc52dd246ee6f8b74fce8ae19e93007a3af",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/trajectory.traj": "c314808a4a35f42408851d6575c756e3976f059ef2f34362e04afb026c79c3a1",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/optimizer.log": "4f466287e4416f54f872cdfe4fa02b0520ee6dddd1e6fa13267b28a7578b83f3",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_004/attempt_01/optimizer_restart.json": "ddffb60e64f8aaf1caad5018cbd051e5783868dc53896527b3cb7a124cc8adc9",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/structures/group_001/POSCAR": "0321e68526597ee0821a883e75b67a2fc157a0a73a1ba64552b2bd163f63e594",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/structures/group_002/POSCAR": "d703a3d3b7e726b8a17fa40f396cef504b82dd2461e63641dd77c9d5d9bb12df",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/structures/group_003/POSCAR": "dc9812c440667c5db76ad6c8856e278dd3dcccb4d11582bedd522094e8322b96",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/structures/group_004/POSCAR": "eaead621b7195e99efffbb44180429e87fe86775bcfc5edf93cf9d6c13fa0050",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/tables/candidate_to_final_group.csv": "fe3ab563dec88a672f1fec60d543a8ccd4c8f69d96d25bc2580f7566bf418339",
+    "/mnt/e/PE_DFT/calculations/pe_dft_representative_refinement_20261022/tables/candidate_to_final_group_provenance.json": "227f52727e711907224f511c0b3bbdd4888226b933396f205489f9692a123131",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/optimization_catalog.csv": "fbe6c19ff1013cfcefccaaeb5bce3803f1a00bb628706ffe3ab267f3946dd8e8",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_001/members.json": "813f22329e0b6daf3ca221f3ef4a10ec9670b350ce50ffad2715377eaf59f2fc",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_002/members.json": "8bfd43e4ef52ec84c4da06c3eccd3084b671a013d4588518699c1f21d05ef4e1",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_003/members.json": "dc2d3e638b7d583e7ecbcfab2e08165dd6ccc706346ba01d65b06f19cac44aa4",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_004/members.json": "bbcee1424a1c7765045caacf62db09211bee11e65ab261cba5eecf14120b7ae9"
+  },
+  "outputs": [
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/tables/before_after_tight_refinement.json",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/tables/before_after_tight_refinement.csv",
+    "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/tables/candidate_to_tight_final_group.csv"
+  ]
+}

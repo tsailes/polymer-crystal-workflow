@@ -1,0 +1,4079 @@
+{
+  "status": "posthoc_sensitivity_not_production",
+  "quantum_calculations": false,
+  "production_inputs_thresholds_and_results_modified": false,
+  "purpose": "Describe sensitivity of prior representative-based grouping; not validate a physical tolerance or choose a new threshold",
+  "algorithm": "Same energy-sorted greedy representative matching as assess_candidates.py; every member compared with representative, not complete linkage",
+  "descriptor_filter": "Necessary pair-distance prefilter uses 2*maximum_displacement (the production .10 A filter at max=.05 A)",
+  "geometries_and_energies": "Existing GFN2 optimized endpoints, 300 K electronic occupations; no new optimization and not the subsequent 0 K singlepoint calibration",
+  "excluded_candidate": "cand_0001, original directional-instability exclusion retained",
+  "default_4_groups_and_exact_members_reproduced": true,
+  "source_summary_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/optimization_summary.json",
+  "source_summary_sha256": "2cd0344d79991bc6e330b49b48c8a0631bc7091aa87f763c9595b8eccc9c122f",
+  "analysis_script_sha256": "ea718447a3f43c9a09ad9cb5fd72b7468bc4e672b5aa3e38ef7f3ba859480b3f",
+  "production_grouping_script_sha256": "aba75dbb0131fce29c922ab3bda4db2d2c68fc37dca6cf2d1e36bf69ed80b1fa",
+  "matching_helper_sha256": "5a25f913347c476dd32610c67d35d55b40e3a5c3d9e0ca4da3bf7bb7710763e4",
+  "source_records": [
+    {
+      "candidate_id": "cand_0025",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0025/relaxation/attempts/20261020T091038_706715Z/final.extxyz",
+      "structure_sha256": "42627e475decb02dfe08b9cb9ae6c0a0694a7ee9225db3c27b3ce3b5184ae895",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0025/relaxation/attempts/20261020T091038_706715Z/final_result.json",
+      "result_sha256": "6430273a451f7a7ae7eeb2bab9346b387830f623b3240e616471ad03497ae211",
+      "energy_eV_CH2": -86.15632254466367,
+      "initial_angle_deg": 15,
+      "final_angle_deg": 44.36833950618092
+    },
+    {
+      "candidate_id": "cand_0065",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0065/relaxation/attempts/20261020T091038_693704Z/final.extxyz",
+      "structure_sha256": "7d6484465f8dde647bdfbde925c2fbed65fa91478fb19ec161ddc0953f7452cd",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0065/relaxation/attempts/20261020T091038_693704Z/final_result.json",
+      "result_sha256": "c4a1174b9b4144c47623d688417b59f83daa3c747eb5431d62b5afe741ecd1a8",
+      "energy_eV_CH2": -86.15632248146416,
+      "initial_angle_deg": 40,
+      "final_angle_deg": 44.38816307269798
+    },
+    {
+      "candidate_id": "cand_0097",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0097/relaxation/attempts/20261020T084828_733350Z/final.extxyz",
+      "structure_sha256": "7a8998503035e897c9b0add1ef3d9d8fda0c82fc8474ec3f879c97a121c57800",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0097/relaxation/attempts/20261020T084828_733350Z/final_result.json",
+      "result_sha256": "64c3079378deac4319a28e46c5d082a53ed5bfb522947c54a878fe22af61ffd2",
+      "energy_eV_CH2": -86.15632139750602,
+      "initial_angle_deg": 60,
+      "final_angle_deg": 44.14954654468468
+    },
+    {
+      "candidate_id": "cand_0057",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0057/relaxation/attempts/20261020T084327_342200Z/final.extxyz",
+      "structure_sha256": "f82249fe824050b97b0cf807045b24798d0f4b5e13063b968a84f068cfbcfd0a",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0057/relaxation/attempts/20261020T084327_342200Z/final_result.json",
+      "result_sha256": "d1f0d0f98e4f543b58d3948c8a9d047d879835ee4815d07a22ced9d023a8e58b",
+      "energy_eV_CH2": -86.15632104808469,
+      "initial_angle_deg": 35,
+      "final_angle_deg": 44.30529671491081
+    },
+    {
+      "candidate_id": "cand_0033",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0033/relaxation/attempts/20261020T083404_022354Z/final.extxyz",
+      "structure_sha256": "0b5affd2f3911025ef50e46879efb3fd0535e9a804ea5406516ecd5ddad89f3a",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0033/relaxation/attempts/20261020T083404_022354Z/final_result.json",
+      "result_sha256": "09deb620c6d3d4c042b02e9ba0241e39af16c5df5f7bd924ff03acc3812c929a",
+      "energy_eV_CH2": -86.15631882428788,
+      "initial_angle_deg": 20,
+      "final_angle_deg": 43.986851053089595
+    },
+    {
+      "candidate_id": "cand_0009",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0009/relaxation/attempts/20261020T082926_911412Z/final.extxyz",
+      "structure_sha256": "8b10fc54d2f517690c8c10866cb3ae9d9d3ce6af78e5f1d329a1b5c31637c864",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0009/relaxation/attempts/20261020T082926_911412Z/final_result.json",
+      "result_sha256": "c6150b82aa506eff92240b024885660fcb1409060bd1eba8ec81e03303198ac8",
+      "energy_eV_CH2": -86.15631783037362,
+      "initial_angle_deg": 5,
+      "final_angle_deg": 44.04409894794446
+    },
+    {
+      "candidate_id": "cand_0017",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0017/relaxation/attempts/20261020T082926_911531Z/final.extxyz",
+      "structure_sha256": "08e63b79c0daec1dffbc6dd8b0ae43bdc11340f88e252c945dd8da7d08c1a2a8",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0017/relaxation/attempts/20261020T082926_911531Z/final_result.json",
+      "result_sha256": "12ff24f69969077ccba1763a390956beaa1b09b57d77a7b8fba32f720e72fa6b",
+      "energy_eV_CH2": -86.15631679357192,
+      "initial_angle_deg": 10,
+      "final_angle_deg": 44.62997189124607
+    },
+    {
+      "candidate_id": "cand_0121",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0121/relaxation/attempts/20261020T085508_955815Z/final.extxyz",
+      "structure_sha256": "6f4d9c473b885470375531abdd3010cf99c727f31050708d6899e65ba301b1a1",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0121/relaxation/attempts/20261020T085508_955815Z/final_result.json",
+      "result_sha256": "9f346e4891642613617d9f4cd537d84036fab0b337f96e5b4b4d1d27e90e26e3",
+      "energy_eV_CH2": -86.1563148577535,
+      "initial_angle_deg": 75,
+      "final_angle_deg": 44.84907627786552
+    },
+    {
+      "candidate_id": "cand_0073",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0073/relaxation/attempts/20261020T084327_347362Z/final.extxyz",
+      "structure_sha256": "9ae26bc826ed605cea2656969e5dc39d379c43a5fb655b2358f281d14fdf26a4",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0073/relaxation/attempts/20261020T084327_347362Z/final_result.json",
+      "result_sha256": "04f4cd1a41b150fcfeba25e88eb810f59c937135566f6a642186d9a53260878b",
+      "energy_eV_CH2": -86.1563139180929,
+      "initial_angle_deg": 45,
+      "final_angle_deg": 44.80111944817307
+    },
+    {
+      "candidate_id": "cand_0049",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0049/relaxation/attempts/20261020T083838_418576Z/final.extxyz",
+      "structure_sha256": "83df271de93618f1092b12ff481f563be31159d67cfd6eec337db7923bf462db",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0049/relaxation/attempts/20261020T083838_418576Z/final_result.json",
+      "result_sha256": "fcbe038d2c1485d59746627e9095435112d6bd7a218c9ee02fffc97dc70f5690",
+      "energy_eV_CH2": -86.15631205962143,
+      "initial_angle_deg": 30,
+      "final_angle_deg": 43.80422966797258
+    },
+    {
+      "candidate_id": "cand_0089",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0089/relaxation/attempts/20261020T084824_812256Z/final.extxyz",
+      "structure_sha256": "4f576e741276a3345443346e4835320ca6f07ef3f916c41bf1b3bcab778bc753",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0089/relaxation/attempts/20261020T084824_812256Z/final_result.json",
+      "result_sha256": "c58f403f1a6edca29a6f26f053158de25323aabe9ce53f2810fc29108f1a959a",
+      "energy_eV_CH2": -86.15630478619113,
+      "initial_angle_deg": 55,
+      "final_angle_deg": 45.161385760744366
+    },
+    {
+      "candidate_id": "cand_0105",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0105/relaxation/attempts/20261020T084911_436721Z/final.extxyz",
+      "structure_sha256": "45f55d769e5519a31bdc1bb99554959150a42bae0503b3c12fd82b7c88547faa",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0105/relaxation/attempts/20261020T084911_436721Z/final_result.json",
+      "result_sha256": "906c342c616b72e1b8c25ddbce0fc6c5a2cbdd6e8a0e012e96da48f8deb8410c",
+      "energy_eV_CH2": -86.15630270406523,
+      "initial_angle_deg": 65,
+      "final_angle_deg": 45.15462329537985
+    },
+    {
+      "candidate_id": "cand_0113",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0113/relaxation/attempts/20261020T085249_013972Z/final.extxyz",
+      "structure_sha256": "d9d383364029a48883ac1bee59d09df647b4e9fd14444a1d7356ad8ce58dbe02",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0113/relaxation/attempts/20261020T085249_013972Z/final_result.json",
+      "result_sha256": "6db9225314b2379014fab2d50e191132c8ced93126a1d9c13aa391544fed57a3",
+      "energy_eV_CH2": -86.15628909742072,
+      "initial_angle_deg": 70,
+      "final_angle_deg": 45.51577395757835
+    },
+    {
+      "candidate_id": "cand_0041",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0041/relaxation/attempts/20261020T082717_914272Z/final.extxyz",
+      "structure_sha256": "c8c18360c5321c705e989302216b97b7408c88195e31953af4307933932c54ac",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0041/relaxation/attempts/20261020T082717_914272Z/final_result.json",
+      "result_sha256": "503ff614dbb49235b550414cf1018a25a6161210fc9edff65a05ebaf25917577",
+      "energy_eV_CH2": -86.15612277802556,
+      "initial_angle_deg": 25,
+      "final_angle_deg": 41.39658614135416
+    },
+    {
+      "candidate_id": "cand_0081",
+      "structure_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0081/relaxation/attempts/20261020T084327_349291Z/final.extxyz",
+      "structure_sha256": "1aeee1f2a75258fa23f3c5c5abf5045212d619ae8443be23a15fd64c06d24240",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0081/relaxation/attempts/20261020T084327_349291Z/final_result.json",
+      "result_sha256": "5c99c26c3890569583315a64c8f27002f23200f8e839356d84d6fddb46ea4106",
+      "energy_eV_CH2": -86.15577133792455,
+      "initial_angle_deg": 50,
+      "final_angle_deg": 49.78783195814714
+    }
+  ],
+  "geometry_sensitivity": [
+    {
+      "rms_A": 0.01,
+      "max_A": 0.025,
+      "energy_meV_CH2": 1.0,
+      "group_count": 5,
+      "groups": [
+        {
+          "representative": "cand_0025",
+          "energy_eV_CH2": -86.15632254466367,
+          "members": [
+            "cand_0025",
+            "cand_0065",
+            "cand_0097",
+            "cand_0057",
+            "cand_0033",
+            "cand_0009",
+            "cand_0017",
+            "cand_0121",
+            "cand_0073"
+          ]
+        },
+        {
+          "representative": "cand_0049",
+          "energy_eV_CH2": -86.15631205962143,
+          "members": [
+            "cand_0049"
+          ]
+        },
+        {
+          "representative": "cand_0089",
+          "energy_eV_CH2": -86.15630478619113,
+          "members": [
+            "cand_0089",
+            "cand_0105",
+            "cand_0113"
+          ]
+        },
+        {
+          "representative": "cand_0041",
+          "energy_eV_CH2": -86.15612277802556,
+          "members": [
+            "cand_0041"
+          ]
+        },
+        {
+          "representative": "cand_0081",
+          "energy_eV_CH2": -86.15577133792455,
+          "members": [
+            "cand_0081"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "candidate_id": "cand_0065",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 6.319950784927642e-05,
+          "geometry_pass": true,
+          "rms_A": 0.000224210949628519,
+          "max_A": 0.0002713585489721285,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.995044935099629e-17,
+            4.5679922156792916e-17,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0097",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0011471576470967193,
+          "geometry_pass": true,
+          "rms_A": 0.00435083141713154,
+          "max_A": 0.005407846515361025,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0057",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0014965789745247093,
+          "geometry_pass": true,
+          "rms_A": 0.001144166874964714,
+          "max_A": 0.0015295800773420813,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.49999999999999994,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0033",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.003720375786997465,
+          "geometry_pass": true,
+          "rms_A": 0.008101703692075956,
+          "max_A": 0.009868397654736506,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0009",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0047142900427843415,
+          "geometry_pass": true,
+          "rms_A": 0.006245490158554147,
+          "max_A": 0.0076662064114729365,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0017",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.005751091748606996,
+          "geometry_pass": true,
+          "rms_A": 0.005304096389961126,
+          "max_A": 0.006678560538140463,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0121",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.007686910166171401,
+          "geometry_pass": true,
+          "rms_A": 0.009748838378718186,
+          "max_A": 0.011720103570758544,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0073",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.008626570760839058,
+          "geometry_pass": true,
+          "rms_A": 0.009240723133301446,
+          "max_A": 0.011128119771336674,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0049",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01048504223888358,
+          "geometry_pass": false,
+          "rms_A": 0.011238400953590067,
+          "max_A": 0.013974883169243474,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0089",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.017758472537821035,
+          "geometry_pass": false,
+          "rms_A": 0.01567245208900635,
+          "max_A": 0.018891689631676912,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0089",
+          "representative": "cand_0049",
+          "delta_energy_meV_CH2": 0.0072734302989374555,
+          "geometry_pass": false,
+          "rms_A": 0.026902809836991406,
+          "max_A": 0.032560853099139205,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0105",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01984059844062358,
+          "geometry_pass": false,
+          "rms_A": 0.01603253042518557,
+          "max_A": 0.019460010109876816,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0105",
+          "representative": "cand_0049",
+          "delta_energy_meV_CH2": 0.00935555620174,
+          "geometry_pass": false,
+          "rms_A": 0.02726782107686053,
+          "max_A": 0.03343484245778416,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0105",
+          "representative": "cand_0089",
+          "delta_energy_meV_CH2": 0.002082125902802545,
+          "geometry_pass": true,
+          "rms_A": 0.0005847797378214824,
+          "max_A": 0.0009313758237145324,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0113",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.03344724294152002,
+          "geometry_pass": false,
+          "rms_A": 0.022977441858342967,
+          "max_A": 0.027689906123210865,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.1564823173178716e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0113",
+          "representative": "cand_0089",
+          "delta_energy_meV_CH2": 0.01568877040369898,
+          "geometry_pass": true,
+          "rms_A": 0.0073137313225146135,
+          "max_A": 0.009104854861605479,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.9999999999999999,
+            1.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "rms_A": 0.02,
+      "max_A": 0.05,
+      "energy_meV_CH2": 1.0,
+      "group_count": 4,
+      "groups": [
+        {
+          "representative": "cand_0025",
+          "energy_eV_CH2": -86.15632254466367,
+          "members": [
+            "cand_0025",
+            "cand_0065",
+            "cand_0097",
+            "cand_0057",
+            "cand_0033",
+            "cand_0009",
+            "cand_0017",
+            "cand_0121",
+            "cand_0073",
+            "cand_0049",
+            "cand_0089",
+            "cand_0105"
+          ]
+        },
+        {
+          "representative": "cand_0113",
+          "energy_eV_CH2": -86.15628909742072,
+          "members": [
+            "cand_0113"
+          ]
+        },
+        {
+          "representative": "cand_0041",
+          "energy_eV_CH2": -86.15612277802556,
+          "members": [
+            "cand_0041"
+          ]
+        },
+        {
+          "representative": "cand_0081",
+          "energy_eV_CH2": -86.15577133792455,
+          "members": [
+            "cand_0081"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "candidate_id": "cand_0065",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 6.319950784927642e-05,
+          "geometry_pass": true,
+          "rms_A": 0.000224210949628519,
+          "max_A": 0.0002713585489721285,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.995044935099629e-17,
+            4.5679922156792916e-17,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0097",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0011471576470967193,
+          "geometry_pass": true,
+          "rms_A": 0.00435083141713154,
+          "max_A": 0.005407846515361025,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0057",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0014965789745247093,
+          "geometry_pass": true,
+          "rms_A": 0.001144166874964714,
+          "max_A": 0.0015295800773420813,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.49999999999999994,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0033",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.003720375786997465,
+          "geometry_pass": true,
+          "rms_A": 0.008101703692075956,
+          "max_A": 0.009868397654736506,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0009",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0047142900427843415,
+          "geometry_pass": true,
+          "rms_A": 0.006245490158554147,
+          "max_A": 0.0076662064114729365,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0017",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.005751091748606996,
+          "geometry_pass": true,
+          "rms_A": 0.005304096389961126,
+          "max_A": 0.006678560538140463,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0121",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.007686910166171401,
+          "geometry_pass": true,
+          "rms_A": 0.009748838378718186,
+          "max_A": 0.011720103570758544,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0073",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.008626570760839058,
+          "geometry_pass": true,
+          "rms_A": 0.009240723133301446,
+          "max_A": 0.011128119771336674,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0049",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01048504223888358,
+          "geometry_pass": true,
+          "rms_A": 0.011238400953590067,
+          "max_A": 0.013974883169243474,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0089",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.017758472537821035,
+          "geometry_pass": true,
+          "rms_A": 0.01567245208900635,
+          "max_A": 0.018891689631676912,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0105",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01984059844062358,
+          "geometry_pass": true,
+          "rms_A": 0.01603253042518557,
+          "max_A": 0.019460010109876816,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0113",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.03344724294152002,
+          "geometry_pass": false,
+          "rms_A": 0.022977441858342967,
+          "max_A": 0.027689906123210865,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.1564823173178716e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0041",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.19976663810439277,
+          "geometry_pass": false,
+          "rms_A": 0.06027320076152668,
+          "max_A": 0.07232755892162956,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            2.3129646346357426e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0041",
+          "representative": "cand_0113",
+          "delta_energy_meV_CH2": 0.16631939516287275,
+          "geometry_pass": false,
+          "rms_A": 0.08323690638628023,
+          "max_A": 0.09966839405722659,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "rms_A": 0.03,
+      "max_A": 0.075,
+      "energy_meV_CH2": 1.0,
+      "group_count": 3,
+      "groups": [
+        {
+          "representative": "cand_0025",
+          "energy_eV_CH2": -86.15632254466367,
+          "members": [
+            "cand_0025",
+            "cand_0065",
+            "cand_0097",
+            "cand_0057",
+            "cand_0033",
+            "cand_0009",
+            "cand_0017",
+            "cand_0121",
+            "cand_0073",
+            "cand_0049",
+            "cand_0089",
+            "cand_0105",
+            "cand_0113"
+          ]
+        },
+        {
+          "representative": "cand_0041",
+          "energy_eV_CH2": -86.15612277802556,
+          "members": [
+            "cand_0041"
+          ]
+        },
+        {
+          "representative": "cand_0081",
+          "energy_eV_CH2": -86.15577133792455,
+          "members": [
+            "cand_0081"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "candidate_id": "cand_0065",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 6.319950784927642e-05,
+          "geometry_pass": true,
+          "rms_A": 0.000224210949628519,
+          "max_A": 0.0002713585489721285,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.995044935099629e-17,
+            4.5679922156792916e-17,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0097",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0011471576470967193,
+          "geometry_pass": true,
+          "rms_A": 0.00435083141713154,
+          "max_A": 0.005407846515361025,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0057",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0014965789745247093,
+          "geometry_pass": true,
+          "rms_A": 0.001144166874964714,
+          "max_A": 0.0015295800773420813,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.49999999999999994,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0033",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.003720375786997465,
+          "geometry_pass": true,
+          "rms_A": 0.008101703692075956,
+          "max_A": 0.009868397654736506,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0009",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0047142900427843415,
+          "geometry_pass": true,
+          "rms_A": 0.006245490158554147,
+          "max_A": 0.0076662064114729365,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0017",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.005751091748606996,
+          "geometry_pass": true,
+          "rms_A": 0.005304096389961126,
+          "max_A": 0.006678560538140463,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0121",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.007686910166171401,
+          "geometry_pass": true,
+          "rms_A": 0.009748838378718186,
+          "max_A": 0.011720103570758544,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0073",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.008626570760839058,
+          "geometry_pass": true,
+          "rms_A": 0.009240723133301446,
+          "max_A": 0.011128119771336674,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0049",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01048504223888358,
+          "geometry_pass": true,
+          "rms_A": 0.011238400953590067,
+          "max_A": 0.013974883169243474,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0089",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.017758472537821035,
+          "geometry_pass": true,
+          "rms_A": 0.01567245208900635,
+          "max_A": 0.018891689631676912,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0105",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01984059844062358,
+          "geometry_pass": true,
+          "rms_A": 0.01603253042518557,
+          "max_A": 0.019460010109876816,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0113",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.03344724294152002,
+          "geometry_pass": true,
+          "rms_A": 0.022977441858342967,
+          "max_A": 0.027689906123210865,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.1564823173178716e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0041",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.19976663810439277,
+          "geometry_pass": false,
+          "rms_A": 0.06027320076152668,
+          "max_A": 0.07232755892162956,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            2.3129646346357426e-17,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "rms_A": 0.04,
+      "max_A": 0.1,
+      "energy_meV_CH2": 1.0,
+      "group_count": 3,
+      "groups": [
+        {
+          "representative": "cand_0025",
+          "energy_eV_CH2": -86.15632254466367,
+          "members": [
+            "cand_0025",
+            "cand_0065",
+            "cand_0097",
+            "cand_0057",
+            "cand_0033",
+            "cand_0009",
+            "cand_0017",
+            "cand_0121",
+            "cand_0073",
+            "cand_0049",
+            "cand_0089",
+            "cand_0105",
+            "cand_0113"
+          ]
+        },
+        {
+          "representative": "cand_0041",
+          "energy_eV_CH2": -86.15612277802556,
+          "members": [
+            "cand_0041"
+          ]
+        },
+        {
+          "representative": "cand_0081",
+          "energy_eV_CH2": -86.15577133792455,
+          "members": [
+            "cand_0081"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "candidate_id": "cand_0065",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 6.319950784927642e-05,
+          "geometry_pass": true,
+          "rms_A": 0.000224210949628519,
+          "max_A": 0.0002713585489721285,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.995044935099629e-17,
+            4.5679922156792916e-17,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0097",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0011471576470967193,
+          "geometry_pass": true,
+          "rms_A": 0.00435083141713154,
+          "max_A": 0.005407846515361025,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0057",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0014965789745247093,
+          "geometry_pass": true,
+          "rms_A": 0.001144166874964714,
+          "max_A": 0.0015295800773420813,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.49999999999999994,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0033",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.003720375786997465,
+          "geometry_pass": true,
+          "rms_A": 0.008101703692075956,
+          "max_A": 0.009868397654736506,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0009",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0047142900427843415,
+          "geometry_pass": true,
+          "rms_A": 0.006245490158554147,
+          "max_A": 0.0076662064114729365,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0017",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.005751091748606996,
+          "geometry_pass": true,
+          "rms_A": 0.005304096389961126,
+          "max_A": 0.006678560538140463,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0121",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.007686910166171401,
+          "geometry_pass": true,
+          "rms_A": 0.009748838378718186,
+          "max_A": 0.011720103570758544,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0073",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.008626570760839058,
+          "geometry_pass": true,
+          "rms_A": 0.009240723133301446,
+          "max_A": 0.011128119771336674,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0049",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01048504223888358,
+          "geometry_pass": true,
+          "rms_A": 0.011238400953590067,
+          "max_A": 0.013974883169243474,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0089",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.017758472537821035,
+          "geometry_pass": true,
+          "rms_A": 0.01567245208900635,
+          "max_A": 0.018891689631676912,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0105",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01984059844062358,
+          "geometry_pass": true,
+          "rms_A": 0.01603253042518557,
+          "max_A": 0.019460010109876816,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0113",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.03344724294152002,
+          "geometry_pass": true,
+          "rms_A": 0.022977441858342967,
+          "max_A": 0.027689906123210865,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.1564823173178716e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0041",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.19976663810439277,
+          "geometry_pass": false,
+          "rms_A": 0.06027320076152668,
+          "max_A": 0.07232755892162956,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            2.3129646346357426e-17,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "energy_sensitivity": [
+    {
+      "rms_A": 0.02,
+      "max_A": 0.05,
+      "energy_meV_CH2": 0.1,
+      "group_count": 4,
+      "groups": [
+        {
+          "representative": "cand_0025",
+          "energy_eV_CH2": -86.15632254466367,
+          "members": [
+            "cand_0025",
+            "cand_0065",
+            "cand_0097",
+            "cand_0057",
+            "cand_0033",
+            "cand_0009",
+            "cand_0017",
+            "cand_0121",
+            "cand_0073",
+            "cand_0049",
+            "cand_0089",
+            "cand_0105"
+          ]
+        },
+        {
+          "representative": "cand_0113",
+          "energy_eV_CH2": -86.15628909742072,
+          "members": [
+            "cand_0113"
+          ]
+        },
+        {
+          "representative": "cand_0041",
+          "energy_eV_CH2": -86.15612277802556,
+          "members": [
+            "cand_0041"
+          ]
+        },
+        {
+          "representative": "cand_0081",
+          "energy_eV_CH2": -86.15577133792455,
+          "members": [
+            "cand_0081"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "candidate_id": "cand_0065",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 6.319950784927642e-05,
+          "geometry_pass": true,
+          "rms_A": 0.000224210949628519,
+          "max_A": 0.0002713585489721285,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.995044935099629e-17,
+            4.5679922156792916e-17,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0097",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0011471576470967193,
+          "geometry_pass": true,
+          "rms_A": 0.00435083141713154,
+          "max_A": 0.005407846515361025,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0057",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0014965789745247093,
+          "geometry_pass": true,
+          "rms_A": 0.001144166874964714,
+          "max_A": 0.0015295800773420813,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.49999999999999994,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0033",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.003720375786997465,
+          "geometry_pass": true,
+          "rms_A": 0.008101703692075956,
+          "max_A": 0.009868397654736506,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0009",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0047142900427843415,
+          "geometry_pass": true,
+          "rms_A": 0.006245490158554147,
+          "max_A": 0.0076662064114729365,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0017",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.005751091748606996,
+          "geometry_pass": true,
+          "rms_A": 0.005304096389961126,
+          "max_A": 0.006678560538140463,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0121",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.007686910166171401,
+          "geometry_pass": true,
+          "rms_A": 0.009748838378718186,
+          "max_A": 0.011720103570758544,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0073",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.008626570760839058,
+          "geometry_pass": true,
+          "rms_A": 0.009240723133301446,
+          "max_A": 0.011128119771336674,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0049",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01048504223888358,
+          "geometry_pass": true,
+          "rms_A": 0.011238400953590067,
+          "max_A": 0.013974883169243474,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0089",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.017758472537821035,
+          "geometry_pass": true,
+          "rms_A": 0.01567245208900635,
+          "max_A": 0.018891689631676912,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0105",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01984059844062358,
+          "geometry_pass": true,
+          "rms_A": 0.01603253042518557,
+          "max_A": 0.019460010109876816,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0113",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.03344724294152002,
+          "geometry_pass": false,
+          "rms_A": 0.022977441858342967,
+          "max_A": 0.027689906123210865,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.1564823173178716e-17,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "rms_A": 0.02,
+      "max_A": 0.05,
+      "energy_meV_CH2": 0.5,
+      "group_count": 4,
+      "groups": [
+        {
+          "representative": "cand_0025",
+          "energy_eV_CH2": -86.15632254466367,
+          "members": [
+            "cand_0025",
+            "cand_0065",
+            "cand_0097",
+            "cand_0057",
+            "cand_0033",
+            "cand_0009",
+            "cand_0017",
+            "cand_0121",
+            "cand_0073",
+            "cand_0049",
+            "cand_0089",
+            "cand_0105"
+          ]
+        },
+        {
+          "representative": "cand_0113",
+          "energy_eV_CH2": -86.15628909742072,
+          "members": [
+            "cand_0113"
+          ]
+        },
+        {
+          "representative": "cand_0041",
+          "energy_eV_CH2": -86.15612277802556,
+          "members": [
+            "cand_0041"
+          ]
+        },
+        {
+          "representative": "cand_0081",
+          "energy_eV_CH2": -86.15577133792455,
+          "members": [
+            "cand_0081"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "candidate_id": "cand_0065",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 6.319950784927642e-05,
+          "geometry_pass": true,
+          "rms_A": 0.000224210949628519,
+          "max_A": 0.0002713585489721285,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.995044935099629e-17,
+            4.5679922156792916e-17,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0097",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0011471576470967193,
+          "geometry_pass": true,
+          "rms_A": 0.00435083141713154,
+          "max_A": 0.005407846515361025,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0057",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0014965789745247093,
+          "geometry_pass": true,
+          "rms_A": 0.001144166874964714,
+          "max_A": 0.0015295800773420813,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.49999999999999994,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0033",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.003720375786997465,
+          "geometry_pass": true,
+          "rms_A": 0.008101703692075956,
+          "max_A": 0.009868397654736506,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0009",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0047142900427843415,
+          "geometry_pass": true,
+          "rms_A": 0.006245490158554147,
+          "max_A": 0.0076662064114729365,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0017",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.005751091748606996,
+          "geometry_pass": true,
+          "rms_A": 0.005304096389961126,
+          "max_A": 0.006678560538140463,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0121",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.007686910166171401,
+          "geometry_pass": true,
+          "rms_A": 0.009748838378718186,
+          "max_A": 0.011720103570758544,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0073",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.008626570760839058,
+          "geometry_pass": true,
+          "rms_A": 0.009240723133301446,
+          "max_A": 0.011128119771336674,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0049",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01048504223888358,
+          "geometry_pass": true,
+          "rms_A": 0.011238400953590067,
+          "max_A": 0.013974883169243474,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0089",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.017758472537821035,
+          "geometry_pass": true,
+          "rms_A": 0.01567245208900635,
+          "max_A": 0.018891689631676912,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0105",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01984059844062358,
+          "geometry_pass": true,
+          "rms_A": 0.01603253042518557,
+          "max_A": 0.019460010109876816,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0113",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.03344724294152002,
+          "geometry_pass": false,
+          "rms_A": 0.022977441858342967,
+          "max_A": 0.027689906123210865,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.1564823173178716e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0041",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.19976663810439277,
+          "geometry_pass": false,
+          "rms_A": 0.06027320076152668,
+          "max_A": 0.07232755892162956,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            2.3129646346357426e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0041",
+          "representative": "cand_0113",
+          "delta_energy_meV_CH2": 0.16631939516287275,
+          "geometry_pass": false,
+          "rms_A": 0.08323690638628023,
+          "max_A": 0.09966839405722659,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "rms_A": 0.02,
+      "max_A": 0.05,
+      "energy_meV_CH2": 1.0,
+      "group_count": 4,
+      "groups": [
+        {
+          "representative": "cand_0025",
+          "energy_eV_CH2": -86.15632254466367,
+          "members": [
+            "cand_0025",
+            "cand_0065",
+            "cand_0097",
+            "cand_0057",
+            "cand_0033",
+            "cand_0009",
+            "cand_0017",
+            "cand_0121",
+            "cand_0073",
+            "cand_0049",
+            "cand_0089",
+            "cand_0105"
+          ]
+        },
+        {
+          "representative": "cand_0113",
+          "energy_eV_CH2": -86.15628909742072,
+          "members": [
+            "cand_0113"
+          ]
+        },
+        {
+          "representative": "cand_0041",
+          "energy_eV_CH2": -86.15612277802556,
+          "members": [
+            "cand_0041"
+          ]
+        },
+        {
+          "representative": "cand_0081",
+          "energy_eV_CH2": -86.15577133792455,
+          "members": [
+            "cand_0081"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "candidate_id": "cand_0065",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 6.319950784927642e-05,
+          "geometry_pass": true,
+          "rms_A": 0.000224210949628519,
+          "max_A": 0.0002713585489721285,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.995044935099629e-17,
+            4.5679922156792916e-17,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0097",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0011471576470967193,
+          "geometry_pass": true,
+          "rms_A": 0.00435083141713154,
+          "max_A": 0.005407846515361025,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0057",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0014965789745247093,
+          "geometry_pass": true,
+          "rms_A": 0.001144166874964714,
+          "max_A": 0.0015295800773420813,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.49999999999999994,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0033",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.003720375786997465,
+          "geometry_pass": true,
+          "rms_A": 0.008101703692075956,
+          "max_A": 0.009868397654736506,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0009",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0047142900427843415,
+          "geometry_pass": true,
+          "rms_A": 0.006245490158554147,
+          "max_A": 0.0076662064114729365,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0017",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.005751091748606996,
+          "geometry_pass": true,
+          "rms_A": 0.005304096389961126,
+          "max_A": 0.006678560538140463,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0121",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.007686910166171401,
+          "geometry_pass": true,
+          "rms_A": 0.009748838378718186,
+          "max_A": 0.011720103570758544,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0073",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.008626570760839058,
+          "geometry_pass": true,
+          "rms_A": 0.009240723133301446,
+          "max_A": 0.011128119771336674,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0049",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01048504223888358,
+          "geometry_pass": true,
+          "rms_A": 0.011238400953590067,
+          "max_A": 0.013974883169243474,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0089",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.017758472537821035,
+          "geometry_pass": true,
+          "rms_A": 0.01567245208900635,
+          "max_A": 0.018891689631676912,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0105",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01984059844062358,
+          "geometry_pass": true,
+          "rms_A": 0.01603253042518557,
+          "max_A": 0.019460010109876816,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0113",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.03344724294152002,
+          "geometry_pass": false,
+          "rms_A": 0.022977441858342967,
+          "max_A": 0.027689906123210865,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.1564823173178716e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0041",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.19976663810439277,
+          "geometry_pass": false,
+          "rms_A": 0.06027320076152668,
+          "max_A": 0.07232755892162956,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            2.3129646346357426e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0041",
+          "representative": "cand_0113",
+          "delta_energy_meV_CH2": 0.16631939516287275,
+          "geometry_pass": false,
+          "rms_A": 0.08323690638628023,
+          "max_A": 0.09966839405722659,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "rms_A": 0.02,
+      "max_A": 0.05,
+      "energy_meV_CH2": 2.0,
+      "group_count": 4,
+      "groups": [
+        {
+          "representative": "cand_0025",
+          "energy_eV_CH2": -86.15632254466367,
+          "members": [
+            "cand_0025",
+            "cand_0065",
+            "cand_0097",
+            "cand_0057",
+            "cand_0033",
+            "cand_0009",
+            "cand_0017",
+            "cand_0121",
+            "cand_0073",
+            "cand_0049",
+            "cand_0089",
+            "cand_0105"
+          ]
+        },
+        {
+          "representative": "cand_0113",
+          "energy_eV_CH2": -86.15628909742072,
+          "members": [
+            "cand_0113"
+          ]
+        },
+        {
+          "representative": "cand_0041",
+          "energy_eV_CH2": -86.15612277802556,
+          "members": [
+            "cand_0041"
+          ]
+        },
+        {
+          "representative": "cand_0081",
+          "energy_eV_CH2": -86.15577133792455,
+          "members": [
+            "cand_0081"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "candidate_id": "cand_0065",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 6.319950784927642e-05,
+          "geometry_pass": true,
+          "rms_A": 0.000224210949628519,
+          "max_A": 0.0002713585489721285,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.995044935099629e-17,
+            4.5679922156792916e-17,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0097",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0011471576470967193,
+          "geometry_pass": true,
+          "rms_A": 0.00435083141713154,
+          "max_A": 0.005407846515361025,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0057",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0014965789745247093,
+          "geometry_pass": true,
+          "rms_A": 0.001144166874964714,
+          "max_A": 0.0015295800773420813,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.49999999999999994,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0033",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.003720375786997465,
+          "geometry_pass": true,
+          "rms_A": 0.008101703692075956,
+          "max_A": 0.009868397654736506,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0009",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.0047142900427843415,
+          "geometry_pass": true,
+          "rms_A": 0.006245490158554147,
+          "max_A": 0.0076662064114729365,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0017",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.005751091748606996,
+          "geometry_pass": true,
+          "rms_A": 0.005304096389961126,
+          "max_A": 0.006678560538140463,
+          "atom_mapping": [
+            2,
+            3,
+            0,
+            1,
+            6,
+            7,
+            4,
+            5,
+            10,
+            11,
+            8,
+            9
+          ],
+          "signs": [
+            1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "candidate_id": "cand_0121",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.007686910166171401,
+          "geometry_pass": true,
+          "rms_A": 0.009748838378718186,
+          "max_A": 0.011720103570758544,
+          "atom_mapping": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            11,
+            10,
+            9,
+            8
+          ],
+          "signs": [
+            -1,
+            1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0073",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.008626570760839058,
+          "geometry_pass": true,
+          "rms_A": 0.009240723133301446,
+          "max_A": 0.011128119771336674,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0049",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01048504223888358,
+          "geometry_pass": true,
+          "rms_A": 0.011238400953590067,
+          "max_A": 0.013974883169243474,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0089",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.017758472537821035,
+          "geometry_pass": true,
+          "rms_A": 0.01567245208900635,
+          "max_A": 0.018891689631676912,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0105",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.01984059844062358,
+          "geometry_pass": true,
+          "rms_A": 0.01603253042518557,
+          "max_A": 0.019460010109876816,
+          "atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "signs": [
+            1,
+            1,
+            1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0113",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.03344724294152002,
+          "geometry_pass": false,
+          "rms_A": 0.022977441858342967,
+          "max_A": 0.027689906123210865,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            1.1564823173178716e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0041",
+          "representative": "cand_0025",
+          "delta_energy_meV_CH2": 0.19976663810439277,
+          "geometry_pass": false,
+          "rms_A": 0.06027320076152668,
+          "max_A": 0.07232755892162956,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            1.0,
+            2.3129646346357426e-17,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "cand_0041",
+          "representative": "cand_0113",
+          "delta_energy_meV_CH2": 0.16631939516287275,
+          "geometry_pass": false,
+          "rms_A": 0.08323690638628023,
+          "max_A": 0.09966839405722659,
+          "atom_mapping": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8,
+            11,
+            10
+          ],
+          "signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "origin_shift_fractional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "wall_seconds": 1.0588800980003725
+}

@@ -1,0 +1,30 @@
+{
+  "qualified_backend": "tblite Python / ASE",
+  "method": "GFN2-xTB",
+  "python_executable": "/opt/pe_dft/envs/gfn2-pe-20261020/bin/python",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "tblite_library_version": [
+    0,
+    7,
+    0
+  ],
+  "packages": {
+    "tblite": "0.7.0",
+    "ase": "3.29.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "ase_adapter_source": "/opt/pe_dft/envs/gfn2-pe-20261020/lib/python3.12/site-packages/tblite/ase.py",
+  "ase_adapter_sha256": "c681f06903977f3e7760987b81b9eb99b878e4fc12639595eacff69b15a1d33a",
+  "original_install_command": "python -m pip install --only-binary=:all: tblite ase matplotlib",
+  "reproduction": "Use requirements.lock.txt in a dedicated Python 3.12 environment; run_first_calculation.ps1 selects the verified backend.",
+  "validation_status": "passed",
+  "validated_run_directory": "/mnt/e/PE_DFT/calculations/pe_gfn2_first_run_20261020/runs/20261020T061353_138002Z",
+  "other_backend": {
+    "name": "DFTB+ 25.1 / tblite 0.3.0",
+    "status": "quarantined_do_not_optimize",
+    "reason": "Selected PE force/stress derivatives failed fixed numerical tolerances; specific cause unresolved."
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "figure": "g4_variable_cell_xrd",
+    "labels": 27,
+    "raster_px": [
+      8400,
+      3000
+    ]
+  },
+  {
+    "figure": "g4_xrd_indexed_errors",
+    "labels": 20,
+    "raster_px": [
+      6780,
+      2280
+    ]
+  }
+]

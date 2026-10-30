@@ -1,0 +1,29 @@
+{
+  "status": "temperature_pilot_completed",
+  "scope": "Same frozen final representative group_001/cand_0025 only; do not claim every structure validated",
+  "created_utc": "2026-10-21T06:03:54.859852+00:00",
+  "geometry_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+  "runner_sha256": "8e9837f7d8c3f46247ceef4f644d94f17df53eb2a465c11e7c030ade098ac137",
+  "repeat": [
+    2,
+    3,
+    8
+  ],
+  "accuracy": 0.001,
+  "both_API_singlepoints_passed": true,
+  "zero_temperature_supported_on_this_structure": true,
+  "energy_0K_eV_CH2": -86.15632254465898,
+  "energy_300K_eV_CH2": -86.15632254465898,
+  "delta_300_minus_0_meV_CH2": 0.0,
+  "max_atom_force_vector_difference_eV_A": 1.020757427048803e-15,
+  "max_stress_component_difference_kbar": 1.0476064460362977e-12,
+  "TS_eV_CH2_0K": -0.0,
+  "TS_eV_CH2_300K": -0.0,
+  "native_energy_semantics": "Official tblite v0.7.0 scf/iterator.f90 includes electronic entropy (-T*S) in energy; ASE energy/free_energy are aliases. At 0 K entropy energy contribution vanishes.",
+  "source_url": "https://raw.githubusercontent.com/tblite/tblite/v0.7.0/src/tblite/scf/iterator.f90",
+  "primitive_natoms": 12,
+  "supercell_natoms": 576,
+  "replicas": 48,
+  "wall_seconds_0K": 29.057085275650024,
+  "wall_seconds_300K": 31.973331451416016
+}

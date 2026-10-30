@@ -1,0 +1,51 @@
+{
+  "points": [
+    {
+      "backend": "gfn2",
+      "sample_id": "final_group_001",
+      "method": "GFN2-xTB",
+      "precision_label": "F",
+      "electronic_temperature_K": 0,
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T000/result.json",
+      "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T000/input.json",
+      "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T000/process.json",
+      "source_result_sha256": "c935810d29b6cdee389188b29ef251b3e620c6e1e6d360938f61b0a45142896a",
+      "note": "Independent temperature pilot; exactly the frozen R0 geometry, validated by source audit."
+    },
+    {
+      "backend": "gfn2",
+      "sample_id": "final_group_001",
+      "method": "GFN2-xTB",
+      "precision_label": "F",
+      "electronic_temperature_K": 300,
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T300/result.json",
+      "input_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T300/input.json",
+      "process_path": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/pilot/gfn2_temperature_group001/T300/process.json",
+      "source_result_sha256": "c9aa270968d336e36be7d1c947f107aca70fc742790e741d33af6998cf4165b9",
+      "note": "Independent temperature pilot; exactly the frozen R0 geometry, validated by source audit."
+    },
+    {
+      "backend": "dft",
+      "sample_id": "final_group_001",
+      "method": "optB88-vdW",
+      "precision_label": "H",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/transfer_gfn2_optb88_vdw_H/result.json",
+      "input_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/transfer_gfn2_optb88_vdw_H/input.json",
+      "process_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/transfer_gfn2_optb88_vdw_H/process.json",
+      "source_result_sha256": "9aa3b0a23844018b8d2211ec8fab1e50f3d4a25f41a3507f783f2bfd2e4a6e0c",
+      "note": "Same actual atomic coordinates/cell, PAW, scientific runner, SCF and H precision. Source audit confirms identity mapping."
+    },
+    {
+      "backend": "dft",
+      "sample_id": "final_group_001",
+      "method": "r2SCAN-D4",
+      "precision_label": "H",
+      "result_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/transfer_gfn2_r2scan_d4_H/result.json",
+      "input_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/transfer_gfn2_r2scan_d4_H/input.json",
+      "process_path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/transfer_gfn2_r2scan_d4_H/process.json",
+      "source_result_sha256": "b77d57a86df229bae5c912d96990b495e86f261d998d5c417003747006edaf85",
+      "note": "Same actual atomic coordinates/cell, PAW, scientific runner, SCF and H precision. Source audit confirms identity mapping."
+    }
+  ],
+  "no_old_source_modified": true
+}

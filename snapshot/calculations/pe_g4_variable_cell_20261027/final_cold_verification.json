@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "independent_density_and_wavefunctions": true,
+  "geometry_sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+  "raw_fmax_eV_A": 0.0006209922404323713,
+  "raw_max_stress_component_kbar": 0.011392943840518,
+  "energy_delta_cold_minus_relax_eV": -5.258016244624741e-13,
+  "source_relaxation_status": "passed_relaxation"
+}

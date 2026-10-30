@@ -1,0 +1,529 @@
+{
+  "candidate": "cand_0001",
+  "original_status_preserved": true,
+  "source_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0001/relaxation/attempts/20261020T082926_910950Z/final.extxyz",
+  "source_sha256": "4c99c9fc7d57392595667d46a5dd51eeada967bfc299f88b4ada7df8c0f33aab",
+  "topology_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0001/reference_topology.json",
+  "topology_sha256": "fbc7ccd95841021467243249d78d62b0fd92daeb3376529296edb83c747ee1fb",
+  "baseline_energy_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0001/relaxation/attempts/20261020T082926_910950Z/fine/result.json",
+  "baseline_energy_sha256": "06f796d821748ee95d3c26035ec171e08fa2884c3e02398e4dd665ccd398cea2",
+  "baseline_cold_path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0001/relaxation/attempts/20261020T082926_910950Z/final_result.json",
+  "baseline_cold_sha256": "93c8df208fc07734232ea059e7c23e1870240761fdbd481a75c3fa95d898116b",
+  "baseline_energy_accuracy_0p01_eV_cell": -344.483269218678,
+  "baseline_energy_accuracy_0p001_eV_cell": -344.4832692186724,
+  "baseline_accuracy_difference_eV_cell": 5.6274984672199935e-12,
+  "script_sha256": "a364a691f982d22bb4f7e38da16d60b821dc18e6d02655e3e9aa29a3157ba8a9",
+  "workflow_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+  "generator_sha256": "5a5177cbfbc77df45a736f0dd3487b3627dc766047c2dd603e37d7c83fbc873d",
+  "chain_centers_A": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      3.716,
+      2.4645,
+      0.0
+    ]
+  ],
+  "delta_degrees": 1.0,
+  "perturbation": "chain 0 rotates +delta, chain 1 -delta, about fixed c axes; unwrap then reapply original image representation",
+  "fixed_cell_A": [
+    [
+      7.432,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      4.929,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.545
+    ]
+  ],
+  "reference_geometry_audit": {
+    "passed": true,
+    "formula": "C4H8",
+    "natoms": 12,
+    "cell_A": [
+      [
+        7.432,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.929,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.545
+      ]
+    ],
+    "volume_A3": 93.22927476000005,
+    "density_g_cm3": 0.9993591196396083,
+    "density_reference_g_cm3": 0.997,
+    "density_reference_kind": "External crystallographic crystalline-PE reference; not Tashiro sample bulk density",
+    "density_ratio": 1.002366218294492,
+    "density_ratio_passed": true,
+    "chemistry_topology_passed": true,
+    "bonds": [
+      {
+        "i": 0,
+        "j": 1,
+        "shift": [
+          -1,
+          0,
+          0
+        ],
+        "kind": "CC",
+        "distance_A": 1.526940928454254
+      },
+      {
+        "i": 0,
+        "j": 1,
+        "shift": [
+          -1,
+          0,
+          -1
+        ],
+        "kind": "CC",
+        "distance_A": 1.526940928454254
+      },
+      {
+        "i": 0,
+        "j": 4,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0909995003966386
+      },
+      {
+        "i": 0,
+        "j": 8,
+        "shift": [
+          0,
+          -1,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0909995003966393
+      },
+      {
+        "i": 1,
+        "j": 9,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0909995003966388
+      },
+      {
+        "i": 1,
+        "j": 5,
+        "shift": [
+          0,
+          -1,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0909995003966395
+      },
+      {
+        "i": 2,
+        "j": 10,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0909995003966382
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CC",
+        "distance_A": 1.5269409284542543
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "shift": [
+          0,
+          0,
+          -1
+        ],
+        "kind": "CC",
+        "distance_A": 1.5269409284542543
+      },
+      {
+        "i": 2,
+        "j": 6,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0909995003966386
+      },
+      {
+        "i": 3,
+        "j": 7,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0909995003966386
+      },
+      {
+        "i": 3,
+        "j": 11,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.090999500396639
+      }
+    ],
+    "CC_range_A": [
+      1.526940928454254,
+      1.5269409284542543
+    ],
+    "CH_range_A": [
+      1.0909995003966382,
+      1.0909995003966395
+    ],
+    "CC_strict_1p53_1p54_passed": false,
+    "CC_approximate_criterion_A": [
+      1.5,
+      1.57
+    ],
+    "CC_approximate_criterion_note": "Explicit chemical sanity margin; strict interval separately reported",
+    "minimum_interchain_CC": {
+      "i": 0,
+      "j": 3,
+      "shift": [
+        0,
+        -1,
+        -1
+      ],
+      "pair": "CC",
+      "distance_A": 3.9926869449668527,
+      "vdw_threshold_A": 2.8899999999999997,
+      "ratio_to_vdw_threshold": 1.381552576113098
+    },
+    "interchain_CC_3p4_passed": true,
+    "minimum_nonbonded_ratio": {
+      "i": 4,
+      "j": 11,
+      "shift": [
+        0,
+        0,
+        -1
+      ],
+      "pair": "HH",
+      "distance_A": 2.1547922205706462,
+      "vdw_threshold_A": 2.04,
+      "ratio_to_vdw_threshold": 1.0562706963581598
+    },
+    "vdw_clashes": [],
+    "exclusion": "Periodic chemical graph paths of 1 or 2 bonds only",
+    "symmetry": {
+      "target": "Pnam",
+      "hall_number": 297,
+      "operation_max_displacement_A": [
+        0.0,
+        8.251177519014164e-16,
+        1.7386019436801195e-15,
+        9.900903014673699e-16,
+        8.251177519014164e-16,
+        0.0,
+        9.900903014673699e-16,
+        1.7386019436801195e-15
+      ],
+      "contains_target_group": true,
+      "detected_number": 63,
+      "detected_symbol": "Cmcm",
+      "detected_hall_number": 298
+    },
+    "initial": false
+  },
+  "scope": "One finite angular direction; no full Hessian, phonons, or further optimization",
+  "perturbations": {
+    "minus_1deg": {
+      "repeats": [
+        2,
+        3,
+        8
+      ],
+      "natoms": 576,
+      "primitive_natoms": 12,
+      "energy_per_primitive_cell_eV": -344.4835303480384,
+      "energy_per_CH2_eV": -86.1208825870096,
+      "forces_eV_per_A": [
+        [
+          0.00559977704176202,
+          0.00040706196604292107,
+          1.624199958860785e-14
+        ],
+        [
+          -0.005599777041711993,
+          -0.00040706196609030537,
+          -1.5805412912321133e-14
+        ],
+        [
+          0.005599777041764231,
+          -0.0004070619660745041,
+          9.958581401028322e-15
+        ],
+        [
+          -0.005599777041770248,
+          0.000407061966071887,
+          -8.477310766276807e-15
+        ],
+        [
+          -7.67588443403478e-05,
+          -0.0008540588746434556,
+          1.464594524745745e-16
+        ],
+        [
+          7.675884432997649e-05,
+          0.0008540588746525974,
+          -3.1193519329995833e-16
+        ],
+        [
+          -7.675884433656993e-05,
+          0.0008540588746404752,
+          4.257191826276261e-16
+        ],
+        [
+          7.675884433660175e-05,
+          -0.0008540588746422046,
+          -7.631653723378072e-16
+        ],
+        [
+          -0.001917448809809574,
+          -0.004322181310831087,
+          6.479048324443882e-16
+        ],
+        [
+          0.0019174488097689908,
+          0.004322181310870626,
+          -5.928175035823047e-16
+        ],
+        [
+          -0.0019174488097988905,
+          0.0043221813108518916,
+          6.034018364957461e-16
+        ],
+        [
+          0.0019174488098068117,
+          -0.004322181310847508,
+          -1.0108361340590396e-15
+        ]
+      ],
+      "max_force_norm_eV_per_A": 0.0056145527303392085,
+      "replica_force_max_deviation_eV_per_A": 1.7151638276414532e-13,
+      "net_force_eV_per_A": [
+        1.0093922225840046e-15,
+        1.3331349912881763e-15,
+        1.0625884118014562e-15
+      ],
+      "stress_eV_per_A3_voigt": [
+        -0.019300717092542934,
+        -0.004945290762152066,
+        0.0012422972125065322,
+        1.508195638741473e-17,
+        -2.91304982262152e-16,
+        9.038676606274253e-17
+      ],
+      "mean_charges_e": [
+        -0.05616118285438032,
+        -0.05616118285438187,
+        -0.0561611828543822,
+        -0.05616118285437996,
+        0.028130500897282393,
+        0.02813050089728247,
+        0.0281305008972809,
+        0.02813050089728088,
+        0.028030681957091918,
+        0.02803068195709273,
+        0.02803068195709038,
+        0.028030681957090214
+      ],
+      "replica_charge_max_deviation_e": 2.5424107263916085e-14,
+      "status": "completed",
+      "settings": {
+        "method": "GFN2-xTB",
+        "charge": 0,
+        "multiplicity": 1,
+        "accuracy": 0.01,
+        "max_iterations": 500,
+        "electronic_temperature": 300.0,
+        "verbosity": 1
+      },
+      "input_sha256": "a8d4a9ba0f95a42f0e7e4891876fd4861620e38240f0dc9af4605706b53f712d",
+      "script_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+      "supercell_energy_eV": -16535.209456705845,
+      "wall_seconds": 33.78343287100006,
+      "total_process_seconds": 34.32618542099999,
+      "energy_change_eV_cell": -0.0002611293604104503,
+      "energy_change_meV_CH2": -0.06528234010261258,
+      "geometry_validation_passed": true,
+      "maximum_reference_bond_length_change_A": 2.220446049250313e-16
+    },
+    "plus_1deg": {
+      "repeats": [
+        2,
+        3,
+        8
+      ],
+      "natoms": 576,
+      "primitive_natoms": 12,
+      "energy_per_primitive_cell_eV": -344.48353034803864,
+      "energy_per_CH2_eV": -86.12088258700966,
+      "forces_eV_per_A": [
+        [
+          0.005599777041773904,
+          -0.0004070619660744914,
+          1.239852705835776e-14
+        ],
+        [
+          -0.005599777041703591,
+          0.0004070619660507661,
+          -1.1032922163625653e-14
+        ],
+        [
+          0.00559977704175767,
+          0.0004070619660933225,
+          1.2011264377177353e-14
+        ],
+        [
+          -0.005599777041767481,
+          -0.0004070619660570778,
+          -1.0732708435376744e-14
+        ],
+        [
+          -0.0019174488098015134,
+          0.004322181310838102,
+          2.7031106667535893e-16
+        ],
+        [
+          0.0019174488097780278,
+          -0.004322181310859582,
+          -9.421121014044198e-16
+        ],
+        [
+          -0.0019174488097883713,
+          -0.004322181310865514,
+          3.8948010808914026e-16
+        ],
+        [
+          0.001917448809811573,
+          0.00432218131084073,
+          -3.294881734806047e-16
+        ],
+        [
+          -7.675884436061935e-05,
+          0.0008540588746715664,
+          5.712471959533655e-16
+        ],
+        [
+          7.675884431429225e-05,
+          -0.0008540588746242406,
+          -9.844302918276612e-16
+        ],
+        [
+          -7.675884434176491e-05,
+          -0.0008540588746448982,
+          4.363080774365885e-16
+        ],
+        [
+          7.675884433135017e-05,
+          0.00085405887463239,
+          -7.116235786977941e-16
+        ]
+      ],
+      "max_force_norm_eV_per_A": 0.005614552730343044,
+      "replica_force_max_deviation_eV_per_A": 1.89626495098455e-13,
+      "net_force_eV_per_A": [
+        3.4754100639022845e-15,
+        1.0737938316296436e-15,
+        1.3438531392766904e-15
+      ],
+      "stress_eV_per_A3_voigt": [
+        -0.019300717092542254,
+        -0.00494529076215664,
+        0.0012422972125071545,
+        -6.9103657633082984e-18,
+        -2.325140960890017e-16,
+        -3.816022460425721e-16
+      ],
+      "mean_charges_e": [
+        -0.05616118285438141,
+        -0.05616118285438254,
+        -0.056161182854381486,
+        -0.056161182854382076,
+        0.028030681957092185,
+        0.028030681957093035,
+        0.028030681957090464,
+        0.028030681957090447,
+        0.028130500897282095,
+        0.02813050089728265,
+        0.02813050089728139,
+        0.02813050089728092
+      ],
+      "replica_charge_max_deviation_e": 2.1871393585115584e-14,
+      "status": "completed",
+      "settings": {
+        "method": "GFN2-xTB",
+        "charge": 0,
+        "multiplicity": 1,
+        "accuracy": 0.01,
+        "max_iterations": 500,
+        "electronic_temperature": 300.0,
+        "verbosity": 1
+      },
+      "input_sha256": "b3b2d69d3247dbf00a54caf1f2e450eda391817f6e964a2a16eaafa401e470d9",
+      "script_sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc",
+      "supercell_energy_eV": -16535.209456705856,
+      "wall_seconds": 34.73692533999997,
+      "total_process_seconds": 35.31771062400003,
+      "energy_change_eV_cell": -0.000261129360637824,
+      "energy_change_meV_CH2": -0.065282340159456,
+      "geometry_validation_passed": true,
+      "maximum_reference_bond_length_change_A": 2.220446049250313e-16
+    }
+  },
+  "second_energy_difference_eV_cell": -0.0005222587210482743,
+  "rigid_rotation_curvature_eV_cell_rad2": -1.714474245806287,
+  "central_angular_derivative_eV_cell_rad": -6.513775987637282e-12,
+  "numerical_energy_margin_eV_cell": 1e-07,
+  "negative_curvature_and_both_sides_lower": true,
+  "classification": "unstable_stationary_along_tested_direction",
+  "recommendation": "Keep original record; exclude from stable-minimum list; retain perturbed structures for a separately authorized reoptimization.",
+  "limitation": "Finite +/-1 degree rigid rotation of a force-tolerance-converged structure; not a complete Hessian eigenvalue calculation."
+}

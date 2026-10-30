@@ -1,0 +1,30 @@
+{
+  "mpi_ranks": 4,
+  "point_group": true,
+  "xc_stencil": 4,
+  "nbands": 16,
+  "scf_energy_eV_electron": 1e-09,
+  "scf_density_electron_electron": 1e-09,
+  "scf_eigenstates_eV2_electron": 1e-11,
+  "checkpoint": false,
+  "ecut_eV": 1800,
+  "kmesh": [
+    4,
+    8,
+    12
+  ],
+  "gpts": [
+    112,
+    72,
+    44
+  ],
+  "method": "PBE-D3(BJ)",
+  "structure": "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/structures/initial_cand_0033/POSCAR",
+  "stage": "stage3_calibration_H",
+  "precision_label": "H",
+  "sample_id": "initial_cand_0033",
+  "protocol_sha256": "2cce4e16814ed3de93361f2e5474a2c6c0c9b17c78405c11955f48fbe137738e",
+  "queue_sha256": "fc3c386ad958128a21266f6174f141c7512d9fcca04f54cb0e8eeae9fba8cc5d",
+  "runner_sha256_at_submission": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+  "source_geometry_sha256_expected": "06a1a2c68f451e9e0babd5d7f598419bfc620db0ce449414d9fbe457e50014b8"
+}

@@ -1,0 +1,19 @@
+{
+  "pid": 757,
+  "command": [
+    "/opt/pe_dft/envs/pe-gpaw-20261020/bin/mpiexec",
+    "--allow-run-as-root",
+    "--bind-to",
+    "none",
+    "-n",
+    "4",
+    "/opt/pe_dft/envs/pe-gpaw-20261020/bin/python",
+    "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/scripts/run_point.py",
+    "/mnt/e/PE_DFT/calculations/pe_g4_variable_cell_20261027/convergence_checks/ecut_only/input.json"
+  ],
+  "started_unix": 1793100389.2786274,
+  "input_sha256": "fab7c823fe113952e7da0a5afb9ae59e1be4823c29a0540d643c5a6d06c9c72e",
+  "geometry_sha256": "1f440539de6a2fca7910a82110edf83b5f7c8782b7193ac2904eed1934a921ab",
+  "exit_code": 0,
+  "finished_unix": 1793100926.0995758
+}

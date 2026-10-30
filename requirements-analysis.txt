@@ -1,0 +1,7 @@
+# Versions recorded in the frozen candidate protocol and GPAW environment audit.
+# Lightweight geometric reproduction only; GPAW/tblite are separate installations.
+numpy==2.5.4
+scipy==1.18.1
+ase==3.29.0
+gemmi==0.7.5
+spglib==2.7.0

@@ -1,0 +1,824 @@
+[
+  {
+    "first": "group_001",
+    "second": "group_002",
+    "status": "compared",
+    "rms_A": 0.022825823649571385,
+    "max_A": 0.02735355873290417,
+    "energy_difference_meV_CH2": 0.05116398461524341,
+    "geometry_pass": false,
+    "energy_pass": true,
+    "merge_pass": false,
+    "selected_mapping_role": "best_RMS_mapping",
+    "atom_mapping": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8,
+      11,
+      10
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1
+    ],
+    "origin_shift_fractional": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "matching_details": {
+      "thresholds_A": {
+        "rms": 0.02,
+        "maximum": 0.05
+      },
+      "anchor_only_squared_assignment_best": {
+        "rms_A": 0.024243602952097033,
+        "max_A": 0.03408438946658107,
+        "signs": [
+          -1,
+          1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          0.5007770775026911,
+          0.5011721647392979,
+          0.0
+        ],
+        "atom_mapping": [
+          3,
+          2,
+          1,
+          0,
+          7,
+          6,
+          5,
+          4,
+          11,
+          10,
+          9,
+          8
+        ],
+        "mean_residual_cartesian_A": [
+          0.0057752400000000495,
+          0.005777599999999596,
+          0.0
+        ],
+        "origin_refinement_steps": 0,
+        "anchor_target_index": 3
+      },
+      "origin_optimized_best": {
+        "rms_A": 0.022825823649571385,
+        "max_A": 0.02735355873290417,
+        "signs": [
+          -1,
+          -1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "atom_mapping": [
+          1,
+          0,
+          3,
+          2,
+          5,
+          4,
+          7,
+          6,
+          9,
+          8,
+          11,
+          10
+        ],
+        "mean_residual_cartesian_A": [
+          2.4076516243661433e-16,
+          1.997823203166623e-16,
+          0.0
+        ],
+        "origin_refinement_steps": 2,
+        "anchor_target_index": 1
+      },
+      "origin_optimized_match": null,
+      "origin_optimized_passes": false,
+      "anchor_only_passes": false,
+      "rms_improvement_A": 0.0014177793025256478,
+      "optimized_rms_margin_A": -0.0028258236495713844,
+      "optimized_max_margin_A": 0.02264644126709583,
+      "number_of_anchor_isometry_starts": 32,
+      "max_origin_refinement_steps": 3
+    }
+  },
+  {
+    "first": "group_001",
+    "second": "group_003",
+    "status": "compared",
+    "rms_A": 0.02692557144325827,
+    "max_A": 0.03227717445304817,
+    "energy_difference_meV_CH2": 0.05249005377194749,
+    "geometry_pass": false,
+    "energy_pass": true,
+    "merge_pass": false,
+    "selected_mapping_role": "best_RMS_mapping",
+    "atom_mapping": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8,
+      11,
+      10
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1
+    ],
+    "origin_shift_fractional": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "matching_details": {
+      "thresholds_A": {
+        "rms": 0.02,
+        "maximum": 0.05
+      },
+      "anchor_only_squared_assignment_best": {
+        "rms_A": 0.02859484354655758,
+        "max_A": 0.04018866904009674,
+        "signs": [
+          -1,
+          1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          0.5009171071044133,
+          0.5013793162913369,
+          0.0
+        ],
+        "atom_mapping": [
+          3,
+          2,
+          1,
+          0,
+          7,
+          6,
+          5,
+          4,
+          11,
+          10,
+          9,
+          8
+        ],
+        "mean_residual_cartesian_A": [
+          0.006815939999999636,
+          0.006798649999999626,
+          0.0
+        ],
+        "origin_refinement_steps": 0,
+        "anchor_target_index": 3
+      },
+      "origin_optimized_best": {
+        "rms_A": 0.02692557144325827,
+        "max_A": 0.03227717445304817,
+        "signs": [
+          -1,
+          -1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "atom_mapping": [
+          1,
+          0,
+          3,
+          2,
+          5,
+          4,
+          7,
+          6,
+          9,
+          8,
+          11,
+          10
+        ],
+        "mean_residual_cartesian_A": [
+          6.877455780799717e-17,
+          1.3704315460216776e-16,
+          0.0
+        ],
+        "origin_refinement_steps": 3,
+        "anchor_target_index": 0
+      },
+      "origin_optimized_match": null,
+      "origin_optimized_passes": false,
+      "anchor_only_passes": false,
+      "rms_improvement_A": 0.0016692721032993095,
+      "optimized_rms_margin_A": -0.006925571443258269,
+      "optimized_max_margin_A": 0.017722825546951836,
+      "number_of_anchor_isometry_starts": 32,
+      "max_origin_refinement_steps": 3
+    }
+  },
+  {
+    "first": "group_001",
+    "second": "group_004",
+    "status": "compared",
+    "rms_A": 0.027214971725029156,
+    "max_A": 0.03262271081265087,
+    "energy_difference_meV_CH2": 0.0525071954342593,
+    "geometry_pass": false,
+    "energy_pass": true,
+    "merge_pass": false,
+    "selected_mapping_role": "best_RMS_mapping",
+    "atom_mapping": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8,
+      11,
+      10
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1
+    ],
+    "origin_shift_fractional": [
+      1.0,
+      0.9999999999999999,
+      0.0
+    ],
+    "matching_details": {
+      "thresholds_A": {
+        "rms": 0.02,
+        "maximum": 0.05
+      },
+      "anchor_only_squared_assignment_best": {
+        "rms_A": 0.028903794538202625,
+        "max_A": 0.04062690073607992,
+        "signs": [
+          -1,
+          -1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          0.0009284916576963731,
+          0.9986067965104484,
+          0.0
+        ],
+        "atom_mapping": [
+          1,
+          0,
+          3,
+          2,
+          5,
+          4,
+          7,
+          6,
+          9,
+          8,
+          11,
+          10
+        ],
+        "mean_residual_cartesian_A": [
+          0.0069005499999997616,
+          -0.006867099999999726,
+          0.0
+        ],
+        "origin_refinement_steps": 0,
+        "anchor_target_index": 1
+      },
+      "origin_optimized_best": {
+        "rms_A": 0.027214971725029156,
+        "max_A": 0.03262271081265087,
+        "signs": [
+          -1,
+          -1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          1.0,
+          0.9999999999999999,
+          0.0
+        ],
+        "atom_mapping": [
+          1,
+          0,
+          3,
+          2,
+          5,
+          4,
+          7,
+          6,
+          9,
+          8,
+          11,
+          10
+        ],
+        "mean_residual_cartesian_A": [
+          6.881069788041334e-17,
+          -1.2547833142898904e-16,
+          0.0
+        ],
+        "origin_refinement_steps": 3,
+        "anchor_target_index": 0
+      },
+      "origin_optimized_match": null,
+      "origin_optimized_passes": false,
+      "anchor_only_passes": false,
+      "rms_improvement_A": 0.001688822813173469,
+      "optimized_rms_margin_A": -0.007214971725029155,
+      "optimized_max_margin_A": 0.017377289187349133,
+      "number_of_anchor_isometry_starts": 32,
+      "max_origin_refinement_steps": 3
+    }
+  },
+  {
+    "first": "group_002",
+    "second": "group_003",
+    "status": "compared",
+    "rms_A": 0.004099884247813089,
+    "max_A": 0.004925914392080493,
+    "energy_difference_meV_CH2": 0.0013260691567040794,
+    "geometry_pass": true,
+    "energy_pass": true,
+    "merge_pass": true,
+    "selected_mapping_role": "feasible_mapping",
+    "atom_mapping": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "signs": [
+      1,
+      1,
+      1
+    ],
+    "origin_shift_fractional": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "matching_details": {
+      "thresholds_A": {
+        "rms": 0.02,
+        "maximum": 0.05
+      },
+      "anchor_only_squared_assignment_best": {
+        "rms_A": 0.004351396377942083,
+        "max_A": 0.006123302638412938,
+        "signs": [
+          1,
+          -1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          0.49985997039827773,
+          0.49979284844796107,
+          0.5
+        ],
+        "atom_mapping": [
+          2,
+          3,
+          0,
+          1,
+          6,
+          7,
+          4,
+          5,
+          10,
+          11,
+          8,
+          9
+        ],
+        "mean_residual_cartesian_A": [
+          -0.0010406999999995944,
+          -0.0010210499999997718,
+          0.0
+        ],
+        "origin_refinement_steps": 0,
+        "anchor_target_index": 2
+      },
+      "origin_optimized_best": {
+        "rms_A": 0.004099884247813089,
+        "max_A": 0.004925914392080493,
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "origin_shift_fractional": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "atom_mapping": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "mean_residual_cartesian_A": [
+          -6.872938271747693e-17,
+          0.0,
+          -3.531896997088779e-17
+        ],
+        "origin_refinement_steps": 3,
+        "anchor_target_index": 1
+      },
+      "origin_optimized_match": {
+        "rms_A": 0.004099884247813089,
+        "max_A": 0.004925914392080493,
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "origin_shift_fractional": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "atom_mapping": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "mean_residual_cartesian_A": [
+          -6.872938271747693e-17,
+          0.0,
+          -3.531896997088779e-17
+        ],
+        "origin_refinement_steps": 3,
+        "anchor_target_index": 1
+      },
+      "origin_optimized_passes": true,
+      "anchor_only_passes": true,
+      "rms_improvement_A": 0.00025151213012899326,
+      "optimized_rms_margin_A": 0.01590011575218691,
+      "optimized_max_margin_A": 0.045074085607919506,
+      "number_of_anchor_isometry_starts": 32,
+      "max_origin_refinement_steps": 3
+    }
+  },
+  {
+    "first": "group_002",
+    "second": "group_004",
+    "status": "compared",
+    "rms_A": 0.004389414524496816,
+    "max_A": 0.0052715737572953895,
+    "energy_difference_meV_CH2": 0.0013432108190158942,
+    "geometry_pass": true,
+    "energy_pass": true,
+    "merge_pass": true,
+    "selected_mapping_role": "feasible_mapping",
+    "atom_mapping": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "signs": [
+      1,
+      1,
+      1
+    ],
+    "origin_shift_fractional": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "matching_details": {
+      "thresholds_A": {
+        "rms": 0.02,
+        "maximum": 0.05
+      },
+      "anchor_only_squared_assignment_best": {
+        "rms_A": 0.004660503482883272,
+        "max_A": 0.006561736378192521,
+        "signs": [
+          1,
+          -1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          0.49984858584499464,
+          0.49977896124974636,
+          0.5
+        ],
+        "atom_mapping": [
+          2,
+          3,
+          0,
+          1,
+          6,
+          7,
+          4,
+          5,
+          10,
+          11,
+          8,
+          9
+        ],
+        "mean_residual_cartesian_A": [
+          -0.0011253099999997884,
+          -0.0010895000000001474,
+          0.0
+        ],
+        "origin_refinement_steps": 0,
+        "anchor_target_index": 2
+      },
+      "origin_optimized_best": {
+        "rms_A": 0.004389414524496816,
+        "max_A": 0.0052715737572953895,
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "origin_shift_fractional": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "atom_mapping": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "mean_residual_cartesian_A": [
+          -1.3747683547116196e-16,
+          -9.121754277844711e-17,
+          -3.531896997088779e-17
+        ],
+        "origin_refinement_steps": 3,
+        "anchor_target_index": 1
+      },
+      "origin_optimized_match": {
+        "rms_A": 0.004389414524496816,
+        "max_A": 0.0052715737572953895,
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "origin_shift_fractional": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "atom_mapping": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "mean_residual_cartesian_A": [
+          -1.3747683547116196e-16,
+          -9.121754277844711e-17,
+          -3.531896997088779e-17
+        ],
+        "origin_refinement_steps": 3,
+        "anchor_target_index": 1
+      },
+      "origin_optimized_passes": true,
+      "anchor_only_passes": true,
+      "rms_improvement_A": 0.0002710889583864562,
+      "optimized_rms_margin_A": 0.015610585475503185,
+      "optimized_max_margin_A": 0.044728426242704615,
+      "number_of_anchor_isometry_starts": 32,
+      "max_origin_refinement_steps": 3
+    }
+  },
+  {
+    "first": "group_003",
+    "second": "group_004",
+    "status": "compared",
+    "rms_A": 0.0002900117163148037,
+    "max_A": 0.0003476647760417334,
+    "energy_difference_meV_CH2": 1.7141662311814798e-05,
+    "geometry_pass": true,
+    "energy_pass": true,
+    "merge_pass": true,
+    "selected_mapping_role": "feasible_mapping",
+    "atom_mapping": [
+      3,
+      2,
+      1,
+      0,
+      7,
+      6,
+      5,
+      4,
+      11,
+      10,
+      9,
+      8
+    ],
+    "signs": [
+      -1,
+      1,
+      -1
+    ],
+    "origin_shift_fractional": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "matching_details": {
+      "thresholds_A": {
+        "rms": 0.02,
+        "maximum": 0.05
+      },
+      "anchor_only_squared_assignment_best": {
+        "rms_A": 0.0003097596652243357,
+        "max_A": 0.0004387518826158537,
+        "signs": [
+          -1,
+          -1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          1.138455328297816e-05,
+          0.9999861128017853,
+          0.0
+        ],
+        "atom_mapping": [
+          1,
+          0,
+          3,
+          2,
+          5,
+          4,
+          7,
+          6,
+          9,
+          8,
+          11,
+          10
+        ],
+        "mean_residual_cartesian_A": [
+          8.460999999906575e-05,
+          -6.845000000028433e-05,
+          0.0
+        ],
+        "origin_refinement_steps": 0,
+        "anchor_target_index": 1
+      },
+      "origin_optimized_best": {
+        "rms_A": 0.0002900117163148037,
+        "max_A": 0.0003476647760417334,
+        "signs": [
+          -1,
+          1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          0.5,
+          0.5,
+          0.0
+        ],
+        "atom_mapping": [
+          3,
+          2,
+          1,
+          0,
+          7,
+          6,
+          5,
+          4,
+          11,
+          10,
+          9,
+          8
+        ],
+        "mean_residual_cartesian_A": [
+          4.082585868039427e-17,
+          1.5960811231702232e-16,
+          0.0
+        ],
+        "origin_refinement_steps": 2,
+        "anchor_target_index": 3
+      },
+      "origin_optimized_match": {
+        "rms_A": 0.0002900117163148037,
+        "max_A": 0.0003476647760417334,
+        "signs": [
+          -1,
+          1,
+          -1
+        ],
+        "origin_shift_fractional": [
+          0.5,
+          0.5,
+          0.0
+        ],
+        "atom_mapping": [
+          3,
+          2,
+          1,
+          0,
+          7,
+          6,
+          5,
+          4,
+          11,
+          10,
+          9,
+          8
+        ],
+        "mean_residual_cartesian_A": [
+          4.082585868039427e-17,
+          1.5960811231702232e-16,
+          0.0
+        ],
+        "origin_refinement_steps": 2,
+        "anchor_target_index": 3
+      },
+      "origin_optimized_passes": true,
+      "anchor_only_passes": true,
+      "rms_improvement_A": 1.9747948909531977e-05,
+      "optimized_rms_margin_A": 0.019709988283685198,
+      "optimized_max_margin_A": 0.04965233522395827,
+      "number_of_anchor_isometry_starts": 32,
+      "max_origin_refinement_steps": 3
+    }
+  }
+]

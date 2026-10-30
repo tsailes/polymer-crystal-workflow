@@ -1,0 +1,230 @@
+{
+  "passed": true,
+  "errors": [],
+  "chemistry": {
+    "passed": true,
+    "formula": "C4H8",
+    "natoms": 12,
+    "cell_A": [
+      [
+        7.432,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.929,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.545
+      ]
+    ],
+    "volume_A3": 93.22927476000005,
+    "density_g_cm3": 0.9993591196396083,
+    "density_reference_g_cm3": 0.997,
+    "density_reference_kind": "External crystallographic crystalline-PE reference; not Tashiro sample bulk density",
+    "density_ratio": 1.002366218294492,
+    "density_ratio_passed": true,
+    "chemistry_topology_passed": true,
+    "bonds": [
+      {
+        "i": 0,
+        "j": 8,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.090000004070861
+      },
+      {
+        "i": 0,
+        "j": 4,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0899999965243277
+      },
+      {
+        "i": 0,
+        "j": 1,
+        "shift": [
+          -1,
+          -1,
+          0
+        ],
+        "kind": "CC",
+        "distance_A": 1.5399999989512692
+      },
+      {
+        "i": 0,
+        "j": 1,
+        "shift": [
+          -1,
+          -1,
+          -1
+        ],
+        "kind": "CC",
+        "distance_A": 1.5399999989512692
+      },
+      {
+        "i": 1,
+        "j": 5,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0899999965243277
+      },
+      {
+        "i": 1,
+        "j": 9,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.090000004070861
+      },
+      {
+        "i": 2,
+        "j": 10,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0900000040708602
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CC",
+        "distance_A": 1.5399999989512694
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "shift": [
+          0,
+          0,
+          -1
+        ],
+        "kind": "CC",
+        "distance_A": 1.5399999989512694
+      },
+      {
+        "i": 2,
+        "j": 6,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0899999965243277
+      },
+      {
+        "i": 3,
+        "j": 7,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.0899999965243277
+      },
+      {
+        "i": 3,
+        "j": 11,
+        "shift": [
+          0,
+          0,
+          0
+        ],
+        "kind": "CH",
+        "distance_A": 1.090000004070861
+      }
+    ],
+    "CC_range_A": [
+      1.5399999989512692,
+      1.5399999989512694
+    ],
+    "CH_range_A": [
+      1.0899999965243277,
+      1.090000004070861
+    ],
+    "CC_strict_1p53_1p54_passed": true,
+    "CC_approximate_criterion_A": [
+      1.5,
+      1.57
+    ],
+    "CC_approximate_criterion_note": "Explicit chemical sanity margin; strict interval separately reported",
+    "minimum_interchain_CC": {
+      "i": 0,
+      "j": 3,
+      "shift": [
+        0,
+        -1,
+        -1
+      ],
+      "pair": "CC",
+      "distance_A": 4.123708962980787,
+      "vdw_threshold_A": 2.8899999999999997,
+      "ratio_to_vdw_threshold": 1.426888914526224
+    },
+    "interchain_CC_3p4_passed": true,
+    "minimum_nonbonded_ratio": {
+      "i": 0,
+      "j": 4,
+      "shift": [
+        0,
+        0,
+        -1
+      ],
+      "pair": "CH",
+      "distance_A": 2.768596213322382,
+      "vdw_threshold_A": 2.465,
+      "ratio_to_vdw_threshold": 1.1231627640253072
+    },
+    "vdw_clashes": [],
+    "exclusion": "Periodic chemical graph paths of 1 or 2 bonds only",
+    "symmetry": {
+      "target": "Pnam",
+      "hall_number": 297,
+      "operation_max_displacement_A": [
+        0.0,
+        0.0,
+        1.667511810464879e-15,
+        8.251177519014164e-16,
+        0.0,
+        0.0,
+        8.251177519014164e-16,
+        1.667511810464879e-15
+      ],
+      "contains_target_group": true,
+      "detected_number": 62,
+      "detected_symbol": "Pnma",
+      "detected_hall_number": 292
+    },
+    "initial": false
+  },
+  "target_operation_max_error_A": 1.667511810464879e-15
+}

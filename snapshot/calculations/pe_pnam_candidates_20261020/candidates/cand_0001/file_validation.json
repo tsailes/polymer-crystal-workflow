@@ -1,0 +1,20 @@
+{
+  "input.cif": {
+    "sha256": "7fdf997bdef85b79a5500de646e39e54698819e52ff0b61349ed3defaca21fdc",
+    "passed": true,
+    "rms_A": 3.367177837393644e-14,
+    "max_A": 3.6584807444814664e-14
+  },
+  "POSCAR": {
+    "sha256": "1ab3f42578da0215b376861df3818a300bbd75b5354e946af9d31b3a9b9db326",
+    "passed": true,
+    "rms_A": 2.530779142171302e-16,
+    "max_A": 6.188383139260622e-16
+  },
+  "input.extxyz": {
+    "sha256": "53c7c07d575bf2c718373dc48c2de71f10ac23bf10f378878b1ad8e839be8d1f",
+    "passed": true,
+    "rms_A": 4.270293724612796e-09,
+    "max_A": 4.6010218415561135e-09
+  }
+}

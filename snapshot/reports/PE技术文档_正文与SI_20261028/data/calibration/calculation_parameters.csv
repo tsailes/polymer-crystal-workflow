@@ -1,0 +1,8 @@
+﻿component,method,ecut_eV,ecut_Ry,kmesh,density_grid,precision_label,role,repeat,supercell_natoms,electronic_temperature_K,accuracy,cell_lengths_A
+DFT production,"PBE-D3(BJ), optB88-vdW, r2SCAN-D4",1800,132.29755983235796,"[4, 8, 12]","[112, 72, 44]",H,All production pair energies,,,,,
+DFT upper verification,PBE-D3(BJ),2000,146.99728870261995,"[5, 10, 15]","[128, 80, 48]",U,Numerical diagnostic only,,,,,
+DFT prior candidate,PBE-D3(BJ),1400,102.89810209183398,"[3, 6, 9]","[96, 60, 36]",L,Previously locked candidate; diagnostic comparison here,,,,,
+GFN2 production,GFN2-xTB / tblite 0.7.0,,,,,F,Gamma repeated-cell production; no plane-wave cutoff or conventional k-mesh,"[2, 3, 8]",576,0,0.001,
+GFN2 sampling verification,GFN2-xTB / tblite 0.7.0,,,,,D,Sampling diagnostic only,"[3, 4, 10]",1440,0,0.001,
+GFN2 temperature verification,GFN2-xTB / tblite 0.7.0,,,,,F,Electronic occupation diagnostic; not a 300 K nuclear simulation,"[2, 3, 8]",576,300,0.001,
+Frozen geometry,PE C4H8; four CH2,,,,,,Same fixed Tashiro cell and coordinates within every energy pair,,,,,"[7.432, 4.929, 2.545]"

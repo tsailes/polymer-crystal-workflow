@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/opt/pe_dft/envs/gfn2-pe-20261020/bin/python",
+    "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_004_gfn2_D_T000/runner_snapshot.py",
+    "/mnt/e/PE_DFT/calculations/pe_gfn2_dft_calibration_20261021/runs/gfn2/final_group_004_gfn2_D_T000/input.json"
+  ],
+  "pid": 2117,
+  "started_unix": 1792566420.630521,
+  "backend": "gfn2",
+  "sample_id": "final_group_004",
+  "environment_overrides": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "finished_unix": 1792566991.1466281,
+  "wall_seconds": 570.5161082744598
+}

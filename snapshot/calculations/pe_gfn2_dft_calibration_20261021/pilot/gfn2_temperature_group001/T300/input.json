@@ -1,0 +1,16 @@
+{
+  "electronic_temperature_K": 300,
+  "accuracy": 0.001,
+  "charge": 0,
+  "threads": 4,
+  "structure": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_001/POSCAR",
+  "verbosity": 1,
+  "max_iterations": 1000,
+  "multiplicity": 1,
+  "id": "pilot_group001_T300",
+  "repeat": [
+    2,
+    3,
+    8
+  ]
+}

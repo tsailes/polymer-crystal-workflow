@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-21T06:12:19.416691+00:00",
+  "defined_before_upper_precision_results_available": true,
+  "threshold_meV_CH2": 1.5,
+  "conversion": "0.5 meV/atom x 3 atoms/CH2",
+  "required_for_overall_gate": true,
+  "sub_meV_final_ranking_requires_additional_resolution_check": true,
+  "old_locked_parameters_modified": false
+}

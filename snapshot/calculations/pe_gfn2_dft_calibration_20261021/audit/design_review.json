@@ -1,0 +1,242 @@
+{
+  "created_utc": "2026-10-21T06:03:04.116768+00:00",
+  "status": "read_only_independent_design_audit",
+  "quantum_calculations_started": false,
+  "old_scientific_inputs_modified": false,
+  "proposed_scope": "Pilot 21 fixed-cell PE geometries: 16 initial plus 4 final groups plus zero-angle final negative control",
+  "group001_POSCAR": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_001/POSCAR",
+  "group001_POSCAR_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+  "old_reference_POSCAR": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/reference/POSCAR_GFN2",
+  "old_reference_POSCAR_sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+  "old_reference_comparison": {
+    "same_cell": true,
+    "cell_max_abs_difference_A": 0.0,
+    "identity_atom_map": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "periodic_identity_map_RMS_A": 0.0,
+    "periodic_identity_map_max_displacement_A": 0.0,
+    "unwrapped_max_abs_cartesian_difference_A": 0.0,
+    "requires_strain_or_axis_change": false
+  },
+  "same_element_order": true,
+  "existing_H_results": [
+    {
+      "method": "PBE-D3(BJ)",
+      "run_directory": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/transfer_gfn2_pbe_d3bj_H",
+      "input_sha256": "89e30af0e93e59ba9d0cea79c42cf5dcc8c49e0508354dc256c5f2067cac4a48",
+      "result_sha256": "1c19ccddf5e1152609d968906e2749aebef5c2b051137af98baa0b39b24aa3ec",
+      "settings_checks": {
+        "ecut_eV": true,
+        "kmesh": true,
+        "gpts": true,
+        "nbands": true,
+        "point_group": true,
+        "mpi_ranks": true,
+        "xc_stencil": true,
+        "scf_energy": true,
+        "scf_density": true,
+        "scf_eigenstates": true,
+        "input_file_hash": true,
+        "source_geometry_hash": true,
+        "source_runner_hash": true,
+        "protocol_hash": true,
+        "PAW_C_H_hashes": true,
+        "process_success": true,
+        "result_passed": true
+      },
+      "geometry_comparison": {
+        "same_cell": true,
+        "cell_max_abs_difference_A": 0.0,
+        "identity_atom_map": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "periodic_identity_map_RMS_A": 0.0,
+        "periodic_identity_map_max_displacement_A": 0.0,
+        "unwrapped_max_abs_cartesian_difference_A": 0.0,
+        "requires_strain_or_axis_change": false
+      },
+      "reusable_as_final_group001_H": true,
+      "free_energy_eV_cell": -66.75410092197666,
+      "energy_definition": "Free energy (zero occupation width)"
+    },
+    {
+      "method": "optB88-vdW",
+      "run_directory": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/transfer_gfn2_optb88_vdw_H",
+      "input_sha256": "850bf942dbdb88b95e809c5a043321a3aca5524322935c75d7db526ec53ef120",
+      "result_sha256": "9aa3b0a23844018b8d2211ec8fab1e50f3d4a25f41a3507f783f2bfd2e4a6e0c",
+      "settings_checks": {
+        "ecut_eV": true,
+        "kmesh": true,
+        "gpts": true,
+        "nbands": true,
+        "point_group": true,
+        "mpi_ranks": true,
+        "xc_stencil": true,
+        "scf_energy": true,
+        "scf_density": true,
+        "scf_eigenstates": true,
+        "input_file_hash": true,
+        "source_geometry_hash": true,
+        "source_runner_hash": true,
+        "protocol_hash": true,
+        "PAW_C_H_hashes": true,
+        "process_success": true,
+        "result_passed": true
+      },
+      "geometry_comparison": {
+        "same_cell": true,
+        "cell_max_abs_difference_A": 0.0,
+        "identity_atom_map": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "periodic_identity_map_RMS_A": 0.0,
+        "periodic_identity_map_max_displacement_A": 0.0,
+        "unwrapped_max_abs_cartesian_difference_A": 0.0,
+        "requires_strain_or_axis_change": false
+      },
+      "reusable_as_final_group001_H": true,
+      "free_energy_eV_cell": -79.6957463696205,
+      "energy_definition": "Free energy (zero occupation width)"
+    },
+    {
+      "method": "r2SCAN-D4",
+      "run_directory": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/runs/transfer_gfn2_r2scan_d4_H",
+      "input_sha256": "7aa7ed253e746059ce292f8fc87a73ad135b0ba9d1c62426a21ec183063d77e3",
+      "result_sha256": "b77d57a86df229bae5c912d96990b495e86f261d998d5c417003747006edaf85",
+      "settings_checks": {
+        "ecut_eV": true,
+        "kmesh": true,
+        "gpts": true,
+        "nbands": true,
+        "point_group": true,
+        "mpi_ranks": true,
+        "xc_stencil": true,
+        "scf_energy": true,
+        "scf_density": true,
+        "scf_eigenstates": true,
+        "input_file_hash": true,
+        "source_geometry_hash": true,
+        "source_runner_hash": true,
+        "protocol_hash": true,
+        "PAW_C_H_hashes": true,
+        "process_success": true,
+        "result_passed": true
+      },
+      "geometry_comparison": {
+        "same_cell": true,
+        "cell_max_abs_difference_A": 0.0,
+        "identity_atom_map": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "periodic_identity_map_RMS_A": 0.0,
+        "periodic_identity_map_max_displacement_A": 0.0,
+        "unwrapped_max_abs_cartesian_difference_A": 0.0,
+        "requires_strain_or_axis_change": false
+      },
+      "reusable_as_final_group001_H": true,
+      "free_energy_eV_cell": -69.92908989808689,
+      "energy_definition": "Free energy (zero occupation width)"
+    }
+  ],
+  "all_three_H_points_reusable": true,
+  "design_recommendations": [
+    "Reuse exact matching final_group001 H results and provenance rather than rerun identical points.",
+    "PBE-D3(BJ) is the primary DFT target; other two methods are separately reported cross-method checks.",
+    "Initial structures and near-minimum final structures require separate residual summaries; do not pool all 21 as iid samples.",
+    "Angle-block holdout is a stress test for interpolation/extrapolation inside one constrained angle family, not independent polymorph validation.",
+    "Only four near-degenerate final groups: estimate descriptive residual spread but retain all unless supported by external validation; no 99.7 percent guarantee.",
+    "Initial0, initial75 and final4 are useful H/U/L numerical transfer endpoints; add R0 U only if precision uncertainty relative to target gaps justifies it.",
+    "Calibrate relative-energy residuals against fixed R0 directly; single-structure error sigma cannot be substituted without covariance treatment.",
+    "Freeze an explicit low-energy window W, report it as a research decision, and only consider rejection when predicted relative energy minus validated margin exceeds W.",
+    "Keep existing unstable zero-angle final as diagnostic negative control; do not silently relabel it a 3sigma rejection."
+  ],
+  "electronic_temperature_semantics": {
+    "old_GFN2_temperature_K": 300.0,
+    "old_DFT_occupation_width_eV": 0.0,
+    "local_ASE_interface": "tblite.ase sets energy=native energy*Hartree and free_energy=energy; equality is interface aliasing, not proof of zero entropy.",
+    "official_tblite_0p7_source": "https://raw.githubusercontent.com/tblite/tblite/v0.7.0/src/tblite/scf/iterator.f90",
+    "source_evidence": "next_scf initializes energies with ts/natom; next_density evaluates electronic entropy and sums spin terms; native energy includes the electronic entropy contribution.",
+    "required_gate": "Independent 0/300 K pilot on fixed geometries, finite E/F/stress, occupation/entropy or near-zero-temperature check; use same energy semantics thereafter."
+  },
+  "reuse_code_audit": {
+    "existing_formal_sigma_executor_found": false,
+    "reusable_sources": [
+      "DFT frozen run_point.py and dispatcher pattern",
+      "GFN2 validated exact-replica folding and geometry audit"
+    ],
+    "excluded_sources": [
+      "Cancelled DREIDING/DFTB-versus-GFN2 production executor; remains cancelled"
+    ]
+  },
+  "source_files": [
+    {
+      "path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_001/POSCAR",
+      "sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0"
+    },
+    {
+      "path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/reference/POSCAR_GFN2",
+      "sha256": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0"
+    },
+    {
+      "path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/releases/20261021T043247_514339Z/parameters_lock.json",
+      "sha256": "d3d0de948aebb52865c5e5a391dbfa4d964ae93cae654fbb1c0d6a2e606b10d1"
+    },
+    {
+      "path": "/mnt/e/PE_DFT/calculations/pe_gpaw_convergence_20261020/scripts/run_point.py",
+      "sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae"
+    },
+    {
+      "path": "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/optimization_summary.json",
+      "sha256": "2cd0344d79991bc6e330b49b48c8a0631bc7091aa87f763c9595b8eccc9c122f"
+    },
+    {
+      "path": "/mnt/e/PE_DFT/calculations/pe_gfn2_first_run_20261020/convergence_relaxation/workflow.py",
+      "sha256": "b15d3fc3959211317ff8472bd0811d9573b154ed566304d9563fbc8f211886dc"
+    }
+  ]
+}

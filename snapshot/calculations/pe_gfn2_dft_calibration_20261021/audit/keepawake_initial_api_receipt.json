@@ -1,0 +1,22 @@
+{
+    "workflow_stage":  "temperature_sampling_and_DFT_precision_pilots",
+    "updated_utc":  "2026-10-21T06:55:48.7437750Z",
+    "pid":  11744,
+    "power_create_request_succeeded":  true,
+    "last_probe_error":  "w\u0000s\u0000l\u0000:\u0000 \u0000纇Km0R \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000鉔\u0006tM憂\fFO*g\\曄P0R \u0000W\u0000S\u0000L\u0000\u00020N\u0000A\u0000T\u0000 \u0000!j\u000f_\u000bN剉 \u0000W\u0000S\u0000L\u0000 \u0000",
+    "workflow_path":  "E:\\PE_DFT\\calculations\\pe_gfn2_dft_calibration_20261021\\control\\workflow_state.json",
+    "status":  "active",
+    "api_reference":  "https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-powersetrequest",
+    "display_required":  false,
+    "release_policy":  "Release after a terminal workflow state and two successful empty process probes; orphaned running state requires three empty probes. Failed JSON or process queries retain the request.",
+    "workflow_status":  "running",
+    "global_power_plan_changed":  false,
+    "api":  "PowerCreateRequest + PowerSetRequest(PowerRequestSystemRequired)",
+    "power_set_request_succeeded":  true,
+    "system_required":  true,
+    "handle_hex":  "0xA1C",
+    "batch_root":  "E:\\PE_DFT\\calculations\\pe_gfn2_dft_calibration_20261021",
+    "schema_version":  1,
+    "poll_seconds":  15,
+    "started_utc":  "2026-10-21T06:54:47.9841812Z"
+}

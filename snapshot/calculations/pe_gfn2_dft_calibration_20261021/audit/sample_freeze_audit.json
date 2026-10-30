@@ -1,0 +1,42 @@
+{
+  "status": "passed_geometry_freeze",
+  "checked_utc": "2026-10-21T06:02:36.426503+00:00",
+  "sample_count": 21,
+  "role_counts": {
+    "preoptimized_representative": 4,
+    "initial_grid": 16,
+    "unstable_control": 1
+  },
+  "unique_frozen_geometry_hashes": 21,
+  "old_sources_checked": 21,
+  "old_sources_changed": 0,
+  "old_source_sha256": {
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_001/POSCAR": "f3db63cbf993da085a1c5bb4f772eb30d2e4debf4ae80fb474e738db79599bd0",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_002/POSCAR": "1cf7c196da0bdb325be840ff7cb1ea1322b2acabf966688d88222cb7f3be51e2",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_003/POSCAR": "2ac33bc33afe7899cfc8561a6b67e122bb19aad949f78a0a040909cfcd835f76",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/representatives/group_004/POSCAR": "67192c378c6d05416142b276d99e0f2ea66e2f3d348fcd4288aaa9ed40ab7463",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0001/POSCAR": "1ab3f42578da0215b376861df3818a300bbd75b5354e946af9d31b3a9b9db326",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0009/POSCAR": "e9f7ad3a1f747ddd0cf0aa13de7e8a4e96ee457f524406305e0f1f1bcc9ea523",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0017/POSCAR": "11a765df78bf058693a560203b7f8e1a85aa61c975e483a3aa9a6076b8856122",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0025/POSCAR": "47cb5057571214524fc61e1f30dc0b615554ff8b62ecd7cc6e46217a896c4a32",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0033/POSCAR": "e3f506cb11dd8ab0e63e6769e53f74197b4564f68183bda25c5ca4699f8c9b78",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0041/POSCAR": "4f004b4a7f0d5d8eff8072c7e64cd6e1374ecc41167697197d1832ae8804697e",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0049/POSCAR": "83cd6fc8e170765d637fd6df4ad8aa74337e8aa45b91897b212bb98e0b9894be",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0057/POSCAR": "45160fe3f0c3decebe18d279e0252b8900c4b623c97988b2e36e1a531aaf1e7b",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0065/POSCAR": "b40572c6a3566f8ddda6b7b743a0c05c39d141c5e06eea4b6d352ba223a88fa8",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0073/POSCAR": "a9f3f08a0529eb730db7fcc1904646e6ddc3f7687257b91bbcdda22967597713",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0081/POSCAR": "dd1c3971a4cb86e4d63b89df2b2a663583444cd5ac03fe3da5a59a79a2dcf1ef",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0089/POSCAR": "a54d26638b9b825ed4a3456a7648be2538ac59ecc6d459eb02c90569d769c0c0",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0097/POSCAR": "88620970ddf81be85356241d50e881ea2da1172988e5ee8ac7d9a46186bb5de1",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0105/POSCAR": "09bf6ba3b6400b1f84c41163309536edf3d6168fdb1fc083868fd3b1eff6b7be",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0113/POSCAR": "0c90fe79c37a39b0e370f9d6e1597daf83dfda90567d8e27698daa7558f4fcc2",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0121/POSCAR": "2cc185b7be596d70cb3b8f410c39b5d166288add8cb5c89206057460f3eb7410",
+    "/mnt/e/PE_DFT/calculations/pe_pnam_candidates_20261020/candidates/cand_0001/relaxation/attempts/20261020T082926_910950Z/final.extxyz": "4c99c9fc7d57392595667d46a5dd51eeada967bfc299f88b4ada7df8c0f33aab"
+  },
+  "all_frozen_geometry_only": true,
+  "reference_id": "final_group_001",
+  "samples_json_sha256": "60037c970d3f15b6d62ec714e5115646576b0620b02820e709160fc59853148f",
+  "samples_csv_sha256": "cf2c2e242cb86f8798d5fab5dbcf6054e28b3b7fec6ca3b632d692d7b344a719",
+  "script_sha256": "8533474bd6388c16a373e79bd4c44b9818319b8e5e541875380d235dda712e24",
+  "quantum_calculations_started": false
+}

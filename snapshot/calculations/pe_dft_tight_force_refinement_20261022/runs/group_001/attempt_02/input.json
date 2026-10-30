@@ -1,0 +1,43 @@
+{
+  "method": "PBE-D3(BJ)",
+  "structure": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/structures/group_001/POSCAR",
+  "source_geometry_sha256_expected": "0321e68526597ee0821a883e75b67a2fc157a0a73a1ba64552b2bd163f63e594",
+  "protocol_sha256_expected": "ca28e5de1680f8c59b50bc6fe82ceed90feb59d232e248579ad9af7009bdd245",
+  "point_runner": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/scripts/run_point.py",
+  "point_runner_sha256": "cc4cd9d563a1d5eb69bc72346b096473ea785832487a26d984c441c72e2f57ae",
+  "sample_id": "group_001",
+  "point_group": true,
+  "cell_fixed": true,
+  "cell_tolerance_A": 1e-10,
+  "fmax_eV_A": 0.0002,
+  "maxsteps": 200,
+  "maxstep": 0.05,
+  "symprec_A": 1e-05,
+  "ecut_eV": 1800,
+  "kmesh": [
+    4,
+    8,
+    12
+  ],
+  "gpts": [
+    112,
+    72,
+    44
+  ],
+  "xc_stencil": 4,
+  "nbands": 16,
+  "mpi_ranks": 4,
+  "scf_energy_eV_electron": 1e-09,
+  "scf_density_electron_electron": 1e-09,
+  "scf_eigenstates_eV2_electron": 1e-11,
+  "resume": {
+    "optimizer_step_offset": 14,
+    "previous_attempt": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/runs/group_001/attempt_01",
+    "geometry_json": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/control/resume_20261023/assets/group_001/evaluation_input_0014.json",
+    "geometry_sha256": "5177525fcb8b3026a0973adf9a9d02536d62a85b8677b6167206b07e87ff9923",
+    "optimizer_restart": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/control/resume_20261023/assets/group_001/optimizer_restart.json",
+    "optimizer_restart_sha256": "15c09f5fc7ac94325678277d289e6d8cb9fa2217cbe81150dcc97887b22b27ad",
+    "previous_evaluation_json": "/mnt/e/PE_DFT/calculations/pe_dft_tight_force_refinement_20261022/control/resume_20261023/assets/group_001/evaluation_0013.json",
+    "previous_evaluation_sha256": "4d49bcfcf620189dd28e56d807854aca5ac7ecf29ba5517de9d6334b0e14e7cf"
+  }
+}

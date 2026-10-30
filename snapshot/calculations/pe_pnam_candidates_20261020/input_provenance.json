@@ -1,0 +1,54 @@
+{
+  "purpose": "Declared experimental metadata and chemical assumptions; atomic coordinates are independently constructed",
+  "primary_source": {
+    "title": "Development of a New Software for the X-ray Structural Analysis of Polymer Crystals by Utilizing the X-ray Imaging Plate System",
+    "authors": "Tashiro et al.",
+    "year": 1997,
+    "doi": "10.1002/(SICI)1099-0488(199708)35:11<1677::AID-POLB3>3.0.CO;2-Q",
+    "path": "E:/PE_DFT/examples/PE_Tashiro_1997/sources/Tashiro_1997_original_Wiley.pdf",
+    "sha256": "4750738ed0c2e29a569d3b402d1a94d46db920f3f5f40f4ba953b0d937ad15f0",
+    "metadata_page": "Printed page 1692 / PDF page 16",
+    "current_visual_check": "Cell lengths, c fiber axis, Mo Ka wavelength and Pnam refinement assignment checked against original page image",
+    "audit_image": "audits/source_pages/Tashiro_1997_pdf_page_16.png"
+  },
+  "experimental_priors_used": {
+    "cell_lengths_A": [7.432, 4.929, 2.545],
+    "cell_angles_deg": [90.0, 90.0, 90.0],
+    "chain_axis": "c",
+    "spacegroup": "Pnam",
+    "spacegroup_source_scope": "Author-refined group explicitly supplied as a search constraint, not independently discovered here",
+    "wavelength_A": 0.71073
+  },
+  "chemical_assumptions": {
+    "formula_per_cell": "C4H8",
+    "chains": 2,
+    "carbon_atoms_per_chain_period": 2,
+    "CC_initial_A": 1.54,
+    "CH_initial_A": 1.09,
+    "torsion_options_deg": [180.0, 60.0, -60.0],
+    "closure_result": "Only the all-trans two-carbon pure-translation chain satisfies the declared period"
+  },
+  "symmetry_database": {
+    "gemmi_version": "0.7.5",
+    "spglib_version": "2.7.0",
+    "hall_number": 297,
+    "hall_symbol": "-P 2c 2n",
+    "operations_cross_checked": 8,
+    "no_axis_relabeling_to_Pnma": true
+  },
+  "density_comparison": {
+    "reference_value_g_cm3": 0.997,
+    "reference_kind": "External crystalline-PE crystallographic density, not independent pycnometric density of the Tashiro sample",
+    "source": "Martin and Passaglia, J Res NBS 70A (1966), 221-224, section 4",
+    "doi": "10.6028/jres.070A.018",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6687595/",
+    "sample_matching_limitation": "The same-sample Tashiro measured bulk density and exact density-reference conditions were not established; only broad crystalline-phase sanity comparison is claimed",
+    "bibliographic_erratum": "protocol.json has a typographic end-page 225; correct end-page is 224. Numerical criteria are unchanged."
+  },
+  "coordinate_independence": {
+    "generator_reads_refined_coordinates": false,
+    "generator_reads_experimental_setting_angle": false,
+    "search_angle_grid_chosen_before_quantum_optimization": true,
+    "XRD_inputs": "45 measured d spacings; no Fcalc, author coordinates or split Fobs used in generation, filtering or optimization"
+  }
+}

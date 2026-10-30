@@ -1,0 +1,12 @@
+﻿metric,value,unit_or_scope
+优化前后最大位移（GFN2预优化 → DFT终态）,0.109199（H）,Å; baseline stated in metric
+优化前后全12原子RMS,0.083572,Å; baseline stated in metric
+对文献最大三维位置偏差,0.039811（H(B)，原子5–8）,Å; baseline stated in metric
+对文献最大单坐标分量偏差,0.039777（H(B)，x方向）,Å; baseline stated in metric
+对文献全12原子RMS,0.026947,Å; baseline stated in metric
+对文献C／H原子最大三维偏差,0.015487 / 0.039811,Å; baseline stated in metric
+平均绝对相对d偏差,0.287906%,unit stated in value; peak positions only
+最大绝对相对d偏差,2.126059%（401）,unit stated in value; peak positions only
+d偏差RMS,0.007624 Å,unit stated in value; peak positions only
+平均／最大绝对2θ偏差（Mo Kα）,0.092957° / 0.594203°,unit stated in value; peak positions only
+整谱强度匹配度（Rwp、拟合R²）,尚无可报告值；缺实测连续强度谱,unit stated in value; peak positions only

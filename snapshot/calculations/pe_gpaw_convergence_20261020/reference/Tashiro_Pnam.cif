@@ -1,0 +1,40 @@
+data_PE_Pnam
+# Geometry export only; no energy calculation or geometry refinement.
+# Hall number 297, original Pnam axes; c is the chain axis.
+_audit_creation_method 'PE Pnam symmetry-verified export'
+_chemical_formula_sum 'C4 H8'
+_space_group_IT_number 62
+_space_group_name_H-M_alt 'P n a m'
+_space_group_name_Hall '-P 2c 2n'
+_cell_length_a 7.432
+_cell_length_b 4.929
+_cell_length_c 2.545
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 93.22927476000005
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x,y,z'
+2 '-x,-y,-z'
+3 '-x,-y,z+1/2'
+4 'x,y,-z+1/2'
+5 'x+1/2,-y+1/2,-z+1/2'
+6 '-x+1/2,y+1/2,z+1/2'
+7 '-x+1/2,y+1/2,-z'
+8 'x+1/2,-y+1/2,z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+C1 C 4 c 0.4604 0.5639999999999999 0.25 1.0
+H1 H 4 c 0.31412 0.53706 0.25 1.0
+H2 H 4 c 0.48892 0.7819600000000001 0.25 1.0

@@ -1,0 +1,84 @@
+{
+  "checked_utc": "2026-10-21T11:49:58.452345+00:00",
+  "status": "passed",
+  "paired_rows": 29,
+  "production_GFN2_points": 21,
+  "DFT_methods_counts": {
+    "PBE-D3(BJ)": 21,
+    "optB88-vdW": 4,
+    "r2SCAN-D4": 4
+  },
+  "DFT_ecut_eV": 1800,
+  "DFT_kmesh": [
+    4,
+    8,
+    12
+  ],
+  "bias_meV_CH2": 4.638333875888634,
+  "sigma_meV_CH2": 1.920697507166551,
+  "three_sigma_meV_CH2": 5.762092521499653,
+  "sigma_scope": {
+    "polymer": "PE",
+    "composition": "C4H8",
+    "N_CH2": 4,
+    "fixed_Tashiro_cell_A": [
+      7.432,
+      4.929,
+      2.545
+    ],
+    "chain": "Same all-trans chain construction as the frozen initial samples",
+    "setting_angles_deg": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75
+    ],
+    "geometry_stage": "Initial rigid-chain geometries only",
+    "applies_to_four_preoptimized_endpoints": false
+  },
+  "numerical_gates_all_passed": true,
+  "retained_final_representatives": [
+    "final_group_001",
+    "final_group_002",
+    "final_group_003",
+    "final_group_004"
+  ],
+  "arbitrary_candidate_rejections": [],
+  "keepawake_released": true,
+  "monitor_automation_id": "pe-3-gfn2",
+  "monitor_automation_deleted": true,
+  "files": {
+    "tables/paired_energy_results.csv": {
+      "size_bytes": 234296,
+      "sha256": "1e2b18b4c948418d4f2f89711f9f9a5fd774eaf2c8494234286bd55eae9e98c2"
+    },
+    "tables/calibration_summary.json": {
+      "size_bytes": 635687,
+      "sha256": "58649b38932cb2549bab07e70dce6c96b2e4adad83cfc3aae6f539c4117d84e0"
+    },
+    "tables/energies_all_attempts.csv": {
+      "size_bytes": 29850,
+      "sha256": "097b9b2abd774adfffb7726829e54a19da53b2bfba802590fd3c78c9b7bfd43b"
+    },
+    "protocol.json": {
+      "size_bytes": 3678,
+      "sha256": "2cce4e16814ed3de93361f2e5474a2c6c0c9b17c78405c11955f48fbe137738e"
+    },
+    "analysis_policy.json": {
+      "size_bytes": 2501,
+      "sha256": "5d0d1f1f7778ddf63421804e397c8771c42da5ec2791763b332224021d8dd95f"
+    }
+  }
+}
