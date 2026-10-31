@@ -1,0 +1,609 @@
+{
+  "symmetry": {
+    "scope": "Saved-data and ASE geometry/projection analysis only; zero quantum calculations",
+    "actual_space_group_number": 14,
+    "actual_international": "P2_1/c",
+    "actual_hall_number": 81,
+    "operation_count": 8,
+    "declared_operation_count": 4,
+    "declared_operations_are_subset": true,
+    "actual_and_declared_operations_equal": false,
+    "additional_operation_indices": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "extra_translation": [
+      0,
+      0.5,
+      0
+    ],
+    "extra_translation_interpretation": "Accidental b/2 translation maps the starting structure to itself; retaining all detected operations also preserves this smaller periodicity. No.14 alone does not describe which translation subgroup was constrained.",
+    "constraint_initialization_position_max_A": 3.000000958763849e-08,
+    "constraint_initialization_cell_max_A": 3.552713678800501e-15,
+    "position_dofs_unconstrained": 456,
+    "projected_rank": 57,
+    "excluded_directions": 399,
+    "declared_four_operations_projected_rank": 114,
+    "extra_suppressed_directions_due_to_8_vs_4": 57,
+    "declared_projection_idempotence_max": 3.570542905469035e-17,
+    "projection_idempotence_max": 1.7852714527345164e-17,
+    "projection_asymmetry_max": 8.679979131653819e-18,
+    "projection_eigenvalue_extrema": [
+      -5.431199253691243e-16,
+      1.0000000000000009
+    ],
+    "relative_rigid_chain_translation_dimension": 9,
+    "permitted_rigid_chain_translation_dimension": 1,
+    "excluded_rigid_chain_translation_dimension": 8,
+    "declared_four_operations_permitted_rigid_chain_translation_dimension": 3,
+    "additional_rigid_translation_dimension_released_by_8_to_4": 2,
+    "final_saved_force_max_removed_eV_A": 7.303465332537721e-13,
+    "max_removed_force_vector_over_trajectory_eV_A": 7.338665728901757e-13,
+    "fixed_cell_max_initial_final_change_A": 3.552713678800501e-15,
+    "source_sha256": {
+      "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/symmetry_sampling_diagnose.py": "ac44394ba7c4dec22b38219c5fda8bd2caedee330dcb8ce920b571876c4ea253",
+      "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/input/candidate.extxyz": "8cd8bfa151595a2ea30b1b246af899201ac4368c583219345ee42e2cf2e34814",
+      "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/input/candidate.json": "ce218adbce81d9f8094b778c7099fdc09608a9565923a6fc451dfa11bce2fe93",
+      "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/relaxation/final.extxyz": "b9cc1619e36f6b74c36744a69385580b6bb57d4c5c5b44913ddb8b987918dee8",
+      "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/relaxation/trajectory.traj": "c99692f6fdb3cb9caee1abfc4a48ab04d34ec5d39ed364189ad6a4d8da015c27",
+      "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/relaxation/final_raw_results.json": "0ef21027a870605fcb1b0d4ebe7a1e3e63636bf8bef296bd916817deac244466",
+      "/mnt/e/PA6_DFT/scripts/validate_ordered.py": "092be56c3265dd809539dae69365ae5829be553e387b0375c0744d908a1bbc15"
+    }
+  },
+  "sampling_points": [
+    {
+      "repeat": "1x1x1",
+      "replicas": 1,
+      "energy_delta_meV_per_PA6_repeat": 0.0,
+      "fmax_eV_A": 0.038286241539577416,
+      "removed_symmetry_force_eV_A": 3.767487380141162e-07,
+      "replica_force_max_deviation_eV_A": 0.0,
+      "stress_voigt_GPa": [
+        -0.5859599361661476,
+        -2.0474406385216444,
+        2.6392181704910564,
+        -2.451249513798511e-15,
+        4.113085503541586e-14,
+        -0.954998737784283
+      ],
+      "hydrostatic_pressure_GPa": -0.0019391986010880904,
+      "role_summary": {
+        "all": {
+          "atom_count": 152,
+          "force_norm_eV_A": {
+            "min": 0.011923696362666677,
+            "max": 0.038286241539577416,
+            "mean": 0.02337086539654711,
+            "rms": 0.024446904120271038
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 90,
+          "max_delta_atom": 0
+        },
+        "amide_N": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.0211719326773313,
+            "max": 0.021172075749988035,
+            "mean": 0.021172019084661785,
+            "rms": 0.021172019084745242
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 8,
+          "max_delta_atom": 0
+        },
+        "carbonyl_O": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.0305770546398543,
+            "max": 0.030577080748256838,
+            "mean": 0.030577071473042283,
+            "rms": 0.030577071473043914
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 116,
+          "max_delta_atom": 2
+        },
+        "amide_H": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.020164288670130672,
+            "max": 0.020164295332614764,
+            "mean": 0.020164293358986146,
+            "rms": 0.020164293358986334
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 27,
+          "max_delta_atom": 16
+        },
+        "carbonyl_C": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.03232016744152052,
+            "max": 0.03232060441493449,
+            "mean": 0.032320308267171846,
+            "rms": 0.032320308267661114
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 115,
+          "max_delta_atom": 1
+        },
+        "methylene_C": {
+          "atom_count": 40,
+          "force_norm_eV_A": {
+            "min": 0.012596310837955208,
+            "max": 0.038286241539577416,
+            "mean": 0.025263146376375816,
+            "rms": 0.02700148826517847
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 90,
+          "max_delta_atom": 3
+        },
+        "methylene_H": {
+          "atom_count": 80,
+          "force_norm_eV_A": {
+            "min": 0.011923696362666677,
+            "max": 0.0332549202835938,
+            "mean": 0.021349701846865392,
+            "rms": 0.02208066283515865
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 75,
+          "max_delta_atom": 17
+        }
+      }
+    },
+    {
+      "repeat": "2x1x1",
+      "replicas": 2,
+      "energy_delta_meV_per_PA6_repeat": -10.533096023323196,
+      "fmax_eV_A": 0.03998346379308684,
+      "removed_symmetry_force_eV_A": 3.7681271636609426e-07,
+      "replica_force_max_deviation_eV_A": 3.2464697431820825e-13,
+      "stress_voigt_GPa": [
+        -0.5454865040542203,
+        -2.027849461888789,
+        2.7092320291492427,
+        3.779117586164583e-16,
+        5.230638516412111e-14,
+        -0.9452800261558646
+      ],
+      "hydrostatic_pressure_GPa": -0.0452986877354112,
+      "role_summary": {
+        "all": {
+          "atom_count": 152,
+          "force_norm_eV_A": {
+            "min": 0.010170902575524832,
+            "max": 0.03998346379308684,
+            "mean": 0.022621526131443952,
+            "rms": 0.02410498409326257
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0013686897784549374,
+            "max": 0.022861736191128586,
+            "mean": 0.007573179913367598,
+            "rms": 0.010008629071564747
+          },
+          "max_force_atom": 50,
+          "max_delta_atom": 69
+        },
+        "amide_N": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.02560643167412102,
+            "max": 0.025606605469688338,
+            "mean": 0.025606534774435467,
+            "rms": 0.02560653477453998
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0054651723715854975,
+            "max": 0.005465173726333046,
+            "mean": 0.005465173351823922,
+            "rms": 0.005465173351823951
+          },
+          "max_force_atom": 8,
+          "max_delta_atom": 8
+        },
+        "carbonyl_O": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.029054161608011695,
+            "max": 0.02905417839433619,
+            "mean": 0.0290541730230683,
+            "rms": 0.029054173023069098
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.004984885920270568,
+            "max": 0.0049848859810666035,
+            "mean": 0.004984885946130609,
+            "rms": 0.004984885946130608
+          },
+          "max_force_atom": 40,
+          "max_delta_atom": 40
+        },
+        "amide_H": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.017152083879694767,
+            "max": 0.017152091035352316,
+            "mean": 0.01715208739985796,
+            "rms": 0.017152087399858316
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.007265510534372603,
+            "max": 0.007265510676786762,
+            "mean": 0.0072655106191933105,
+            "rms": 0.0072655106191933105
+          },
+          "max_force_atom": 65,
+          "max_delta_atom": 27
+        },
+        "carbonyl_C": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.028943339839530863,
+            "max": 0.02894379805581302,
+            "mean": 0.028943488673011317,
+            "rms": 0.028943488673611295
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0038258830675041745,
+            "max": 0.0038258831554302355,
+            "mean": 0.003825883119117663,
+            "rms": 0.0038258831191176636
+          },
+          "max_force_atom": 115,
+          "max_delta_atom": 39
+        },
+        "methylene_C": {
+          "atom_count": 40,
+          "force_norm_eV_A": {
+            "min": 0.012259880862215676,
+            "max": 0.03998346379308684,
+            "mean": 0.026617555030774852,
+            "rms": 0.028526857733303008
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.003182172696913723,
+            "max": 0.019800454932186472,
+            "mean": 0.011056639349994454,
+            "rms": 0.013092978807914322
+          },
+          "max_force_atom": 50,
+          "max_delta_atom": 50
+        },
+        "methylene_H": {
+          "atom_count": 80,
+          "force_norm_eV_A": {
+            "min": 0.010170902575524832,
+            "max": 0.03193711346267495,
+            "mean": 0.019596493747318776,
+            "rms": 0.02083095679973878
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0013686897784549374,
+            "max": 0.022861736191128586,
+            "mean": 0.006706576856774659,
+            "rms": 0.009612532225010248
+          },
+          "max_force_atom": 75,
+          "max_delta_atom": 69
+        }
+      }
+    },
+    {
+      "repeat": "1x2x1",
+      "replicas": 2,
+      "energy_delta_meV_per_PA6_repeat": -22.20603636658325,
+      "fmax_eV_A": 0.059769528822624804,
+      "removed_symmetry_force_eV_A": 3.7686128238095645e-07,
+      "replica_force_max_deviation_eV_A": 1.5368111637088108e-13,
+      "stress_voigt_GPa": [
+        -0.5170119766753803,
+        -1.9137365698350464,
+        2.578200206321132,
+        -4.145981630787676e-15,
+        1.4286228242853463e-14,
+        -0.7021266438120106
+      ],
+      "hydrostatic_pressure_GPa": -0.049150553270235015,
+      "role_summary": {
+        "all": {
+          "atom_count": 152,
+          "force_norm_eV_A": {
+            "min": 0.008846589761783584,
+            "max": 0.059769528822624804,
+            "mean": 0.026784282632631284,
+            "rms": 0.03122630022202471
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.012586810677378168,
+            "max": 0.0298576809033321,
+            "mean": 0.02020197112603016,
+            "rms": 0.02079823539632296
+          },
+          "max_force_atom": 6,
+          "max_delta_atom": 129
+        },
+        "amide_N": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.012916561371302909,
+            "max": 0.012916660159727311,
+            "mean": 0.012916624378334737,
+            "rms": 0.012916624378398175
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.018021807254011354,
+            "max": 0.018021807479715803,
+            "mean": 0.01802180734931945,
+            "rms": 0.01802180734931945
+          },
+          "max_force_atom": 76,
+          "max_delta_atom": 8
+        },
+        "carbonyl_O": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.028350031894021972,
+            "max": 0.02835014284674771,
+            "mean": 0.028350096038753436,
+            "rms": 0.0283500960387819
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.015388122986907357,
+            "max": 0.015388123148313613,
+            "mean": 0.015388123053564205,
+            "rms": 0.015388123053564205
+          },
+          "max_force_atom": 116,
+          "max_delta_atom": 116
+        },
+        "amide_H": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.01130077598337546,
+            "max": 0.011300801499555462,
+            "mean": 0.011300786872841417,
+            "rms": 0.011300786872846663
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.015721450431171208,
+            "max": 0.015721450858290117,
+            "mean": 0.01572145063662445,
+            "rms": 0.01572145063662445
+          },
+          "max_force_atom": 130,
+          "max_delta_atom": 16
+        },
+        "carbonyl_C": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.04753703909673618,
+            "max": 0.0475375265246768,
+            "mean": 0.047537205648730596,
+            "rms": 0.047537205649144536
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.02127704047941075,
+            "max": 0.0212770413387575,
+            "mean": 0.02127704104332457,
+            "rms": 0.02127704104332457
+          },
+          "max_force_atom": 115,
+          "max_delta_atom": 77
+        },
+        "methylene_C": {
+          "atom_count": 40,
+          "force_norm_eV_A": {
+            "min": 0.009950875268117951,
+            "max": 0.059769528822624804,
+            "mean": 0.030732843963667635,
+            "rms": 0.03577461082398912
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.012586810677378168,
+            "max": 0.0298576809033321,
+            "mean": 0.02104398053483884,
+            "rms": 0.02204819377160133
+          },
+          "max_force_atom": 6,
+          "max_delta_atom": 129
+        },
+        "methylene_H": {
+          "atom_count": 80,
+          "force_norm_eV_A": {
+            "min": 0.008846589761783584,
+            "max": 0.047950976896763704,
+            "mean": 0.025513243726299602,
+            "rms": 0.029613138894601567
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.013401846527052959,
+            "max": 0.027411175970874682,
+            "mean": 0.02082091266375462,
+            "rms": 0.021276030448697917
+          },
+          "max_force_atom": 75,
+          "max_delta_atom": 107
+        }
+      }
+    },
+    {
+      "repeat": "1x1x2",
+      "replicas": 2,
+      "energy_delta_meV_per_PA6_repeat": -1.6535007443962968,
+      "fmax_eV_A": 0.039081377372158006,
+      "removed_symmetry_force_eV_A": 3.767745437460967e-07,
+      "replica_force_max_deviation_eV_A": 1.9358872331185895e-13,
+      "stress_voigt_GPa": [
+        -0.5832599196486152,
+        -2.042118158028032,
+        2.6454340490191326,
+        -1.8583086313291343e-15,
+        8.29151879493423e-14,
+        -0.9551266677445788
+      ],
+      "hydrostatic_pressure_GPa": -0.006685323780828468,
+      "role_summary": {
+        "all": {
+          "atom_count": 152,
+          "force_norm_eV_A": {
+            "min": 0.011819784623345757,
+            "max": 0.039081377372158006,
+            "mean": 0.023383278465062437,
+            "rms": 0.024503952324833024
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0003552060774319491,
+            "max": 0.002101475629424813,
+            "mean": 0.0009036266976388787,
+            "rms": 0.0010272410402299573
+          },
+          "max_force_atom": 90,
+          "max_delta_atom": 47
+        },
+        "amide_N": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.019769153877671242,
+            "max": 0.01976929529202102,
+            "mean": 0.01976923973693909,
+            "rms": 0.019769239737025955
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0019029084444505437,
+            "max": 0.0019029084594702303,
+            "mean": 0.001902908452371234,
+            "rms": 0.0019029084523712338
+          },
+          "max_force_atom": 8,
+          "max_delta_atom": 38
+        },
+        "carbonyl_O": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.030230213310118284,
+            "max": 0.030230247582460117,
+            "mean": 0.030230234323578214,
+            "rms": 0.030230234323580893
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0010822980121437508,
+            "max": 0.0010822980521768423,
+            "mean": 0.001082298031380695,
+            "rms": 0.0010822980313806951
+          },
+          "max_force_atom": 116,
+          "max_delta_atom": 2
+        },
+        "amide_H": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.019495995386148515,
+            "max": 0.01949600128608614,
+            "mean": 0.019495999624178216,
+            "rms": 0.01949599962417837
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0007481657768817993,
+            "max": 0.0007481657832253023,
+            "mean": 0.0007481657808419684,
+            "rms": 0.0007481657808419685
+          },
+          "max_force_atom": 27,
+          "max_delta_atom": 27
+        },
+        "carbonyl_C": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.03393426870628917,
+            "max": 0.03393471958351751,
+            "mean": 0.03393441504918803,
+            "rms": 0.033934415049683635
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.002101475578703486,
+            "max": 0.002101475629424813,
+            "mean": 0.0021014756043910322,
+            "rms": 0.0021014756043910322
+          },
+          "max_force_atom": 47,
+          "max_delta_atom": 47
+        },
+        "methylene_C": {
+          "atom_count": 40,
+          "force_norm_eV_A": {
+            "min": 0.011819784623345757,
+            "max": 0.039081377372158006,
+            "mean": 0.025143965249597167,
+            "rms": 0.02699277119342306
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0008359338382882717,
+            "max": 0.0016064288392454301,
+            "mean": 0.0011349052657263462,
+            "rms": 0.0011809626841373898
+          },
+          "max_force_atom": 90,
+          "max_delta_atom": 45
+        },
+        "methylene_H": {
+          "atom_count": 80,
+          "force_norm_eV_A": {
+            "min": 0.012245234721602449,
+            "max": 0.032993585791666884,
+            "mean": 0.02151325758543169,
+            "rms": 0.02220147065976685
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0003552060774319491,
+            "max": 0.0006865144720507124,
+            "mean": 0.0005659533057522035,
+            "rms": 0.0005751098395078014
+          },
+          "max_force_atom": 75,
+          "max_delta_atom": 146
+        }
+      }
+    }
+  ]
+}

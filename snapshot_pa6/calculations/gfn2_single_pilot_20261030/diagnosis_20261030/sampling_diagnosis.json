@@ -1,0 +1,1652 @@
+{
+  "scope": "Same final geometry, fixed cell, accuracy .01; saved single points only; zero new quantum calls",
+  "reference": "final_cold_tight/result.json",
+  "points": [
+    {
+      "repeat": "1x1x1",
+      "replicas": 1,
+      "energy_delta_meV_per_PA6_repeat": 0.0,
+      "fmax_eV_A": 0.038286241539577416,
+      "removed_symmetry_force_eV_A": 3.767487380141162e-07,
+      "replica_force_max_deviation_eV_A": 0.0,
+      "stress_voigt_GPa": [
+        -0.5859599361661476,
+        -2.0474406385216444,
+        2.6392181704910564,
+        -2.451249513798511e-15,
+        4.113085503541586e-14,
+        -0.954998737784283
+      ],
+      "hydrostatic_pressure_GPa": -0.0019391986010880904,
+      "role_summary": {
+        "all": {
+          "atom_count": 152,
+          "force_norm_eV_A": {
+            "min": 0.011923696362666677,
+            "max": 0.038286241539577416,
+            "mean": 0.02337086539654711,
+            "rms": 0.024446904120271038
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 90,
+          "max_delta_atom": 0
+        },
+        "amide_N": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.0211719326773313,
+            "max": 0.021172075749988035,
+            "mean": 0.021172019084661785,
+            "rms": 0.021172019084745242
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 8,
+          "max_delta_atom": 0
+        },
+        "carbonyl_O": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.0305770546398543,
+            "max": 0.030577080748256838,
+            "mean": 0.030577071473042283,
+            "rms": 0.030577071473043914
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 116,
+          "max_delta_atom": 2
+        },
+        "amide_H": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.020164288670130672,
+            "max": 0.020164295332614764,
+            "mean": 0.020164293358986146,
+            "rms": 0.020164293358986334
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 27,
+          "max_delta_atom": 16
+        },
+        "carbonyl_C": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.03232016744152052,
+            "max": 0.03232060441493449,
+            "mean": 0.032320308267171846,
+            "rms": 0.032320308267661114
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 115,
+          "max_delta_atom": 1
+        },
+        "methylene_C": {
+          "atom_count": 40,
+          "force_norm_eV_A": {
+            "min": 0.012596310837955208,
+            "max": 0.038286241539577416,
+            "mean": 0.025263146376375816,
+            "rms": 0.02700148826517847
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 90,
+          "max_delta_atom": 3
+        },
+        "methylene_H": {
+          "atom_count": 80,
+          "force_norm_eV_A": {
+            "min": 0.011923696362666677,
+            "max": 0.0332549202835938,
+            "mean": 0.021349701846865392,
+            "rms": 0.02208066283515865
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "rms": 0.0
+          },
+          "max_force_atom": 75,
+          "max_delta_atom": 17
+        }
+      }
+    },
+    {
+      "repeat": "2x1x1",
+      "replicas": 2,
+      "energy_delta_meV_per_PA6_repeat": -10.533096023323196,
+      "fmax_eV_A": 0.03998346379308684,
+      "removed_symmetry_force_eV_A": 3.7681271636609426e-07,
+      "replica_force_max_deviation_eV_A": 3.2464697431820825e-13,
+      "stress_voigt_GPa": [
+        -0.5454865040542203,
+        -2.027849461888789,
+        2.7092320291492427,
+        3.779117586164583e-16,
+        5.230638516412111e-14,
+        -0.9452800261558646
+      ],
+      "hydrostatic_pressure_GPa": -0.0452986877354112,
+      "role_summary": {
+        "all": {
+          "atom_count": 152,
+          "force_norm_eV_A": {
+            "min": 0.010170902575524832,
+            "max": 0.03998346379308684,
+            "mean": 0.022621526131443952,
+            "rms": 0.02410498409326257
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0013686897784549374,
+            "max": 0.022861736191128586,
+            "mean": 0.007573179913367598,
+            "rms": 0.010008629071564747
+          },
+          "max_force_atom": 50,
+          "max_delta_atom": 69
+        },
+        "amide_N": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.02560643167412102,
+            "max": 0.025606605469688338,
+            "mean": 0.025606534774435467,
+            "rms": 0.02560653477453998
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0054651723715854975,
+            "max": 0.005465173726333046,
+            "mean": 0.005465173351823922,
+            "rms": 0.005465173351823951
+          },
+          "max_force_atom": 8,
+          "max_delta_atom": 8
+        },
+        "carbonyl_O": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.029054161608011695,
+            "max": 0.02905417839433619,
+            "mean": 0.0290541730230683,
+            "rms": 0.029054173023069098
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.004984885920270568,
+            "max": 0.0049848859810666035,
+            "mean": 0.004984885946130609,
+            "rms": 0.004984885946130608
+          },
+          "max_force_atom": 40,
+          "max_delta_atom": 40
+        },
+        "amide_H": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.017152083879694767,
+            "max": 0.017152091035352316,
+            "mean": 0.01715208739985796,
+            "rms": 0.017152087399858316
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.007265510534372603,
+            "max": 0.007265510676786762,
+            "mean": 0.0072655106191933105,
+            "rms": 0.0072655106191933105
+          },
+          "max_force_atom": 65,
+          "max_delta_atom": 27
+        },
+        "carbonyl_C": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.028943339839530863,
+            "max": 0.02894379805581302,
+            "mean": 0.028943488673011317,
+            "rms": 0.028943488673611295
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0038258830675041745,
+            "max": 0.0038258831554302355,
+            "mean": 0.003825883119117663,
+            "rms": 0.0038258831191176636
+          },
+          "max_force_atom": 115,
+          "max_delta_atom": 39
+        },
+        "methylene_C": {
+          "atom_count": 40,
+          "force_norm_eV_A": {
+            "min": 0.012259880862215676,
+            "max": 0.03998346379308684,
+            "mean": 0.026617555030774852,
+            "rms": 0.028526857733303008
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.003182172696913723,
+            "max": 0.019800454932186472,
+            "mean": 0.011056639349994454,
+            "rms": 0.013092978807914322
+          },
+          "max_force_atom": 50,
+          "max_delta_atom": 50
+        },
+        "methylene_H": {
+          "atom_count": 80,
+          "force_norm_eV_A": {
+            "min": 0.010170902575524832,
+            "max": 0.03193711346267495,
+            "mean": 0.019596493747318776,
+            "rms": 0.02083095679973878
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0013686897784549374,
+            "max": 0.022861736191128586,
+            "mean": 0.006706576856774659,
+            "rms": 0.009612532225010248
+          },
+          "max_force_atom": 75,
+          "max_delta_atom": 69
+        }
+      }
+    },
+    {
+      "repeat": "1x2x1",
+      "replicas": 2,
+      "energy_delta_meV_per_PA6_repeat": -22.20603636658325,
+      "fmax_eV_A": 0.059769528822624804,
+      "removed_symmetry_force_eV_A": 3.7686128238095645e-07,
+      "replica_force_max_deviation_eV_A": 1.5368111637088108e-13,
+      "stress_voigt_GPa": [
+        -0.5170119766753803,
+        -1.9137365698350464,
+        2.578200206321132,
+        -4.145981630787676e-15,
+        1.4286228242853463e-14,
+        -0.7021266438120106
+      ],
+      "hydrostatic_pressure_GPa": -0.049150553270235015,
+      "role_summary": {
+        "all": {
+          "atom_count": 152,
+          "force_norm_eV_A": {
+            "min": 0.008846589761783584,
+            "max": 0.059769528822624804,
+            "mean": 0.026784282632631284,
+            "rms": 0.03122630022202471
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.012586810677378168,
+            "max": 0.0298576809033321,
+            "mean": 0.02020197112603016,
+            "rms": 0.02079823539632296
+          },
+          "max_force_atom": 6,
+          "max_delta_atom": 129
+        },
+        "amide_N": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.012916561371302909,
+            "max": 0.012916660159727311,
+            "mean": 0.012916624378334737,
+            "rms": 0.012916624378398175
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.018021807254011354,
+            "max": 0.018021807479715803,
+            "mean": 0.01802180734931945,
+            "rms": 0.01802180734931945
+          },
+          "max_force_atom": 76,
+          "max_delta_atom": 8
+        },
+        "carbonyl_O": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.028350031894021972,
+            "max": 0.02835014284674771,
+            "mean": 0.028350096038753436,
+            "rms": 0.0283500960387819
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.015388122986907357,
+            "max": 0.015388123148313613,
+            "mean": 0.015388123053564205,
+            "rms": 0.015388123053564205
+          },
+          "max_force_atom": 116,
+          "max_delta_atom": 116
+        },
+        "amide_H": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.01130077598337546,
+            "max": 0.011300801499555462,
+            "mean": 0.011300786872841417,
+            "rms": 0.011300786872846663
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.015721450431171208,
+            "max": 0.015721450858290117,
+            "mean": 0.01572145063662445,
+            "rms": 0.01572145063662445
+          },
+          "max_force_atom": 130,
+          "max_delta_atom": 16
+        },
+        "carbonyl_C": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.04753703909673618,
+            "max": 0.0475375265246768,
+            "mean": 0.047537205648730596,
+            "rms": 0.047537205649144536
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.02127704047941075,
+            "max": 0.0212770413387575,
+            "mean": 0.02127704104332457,
+            "rms": 0.02127704104332457
+          },
+          "max_force_atom": 115,
+          "max_delta_atom": 77
+        },
+        "methylene_C": {
+          "atom_count": 40,
+          "force_norm_eV_A": {
+            "min": 0.009950875268117951,
+            "max": 0.059769528822624804,
+            "mean": 0.030732843963667635,
+            "rms": 0.03577461082398912
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.012586810677378168,
+            "max": 0.0298576809033321,
+            "mean": 0.02104398053483884,
+            "rms": 0.02204819377160133
+          },
+          "max_force_atom": 6,
+          "max_delta_atom": 129
+        },
+        "methylene_H": {
+          "atom_count": 80,
+          "force_norm_eV_A": {
+            "min": 0.008846589761783584,
+            "max": 0.047950976896763704,
+            "mean": 0.025513243726299602,
+            "rms": 0.029613138894601567
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.013401846527052959,
+            "max": 0.027411175970874682,
+            "mean": 0.02082091266375462,
+            "rms": 0.021276030448697917
+          },
+          "max_force_atom": 75,
+          "max_delta_atom": 107
+        }
+      }
+    },
+    {
+      "repeat": "1x1x2",
+      "replicas": 2,
+      "energy_delta_meV_per_PA6_repeat": -1.6535007443962968,
+      "fmax_eV_A": 0.039081377372158006,
+      "removed_symmetry_force_eV_A": 3.767745437460967e-07,
+      "replica_force_max_deviation_eV_A": 1.9358872331185895e-13,
+      "stress_voigt_GPa": [
+        -0.5832599196486152,
+        -2.042118158028032,
+        2.6454340490191326,
+        -1.8583086313291343e-15,
+        8.29151879493423e-14,
+        -0.9551266677445788
+      ],
+      "hydrostatic_pressure_GPa": -0.006685323780828468,
+      "role_summary": {
+        "all": {
+          "atom_count": 152,
+          "force_norm_eV_A": {
+            "min": 0.011819784623345757,
+            "max": 0.039081377372158006,
+            "mean": 0.023383278465062437,
+            "rms": 0.024503952324833024
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0003552060774319491,
+            "max": 0.002101475629424813,
+            "mean": 0.0009036266976388787,
+            "rms": 0.0010272410402299573
+          },
+          "max_force_atom": 90,
+          "max_delta_atom": 47
+        },
+        "amide_N": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.019769153877671242,
+            "max": 0.01976929529202102,
+            "mean": 0.01976923973693909,
+            "rms": 0.019769239737025955
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0019029084444505437,
+            "max": 0.0019029084594702303,
+            "mean": 0.001902908452371234,
+            "rms": 0.0019029084523712338
+          },
+          "max_force_atom": 8,
+          "max_delta_atom": 38
+        },
+        "carbonyl_O": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.030230213310118284,
+            "max": 0.030230247582460117,
+            "mean": 0.030230234323578214,
+            "rms": 0.030230234323580893
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0010822980121437508,
+            "max": 0.0010822980521768423,
+            "mean": 0.001082298031380695,
+            "rms": 0.0010822980313806951
+          },
+          "max_force_atom": 116,
+          "max_delta_atom": 2
+        },
+        "amide_H": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.019495995386148515,
+            "max": 0.01949600128608614,
+            "mean": 0.019495999624178216,
+            "rms": 0.01949599962417837
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0007481657768817993,
+            "max": 0.0007481657832253023,
+            "mean": 0.0007481657808419684,
+            "rms": 0.0007481657808419685
+          },
+          "max_force_atom": 27,
+          "max_delta_atom": 27
+        },
+        "carbonyl_C": {
+          "atom_count": 8,
+          "force_norm_eV_A": {
+            "min": 0.03393426870628917,
+            "max": 0.03393471958351751,
+            "mean": 0.03393441504918803,
+            "rms": 0.033934415049683635
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.002101475578703486,
+            "max": 0.002101475629424813,
+            "mean": 0.0021014756043910322,
+            "rms": 0.0021014756043910322
+          },
+          "max_force_atom": 47,
+          "max_delta_atom": 47
+        },
+        "methylene_C": {
+          "atom_count": 40,
+          "force_norm_eV_A": {
+            "min": 0.011819784623345757,
+            "max": 0.039081377372158006,
+            "mean": 0.025143965249597167,
+            "rms": 0.02699277119342306
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0008359338382882717,
+            "max": 0.0016064288392454301,
+            "mean": 0.0011349052657263462,
+            "rms": 0.0011809626841373898
+          },
+          "max_force_atom": 90,
+          "max_delta_atom": 45
+        },
+        "methylene_H": {
+          "atom_count": 80,
+          "force_norm_eV_A": {
+            "min": 0.012245234721602449,
+            "max": 0.032993585791666884,
+            "mean": 0.02151325758543169,
+            "rms": 0.02220147065976685
+          },
+          "delta_force_norm_eV_A": {
+            "min": 0.0003552060774319491,
+            "max": 0.0006865144720507124,
+            "mean": 0.0005659533057522035,
+            "rms": 0.0005751098395078014
+          },
+          "max_force_atom": 75,
+          "max_delta_atom": 146
+        }
+      }
+    }
+  ],
+  "contact_force_projection_definition": {
+    "u": "unit vector H to selected periodic O image",
+    "HO_generalized_closing_force": "(F_H-F_O) dot u / 2, for H += q*u/2 and O -= q*u/2; q>0 reduces H-O separation",
+    "sign": "Positive favors approach along this artificial pair coordinate; negative favors separation.",
+    "limitation": "Current residual-force projection, NOT a measured hydrogen-bond attraction, isolated pair interaction, curvature or restoring force. Moving H alone distorts N-H; this is a diagnostic projection only."
+  },
+  "contacts": [
+    {
+      "N": 0,
+      "H": 16,
+      "O": 48,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        -1,
+        0
+      ],
+      "N_O_A": 3.0059171132305025,
+      "H_O_A": 2.6998865183352723,
+      "N_H_O_deg": 97.68627213474389,
+      "H_to_O_unit": [
+        0.4280092341156069,
+        -0.8170141442343664,
+        0.3863883844433699
+      ],
+      "N_to_O_unit": [
+        0.10765410978480228,
+        -0.9219636466719435,
+        0.3720129391053671
+      ],
+      "selection": "H_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798309440004917,
+          "O_toward_H_eV_A": 0.0028885280196051747,
+          "HO_generalized_closing_force_eV_A": 0.007843418729805044,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374119940735927
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571706606903828,
+          "O_toward_H_eV_A": -0.0017649144318280065,
+          "HO_generalized_closing_force_eV_A": 0.00640339608753791,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400226422671362,
+          "NO_generalized_closing_force_eV_A": 0.004248498047137432
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512673465374716,
+          "O_toward_H_eV_A": -0.006032659239258423,
+          "HO_generalized_closing_force_eV_A": -0.0007599928869418528,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411616746898,
+          "NO_generalized_closing_force_eV_A": 0.0055044058415858995
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574465718078496,
+          "O_toward_H_eV_A": 0.0030867678005504435,
+          "HO_generalized_closing_force_eV_A": 0.007830616759314471,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801970490575527e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952663029152645
+        }
+      }
+    },
+    {
+      "N": 0,
+      "H": 16,
+      "O": 48,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        -1,
+        0
+      ],
+      "N_O_A": 3.0059171132305025,
+      "H_O_A": 2.6998865183352723,
+      "N_H_O_deg": 97.68627213474389,
+      "H_to_O_unit": [
+        0.4280092341156069,
+        -0.8170141442343664,
+        0.3863883844433699
+      ],
+      "N_to_O_unit": [
+        0.10765410978480228,
+        -0.9219636466719435,
+        0.3720129391053671
+      ],
+      "selection": "N_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798309440004917,
+          "O_toward_H_eV_A": 0.0028885280196051747,
+          "HO_generalized_closing_force_eV_A": 0.007843418729805044,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374119940735927
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571706606903828,
+          "O_toward_H_eV_A": -0.0017649144318280065,
+          "HO_generalized_closing_force_eV_A": 0.00640339608753791,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400226422671362,
+          "NO_generalized_closing_force_eV_A": 0.004248498047137432
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512673465374716,
+          "O_toward_H_eV_A": -0.006032659239258423,
+          "HO_generalized_closing_force_eV_A": -0.0007599928869418528,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411616746898,
+          "NO_generalized_closing_force_eV_A": 0.0055044058415858995
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574465718078496,
+          "O_toward_H_eV_A": 0.0030867678005504435,
+          "HO_generalized_closing_force_eV_A": 0.007830616759314471,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801970490575527e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952663029152645
+        }
+      }
+    },
+    {
+      "N": 8,
+      "H": 27,
+      "O": 40,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        0,
+        0
+      ],
+      "N_O_A": 3.0059171090063272,
+      "H_O_A": 2.6998865109625974,
+      "N_H_O_deg": 97.68627230886756,
+      "H_to_O_unit": [
+        -0.4280092312428345,
+        0.8170141452403287,
+        0.38638838549849397
+      ],
+      "N_to_O_unit": [
+        -0.10765410630600289,
+        0.9219636468672052,
+        0.37201293962815196
+      ],
+      "selection": "H_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798297466777301,
+          "O_toward_H_eV_A": 0.0028884920155440685,
+          "HO_generalized_closing_force_eV_A": 0.007843394741160685,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.00537408175128376
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571694834116605,
+          "O_toward_H_eV_A": -0.00176495051678536,
+          "HO_generalized_closing_force_eV_A": 0.006403372158665624,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.001440022582495061,
+          "NO_generalized_closing_force_eV_A": 0.004248459697372248
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512662022368196,
+          "O_toward_H_eV_A": -0.006032694724840894,
+          "HO_generalized_closing_force_eV_A": -0.0007600163512363491,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411092397035,
+          "NO_generalized_closing_force_eV_A": 0.005504368087274871
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574453738675207,
+          "O_toward_H_eV_A": 0.0030867318124328516,
+          "HO_generalized_closing_force_eV_A": 0.00783059277555403,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.280196560665433e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952624838489222
+        }
+      }
+    },
+    {
+      "N": 8,
+      "H": 27,
+      "O": 40,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        0,
+        0
+      ],
+      "N_O_A": 3.0059171090063272,
+      "H_O_A": 2.6998865109625974,
+      "N_H_O_deg": 97.68627230886756,
+      "H_to_O_unit": [
+        -0.4280092312428345,
+        0.8170141452403287,
+        0.38638838549849397
+      ],
+      "N_to_O_unit": [
+        -0.10765410630600289,
+        0.9219636468672052,
+        0.37201293962815196
+      ],
+      "selection": "N_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798297466777301,
+          "O_toward_H_eV_A": 0.0028884920155440685,
+          "HO_generalized_closing_force_eV_A": 0.007843394741160685,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.00537408175128376
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571694834116605,
+          "O_toward_H_eV_A": -0.00176495051678536,
+          "HO_generalized_closing_force_eV_A": 0.006403372158665624,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.001440022582495061,
+          "NO_generalized_closing_force_eV_A": 0.004248459697372248
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512662022368196,
+          "O_toward_H_eV_A": -0.006032694724840894,
+          "HO_generalized_closing_force_eV_A": -0.0007600163512363491,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411092397035,
+          "NO_generalized_closing_force_eV_A": 0.005504368087274871
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574453738675207,
+          "O_toward_H_eV_A": 0.0030867318124328516,
+          "HO_generalized_closing_force_eV_A": 0.00783059277555403,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.280196560665433e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952624838489222
+        }
+      }
+    },
+    {
+      "N": 38,
+      "H": 54,
+      "O": 10,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        1,
+        0
+      ],
+      "N_O_A": 3.0059171121539614,
+      "H_O_A": 2.6998865140551795,
+      "N_H_O_deg": 97.68627232361357,
+      "H_to_O_unit": [
+        -0.42800923109026484,
+        0.8170141455295674,
+        0.3863883850559058
+      ],
+      "N_to_O_unit": [
+        -0.10765410649658605,
+        0.921963647002136,
+        0.3720129392386001
+      ],
+      "selection": "H_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798297713581383,
+          "O_toward_H_eV_A": 0.002888490939949257,
+          "HO_generalized_closing_force_eV_A": 0.007843394326765318,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374081541942983
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571694811905777,
+          "O_toward_H_eV_A": -0.0017649515512312506,
+          "HO_generalized_closing_force_eV_A": 0.006403371630337264,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400226964280554,
+          "NO_generalized_closing_force_eV_A": 0.004248459504709456
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512662025050083,
+          "O_toward_H_eV_A": -0.006032695835492195,
+          "HO_generalized_closing_force_eV_A": -0.000760016905221056,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411231986375,
+          "NO_generalized_closing_force_eV_A": 0.005504367794885792
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574453994649962,
+          "O_toward_H_eV_A": 0.0030867307369664867,
+          "HO_generalized_closing_force_eV_A": 0.007830592365808225,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801960957094287e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952624630239181
+        }
+      }
+    },
+    {
+      "N": 38,
+      "H": 54,
+      "O": 10,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        1,
+        0
+      ],
+      "N_O_A": 3.0059171121539614,
+      "H_O_A": 2.6998865140551795,
+      "N_H_O_deg": 97.68627232361357,
+      "H_to_O_unit": [
+        -0.42800923109026484,
+        0.8170141455295674,
+        0.3863883850559058
+      ],
+      "N_to_O_unit": [
+        -0.10765410649658605,
+        0.921963647002136,
+        0.3720129392386001
+      ],
+      "selection": "N_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798297713581383,
+          "O_toward_H_eV_A": 0.002888490939949257,
+          "HO_generalized_closing_force_eV_A": 0.007843394326765318,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374081541942983
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571694811905777,
+          "O_toward_H_eV_A": -0.0017649515512312506,
+          "HO_generalized_closing_force_eV_A": 0.006403371630337264,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400226964280554,
+          "NO_generalized_closing_force_eV_A": 0.004248459504709456
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512662025050083,
+          "O_toward_H_eV_A": -0.006032695835492195,
+          "HO_generalized_closing_force_eV_A": -0.000760016905221056,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411231986375,
+          "NO_generalized_closing_force_eV_A": 0.005504367794885792
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574453994649962,
+          "O_toward_H_eV_A": 0.0030867307369664867,
+          "HO_generalized_closing_force_eV_A": 0.007830592365808225,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801960957094287e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952624630239181
+        }
+      }
+    },
+    {
+      "N": 46,
+      "H": 65,
+      "O": 2,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        0,
+        0
+      ],
+      "N_O_A": 3.0059171100828688,
+      "H_O_A": 2.69988651524269,
+      "N_H_O_deg": 97.68627211999787,
+      "H_to_O_unit": [
+        0.4280092342681768,
+        -0.8170141439451275,
+        0.3863883848859581
+      ],
+      "N_to_O_unit": [
+        0.10765410959421925,
+        -0.9219636465370126,
+        0.3720129394949189
+      ],
+      "selection": "H_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798313959510059,
+          "O_toward_H_eV_A": 0.0028884951042350577,
+          "HO_generalized_closing_force_eV_A": 0.007843404531872558,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374044384863342
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571711406786867,
+          "O_toward_H_eV_A": -0.0017649473552344799,
+          "HO_generalized_closing_force_eV_A": 0.006403382025776193,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400225060963645,
+          "NO_generalized_closing_force_eV_A": 0.00424842230810377
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.0045126782699433194,
+          "O_toward_H_eV_A": -0.006032692210376563,
+          "HO_generalized_closing_force_eV_A": -0.0007600069702166221,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.00860341150208918,
+          "NO_generalized_closing_force_eV_A": 0.005504329994676208
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574470230080253,
+          "O_toward_H_eV_A": 0.0030867348918517164,
+          "HO_generalized_closing_force_eV_A": 0.007830602560965984,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801970906573427e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952587468104346
+        }
+      }
+    },
+    {
+      "N": 46,
+      "H": 65,
+      "O": 2,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        0,
+        0
+      ],
+      "N_O_A": 3.0059171100828688,
+      "H_O_A": 2.69988651524269,
+      "N_H_O_deg": 97.68627211999787,
+      "H_to_O_unit": [
+        0.4280092342681768,
+        -0.8170141439451275,
+        0.3863883848859581
+      ],
+      "N_to_O_unit": [
+        0.10765410959421925,
+        -0.9219636465370126,
+        0.3720129394949189
+      ],
+      "selection": "N_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798313959510059,
+          "O_toward_H_eV_A": 0.0028884951042350577,
+          "HO_generalized_closing_force_eV_A": 0.007843404531872558,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374044384863342
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571711406786867,
+          "O_toward_H_eV_A": -0.0017649473552344799,
+          "HO_generalized_closing_force_eV_A": 0.006403382025776193,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400225060963645,
+          "NO_generalized_closing_force_eV_A": 0.00424842230810377
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.0045126782699433194,
+          "O_toward_H_eV_A": -0.006032692210376563,
+          "HO_generalized_closing_force_eV_A": -0.0007600069702166221,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.00860341150208918,
+          "NO_generalized_closing_force_eV_A": 0.005504329994676208
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574470230080253,
+          "O_toward_H_eV_A": 0.0030867348918517164,
+          "HO_generalized_closing_force_eV_A": 0.007830602560965984,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801970906573427e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952587468104346
+        }
+      }
+    },
+    {
+      "N": 76,
+      "H": 92,
+      "O": 124,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        0,
+        0
+      ],
+      "N_O_A": 3.005917109006327,
+      "H_O_A": 2.6998865109625974,
+      "N_H_O_deg": 97.68627230886753,
+      "H_to_O_unit": [
+        -0.4280092312428347,
+        0.8170141452403287,
+        -0.38638838549849397
+      ],
+      "N_to_O_unit": [
+        -0.10765410630600275,
+        0.9219636468672053,
+        -0.37201293962815196
+      ],
+      "selection": "H_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.0127982974667734,
+          "O_toward_H_eV_A": 0.0028884920155648184,
+          "HO_generalized_closing_force_eV_A": 0.007843394741169109,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374081751296248
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571694834125825,
+          "O_toward_H_eV_A": -0.0017649505167581243,
+          "HO_generalized_closing_force_eV_A": 0.006403372158683851,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400225824852582,
+          "NO_generalized_closing_force_eV_A": 0.004248459697399196
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512662022371452,
+          "O_toward_H_eV_A": -0.006032694724814393,
+          "HO_generalized_closing_force_eV_A": -0.0007600163512214708,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411092390581,
+          "NO_generalized_closing_force_eV_A": 0.005504368087295365
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574453738663423,
+          "O_toward_H_eV_A": 0.003086731812446975,
+          "HO_generalized_closing_force_eV_A": 0.007830592775555199,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801965613911228e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952624838509208
+        }
+      }
+    },
+    {
+      "N": 76,
+      "H": 92,
+      "O": 124,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        0,
+        0
+      ],
+      "N_O_A": 3.005917109006327,
+      "H_O_A": 2.6998865109625974,
+      "N_H_O_deg": 97.68627230886753,
+      "H_to_O_unit": [
+        -0.4280092312428347,
+        0.8170141452403287,
+        -0.38638838549849397
+      ],
+      "N_to_O_unit": [
+        -0.10765410630600275,
+        0.9219636468672053,
+        -0.37201293962815196
+      ],
+      "selection": "N_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.0127982974667734,
+          "O_toward_H_eV_A": 0.0028884920155648184,
+          "HO_generalized_closing_force_eV_A": 0.007843394741169109,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374081751296248
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571694834125825,
+          "O_toward_H_eV_A": -0.0017649505167581243,
+          "HO_generalized_closing_force_eV_A": 0.006403372158683851,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400225824852582,
+          "NO_generalized_closing_force_eV_A": 0.004248459697399196
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512662022371452,
+          "O_toward_H_eV_A": -0.006032694724814393,
+          "HO_generalized_closing_force_eV_A": -0.0007600163512214708,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411092390581,
+          "NO_generalized_closing_force_eV_A": 0.005504368087295365
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574453738663423,
+          "O_toward_H_eV_A": 0.003086731812446975,
+          "HO_generalized_closing_force_eV_A": 0.007830592775555199,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801965613911228e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952624838509208
+        }
+      }
+    },
+    {
+      "N": 84,
+      "H": 103,
+      "O": 116,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        -1,
+        0
+      ],
+      "N_O_A": 3.005917113230502,
+      "H_O_A": 2.6998865183352723,
+      "N_H_O_deg": 97.68627213474385,
+      "H_to_O_unit": [
+        0.42800923411560693,
+        -0.8170141442343664,
+        -0.3863883844433699
+      ],
+      "N_to_O_unit": [
+        0.10765410978480229,
+        -0.9219636466719436,
+        -0.37201293910536654
+      ],
+      "selection": "H_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798309439988378,
+          "O_toward_H_eV_A": 0.0028885280195987905,
+          "HO_generalized_closing_force_eV_A": 0.007843418729793585,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374119940749688
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571706606900754,
+          "O_toward_H_eV_A": -0.0017649144318760863,
+          "HO_generalized_closing_force_eV_A": 0.006403396087512335,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400226422812499,
+          "NO_generalized_closing_force_eV_A": 0.0042484980471459355
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512673465374202,
+          "O_toward_H_eV_A": -0.006032659239257853,
+          "HO_generalized_closing_force_eV_A": -0.0007599928869418262,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411616735411,
+          "NO_generalized_closing_force_eV_A": 0.005504405841588589
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574465718083572,
+          "O_toward_H_eV_A": 0.003086767800532691,
+          "HO_generalized_closing_force_eV_A": 0.007830616759308132,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801970485453256e-05,
+          "NO_generalized_closing_force_eV_A": 0.0059526630291173175
+        }
+      }
+    },
+    {
+      "N": 84,
+      "H": 103,
+      "O": 116,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        -1,
+        0
+      ],
+      "N_O_A": 3.005917113230502,
+      "H_O_A": 2.6998865183352723,
+      "N_H_O_deg": 97.68627213474385,
+      "H_to_O_unit": [
+        0.42800923411560693,
+        -0.8170141442343664,
+        -0.3863883844433699
+      ],
+      "N_to_O_unit": [
+        0.10765410978480229,
+        -0.9219636466719436,
+        -0.37201293910536654
+      ],
+      "selection": "N_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798309439988378,
+          "O_toward_H_eV_A": 0.0028885280195987905,
+          "HO_generalized_closing_force_eV_A": 0.007843418729793585,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374119940749688
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571706606900754,
+          "O_toward_H_eV_A": -0.0017649144318760863,
+          "HO_generalized_closing_force_eV_A": 0.006403396087512335,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400226422812499,
+          "NO_generalized_closing_force_eV_A": 0.0042484980471459355
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512673465374202,
+          "O_toward_H_eV_A": -0.006032659239257853,
+          "HO_generalized_closing_force_eV_A": -0.0007599928869418262,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411616735411,
+          "NO_generalized_closing_force_eV_A": 0.005504405841588589
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574465718083572,
+          "O_toward_H_eV_A": 0.003086767800532691,
+          "HO_generalized_closing_force_eV_A": 0.007830616759308132,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801970485453256e-05,
+          "NO_generalized_closing_force_eV_A": 0.0059526630291173175
+        }
+      }
+    },
+    {
+      "N": 114,
+      "H": 130,
+      "O": 86,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        0,
+        0
+      ],
+      "N_O_A": 3.005917110082868,
+      "H_O_A": 2.6998865152426896,
+      "N_H_O_deg": 97.68627211999781,
+      "H_to_O_unit": [
+        0.42800923426817666,
+        -0.8170141439451276,
+        -0.38638838488595817
+      ],
+      "N_to_O_unit": [
+        0.10765410959421884,
+        -0.9219636465370128,
+        -0.3720129394949184
+      ],
+      "selection": "H_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798313959512359,
+          "O_toward_H_eV_A": 0.00288849510421602,
+          "HO_generalized_closing_force_eV_A": 0.00784340453186419,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374044384853566
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571711406801508,
+          "O_toward_H_eV_A": -0.0017649473552026694,
+          "HO_generalized_closing_force_eV_A": 0.006403382025799418,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400225060647706,
+          "NO_generalized_closing_force_eV_A": 0.004248422308043353
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512678269944714,
+          "O_toward_H_eV_A": -0.006032692210411814,
+          "HO_generalized_closing_force_eV_A": -0.0007600069702335496,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.00860341150209774,
+          "NO_generalized_closing_force_eV_A": 0.005504329994651947
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574470230090354,
+          "O_toward_H_eV_A": 0.003086734891841658,
+          "HO_generalized_closing_force_eV_A": 0.007830602560966007,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801970898183014e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952587468053407
+        }
+      }
+    },
+    {
+      "N": 114,
+      "H": 130,
+      "O": 86,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        0,
+        0
+      ],
+      "N_O_A": 3.005917110082868,
+      "H_O_A": 2.6998865152426896,
+      "N_H_O_deg": 97.68627211999781,
+      "H_to_O_unit": [
+        0.42800923426817666,
+        -0.8170141439451276,
+        -0.38638838488595817
+      ],
+      "N_to_O_unit": [
+        0.10765410959421884,
+        -0.9219636465370128,
+        -0.3720129394949184
+      ],
+      "selection": "N_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798313959512359,
+          "O_toward_H_eV_A": 0.00288849510421602,
+          "HO_generalized_closing_force_eV_A": 0.00784340453186419,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374044384853566
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571711406801508,
+          "O_toward_H_eV_A": -0.0017649473552026694,
+          "HO_generalized_closing_force_eV_A": 0.006403382025799418,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400225060647706,
+          "NO_generalized_closing_force_eV_A": 0.004248422308043353
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512678269944714,
+          "O_toward_H_eV_A": -0.006032692210411814,
+          "HO_generalized_closing_force_eV_A": -0.0007600069702335496,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.00860341150209774,
+          "NO_generalized_closing_force_eV_A": 0.005504329994651947
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574470230090354,
+          "O_toward_H_eV_A": 0.003086734891841658,
+          "HO_generalized_closing_force_eV_A": 0.007830602560966007,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801970898183014e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952587468053407
+        }
+      }
+    },
+    {
+      "N": 122,
+      "H": 141,
+      "O": 78,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        1,
+        0
+      ],
+      "N_O_A": 3.005917112153961,
+      "H_O_A": 2.699886514055179,
+      "N_H_O_deg": 97.68627232361361,
+      "H_to_O_unit": [
+        -0.42800923109026445,
+        0.8170141455295675,
+        -0.38638838505590584
+      ],
+      "N_to_O_unit": [
+        -0.10765410649658591,
+        0.9219636470021362,
+        -0.3720129392386001
+      ],
+      "selection": "H_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798297713590664,
+          "O_toward_H_eV_A": 0.002888490939970387,
+          "HO_generalized_closing_force_eV_A": 0.007843394326780526,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374081541936445
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571694811910663,
+          "O_toward_H_eV_A": -0.001764951551218822,
+          "HO_generalized_closing_force_eV_A": 0.006403371630345921,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400226964346055,
+          "NO_generalized_closing_force_eV_A": 0.00424845950467789
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512662025065624,
+          "O_toward_H_eV_A": -0.00603269583549593,
+          "HO_generalized_closing_force_eV_A": -0.0007600169052151532,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411231995681,
+          "NO_generalized_closing_force_eV_A": 0.005504367794908628
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574453994653694,
+          "O_toward_H_eV_A": 0.0030867307369828573,
+          "HO_generalized_closing_force_eV_A": 0.007830592365818274,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801960962252475e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952624630246085
+        }
+      }
+    },
+    {
+      "N": 122,
+      "H": 141,
+      "O": 78,
+      "donor_NH_image_shift": [
+        0,
+        0,
+        0
+      ],
+      "oxygen_image_from_N": [
+        0,
+        1,
+        0
+      ],
+      "N_O_A": 3.005917112153961,
+      "H_O_A": 2.699886514055179,
+      "N_H_O_deg": 97.68627232361361,
+      "H_to_O_unit": [
+        -0.42800923109026445,
+        0.8170141455295675,
+        -0.38638838505590584
+      ],
+      "N_to_O_unit": [
+        -0.10765410649658591,
+        0.9219636470021362,
+        -0.3720129392386001
+      ],
+      "selection": "N_O_A",
+      "force_projections": {
+        "1x1x1": {
+          "H_toward_O_eV_A": 0.012798297713590664,
+          "O_toward_H_eV_A": 0.002888490939970387,
+          "HO_generalized_closing_force_eV_A": 0.007843394326780526,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": 0.0,
+          "NO_generalized_closing_force_eV_A": 0.005374081541936445
+        },
+        "2x1x1": {
+          "H_toward_O_eV_A": 0.014571694811910663,
+          "O_toward_H_eV_A": -0.001764951551218822,
+          "HO_generalized_closing_force_eV_A": 0.006403371630345921,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.0014400226964346055,
+          "NO_generalized_closing_force_eV_A": 0.00424845950467789
+        },
+        "1x2x1": {
+          "H_toward_O_eV_A": 0.004512662025065624,
+          "O_toward_H_eV_A": -0.00603269583549593,
+          "HO_generalized_closing_force_eV_A": -0.0007600169052151532,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -0.008603411231995681,
+          "NO_generalized_closing_force_eV_A": 0.005504367794908628
+        },
+        "1x1x2": {
+          "H_toward_O_eV_A": 0.012574453994653694,
+          "O_toward_H_eV_A": 0.0030867307369828573,
+          "HO_generalized_closing_force_eV_A": 0.007830592365818274,
+          "HO_delta_generalized_closing_force_vs_base_eV_A": -1.2801960962252475e-05,
+          "NO_generalized_closing_force_eV_A": 0.005952624630246085
+        }
+      }
+    }
+  ],
+  "independent_geometry_agent_crosscheck": [
+    {
+      "N": 0,
+      "selection": "H_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 0,
+      "selection": "N_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 8,
+      "selection": "H_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 8,
+      "selection": "N_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 38,
+      "selection": "H_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 38,
+      "selection": "N_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 46,
+      "selection": "H_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 46,
+      "selection": "N_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 76,
+      "selection": "H_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 76,
+      "selection": "N_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 84,
+      "selection": "H_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 84,
+      "selection": "N_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 114,
+      "selection": "H_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 4.440892098500626e-16,
+      "angle_difference_deg": 1.4210854715202004e-14
+    },
+    {
+      "N": 114,
+      "selection": "N_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 4.440892098500626e-16,
+      "angle_difference_deg": 1.4210854715202004e-14
+    },
+    {
+      "N": 122,
+      "selection": "H_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    },
+    {
+      "N": 122,
+      "selection": "N_O_A",
+      "same_indices": true,
+      "same_oxygen_shift": true,
+      "max_distance_difference_A": 0.0,
+      "angle_difference_deg": 0.0
+    }
+  ],
+  "source_sha256": {
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/symmetry_sampling_diagnose.py": "ac44394ba7c4dec22b38219c5fda8bd2caedee330dcb8ce920b571876c4ea253",
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/final_cold_tight/result.json": "f96206e4a52a17056b87d9d6b94d1f909be8f3efde8a82e16a12f0a80325eca1",
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/final_sampling_2x1x1/result.json": "47d54a414b6c2301016e9edd7e0765199e52a8f063697fa45300cffd3b1a99a3",
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/final_sampling_1x2x1/result.json": "45d200220f01b2257ad2a7a5247b4fc3a3f6725d0c322279048f38afcd5ea063",
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/final_sampling_1x1x2/result.json": "25c2a4ad1356b35b66e0b9a039f63644b8897568ad0912fa2d172cd771703d14"
+  },
+  "convergence_limitations": [
+    "Doubling one direction at a time is sensitivity, not combined-grid convergence.",
+    "Gamma replicates retain identical primitive geometry; no longer-period relaxation was allowed.",
+    "Coarse .05 eV/A target cannot be replaced by tighter production force accuracy without reoptimization."
+  ]
+}

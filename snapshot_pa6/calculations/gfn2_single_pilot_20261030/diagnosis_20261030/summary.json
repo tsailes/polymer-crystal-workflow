@@ -1,0 +1,79 @@
+{
+  "status": "diagnosis_completed",
+  "tight_continuation": {
+    "status": "coarse_converged",
+    "projected_converged": true,
+    "raw_converged": true,
+    "initial": {
+      "step": 0,
+      "wall_seconds": 2.408035232000003,
+      "energy_eV": -5547.900320561359,
+      "energy_eV_per_repeat": -693.4875400701699,
+      "raw_fmax_eV_A": 0.038286189414668256,
+      "projected_fmax_eV_A": 0.038286189414606125,
+      "peak_rss_MiB": 126.75390625,
+      "cpu_seconds": 15.263850999999999
+    },
+    "final": {
+      "step": 106,
+      "wall_seconds": 230.053063928,
+      "energy_eV": -5547.966731114036,
+      "energy_eV_per_repeat": -693.4958413892545,
+      "raw_fmax_eV_A": 0.004295456802178668,
+      "projected_fmax_eV_A": 0.004295456801934825,
+      "peak_rss_MiB": 136.14453125,
+      "cpu_seconds": 1482.259517
+    },
+    "steps": 106,
+    "energy_change_eV": -0.06641055267664342,
+    "wall_seconds": 230.089723147,
+    "peak_rss_MiB": 136.14453125,
+    "cpu_seconds": 1482.26802
+  },
+  "tight_geometry": {
+    "donor_count": 8,
+    "O_image_contact_count_within_6A_union": 48,
+    "strict_bond_count": 0,
+    "strict_covered_donors": 0,
+    "angle_pass_distance_fail": 8,
+    "distance_pass_angle_fail": 8,
+    "neither_pass": 32,
+    "minimum_crosschain_NO_A": 2.9539223736675653,
+    "minimum_crosschain_HO_A": 2.5918018161610314,
+    "nearest_NO_angle_range_deg": [
+      100.90962517664966,
+      100.90962519293862
+    ],
+    "nearest_angle_qualified_HO_range_A": [
+      5.737567202676494,
+      5.737567202676496
+    ]
+  },
+  "detector_audit": {
+    "atom_count_and_order_matches_source": true,
+    "inferred_periodic_graph_matches_declared": true,
+    "inferred_bond_errors": [],
+    "four_primitive_c_chains": true,
+    "legacy_validator_strict_contact_count": 0,
+    "all_image_enumeration_strict_contact_count": 0,
+    "legacy_and_all_image_strict_counts_agree": true,
+    "expanded_image_window_same_all_6A_contacts": true,
+    "independent_ASE_MIC_max_HO_difference_A": 8.881784197001252e-16,
+    "angle_definition": "angle N-H-O at H = acos((-N_to_H) dot H_to_O / lengths); collinear N-H...O gives 180 degrees",
+    "linear_angle_control_deg": 180.0,
+    "right_angle_control_deg": 90.0,
+    "backward_angle_control_deg": 0.0
+  },
+  "tight_endpoint_b_doubling": {
+    "base_fmax_eV_A": 0.004295456802178668,
+    "b_doubled_fmax_eV_A": 0.03285681462363081,
+    "max_force_change_eV_A": 0.0316149274202248,
+    "energy_change_meV_per_repeat": -13.104968957918572
+  },
+  "actual_operation_count": 8,
+  "declared_operation_count": 4,
+  "extra_translation_does_not_geometrically_forbid_network": true,
+  "next_validation": "next_validation_protocol.json",
+  "method_error_established": false,
+  "conclusions": "Initial registry/local search is supported as explanation; periodic sensitivity is confirmed; constraint-path and model causality remain open"
+}

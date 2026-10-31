@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "metadata_transcribed_not_generator_validated",
+  "source": {
+    "main_pdf": "C:/Users/CAI/Desktop/尼龙6.pdf",
+    "supporting_pdf": "C:/Users/CAI/Desktop/尼龙SI.pdf",
+    "doi": "10.1038/s41428-025-01094-w",
+    "use": "非原子坐标先验"
+  },
+  "chemistry": {
+    "repeat_formula": "C6H11NO",
+    "repeat_connectivity": "[-NH-C(=O)-(CH2)5-]n",
+    "atoms_per_repeat": 19,
+    "amide_hydrogens_per_repeat": 1,
+    "methylene_hydrogens_per_repeat": 10,
+    "source": "正文/SI化学结构式；不含原子坐标"
+  },
+  "cell": {
+    "temperature_K": 100,
+    "lengths_A": [
+      9.43,
+      7.62,
+      17.46
+    ],
+    "angles_deg": [
+      90,
+      90,
+      67
+    ],
+    "chain_axis": "c",
+    "author_setting": "c_unique_monoclinic",
+    "source": "正文PDF第4、7页晶胞参数",
+    "precision_note": "正文c=17.46 Å；SI c=17.4560 Å是另一精度记录，本文件使用正文值。",
+    "role": "已知晶胞先验，不用于声称独立预测峰位"
+  },
+  "ordered_scale_hypothesis": {
+    "repeat_units_per_cell": 8,
+    "atoms_per_cell": 152,
+    "source": "正文有序模型叙述与化学计量",
+    "must_validate_generated_topology": true
+  },
+  "symmetry_hypothesis": {
+    "space_group_number": 14,
+    "setting": "P1121/n",
+    "point_group": "2/m",
+    "operations": [
+      "x,y,z",
+      "-x+1/2,-y+1/2,z+1/2",
+      "-x,-y,-z",
+      "x+1/2,y+1/2,-z+1/2"
+    ],
+    "source": "正文Fig.4及SI PDF第22页操作表",
+    "role": "仅为O构型与D14集合的假设；非全部微态强制对称"
+  },
+  "stacking_hypotheses": {
+    "variables": [
+      "a向片层注册",
+      "c向相对高度",
+      "片层法向间距",
+      "局部层序与相关性"
+    ],
+    "a_half_shift_is_test_hypothesis": true,
+    "unique_disorder_fraction_assumed": false
+  },
+  "excluded": [
+    "Table 1原子坐标",
+    "SI原子坐标",
+    "由论文坐标派生的链模板、键长、键角、扭转及氢键几何",
+    "从原图描点获得的原子位置"
+  ]
+}

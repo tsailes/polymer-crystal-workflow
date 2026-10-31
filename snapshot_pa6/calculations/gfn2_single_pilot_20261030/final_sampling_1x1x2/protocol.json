@@ -1,0 +1,53 @@
+{
+  "mode": "point",
+  "input_sha256": "b9cc1619e36f6b74c36744a69385580b6bb57d4c5c5b44913ddb8b987918dee8",
+  "script_sha256": "f2928270ad9c64748b0a0062e4efe68c2c7594cde58a4d6685850b07e7250a1f",
+  "settings": {
+    "method": "GFN2-xTB",
+    "charge": 0,
+    "multiplicity": 1,
+    "accuracy": 0.01,
+    "max_iterations": 500,
+    "electronic_temperature": 300.0,
+    "verbosity": 1
+  },
+  "threads": {
+    "OMP_NUM_THREADS": "8",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "versions": {
+    "ase": "3.29.0",
+    "tblite": "0.7.0",
+    "spglib": "2.7.0",
+    "numpy": "2.5.4"
+  },
+  "cell": [
+    [
+      9.430000000000001,
+      -7.222087603101797e-16,
+      0.0
+    ],
+    [
+      2.9773711990882674,
+      7.014246983307595,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      17.460000000000004
+    ]
+  ],
+  "atom_count": 152,
+  "repeat": [
+    1,
+    1,
+    2
+  ],
+  "fmax_eV_A": 0.05,
+  "max_steps": 200,
+  "sampling": "Gamma only; numerical convergence unvalidated",
+  "scope": "One ordered candidate, fixed cell, ordinary PA6; no DFT, no energy pruning",
+  "symmetry": "FixSymmetry at 1e-5 A only in relax; raw and projected forces both recorded"
+}

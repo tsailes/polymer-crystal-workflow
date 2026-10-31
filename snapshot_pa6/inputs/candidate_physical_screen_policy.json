@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "policy_id": "PA6-physical-screen-no-hbond-v1",
+  "date_local": "2026-10-29",
+  "authority": "user_instruction",
+  "instruction": "在做候选物理筛查的时候，不要考虑氢键问题",
+  "scope": "candidate physical admission for all branches; O currently implemented, D1/D14 generators not implemented",
+  "hydrogen_bonds": {
+    "evaluate_during_default_physical_screen": false,
+    "use_for_admission": false,
+    "use_for_rejection": false,
+    "use_for_ranking": false,
+    "use_for_representative_selection": false,
+    "require_complete_donor_acceptor_coverage": false,
+    "require_sheet_connectivity": false,
+    "force_donor_acceptor_pairs": false,
+    "diagnostics": "separate explicitly requested analysis only; cannot change physical admission"
+  },
+  "allowed_checks": [
+    "composition and atom count",
+    "covalent connectivity, valence and independent chemical geometry",
+    "periodic covalent chain continuity and closure",
+    "element-pair nonbonded overlap lower bounds independent of hydrogen-bond classification",
+    "declared branch-specific symmetry rules"
+  ],
+  "overlap_thresholds": {
+    "change_in_this_revision": "none",
+    "meaning": "operational geometric lower bounds, not proof of energetic stability",
+    "NO_and_HO_lower_bounds_remain": true,
+    "NO_and_HO_hbond_upper_bounds_used": false,
+    "NHO_hbond_angle_cutoff_used": false
+  },
+  "sampling": {
+    "O_first_pass_phase_count": 24,
+    "O_phase_selection": "branches/O/phase24_first_pass/selection.json",
+    "hbond_stratified_sampling_allowed": false
+  },
+  "implementation": {
+    "generator": "scripts/build_ordered_candidates.py",
+    "generator_version": "O-independent-mmff-angles-v1.2-no-hbond-screen",
+    "validator": "scripts/validate_ordered.py",
+    "new_generation_output": "branches/O/generated_v1_2_no_hbond",
+    "new_generation_status": "not_run",
+    "historical_generation": "branches/O/generated",
+    "historical_HB_filtered_batch_is_not_current_candidate_pool": true,
+    "historical_geometry_audits_preserved": true
+  },
+  "execution": {
+    "preoptimization_started": false,
+    "dft_started": false,
+    "compute_launch_allowed": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "independently_constructed_starting_geometry_validated",
+  "molecular_connectivity_source": "inputs/allowed_literature_inputs.json",
+  "geometry_source": "RDKit MMFF94 equilibrium bond/angle parameters from chemical graph only; no coordinate embedding or reference crystal coordinates",
+  "construction_method": "Two-repeat planar periodic backbone; fixed MMFF bond lengths, constrained internal angle closure, independent symmetry expansion",
+  "source_hashes": [
+    {
+      "path": "inputs/allowed_literature_inputs.json",
+      "sha256": "aa4c1080af5b50805e4227cbd9748c23e0779f0746754080175378c8d335f45f"
+    },
+    {
+      "path": "inputs/independent_template/mmff94_parameters.json",
+      "sha256": "f927fb38bfe5bdb64f422dd7ffc6d19faf40dd3e8c94c01a83b48ab7a43f07a1"
+    },
+    {
+      "path": "inputs/independent_template/chain_00.json",
+      "sha256": "0fc6dd885d2258eafbf6cd0cfc676ab236791971ac8ab195644082bdbb320a3c"
+    },
+    {
+      "path": "inputs/independent_template/chain_01.json",
+      "sha256": "012b77cc725969497a3c5ef1e31d1e0969bf6dac3d2941ee42998a20d9e5e992"
+    },
+    {
+      "path": "branches/O/generated/build_ordered_candidates_v1_1_source.py",
+      "sha256": "9491890b44622bb189a8c919f51f5860ff422e1f1026b385be819c32fe191261"
+    }
+  ],
+  "reference_coordinate_imported": false,
+  "derived_reference_geometry_imported": false,
+  "atom_role_map": "inputs/independent_template/chain_00.json and chain_01.json: atom_roles; expanded roles per candidate JSON",
+  "periodic_covalent_graph": "template/candidate JSON bonds with integer image shifts; independent validation in branches/O/validation",
+  "chain_closure_report": [
+    "inputs/independent_template/chain_00.json: closure_report",
+    "inputs/independent_template/chain_01.json: closure_report"
+  ],
+  "warning": "Only two planar angle-biased starting templates; not an optimized geometry or exhaustive conformational basis. Independent validation does not prove energetic stability."
+}

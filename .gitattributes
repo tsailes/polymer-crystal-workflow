@@ -5,3 +5,4 @@ snapshot/** -text
 *.md text eol=lf
 *.yml text eol=lf
 snapshot/** -text
+snapshot_pa6/** -text

@@ -1,0 +1,50 @@
+{
+  "branch_id": "D1",
+  "label": "统计无序P1",
+  "status": "not_generated",
+  "generator_status": "not_implemented",
+  "candidate_prefix": "D1-e####-m",
+  "group_prefix": "D1-g",
+  "scope": "ensemble_without_imposed_nontrivial_average_symmetry",
+  "generation_rule": "独立生成真实满占位层序、相对a/c错移和局部域，不从O终态加噪声，不施加非平凡平均对称性。",
+  "symmetry_applies_to": "no_nontrivial_ensemble_symmetry_imposed",
+  "variables": [
+    "registry_fraction",
+    "registry_transition_probabilities",
+    "c_displacement_distribution",
+    "boundary_pattern"
+  ],
+  "parameter_ranges": null,
+  "range_status": "to_be_declared_before_generation",
+  "checks": [
+    "逐微态化学与周期合法",
+    "实际相对无序而非整体平移副本",
+    "概率归一且相互一致",
+    "平均对称性独立识别",
+    "记录采样误差与有效样本"
+  ],
+  "fields": [
+    "branch_id",
+    "generator_version",
+    "candidate_id",
+    "input_hashes",
+    "random_seed",
+    "chemistry_template_id",
+    "atom_role_map",
+    "periodic_covalent_graph",
+    "hydrogen_bond_geometry",
+    "layer_registry_sequence",
+    "boundary_locations",
+    "initial_symmetry_hypothesis",
+    "final_microstate_symmetry",
+    "geometry_status",
+    "numerical_status",
+    "coverage_status",
+    "experimental_status",
+    "ensemble_id",
+    "microstate_id",
+    "weight",
+    "ensemble_average_symmetry",
+    "pair_correlations"
+  ]
+}

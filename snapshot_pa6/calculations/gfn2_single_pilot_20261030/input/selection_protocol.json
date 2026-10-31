@@ -1,0 +1,68 @@
+{
+  "status": "declared_before_generation",
+  "branch": "O",
+  "generator_version": "O-independent-mmff-angles-v1.2-no-hbond-screen",
+  "source_hashes": {
+    "inputs/allowed_literature_inputs.json": "aa4c1080af5b50805e4227cbd9748c23e0779f0746754080175378c8d335f45f",
+    "inputs/chemistry_template_manifest.json": "2e41f0068a5337cb04e6159fba410df276f530d442c1f628ee590a1dff9edf1e",
+    "branches/O/phase24_first_pass/selection.json": "7552b6c266641ce3e758145459236d218b4c3b492bea1fcda59dbde4941744e7",
+    "inputs/candidate_physical_screen_policy.json": "7332363f98e70bc2df21b2ee623ecd1b3534b49929b743a828893481c0d87a08",
+    "scripts/build_ordered_candidates.py": "4296fb911ad73f942efc23f730e8724913d19f681a11ea3f2a0bdc47f3939920",
+    "scripts/validate_ordered.py": "092be56c3265dd809539dae69365ae5829be553e387b0375c0744d908a1bbc15",
+    "inputs/independent_template/chain_00.json": "0fc6dd885d2258eafbf6cd0cfc676ab236791971ac8ab195644082bdbb320a3c",
+    "inputs/independent_template/chain_01.json": "012b77cc725969497a3c5ef1e31d1e0969bf6dac3d2941ee42998a20d9e5e992"
+  },
+  "selector_sha256": "12b64aefe71ba1926246aad392567bad4aeebc933b46562d3d4bdf2cc70cf262",
+  "selection_rule": "First builder- and independent-validator-passing candidate in v1.2 deterministic enumeration; stop at one",
+  "ordering": "x then rotation then phase, round robin template 0 then 1",
+  "chain_x_fractional": [
+    0.25,
+    0.225,
+    0.275,
+    0.2,
+    0.3
+  ],
+  "chain_rotation_about_c_deg": [
+    0.0,
+    -10.0,
+    10.0
+  ],
+  "chain_c_phase_fractional": [
+    0.0,
+    0.020833333333333332,
+    0.041666666666666664,
+    0.0625,
+    0.08333333333333333,
+    0.10416666666666667,
+    0.125,
+    0.14583333333333334,
+    0.16666666666666666,
+    0.1875,
+    0.20833333333333334,
+    0.22916666666666666,
+    0.25,
+    0.2708333333333333,
+    0.2916666666666667,
+    0.3125,
+    0.3333333333333333,
+    0.3541666666666667,
+    0.375,
+    0.3958333333333333,
+    0.4166666666666667,
+    0.4375,
+    0.4583333333333333,
+    0.4791666666666667
+  ],
+  "template_indices": [
+    0,
+    1
+  ],
+  "hydrogen_bonds_evaluated": false,
+  "hydrogen_bonds_used_for_admission_ranking_or_sampling": false,
+  "energy_evaluations": 0,
+  "source_coordinates_read": false,
+  "coordinate_derived_geometry_read": false,
+  "coverage_scope": "one locally generated pilot input, not full candidate-library coverage",
+  "existing_candidate_libraries_modified": false,
+  "user_authorization": "2026-10-30 user requested one PA6 candidate GFN coarse optimization"
+}

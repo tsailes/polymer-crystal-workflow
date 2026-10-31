@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "candidate_id": "O-v12-pilot-20261030-firstpass",
+  "candidate_count": 1,
+  "parameters": {
+    "chain_x_fractional": 0.25,
+    "chain_rotation_about_c_deg": 0.0,
+    "chain_c_phase_fractional": 0.0,
+    "template_index": 0,
+    "template_id": "PA6-independent-chain-00"
+  },
+  "atom_count": 152,
+  "formula": "C48H88N8O8",
+  "cell_parameters": [
+    9.43,
+    7.62,
+    17.46,
+    90.0,
+    90.0,
+    66.99999999999999
+  ],
+  "checks_in_enumeration_order": [
+    {
+      "enumeration_index_1based": 1,
+      "parameters": {
+        "chain_x_fractional": 0.25,
+        "chain_rotation_about_c_deg": 0.0,
+        "chain_c_phase_fractional": 0.0,
+        "template_index": 0,
+        "template_id": "PA6-independent-chain-00"
+      },
+      "builder_passed": true,
+      "builder_clashes": [],
+      "independent_validator_passed": true
+    }
+  ],
+  "elapsed_seconds": 0.1867811340000003,
+  "energy_evaluations": 0,
+  "hydrogen_bonds_evaluated": false,
+  "coverage_scope": "single local pilot input; enumeration stopped at first passing candidate",
+  "input_sha256": "ce218adbce81d9f8094b778c7099fdc09608a9565923a6fc451dfa11bce2fe93",
+  "structure_sha256": "8cd8bfa151595a2ea30b1b246af899201ac4368c583219345ee42e2cf2e34814"
+}

@@ -1,0 +1,53 @@
+{
+  "branch_id": "D14",
+  "label": "统计无序P1121/n",
+  "status": "not_generated",
+  "generator_status": "not_implemented",
+  "candidate_prefix": "D14-e####-m",
+  "group_prefix": "D14-g",
+  "scope": "ensemble_with_P1121n_average_symmetry",
+  "generation_rule": "按对称轨道、相容超胞与概率约束，独立抽样真实无序微态；对平均密度和集合概率施加No.14关系。",
+  "symmetry_applies_to": "ensemble_not_each_microstate",
+  "force_FixSymmetry_on_all_microstates": false,
+  "variables": [
+    "symmetry_orbit_occupations",
+    "constrained_transition_probabilities",
+    "correlated_displacements",
+    "boundary_pattern"
+  ],
+  "parameter_ranges": null,
+  "range_status": "to_be_declared_before_generation",
+  "checks": [
+    "逐微态化学与周期合法",
+    "真实局部相对无序",
+    "集合概率归一",
+    "平均计量正确",
+    "初始及精修后平均对称性成立",
+    "群轨道闭合但等价副本不计独立样本"
+  ],
+  "fields": [
+    "branch_id",
+    "generator_version",
+    "candidate_id",
+    "input_hashes",
+    "random_seed",
+    "chemistry_template_id",
+    "atom_role_map",
+    "periodic_covalent_graph",
+    "hydrogen_bond_geometry",
+    "layer_registry_sequence",
+    "boundary_locations",
+    "initial_symmetry_hypothesis",
+    "final_microstate_symmetry",
+    "geometry_status",
+    "numerical_status",
+    "coverage_status",
+    "experimental_status",
+    "ensemble_id",
+    "microstate_id",
+    "weight",
+    "symmetry_orbit_id",
+    "ensemble_average_symmetry",
+    "pair_correlations"
+  ]
+}

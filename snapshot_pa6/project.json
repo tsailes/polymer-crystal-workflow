@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "project_id": "PA6_alpha_v0_1",
+  "date_local": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "status": "single_gfn2_pilot_completed_with_limitations",
+  "objective": "在声明的化学和晶体学先验内独立生成并精修普通PA6的氢键片层与堆垛结构，分别比较三个模型分支。",
+  "scope": {
+    "material": "PA6_alpha",
+    "primary_isotope": "h10",
+    "primary_calculation": "static_electronic_structure",
+    "separate_d10_search": false,
+    "separate_d10_static_optimization": false,
+    "d10_neutron_mapping": "required_for_WAND_comparison",
+    "isotope_vibrations": "deferred_optional",
+    "claim_global_crystal_prediction": false
+  },
+  "input_policy": {
+    "literature_atomic_coordinates_allowed": false,
+    "literature_coordinate_derived_geometry_allowed": false,
+    "generator_may_read_raw_pdfs": false,
+    "generator_may_read_fulltext_extractions": false,
+    "allowed_generation_literature_fields": [
+      "composition",
+      "chemical_connectivity",
+      "cell",
+      "axis_convention",
+      "chain_period",
+      "repeat_count_hypothesis",
+      "symmetry_operations",
+      "declared_stacking_hypotheses"
+    ],
+    "observation_only_fields": [
+      "sample_preparation",
+      "temperature",
+      "isotope_identity",
+      "wavelength",
+      "grouped_hkl_intensities",
+      "diffraction_profiles",
+      "normalization_definition"
+    ],
+    "independent_template_manifest": "inputs/chemistry_template_manifest.json",
+    "allowed_inputs_file": "inputs/allowed_literature_inputs.json"
+  },
+  "branches": {
+    "O": {
+      "spec": "branches/O/branch.json",
+      "status": "one_v1_2_candidate_coarse_optimized_full_new_library_not_generated"
+    },
+    "D1": {
+      "spec": "branches/D1/branch.json",
+      "status": "not_generated"
+    },
+    "D14": {
+      "spec": "branches/D14/branch.json",
+      "status": "not_generated"
+    }
+  },
+  "identity_policy": {
+    "cross_branch_candidate_merge": false,
+    "cross_branch_group_merge": false,
+    "cross_branch_result_links": true,
+    "shared_independent_chemistry_template": true,
+    "shared_numerical_tools": true,
+    "independent_generation_protocols": true,
+    "independent_coverage_records": true,
+    "independent_ensemble_weight_normalization": true
+  },
+  "calculation_policy": {
+    "automatic_energy_pruning": false,
+    "gfn2_role": "本机有序分支预优化，保留所有合法候选及结构变化；不按GFN2能量剪枝；直接DFT对照留待云端",
+    "baseline_method_candidate": "PBE-D3(BJ)+ATM",
+    "second_method_candidate": "r2SCAN-D4",
+    "production_parameters": null,
+    "production_parameter_status": "unvalidated",
+    "quantum_runs_started": 1,
+    "first_pilot": {
+      "target_max_independent_representatives_per_branch": 2,
+      "purpose": "数值与资源先导；不代表候选或统计集合已充分覆盖。",
+      "limit_is_adjustable": true,
+      "complete_symmetry_orbits_must_not_be_truncated": true,
+      "selected_candidates": [
+        "O-v12-pilot-20261030-firstpass"
+      ],
+      "allocation_status": "single_candidate_pilot_completed"
+    },
+    "gfn2_runs_started": 1,
+    "dft_runs_started": 0,
+    "candidate_physical_screen_policy": "inputs/candidate_physical_screen_policy.json",
+    "gfn2_processes_completed": 18,
+    "run_count_definition": "One pilot campaign; standalone process count includes repeated timing and validation points"
+  },
+  "gates": {
+    "G0_sources": {
+      "status": "passed",
+      "evidence": [
+        "inputs/chemistry_template_manifest.json",
+        "branches/O/generated/generation_protocol.json",
+        "branches/O/generated/build_ordered_candidates_v1_1_source.py"
+      ]
+    },
+    "G1_chemistry_periodicity": {
+      "status": "passed",
+      "evidence": [
+        "branches/O/validation/batch_validation_summary.json"
+      ],
+      "scope": "本批两套独立模板与118个O分支起点；不代表构象空间充分覆盖"
+    },
+    "G2_branch_rules": {
+      "status": "in_progress",
+      "evidence": [
+        "branches/O/generated/generation_protocol.json",
+        "branches/O/validation/batch_validation_summary.json"
+      ],
+      "scope": "O本批通过；D1/D14未生成"
+    },
+    "G3_identification": {
+      "status": "in_progress",
+      "evidence": [
+        "branches/O/validation/batch_validation_summary.json",
+        "tests/test_validate_ordered.py"
+      ],
+      "scope": "同胞表示与局部位移检查通过；未完成严格去重、换胞/超胞识别和缺陷稀释验收"
+    },
+    "G4_numerics_resources": {
+      "status": "inconclusive",
+      "evidence": [
+        "calculations/gfn2_single_pilot_20261030/summary.json"
+      ],
+      "scope": "Single-candidate Gamma coarse optimization and resource pilot completed; sampling convergence and target H-bond sheet not established"
+    },
+    "G5_search_and_sampling_coverage": {
+      "status": "not_started",
+      "evidence": []
+    },
+    "G6_observation_comparison": {
+      "status": "not_started",
+      "evidence": []
+    }
+  },
+  "active_execution": {
+    "authorized_date_local": "2026-10-30",
+    "branch": "O",
+    "host": "user_local_computer",
+    "scope": "本机仅独立生成有序候选及GFN2预优化；DFT留待云端",
+    "other_branches": "D1和D14保留设计，未启动",
+    "status": "single_gfn2_pilot_completed_with_limitations",
+    "production_parameters_validated": false,
+    "local_dft_authorized": false,
+    "local_gfn2_authorized": true,
+    "user_clarification": "本机先做候选生成和 GFN2 预优化，DFT 留到云端",
+    "latest_user_instruction": "先挑1个候选结构GFN粗优化，实测耗时、并行与消耗；本次仅一个候选",
+    "next_compute_launch_allowed": false,
+    "completed_scope": "Single independently generated v1.2 candidate, 62-step Gamma fixed-cell coarse optimization, timing and sensitivity checks",
+    "candidate_audit": {
+      "report": "branches/O/audit_20261029/筛选与覆盖审查_20261029.md",
+      "original_grid": 1440,
+      "original_strict_geometry_without_hbond": 556,
+      "old_hbond_excluded_but_strict_geometry_passed": 438,
+      "known_numeric_equivalence_groups": 864,
+      "strict_geometry_known_relation_groups": 393,
+      "fixed_other_parameters_phase_equivalent_pairs": 0,
+      "original_candidates_modified": false,
+      "new_policy_applied": false,
+      "new_policy_implemented_in_code": true,
+      "new_policy_applied_to_new_candidate_batch": false,
+      "historical_118_is_current_unbiased_candidate_pool": false
+    },
+    "first_pass_phase_selection": "branches/O/phase24_first_pass/selection.json",
+    "latest_result": "calculations/gfn2_single_pilot_20261030/README.md"
+  },
+  "latest_diagnosis": {
+    "date_local": "2026-10-30",
+    "report": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/README.md",
+    "status": "completed",
+    "production_parameters_validated": false,
+    "DFT_started": false,
+    "scope": "Geometry/symmetry/force audit, small directional points and same-candidate tighter Gamma continuation; no quantum screening of additional phase candidates"
+  }
+}

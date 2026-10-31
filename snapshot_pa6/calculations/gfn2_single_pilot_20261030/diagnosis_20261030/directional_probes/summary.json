@@ -1,0 +1,104 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "name": "chain_x_forbidden",
+      "kind": "forbidden",
+      "projected_norm_ratio": 1.0017459203487648e-17,
+      "base_gradient_eV_A": 8.770604034702423e-12,
+      "probes": [
+        {
+          "amplitude_A": 0.02,
+          "minus_delta_eV": 0.00042141798803640995,
+          "plus_delta_eV": 0.0004214179598420742,
+          "energy_curvature_eV_A2": 2.1070898674224736,
+          "force_curvature_eV_A2": 4.52304847311961,
+          "secant_gradient_eV_A": -7.048583938740194e-10
+        },
+        {
+          "amplitude_A": 0.04,
+          "minus_delta_eV": 0.003565481723853736,
+          "plus_delta_eV": 0.0035654817129397998,
+          "energy_curvature_eV_A2": 4.45685214799596,
+          "force_curvature_eV_A2": 5.728245572483145,
+          "secant_gradient_eV_A": -1.3642420526593924e-10
+        }
+      ]
+    },
+    {
+      "name": "chain_y_forbidden",
+      "kind": "forbidden",
+      "projected_norm_ratio": 2.504364800871912e-18,
+      "base_gradient_eV_A": -3.452616473970105e-09,
+      "probes": [
+        {
+          "amplitude_A": 0.02,
+          "minus_delta_eV": 0.001958345445927989,
+          "plus_delta_eV": 0.001958345224011282,
+          "energy_curvature_eV_A2": 9.791726674848178,
+          "force_curvature_eV_A2": 14.037806285617393,
+          "secant_gradient_eV_A": -5.547917680814862e-09
+        },
+        {
+          "amplitude_A": 0.04,
+          "minus_delta_eV": 0.011273184218225651,
+          "plus_delta_eV": 0.01127318382532394,
+          "energy_curvature_eV_A2": 14.091480027218495,
+          "force_curvature_eV_A2": 16.311745348146275,
+          "secant_gradient_eV_A": -4.9112713895738125e-09
+        }
+      ]
+    },
+    {
+      "name": "chain_z_allowed",
+      "kind": "allowed",
+      "projected_norm_ratio": 1.0,
+      "base_gradient_eV_A": 0.01619297302654701,
+      "probes": [
+        {
+          "amplitude_A": 0.02,
+          "minus_delta_eV": 0.0012746154379783547,
+          "plus_delta_eV": 0.001680896702055179,
+          "energy_curvature_eV_A2": 7.3887803500838345,
+          "force_curvature_eV_A2": 7.171986189094673,
+          "secant_gradient_eV_A": 0.010157031601920607
+        },
+        {
+          "amplitude_A": 0.04,
+          "minus_delta_eV": 0.005502763181539194,
+          "plus_delta_eV": 0.006090219332691049,
+          "energy_curvature_eV_A2": 7.245614071962336,
+          "force_curvature_eV_A2": 7.371746866644271,
+          "secant_gradient_eV_A": 0.007343201889398188
+        }
+      ]
+    },
+    {
+      "name": "chain_z_forbidden",
+      "kind": "forbidden",
+      "projected_norm_ratio": 0.0,
+      "base_gradient_eV_A": -4.408011324008587e-09,
+      "probes": [
+        {
+          "amplitude_A": 0.02,
+          "minus_delta_eV": 0.00048318948392989114,
+          "plus_delta_eV": 0.0004831893220398342,
+          "energy_curvature_eV_A2": 2.4159470149243134,
+          "force_curvature_eV_A2": 2.4412019485027985,
+          "secant_gradient_eV_A": -4.047251422889531e-09
+        },
+        {
+          "amplitude_A": 0.04,
+          "minus_delta_eV": 0.0019726417031051824,
+          "plus_delta_eV": 0.001972641368411132,
+          "energy_curvature_eV_A2": 2.4658019196976966,
+          "force_curvature_eV_A2": 2.463511023833305,
+          "secant_gradient_eV_A": -4.18367562815547e-09
+        }
+      ]
+    }
+  ],
+  "wall_seconds": 42.806764429000005,
+  "peak_rss_MiB": 156.046875,
+  "cpu_seconds": 285.094105
+}

@@ -1,0 +1,135 @@
+{
+  "benchmark": [
+    {
+      "threads": 1,
+      "runs": 2,
+      "wall_seconds_median": 11.876326305499987,
+      "process_cpu_seconds_median": 12.162539500000001,
+      "peak_rss_MiB": 117.6953125,
+      "speedup_vs_1": 1.0,
+      "parallel_efficiency": 1.0
+    },
+    {
+      "threads": 2,
+      "runs": 2,
+      "wall_seconds_median": 6.662656116000008,
+      "process_cpu_seconds_median": 13.017875499999999,
+      "peak_rss_MiB": 118.13671875,
+      "speedup_vs_1": 1.7825212796109395,
+      "parallel_efficiency": 0.8912606398054698
+    },
+    {
+      "threads": 4,
+      "runs": 2,
+      "wall_seconds_median": 3.854370834000008,
+      "process_cpu_seconds_median": 13.941491,
+      "peak_rss_MiB": 119.35546875,
+      "speedup_vs_1": 3.0812619794486444,
+      "parallel_efficiency": 0.7703154948621611
+    },
+    {
+      "threads": 8,
+      "runs": 2,
+      "wall_seconds_median": 2.3946141714999953,
+      "process_cpu_seconds_median": 15.376113,
+      "peak_rss_MiB": 121.78515625,
+      "speedup_vs_1": 4.959599106548597,
+      "parallel_efficiency": 0.6199498883185747
+    }
+  ],
+  "relaxation": {
+    "status": "coarse_converged",
+    "projected_converged": true,
+    "raw_converged": true,
+    "initial": {
+      "step": 0,
+      "wall_seconds": 2.403061336999997,
+      "energy_eV": -5545.5208208151935,
+      "energy_eV_per_repeat": -693.1901026018992,
+      "raw_fmax_eV_A": 1.3734635142873217,
+      "projected_fmax_eV_A": 1.3734635142871772,
+      "peak_rss_MiB": 126.5234375,
+      "cpu_seconds": 15.290855
+    },
+    "final": {
+      "step": 62,
+      "wall_seconds": 135.36583647,
+      "energy_eV": -5547.900320560969,
+      "energy_eV_per_repeat": -693.4875400701211,
+      "raw_fmax_eV_A": 0.03828449376044,
+      "projected_fmax_eV_A": 0.03828449376034783,
+      "peak_rss_MiB": 136.68359375,
+      "cpu_seconds": 872.603707
+    },
+    "steps": 62,
+    "energy_change_eV": -2.3794997457753198,
+    "wall_seconds": 135.40283232800002,
+    "peak_rss_MiB": 136.68359375,
+    "cpu_seconds": 872.612359
+  },
+  "cold_tight_check": {
+    "energy_change_eV": -3.853529051411897e-09,
+    "fmax_eV_A": 0.038286241539577416,
+    "max_force_vector_change_eV_A": 1.2305668360283877e-05
+  },
+  "sampling_sensitivity": [
+    {
+      "repeat": "2x1x1",
+      "energy_change_meV_per_repeat": -10.533096023323196,
+      "max_force_vector_change_eV_A": 0.022861736191128586,
+      "replica_force_max_deviation_eV_A": 3.2464697431820825e-13,
+      "wall_seconds": 9.672187176000023,
+      "peak_rss_MiB": 238.234375
+    },
+    {
+      "repeat": "1x2x1",
+      "energy_change_meV_per_repeat": -22.20603636658325,
+      "max_force_vector_change_eV_A": 0.0298576809033321,
+      "replica_force_max_deviation_eV_A": 1.5368111637088108e-13,
+      "wall_seconds": 9.488817464000022,
+      "peak_rss_MiB": 239.6484375
+    },
+    {
+      "repeat": "1x1x2",
+      "energy_change_meV_per_repeat": -1.6535007443962968,
+      "max_force_vector_change_eV_A": 0.002101475629424813,
+      "replica_force_max_deviation_eV_A": 1.9358872331185895e-13,
+      "wall_seconds": 9.65042035700003,
+      "peak_rss_MiB": 239.3828125
+    }
+  ],
+  "geometry_summary": {
+    "displacement_rms_A": 0.32076661865749934,
+    "displacement_max_A": 0.7712024411558992,
+    "covalent_topology_preserved": true,
+    "hydrogen_bond_counts": [
+      0,
+      0
+    ]
+  },
+  "batch_singlepoint": {
+    "scope": "four independent cold single points of same input, not four full optimizations",
+    "tasks": 4,
+    "threads_per_task": 4,
+    "total_wall_seconds": 5.175976616000014,
+    "exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "sampling_convergence_status": "axis-doubling sensitivity only; no combined or higher-grid convergence claim",
+  "production_parameters_validated": false,
+  "local_DFT_started": false,
+  "resources": {
+    "recorded_process_CPU_seconds": 1288.7276,
+    "peak_individual_process_RSS_MiB": 239.6484375,
+    "run_files_bytes": 7145825,
+    "project_files_bytes": 215730100,
+    "energy_kWh": null,
+    "electricity_cost": null,
+    "cloud_calculation_cost": 0,
+    "notes": "CPU seconds sum terminal process accounting only; excludes geometry-only setup. Disk measured before summary writes. No power measurement."
+  }
+}

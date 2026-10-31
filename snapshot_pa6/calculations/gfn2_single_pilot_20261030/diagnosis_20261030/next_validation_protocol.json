@@ -1,0 +1,57 @@
+{
+  "status": "proposed_not_launched",
+  "scope": "Separate stopping tolerance, periodic treatment, symmetry restrictions, initial registry, and electronic model effects",
+  "preserved_policies": {
+    "literature_atomic_coordinates_used": false,
+    "hydrogen_bonds_used_for_candidate_admission_or_ranking": false,
+    "local_DFT": false,
+    "fixed_cell_first": true,
+    "all_controls_retained": true
+  },
+  "sequence": [
+    {
+      "id": "S0",
+      "question": "Did the coarse force threshold stop relaxation prematurely?",
+      "setting": "Same coarse endpoint, Gamma base cell, same actual eight operations, tighten electronic accuracy to 0.01 and raw Fmax to 0.005 eV/A",
+      "status": "executed_in_this_diagnosis_see_tight_continuation",
+      "interpretation": "Still no network at tighter convergence rejects the stopping-threshold-only explanation at this sampling and constraint; does not prove a global or unconstrained minimum"
+    },
+    {
+      "id": "S1",
+      "question": "Are relevant forces stable to periodic supercell enlargement?",
+      "setting": "Same frozen tight geometry; compare 2x2x1, 2x2x2 and a larger in-plane grid as required; preserve base-cell atomic period and fold replica forces",
+      "report": ["energy per repeat", "N/O/amide-H force changes", "replica deviations", "continuous contact geometry", "resource cost"],
+      "interpretation": "Do not attribute all differences solely to k-points; tblite periodic electrostatics can depend on the supercell treatment",
+      "gate": "Choose a common sampling only after residual force changes are comfortably below the geometry stopping threshold; no production accuracy claim from one doubling"
+    },
+    {
+      "id": "S2",
+      "question": "Do the extra half-b translation or the declared space-group operations prevent escape?",
+      "common_setting": "Same GFN2 method, numerically checked common sampling, fixed cell, raw Fmax 0.005 eV/A",
+      "arms": ["explicit actual eight operations", "explicit declared four operations only", "no space-group constraint"],
+      "perturbations": "Predeclare seeds 20261030 and 20261031 and paired signs. Remove global translation; project the same small displacement into each allowed space, normalize to maximum 0.02 A. For four-operation arm explicitly retain a component that breaks the extra b/2 translation; for free arm include a component outside the four-operation space. Save applied coordinates and covalent checks.",
+      "implementation_requirement": "Do not call unconstrained automatic FixSymmetry detection to stand in for the declared four operations. Record rotations, translations, atom mappings, projector rank and raw forces.",
+      "interpretation": "Eight-to-four recovery isolates extra translation restrictions; recovery only on full release implicates broader symmetry restrictions. Identical outcomes are evidence for these probes only, not exhaustive stability. Releasing constraints without perturbation is insufficient."
+    },
+    {
+      "id": "S3",
+      "question": "Is the initial chain registry controlling the outcome?",
+      "selection": "Predeclare uniform phase indices 0, 6, 12, 18 on the approved 24-point grid; fixed independent template 0, chain x 0.25, rotation 0 degrees. Apply existing chemistry/overlap checks only; record any invalid entries without replacing them based on H bonds.",
+      "setting": "Common method, sampling, cell and chosen symmetry protocol",
+      "report": "Retain each starting and ending identity, continuous N-O/H-O/angle values, network rank, energy, and raw force. Geometric existence of a network is not energetic stability."
+    },
+    {
+      "id": "S4",
+      "question": "Does GFN2 give a different force landscape from independent electronic methods?",
+      "setting": "Cloud DFT on the same frozen control geometries and selected small collective displacements, with independently converged PBE-D3(BJ)+ATM; check key disagreements with r2SCAN-D4",
+      "report": "N/O/NH force vectors, collective displacement gradients, local curvature or scan shape, and matched-setting relative energies",
+      "interpretation": "Method error becomes a stronger explanation only after sampling and geometry freedom are matched. Molecular GFN2 benchmarks do not validate periodic PA6. A single DFT functional is not an unquestioned reference."
+    },
+    {
+      "id": "S5",
+      "question": "Does fixed-cell strain matter?",
+      "setting": "Only after prior comparisons, relax selected a/b/c/gamma freedoms for a representative using otherwise matched conditions",
+      "interpretation": "Keep cell effects separate from changed sampling, starting geometry, and symmetry. Near-zero mean pressure does not imply small anisotropic stress."
+    }
+  ]
+}

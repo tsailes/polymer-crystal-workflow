@@ -1,0 +1,633 @@
+{
+  "scope": "Saved-data and ASE geometry/projection analysis only; zero quantum calculations",
+  "actual_space_group_number": 14,
+  "actual_international": "P2_1/c",
+  "actual_hall_number": 81,
+  "operation_count": 8,
+  "declared_operation_count": 4,
+  "declared_operations_are_subset": true,
+  "actual_and_declared_operations_equal": false,
+  "actual_operations": [
+    {
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "translation": [
+        -0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        0.9999999994697772,
+        1.1102230246251565e-16,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "translation": [
+        0.49999999946977713,
+        1.6653345369377348e-16,
+        0.5
+      ]
+    },
+    {
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        0.5,
+        2.7755575615628914e-17,
+        0.5
+      ]
+    },
+    {
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "translation": [
+        -0.0,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        0.9999999994697772,
+        0.5000000000000001,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "translation": [
+        0.49999999946977713,
+        0.5000000000000002,
+        0.5
+      ]
+    },
+    {
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "additional_operation_indices": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "extra_translation": [
+    0,
+    0.5,
+    0
+  ],
+  "extra_translation_interpretation": "Accidental b/2 translation maps the starting structure to itself; retaining all detected operations also preserves this smaller periodicity. No.14 alone does not describe which translation subgroup was constrained.",
+  "constraint_initialization_position_max_A": 3.000000958763849e-08,
+  "constraint_initialization_cell_max_A": 3.552713678800501e-15,
+  "position_dofs_unconstrained": 456,
+  "projected_rank": 57,
+  "excluded_directions": 399,
+  "declared_four_operations_projected_rank": 114,
+  "extra_suppressed_directions_due_to_8_vs_4": 57,
+  "declared_projection_idempotence_max": 3.570542905469035e-17,
+  "projection_idempotence_max": 1.7852714527345164e-17,
+  "projection_asymmetry_max": 8.679979131653819e-18,
+  "projection_eigenvalue_extrema": [
+    -5.431199253691243e-16,
+    1.0000000000000009
+  ],
+  "relative_rigid_chain_translation_dimension": 9,
+  "permitted_rigid_chain_translation_dimension": 1,
+  "excluded_rigid_chain_translation_dimension": 8,
+  "declared_four_operations_permitted_rigid_chain_translation_dimension": 3,
+  "additional_rigid_translation_dimension_released_by_8_to_4": 2,
+  "final_saved_force_max_removed_eV_A": 7.303465332537721e-13,
+  "trajectory_force_projection": [
+    {
+      "step": 0,
+      "raw_fmax": 1.3734635142873217,
+      "projected_fmax": 1.3734635142871772,
+      "max_removed_force_vector_eV_A": 2.4657089223604677e-13
+    },
+    {
+      "step": 1,
+      "raw_fmax": 0.8949336762130143,
+      "projected_fmax": 0.8949336762128048,
+      "max_removed_force_vector_eV_A": 3.168593060186052e-13
+    },
+    {
+      "step": 2,
+      "raw_fmax": 0.6135177017153839,
+      "projected_fmax": 0.6135177017152982,
+      "max_removed_force_vector_eV_A": 2.7415305148086175e-13
+    },
+    {
+      "step": 3,
+      "raw_fmax": 0.29644427825688724,
+      "projected_fmax": 0.29644427825686825,
+      "max_removed_force_vector_eV_A": 2.2642273354271128e-13
+    },
+    {
+      "step": 4,
+      "raw_fmax": 0.2877503198267073,
+      "projected_fmax": 0.28775031982667504,
+      "max_removed_force_vector_eV_A": 2.288582417162881e-13
+    },
+    {
+      "step": 5,
+      "raw_fmax": 0.2208023863420891,
+      "projected_fmax": 0.22080238634204466,
+      "max_removed_force_vector_eV_A": 1.8518396982342075e-13
+    },
+    {
+      "step": 6,
+      "raw_fmax": 0.13376645547698912,
+      "projected_fmax": 0.13376645547692212,
+      "max_removed_force_vector_eV_A": 1.791457278839424e-13
+    },
+    {
+      "step": 7,
+      "raw_fmax": 0.09972146640441294,
+      "projected_fmax": 0.09972146640439945,
+      "max_removed_force_vector_eV_A": 2.45400092849447e-13
+    },
+    {
+      "step": 8,
+      "raw_fmax": 0.10744469572325925,
+      "projected_fmax": 0.10744469572321719,
+      "max_removed_force_vector_eV_A": 2.0897448274500375e-13
+    },
+    {
+      "step": 9,
+      "raw_fmax": 0.14448098388924624,
+      "projected_fmax": 0.14448098388917305,
+      "max_removed_force_vector_eV_A": 2.698527035794611e-13
+    },
+    {
+      "step": 10,
+      "raw_fmax": 0.2446077076336596,
+      "projected_fmax": 0.24460770763359085,
+      "max_removed_force_vector_eV_A": 2.067823392691118e-13
+    },
+    {
+      "step": 11,
+      "raw_fmax": 0.2709745629220876,
+      "projected_fmax": 0.2709745629219704,
+      "max_removed_force_vector_eV_A": 2.769541550327763e-13
+    },
+    {
+      "step": 12,
+      "raw_fmax": 0.20885130560514795,
+      "projected_fmax": 0.2088513056050611,
+      "max_removed_force_vector_eV_A": 2.1209772444912078e-13
+    },
+    {
+      "step": 13,
+      "raw_fmax": 0.13453735235755993,
+      "projected_fmax": 0.13453735235753067,
+      "max_removed_force_vector_eV_A": 1.539492274505726e-13
+    },
+    {
+      "step": 14,
+      "raw_fmax": 0.12522560606328872,
+      "projected_fmax": 0.12522560606325614,
+      "max_removed_force_vector_eV_A": 2.3861705392069076e-13
+    },
+    {
+      "step": 15,
+      "raw_fmax": 0.12459218298305967,
+      "projected_fmax": 0.1245921829828824,
+      "max_removed_force_vector_eV_A": 2.725109058321675e-13
+    },
+    {
+      "step": 16,
+      "raw_fmax": 0.11526507709607374,
+      "projected_fmax": 0.11526507709601796,
+      "max_removed_force_vector_eV_A": 3.199413783172719e-13
+    },
+    {
+      "step": 17,
+      "raw_fmax": 0.10651741193175307,
+      "projected_fmax": 0.10651741193167243,
+      "max_removed_force_vector_eV_A": 2.0606727033379636e-13
+    },
+    {
+      "step": 18,
+      "raw_fmax": 0.12499746809880251,
+      "projected_fmax": 0.12499746809875607,
+      "max_removed_force_vector_eV_A": 2.9416227460538904e-13
+    },
+    {
+      "step": 19,
+      "raw_fmax": 0.1261308741969868,
+      "projected_fmax": 0.12613087419693,
+      "max_removed_force_vector_eV_A": 2.9928784380824055e-13
+    },
+    {
+      "step": 20,
+      "raw_fmax": 0.1264144871409904,
+      "projected_fmax": 0.12641448714084652,
+      "max_removed_force_vector_eV_A": 3.175088955509143e-13
+    },
+    {
+      "step": 21,
+      "raw_fmax": 0.12301242180225139,
+      "projected_fmax": 0.1230124218021596,
+      "max_removed_force_vector_eV_A": 3.4197587197309235e-13
+    },
+    {
+      "step": 22,
+      "raw_fmax": 0.1188497739171881,
+      "projected_fmax": 0.11884977391683088,
+      "max_removed_force_vector_eV_A": 4.705563849578654e-13
+    },
+    {
+      "step": 23,
+      "raw_fmax": 0.08584382807241295,
+      "projected_fmax": 0.08584382807228098,
+      "max_removed_force_vector_eV_A": 4.068488297694689e-13
+    },
+    {
+      "step": 24,
+      "raw_fmax": 0.07054107879180085,
+      "projected_fmax": 0.07054107879163204,
+      "max_removed_force_vector_eV_A": 5.597847092467611e-13
+    },
+    {
+      "step": 25,
+      "raw_fmax": 0.07213780534677805,
+      "projected_fmax": 0.07213780534659953,
+      "max_removed_force_vector_eV_A": 4.330143828118399e-13
+    },
+    {
+      "step": 26,
+      "raw_fmax": 0.10627460287432136,
+      "projected_fmax": 0.1062746028740734,
+      "max_removed_force_vector_eV_A": 6.102377688373629e-13
+    },
+    {
+      "step": 27,
+      "raw_fmax": 0.12037768993963822,
+      "projected_fmax": 0.12037768993940419,
+      "max_removed_force_vector_eV_A": 4.1154680878592303e-13
+    },
+    {
+      "step": 28,
+      "raw_fmax": 0.08165083125457867,
+      "projected_fmax": 0.08165083125423458,
+      "max_removed_force_vector_eV_A": 4.634335275586742e-13
+    },
+    {
+      "step": 29,
+      "raw_fmax": 0.0654922057077079,
+      "projected_fmax": 0.06549220570768145,
+      "max_removed_force_vector_eV_A": 4.75229546167919e-13
+    },
+    {
+      "step": 30,
+      "raw_fmax": 0.06836608080734155,
+      "projected_fmax": 0.0683660808073183,
+      "max_removed_force_vector_eV_A": 4.451089369081614e-13
+    },
+    {
+      "step": 31,
+      "raw_fmax": 0.067938939027878,
+      "projected_fmax": 0.06793893902779781,
+      "max_removed_force_vector_eV_A": 5.648868840664371e-13
+    },
+    {
+      "step": 32,
+      "raw_fmax": 0.07726250466198106,
+      "projected_fmax": 0.07726250466169018,
+      "max_removed_force_vector_eV_A": 4.303816432719326e-13
+    },
+    {
+      "step": 33,
+      "raw_fmax": 0.07104618890998868,
+      "projected_fmax": 0.07104618890986922,
+      "max_removed_force_vector_eV_A": 6.488413325724355e-13
+    },
+    {
+      "step": 34,
+      "raw_fmax": 0.06191908343710186,
+      "projected_fmax": 0.061919083437056134,
+      "max_removed_force_vector_eV_A": 7.08547278119977e-13
+    },
+    {
+      "step": 35,
+      "raw_fmax": 0.05602394191352557,
+      "projected_fmax": 0.05602394191349686,
+      "max_removed_force_vector_eV_A": 5.472051888512187e-13
+    },
+    {
+      "step": 36,
+      "raw_fmax": 0.05692625041736569,
+      "projected_fmax": 0.05692625041708719,
+      "max_removed_force_vector_eV_A": 5.324834703073321e-13
+    },
+    {
+      "step": 37,
+      "raw_fmax": 0.062275840713351814,
+      "projected_fmax": 0.062275840713292875,
+      "max_removed_force_vector_eV_A": 5.301157375128517e-13
+    },
+    {
+      "step": 38,
+      "raw_fmax": 0.07242781534103347,
+      "projected_fmax": 0.0724278153408822,
+      "max_removed_force_vector_eV_A": 6.91571648861336e-13
+    },
+    {
+      "step": 39,
+      "raw_fmax": 0.09542225835587798,
+      "projected_fmax": 0.09542225835582005,
+      "max_removed_force_vector_eV_A": 5.052028870557132e-13
+    },
+    {
+      "step": 40,
+      "raw_fmax": 0.1168605633820328,
+      "projected_fmax": 0.11686056338200183,
+      "max_removed_force_vector_eV_A": 6.634734477328989e-13
+    },
+    {
+      "step": 41,
+      "raw_fmax": 0.13052596825268115,
+      "projected_fmax": 0.13052596825263402,
+      "max_removed_force_vector_eV_A": 6.698183483981794e-13
+    },
+    {
+      "step": 42,
+      "raw_fmax": 0.17513456113250886,
+      "projected_fmax": 0.17513456113245723,
+      "max_removed_force_vector_eV_A": 5.20404141281406e-13
+    },
+    {
+      "step": 43,
+      "raw_fmax": 0.2115362949632138,
+      "projected_fmax": 0.21153629496315615,
+      "max_removed_force_vector_eV_A": 6.386380718420605e-13
+    },
+    {
+      "step": 44,
+      "raw_fmax": 0.22914828159566486,
+      "projected_fmax": 0.22914828159558892,
+      "max_removed_force_vector_eV_A": 5.054237908965547e-13
+    },
+    {
+      "step": 45,
+      "raw_fmax": 0.22068509131684033,
+      "projected_fmax": 0.2206850913167574,
+      "max_removed_force_vector_eV_A": 6.496886867656669e-13
+    },
+    {
+      "step": 46,
+      "raw_fmax": 0.19176572756545998,
+      "projected_fmax": 0.19176572756537147,
+      "max_removed_force_vector_eV_A": 6.957366907593166e-13
+    },
+    {
+      "step": 47,
+      "raw_fmax": 0.18626087961077664,
+      "projected_fmax": 0.186260879610693,
+      "max_removed_force_vector_eV_A": 7.109733790851874e-13
+    },
+    {
+      "step": 48,
+      "raw_fmax": 0.18301588513378778,
+      "projected_fmax": 0.18301588513333283,
+      "max_removed_force_vector_eV_A": 6.762580030608943e-13
+    },
+    {
+      "step": 49,
+      "raw_fmax": 0.13907315302055223,
+      "projected_fmax": 0.13907315302039464,
+      "max_removed_force_vector_eV_A": 6.939705785715572e-13
+    },
+    {
+      "step": 50,
+      "raw_fmax": 0.1980065352987047,
+      "projected_fmax": 0.198006535298495,
+      "max_removed_force_vector_eV_A": 5.605626368837928e-13
+    },
+    {
+      "step": 51,
+      "raw_fmax": 0.1430935415555925,
+      "projected_fmax": 0.14309354155544393,
+      "max_removed_force_vector_eV_A": 5.533690773551533e-13
+    },
+    {
+      "step": 52,
+      "raw_fmax": 0.1799845319746735,
+      "projected_fmax": 0.1799845319744304,
+      "max_removed_force_vector_eV_A": 5.253525770892923e-13
+    },
+    {
+      "step": 53,
+      "raw_fmax": 0.11693245179373127,
+      "projected_fmax": 0.11693245179356017,
+      "max_removed_force_vector_eV_A": 6.009129069335254e-13
+    },
+    {
+      "step": 54,
+      "raw_fmax": 0.11645060179854556,
+      "projected_fmax": 0.11645060179823005,
+      "max_removed_force_vector_eV_A": 6.287957604210296e-13
+    },
+    {
+      "step": 55,
+      "raw_fmax": 0.1067662549719986,
+      "projected_fmax": 0.10676625497177927,
+      "max_removed_force_vector_eV_A": 5.892836774076677e-13
+    },
+    {
+      "step": 56,
+      "raw_fmax": 0.09509621270607999,
+      "projected_fmax": 0.09509621270596962,
+      "max_removed_force_vector_eV_A": 6.324877159322726e-13
+    },
+    {
+      "step": 57,
+      "raw_fmax": 0.07610743425291493,
+      "projected_fmax": 0.07610743425288562,
+      "max_removed_force_vector_eV_A": 6.265344196656151e-13
+    },
+    {
+      "step": 58,
+      "raw_fmax": 0.06394283829902811,
+      "projected_fmax": 0.06394283829874667,
+      "max_removed_force_vector_eV_A": 6.341865228462768e-13
+    },
+    {
+      "step": 59,
+      "raw_fmax": 0.07221123850264162,
+      "projected_fmax": 0.07221123850245934,
+      "max_removed_force_vector_eV_A": 6.834465860770347e-13
+    },
+    {
+      "step": 60,
+      "raw_fmax": 0.0800340058287992,
+      "projected_fmax": 0.08003400582864204,
+      "max_removed_force_vector_eV_A": 6.592108739634467e-13
+    },
+    {
+      "step": 61,
+      "raw_fmax": 0.06764544999176655,
+      "projected_fmax": 0.0676454499912975,
+      "max_removed_force_vector_eV_A": 7.338665728901757e-13
+    },
+    {
+      "step": 62,
+      "raw_fmax": 0.03828449376044,
+      "projected_fmax": 0.03828449376034783,
+      "max_removed_force_vector_eV_A": 7.303465332537721e-13
+    }
+  ],
+  "max_removed_force_vector_over_trajectory_eV_A": 7.338665728901757e-13,
+  "fixed_cell_max_initial_final_change_A": 3.552713678800501e-15,
+  "source_sha256": {
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/symmetry_sampling_diagnose.py": "ac44394ba7c4dec22b38219c5fda8bd2caedee330dcb8ce920b571876c4ea253",
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/input/candidate.extxyz": "8cd8bfa151595a2ea30b1b246af899201ac4368c583219345ee42e2cf2e34814",
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/input/candidate.json": "ce218adbce81d9f8094b778c7099fdc09608a9565923a6fc451dfa11bce2fe93",
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/relaxation/final.extxyz": "b9cc1619e36f6b74c36744a69385580b6bb57d4c5c5b44913ddb8b987918dee8",
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/relaxation/trajectory.traj": "c99692f6fdb3cb9caee1abfc4a48ab04d34ec5d39ed364189ad6a4d8da015c27",
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/relaxation/final_raw_results.json": "0ef21027a870605fcb1b0d4ebe7a1e3e63636bf8bef296bd916817deac244466",
+    "/mnt/e/PA6_DFT/scripts/validate_ordered.py": "092be56c3265dd809539dae69365ae5829be553e387b0375c0744d908a1bbc15"
+  },
+  "interpretation": [
+    "Raw and projected force equality excludes a large instantaneous force discarded by the group projector at these symmetric geometries.",
+    "It does not exclude negative curvature, bifurcation or lower minima along symmetry-breaking modes. Such first derivatives can vanish identically by symmetry.",
+    "FixSymmetry acts on individual atom displacements; it is not a rigid-chain constraint. Chain geometry is allowed to relax subject to symmetry relations.",
+    "The fixed lattice excludes strain relaxation. Retained primitive translations exclude long-period distortions. Neither is tested by raw/projected force agreement."
+  ]
+}

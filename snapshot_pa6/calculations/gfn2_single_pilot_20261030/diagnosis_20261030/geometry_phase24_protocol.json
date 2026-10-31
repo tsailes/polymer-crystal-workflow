@@ -1,0 +1,42 @@
+{
+  "source_sha256": {
+    "/mnt/e/PA6_DFT/inputs/allowed_literature_inputs.json": "aa4c1080af5b50805e4227cbd9748c23e0779f0746754080175378c8d335f45f",
+    "/mnt/e/PA6_DFT/inputs/independent_template/chain_00.json": "0fc6dd885d2258eafbf6cd0cfc676ab236791971ac8ab195644082bdbb320a3c",
+    "/mnt/e/PA6_DFT/inputs/chemistry_template_manifest.json": "2e41f0068a5337cb04e6159fba410df276f530d442c1f628ee590a1dff9edf1e",
+    "/mnt/e/PA6_DFT/branches/O/phase24_first_pass/selection.json": "7552b6c266641ce3e758145459236d218b4c3b492bea1fcda59dbde4941744e7",
+    "/mnt/e/PA6_DFT/scripts/build_ordered_candidates.py": "4296fb911ad73f942efc23f730e8724913d19f681a11ea3f2a0bdc47f3939920",
+    "/mnt/e/PA6_DFT/scripts/validate_ordered.py": "092be56c3265dd809539dae69365ae5829be553e387b0375c0744d908a1bbc15",
+    "/mnt/e/PA6_DFT/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_phase24.py": "e69194a192fec485a802a6be147656f45bb2199105faed3f4e1a2b89335c1f24"
+  },
+  "template_index": 0,
+  "chain_x_fractional": 0.25,
+  "chain_rotation_about_c_deg": 0.0,
+  "phase_grid": [
+    0.0,
+    0.020833333333333332,
+    0.041666666666666664,
+    0.0625,
+    0.08333333333333333,
+    0.10416666666666667,
+    0.125,
+    0.14583333333333334,
+    0.16666666666666666,
+    0.1875,
+    0.20833333333333334,
+    0.22916666666666666,
+    0.25,
+    0.2708333333333333,
+    0.2916666666666667,
+    0.3125,
+    0.3333333333333333,
+    0.3541666666666667,
+    0.375,
+    0.3958333333333333,
+    0.4166666666666667,
+    0.4375,
+    0.4583333333333333,
+    0.4791666666666667
+  ],
+  "role": "All 24 entries retained; geometry and H-bond diagnostics only. No H-bond-based filtering, ranking, selection, or quantum calculation.",
+  "literature_atomic_coordinates_read": false
+}

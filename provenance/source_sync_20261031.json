@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-31T16:45:43+08:00",
+  "base_commit": "6a4d477190eae36d4e5b0f88821010007ced7318",
+  "remote_main_at_check": "6a4d477190eae36d4e5b0f88821010007ced7318",
+  "source_manifest_sha256": "e34a4de410b4332140decd7644becf6961ef8003dcda581b751cc590f537f567",
+  "scope": "Compare every previously curated snapshot entry to its original source file; does not assert coverage of all workspace files.",
+  "source_files_checked": 1451,
+  "source_bytes_checked": 36541128,
+  "changed_source_paths": [],
+  "missing_source_paths": [],
+  "passed": true,
+  "quantum_calculations_rerun": false,
+  "note": "No modified PE results among the previously archived source set. PA6 progress from the separate E:/PA6_DFT workspace is added under snapshot_pa6 with its own source manifest; the 2026-10-30 PE source snapshot remains byte-for-byte unchanged."
+}

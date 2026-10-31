@@ -2,11 +2,13 @@
 
 聚合物晶体结构重建、分层优化与独立数值验收的论文配套源码准备仓库。
 
-项目面向聚合物晶体，PE（聚乙烯）是当前已完成验证的典型实例，PA6 是计划中的扩展对象。具体材料的化学拓扑、对称性、搜索范围和收敛参数需分别确定。
+项目面向聚合物晶体，PE（聚乙烯）是当前已完成验证的典型实例，PA6 已开展单候选 GFN2 探索性先导与问题诊断，尚未形成验收通过的量化主线。具体材料的化学拓扑、对称性、搜索范围和收敛参数需分别确定。
 
-**当前版本：v0.1 准备快照，整理日期 2026-10-30。** 本仓库公开保存已完成 PE 主线的计算脚本、参数、结构与精选证据，用于后续论文写作和正式代码归档。它尚不是完成独立机器全流程重跑验证的正式论文 release；当前验证范围见[复现说明](docs/REPRODUCING.md)。
+**当前版本：v0.1 准备快照，最新进度同步 2026-10-31。** 本仓库公开保存已完成 PE 主线及 PA6 单候选先导的计算脚本、参数、结构与精选证据，用于后续论文写作和正式代码归档。PE 的 2026-10-30 冻结快照保持不变，PA6 最新证据单独保存于 `snapshot_pa6/`。它尚不是完成独立机器全流程重跑验证的正式论文 release；当前验证范围见[复现说明](docs/REPRODUCING.md)。
 
-English summary: This repository develops a workflow for prior-constrained polymer crystal reconstruction and hierarchical refinement, with polyethylene (PE) as the currently validated case study and PA6 as a planned extension. In the PE case, four GFN2 representatives converge to one tolerance group after tight fixed-cell DFT refinement; its representative is subsequently relaxed at zero external pressure under orthorhombic and Pnam constraints. This v0.1 preparation snapshot is not a global crystal-prediction benchmark or a fully independently rerun computational release.
+English summary: This repository develops a workflow for prior-constrained polymer crystal reconstruction and hierarchical refinement, with polyethylene (PE) as the currently validated case study and PA6 as an exploratory single-candidate pilot. In the PE case, four GFN2 representatives converge to one tolerance group after tight fixed-cell DFT refinement; its representative is subsequently relaxed at zero external pressure under orthorhombic and Pnam constraints. The PA6 pilot has not produced the diagnosed target hydrogen-bond network, and periodic-cell sensitivity remains unresolved. This v0.1 preparation snapshot is not a global crystal-prediction benchmark or a fully independently rerun computational release.
+
+**PA6 当前问题：** 一个 152 原子候选在基础胞收紧优化后原始 Fmax 为 0.004295 eV/Å，目标氢键诊断仍为 0；同几何 b 加倍后 Fmax 为 0.032857 eV/Å，未通过本次 0.005 门槛。初始注册、约束路径和周期处理的影响尚待分离，不能据此认定 GFN2 方法失效。完整证据、限制和待验证问题见 [2026-10-31 PA6 进度](docs/PA6_PROGRESS_20261031.md)。
 
 ## 计算流程与当前验证实例
 
@@ -49,10 +51,13 @@ DFT 方法和数值验证是正式标定及精修的前置条件。完整定义�
 | [docs/STATUS.md](docs/STATUS.md) | 已完成、取消和未开展工作的明确区分 |
 | [docs/PUBLICATION.md](docs/PUBLICATION.md) | 正式论文版本与引用准备 |
 | [snapshot/](snapshot/) | 保持项目相对目录结构的原始文件精选快照 |
+| [snapshot_pa6/](snapshot_pa6/) | 来自独立 PA6 工作区的单候选先导、终态与诊断证据 |
+| [docs/PA6_PROGRESS_20261031.md](docs/PA6_PROGRESS_20261031.md) | 当前 PA6 成果、问题与未执行的下一步对照 |
+| [GPT Pro 咨询与本地评议](docs/reviews/20261031-gpt-pro/README.md) | 2026-10-31 已完成的网页咨询、回复原文及建议边界；不构成新增计算 |
 | [scripts/verify_snapshot.py](scripts/verify_snapshot.py) | 文件完整性和科学计数核对；不启动量化计算 |
 | [scripts/reproduce_candidates.py](scripts/reproduce_candidates.py) | 在独立输出目录复现候选生成 |
 | [requirements-analysis.txt](requirements-analysis.txt) | 轻量分析与候选生成依赖 |
-| [PA6 计算实验方案](snapshot/reports/PA6计算实验设计_20261029/计算实验方案.md) | 后续研究计划，未启动量化计算；不属于 PE 已完成结果 |
+| [PA6 计算实验方案](snapshot/reports/PA6计算实验设计_20261029/计算实验方案.md) | 2026-10-29 历史方案；后续单候选进度见 PA6 独立快照 |
 
 快速核对与候选生成：
 
@@ -68,6 +73,6 @@ python scripts/reproduce_candidates.py --output work/candidates
 
 目前证据支持：在给定 PE 化学拓扑、晶胞、Pnam 先验及有限搜索域内，多起点经分层优化收敛到一个严格固定胞容差组，其代表完成零压正交变胞及数值验收。
 
-未完成周期声子、完整 Hessian、零点能、有限温度核自由能或最终 g4 的跨泛函几何优化。索引 XRD 峰位比较不是连续强度谱拟合；不报告 Rwp、整谱匹配率或全局最低能证明。仓库同时保存 PA6 后续方案及其三分支设计，明确标为计划，不属于已完成的 PE 计算结果。
+未完成周期声子、完整 Hessian、零点能、有限温度核自由能或最终 g4 的跨泛函几何优化。索引 XRD 峰位比较不是连续强度谱拟合；不报告 Rwp、整谱匹配率或全局最低能证明。仓库同时保存 PA6 后续方案及其三分支设计、已完成的单候选 GFN2 先导与诊断；PA6 的新版完整候选库、D1/D14 和 DFT 均未运行，不属于已完成的 PE 计算结果。
 
 仓库公开不等于已授予开源许可；当前未附授权许可证，也未登记论文 DOI、归档 DOI 或正式作者名单。使用和引用状态见[发表准备说明](docs/PUBLICATION.md)。

@@ -1,0 +1,895 @@
+{
+  "smiles": "N1C(=O)CCCCCNC(=O)CCCCC1",
+  "rdkit_version": "2025.09.3",
+  "method": "MMFF94 equilibrium parameters from chemical connectivity only",
+  "documentation": "https://rdkit.org/docs/source/rdkit.ForceField.rdForceField.html",
+  "coordinate_source": null,
+  "bond_parameters": [
+    {
+      "i": 0,
+      "j": 1,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 5.829,
+      "equilibrium_A": 1.369
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "order": 2.0,
+      "bond_type": 0,
+      "kb": 12.95,
+      "equilibrium_A": 1.222
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.19,
+      "equilibrium_A": 1.492
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.258,
+      "equilibrium_A": 1.508
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.258,
+      "equilibrium_A": 1.508
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.258,
+      "equilibrium_A": 1.508
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.258,
+      "equilibrium_A": 1.508
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.664,
+      "equilibrium_A": 1.436
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 5.829,
+      "equilibrium_A": 1.369
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "order": 2.0,
+      "bond_type": 0,
+      "kb": 12.95,
+      "equilibrium_A": 1.222
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.19,
+      "equilibrium_A": 1.492
+    },
+    {
+      "i": 11,
+      "j": 12,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.258,
+      "equilibrium_A": 1.508
+    },
+    {
+      "i": 12,
+      "j": 13,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.258,
+      "equilibrium_A": 1.508
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.258,
+      "equilibrium_A": 1.508
+    },
+    {
+      "i": 14,
+      "j": 15,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.258,
+      "equilibrium_A": 1.508
+    },
+    {
+      "i": 15,
+      "j": 0,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.664,
+      "equilibrium_A": 1.436
+    },
+    {
+      "i": 0,
+      "j": 16,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 6.663,
+      "equilibrium_A": 1.015
+    },
+    {
+      "i": 3,
+      "j": 17,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 3,
+      "j": 18,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 4,
+      "j": 19,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 4,
+      "j": 20,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 5,
+      "j": 21,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 5,
+      "j": 22,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 6,
+      "j": 23,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 6,
+      "j": 24,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 7,
+      "j": 25,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 7,
+      "j": 26,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 8,
+      "j": 27,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 6.663,
+      "equilibrium_A": 1.015
+    },
+    {
+      "i": 11,
+      "j": 28,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 11,
+      "j": 29,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 12,
+      "j": 30,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 12,
+      "j": 31,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 13,
+      "j": 32,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 13,
+      "j": 33,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 14,
+      "j": 34,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 14,
+      "j": 35,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 15,
+      "j": 36,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    },
+    {
+      "i": 15,
+      "j": 37,
+      "order": 1.0,
+      "bond_type": 0,
+      "kb": 4.766,
+      "equilibrium_A": 1.093
+    }
+  ],
+  "angle_parameters": [
+    {
+      "i": 1,
+      "j": 0,
+      "k": 15,
+      "angle_type": 0,
+      "ka": 0.821,
+      "equilibrium_deg": 119.6
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "k": 16,
+      "angle_type": 0,
+      "ka": 0.575,
+      "equilibrium_deg": 120.277
+    },
+    {
+      "i": 15,
+      "j": 0,
+      "k": 16,
+      "angle_type": 0,
+      "ka": 0.552,
+      "equilibrium_deg": 120.066
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "k": 2,
+      "angle_type": 0,
+      "ka": 0.907,
+      "equilibrium_deg": 127.152
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "k": 3,
+      "angle_type": 0,
+      "ka": 0.984,
+      "equilibrium_deg": 112.735
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "k": 3,
+      "angle_type": 0,
+      "ka": 0.938,
+      "equilibrium_deg": 124.41
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "k": 4,
+      "angle_type": 0,
+      "ka": 0.777,
+      "equilibrium_deg": 107.517
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "k": 17,
+      "angle_type": 0,
+      "ka": 0.65,
+      "equilibrium_deg": 108.385
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "k": 18,
+      "angle_type": 0,
+      "ka": 0.65,
+      "equilibrium_deg": 108.385
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "k": 17,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "k": 18,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 17,
+      "j": 3,
+      "k": 18,
+      "angle_type": 0,
+      "ka": 0.516,
+      "equilibrium_deg": 108.836
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "k": 5,
+      "angle_type": 0,
+      "ka": 0.851,
+      "equilibrium_deg": 109.608
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "k": 19,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "k": 20,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "k": 19,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "k": 20,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 19,
+      "j": 4,
+      "k": 20,
+      "angle_type": 0,
+      "ka": 0.516,
+      "equilibrium_deg": 108.836
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "k": 6,
+      "angle_type": 0,
+      "ka": 0.851,
+      "equilibrium_deg": 109.608
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "k": 21,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "k": 22,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 6,
+      "j": 5,
+      "k": 21,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 6,
+      "j": 5,
+      "k": 22,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 21,
+      "j": 5,
+      "k": 22,
+      "angle_type": 0,
+      "ka": 0.516,
+      "equilibrium_deg": 108.836
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "k": 7,
+      "angle_type": 0,
+      "ka": 0.851,
+      "equilibrium_deg": 109.608
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "k": 23,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "k": 24,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 7,
+      "j": 6,
+      "k": 23,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 7,
+      "j": 6,
+      "k": 24,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 23,
+      "j": 6,
+      "k": 24,
+      "angle_type": 0,
+      "ka": 0.516,
+      "equilibrium_deg": 108.836
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "k": 8,
+      "angle_type": 0,
+      "ka": 1.05,
+      "equilibrium_deg": 109.96
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "k": 25,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "k": 26,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 8,
+      "j": 7,
+      "k": 25,
+      "angle_type": 0,
+      "ka": 0.74,
+      "equilibrium_deg": 107.646
+    },
+    {
+      "i": 8,
+      "j": 7,
+      "k": 26,
+      "angle_type": 0,
+      "ka": 0.74,
+      "equilibrium_deg": 107.646
+    },
+    {
+      "i": 25,
+      "j": 7,
+      "k": 26,
+      "angle_type": 0,
+      "ka": 0.516,
+      "equilibrium_deg": 108.836
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "k": 9,
+      "angle_type": 0,
+      "ka": 0.821,
+      "equilibrium_deg": 119.6
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "k": 27,
+      "angle_type": 0,
+      "ka": 0.552,
+      "equilibrium_deg": 120.066
+    },
+    {
+      "i": 9,
+      "j": 8,
+      "k": 27,
+      "angle_type": 0,
+      "ka": 0.575,
+      "equilibrium_deg": 120.277
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "k": 10,
+      "angle_type": 0,
+      "ka": 0.907,
+      "equilibrium_deg": 127.152
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "k": 11,
+      "angle_type": 0,
+      "ka": 0.984,
+      "equilibrium_deg": 112.735
+    },
+    {
+      "i": 10,
+      "j": 9,
+      "k": 11,
+      "angle_type": 0,
+      "ka": 0.938,
+      "equilibrium_deg": 124.41
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "k": 12,
+      "angle_type": 0,
+      "ka": 0.777,
+      "equilibrium_deg": 107.517
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "k": 28,
+      "angle_type": 0,
+      "ka": 0.65,
+      "equilibrium_deg": 108.385
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "k": 29,
+      "angle_type": 0,
+      "ka": 0.65,
+      "equilibrium_deg": 108.385
+    },
+    {
+      "i": 12,
+      "j": 11,
+      "k": 28,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 12,
+      "j": 11,
+      "k": 29,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 28,
+      "j": 11,
+      "k": 29,
+      "angle_type": 0,
+      "ka": 0.516,
+      "equilibrium_deg": 108.836
+    },
+    {
+      "i": 11,
+      "j": 12,
+      "k": 13,
+      "angle_type": 0,
+      "ka": 0.851,
+      "equilibrium_deg": 109.608
+    },
+    {
+      "i": 11,
+      "j": 12,
+      "k": 30,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 11,
+      "j": 12,
+      "k": 31,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 13,
+      "j": 12,
+      "k": 30,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 13,
+      "j": 12,
+      "k": 31,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 30,
+      "j": 12,
+      "k": 31,
+      "angle_type": 0,
+      "ka": 0.516,
+      "equilibrium_deg": 108.836
+    },
+    {
+      "i": 12,
+      "j": 13,
+      "k": 14,
+      "angle_type": 0,
+      "ka": 0.851,
+      "equilibrium_deg": 109.608
+    },
+    {
+      "i": 12,
+      "j": 13,
+      "k": 32,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 12,
+      "j": 13,
+      "k": 33,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 14,
+      "j": 13,
+      "k": 32,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 14,
+      "j": 13,
+      "k": 33,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 32,
+      "j": 13,
+      "k": 33,
+      "angle_type": 0,
+      "ka": 0.516,
+      "equilibrium_deg": 108.836
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "k": 15,
+      "angle_type": 0,
+      "ka": 0.851,
+      "equilibrium_deg": 109.608
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "k": 34,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "k": 35,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 15,
+      "j": 14,
+      "k": 34,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 15,
+      "j": 14,
+      "k": 35,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 34,
+      "j": 14,
+      "k": 35,
+      "angle_type": 0,
+      "ka": 0.516,
+      "equilibrium_deg": 108.836
+    },
+    {
+      "i": 14,
+      "j": 15,
+      "k": 0,
+      "angle_type": 0,
+      "ka": 1.05,
+      "equilibrium_deg": 109.96
+    },
+    {
+      "i": 14,
+      "j": 15,
+      "k": 36,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 14,
+      "j": 15,
+      "k": 37,
+      "angle_type": 0,
+      "ka": 0.636,
+      "equilibrium_deg": 110.549
+    },
+    {
+      "i": 0,
+      "j": 15,
+      "k": 36,
+      "angle_type": 0,
+      "ka": 0.74,
+      "equilibrium_deg": 107.646
+    },
+    {
+      "i": 0,
+      "j": 15,
+      "k": 37,
+      "angle_type": 0,
+      "ka": 0.74,
+      "equilibrium_deg": 107.646
+    },
+    {
+      "i": 36,
+      "j": 15,
+      "k": 37,
+      "angle_type": 0,
+      "ka": 0.516,
+      "equilibrium_deg": 108.836
+    }
+  ],
+  "wheel_sha256": {
+    "rdkit-2025.9.3-cp312-cp312-manylinux_2_28_x86_64.whl": "8a1cac2699a57ca700c0b757b89827fabebdf18b8b51c26ece6cb2d936ff3386"
+  },
+  "generator_sha256": "9491890b44622bb189a8c919f51f5860ff422e1f1026b385be819c32fe191261"
+}

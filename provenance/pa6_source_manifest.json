@@ -1,0 +1,985 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-10-31",
+  "source_roots": {
+    "PA6_DFT": "E:/PA6_DFT"
+  },
+  "file_count": 120,
+  "total_bytes": 4138298,
+  "copy_policy": "Exact source bytes with SHA-256; snapshot_pa6 is independent of the frozen PE snapshot.",
+  "scope": "2026-10-30 single ordered PA6 candidate pilot and diagnosis; no full v1.2 library, D1/D14, DFT, periodic convergence or hydrogen-bond network acceptance has been completed.",
+  "excluded": [
+    "Third-party dependencies and wheels",
+    "Literature PDFs and paper atomic coordinates",
+    "Binary trajectories, optimizer restart, log and process-monitor files",
+    "Historical superseded project copies",
+    "Full generated candidate collections"
+  ],
+  "limitations": [
+    "Historical absolute paths and links remain unchanged in byte-preserved sources; use docs/PA6_PROGRESS_20261031.md as the repository entry point.",
+    "This is a curated diagnostic archive, not an independently rerun PA6 workflow release.",
+    "Geometric phase scans and small directional probes do not establish barriers, dynamical stability or energy ordering."
+  ],
+  "files": [
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "LOCAL_ORDERED_RUN.md",
+      "path": "snapshot_pa6/LOCAL_ORDERED_RUN.md",
+      "size_bytes": 3527,
+      "sha256": "5053dcc5a10337a262a0870a208370c9491865b1965668fdee7e40798736da30",
+      "selection_reason": "PA6 project scope and dated pilot state; historical paragraphs retain original dates"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "README.md",
+      "path": "snapshot_pa6/README.md",
+      "size_bytes": 10518,
+      "sha256": "3121cf9fb0d9a05228d83d43d835079bf89ada3a3180afdafea4916388952f0d",
+      "selection_reason": "PA6 project scope and dated pilot state; historical paragraphs retain original dates"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "branches/D1/branch.json",
+      "path": "snapshot_pa6/branches/D1/branch.json",
+      "size_bytes": 1481,
+      "sha256": "940c76241c8923339e9b6226d511ae6bc3e7870ae1fff2962a6a5071b4a4e0e3",
+      "selection_reason": "Branch definition; D1 and D14 are unexecuted plans"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "branches/D14/branch.json",
+      "path": "snapshot_pa6/branches/D14/branch.json",
+      "size_bytes": 1576,
+      "sha256": "4333188dc90688af6fda1d4017fefea0812fab0b53e234210db6d7ca8a15f3b4",
+      "selection_reason": "Branch definition; D1 and D14 are unexecuted plans"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "branches/O/branch.json",
+      "path": "snapshot_pa6/branches/O/branch.json",
+      "size_bytes": 3710,
+      "sha256": "88824e2fe3b0c566fe1885135e54fb6092f72fa3450fd1a5bc237356d3ed7e8b",
+      "selection_reason": "Branch definition; D1 and D14 are unexecuted plans"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/README.md",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/README.md",
+      "size_bytes": 4495,
+      "sha256": "c3e452b7dc2a89f3ab54a056f61b08608d5c696e3a43497bb9a5938f6077553c",
+      "selection_reason": "Single-candidate pilot result and analysis source"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/analyze_geometry.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/analyze_geometry.py",
+      "size_bytes": 10773,
+      "sha256": "85c810ac95fb4e626f185fc5e93178416b342a195aed1b1968253c89b2be14e8",
+      "selection_reason": "Single-candidate pilot result and analysis source"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/README.md",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/README.md",
+      "size_bytes": 7349,
+      "sha256": "dca775059cca730a1c9843034adf15c06bde491c3ae1071e3ead7bd3d9da8645",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/base.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/base.json",
+      "size_bytes": 19065,
+      "sha256": "38df83afba0e3c6c2ac698bccc2de1167a7ae847d65e5deaded9914d702f15e9",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.02_minus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.02_minus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "05870974248503361dcf737807ebc002f8340329e9c781490d55f14505b625e4",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.02_minus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.02_minus.json",
+      "size_bytes": 19066,
+      "sha256": "13737c2eed781fdedf085d8b56ec2d6c779b9d470d19ed7e350f4ab93b7d8044",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.02_plus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.02_plus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "c3673703fd2b7641acc7f15879eaaec9018cbaf0ee4afb071b6bd306a851a906",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.02_plus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.02_plus.json",
+      "size_bytes": 19118,
+      "sha256": "f20ec3d995196e0de2e427492ff772fca02ceeae9f304d090356935df064d606",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.04_minus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.04_minus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "89ba466da01eaafc8d1e2c7046634d7233b1069e046b3ef276e8b1632b49f5cf",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.04_minus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.04_minus.json",
+      "size_bytes": 19114,
+      "sha256": "93cbf7b7575b61b92d0f34291da832619637a91fbbaed7e9ad85d900223b6326",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.04_plus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.04_plus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "e2d2ffe587e59297ccb05b1bfcb7abc65ce9ff7abf73dcbd77381b769c4b403f",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.04_plus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_x_forbidden_0.04_plus.json",
+      "size_bytes": 19091,
+      "sha256": "73380e363dfb66df0399d1c467155c90d51d54e2815e928d1a2427093f129043",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.02_minus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.02_minus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "4f1b9003c743b5b3536bdd11abcd9521f5c319679289939be054113fe1669d7a",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.02_minus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.02_minus.json",
+      "size_bytes": 19122,
+      "sha256": "8a523e25bca62a9d138b10f28de861e2d18e55492312b0d5335565ff7a56a4b2",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.02_plus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.02_plus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "988517c033bd8f173133c744b688ed2d63c8c7dc566752c152267221eb31d529",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.02_plus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.02_plus.json",
+      "size_bytes": 19111,
+      "sha256": "a658d93305cd95af63fb1059b6244f0327f86dfa6f576e82a6b3b7b66ad25558",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.04_minus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.04_minus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "5f39aab331c0a64d91e99b54cc3e2bab99e9e3f16e1ec56e3628c731ed861c71",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.04_minus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.04_minus.json",
+      "size_bytes": 19097,
+      "sha256": "8eabac6a00be580a488fede3cad5c698b7f72859da17ea37130bd36e43bc0f72",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.04_plus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.04_plus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "953ad1257ae0866614cbaf5d600b6ac877de0ac29bb6314151ac4f47cf64e80a",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.04_plus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_y_forbidden_0.04_plus.json",
+      "size_bytes": 19123,
+      "sha256": "29f2cf0aa8bb5c23ed5cdf4fd41fbc0559a4712e44fee2968a1be2cf4f4b7cb7",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.02_minus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.02_minus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "a7d288152dab13aa31635cf49d0d0b50fe7b8e09493a1b8f2095225e69c9c162",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.02_minus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.02_minus.json",
+      "size_bytes": 19102,
+      "sha256": "9e5bc2ca2536c9620a782d42559d57e280924e3166920f0a8ef0c7f6a964f0d8",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.02_plus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.02_plus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "b40bc2b1a22bab52d6bde760df71454a0185bee508c9eda7334875816f1ec5a6",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.02_plus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.02_plus.json",
+      "size_bytes": 19091,
+      "sha256": "af74343cfd37dbc61f48dbb35af43b4dc1ee2108ca757fc09e0facf8a324c8d5",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.04_minus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.04_minus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "bca2e2c2e06353e7a21abce14b06f4935737d3858b54697f8252bec766f77110",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.04_minus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.04_minus.json",
+      "size_bytes": 19091,
+      "sha256": "b56167a26674b902ab56c9f5016413ad2032207c1cfe64aacf13c503a3de608a",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.04_plus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.04_plus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "1fab543aae99c307e92347e32d9d59b84b2054b41ba5bd61ff4319fc370a7cf7",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.04_plus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_allowed_0.04_plus.json",
+      "size_bytes": 19091,
+      "sha256": "df97cef06f0069473ef6f14661025a28ab58a674c429ac623b44dc2a4ade17b4",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.02_minus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.02_minus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "bfc3d97f3240c2ca3e00d74dacc7d84050acd91a467bc1882318f1aeffbf7259",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.02_minus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.02_minus.json",
+      "size_bytes": 19110,
+      "sha256": "85fd0035b997162e5d0d4a150867403aa3ed90658f7c5879f5946c239f9d8f59",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.02_plus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.02_plus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "0b7611e20187f98f891f41167fb1be5c7d9f953ca99c648922a72feae640307d",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.02_plus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.02_plus.json",
+      "size_bytes": 19114,
+      "sha256": "028518cb1bf6a807ac8844b338953eafdf9623746a3e5f5977abe324a1d1aa2b",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.04_minus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.04_minus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "569833e4906549acd7b5083c11cc918c93e16ecba8004215dfac81dd16f078bd",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.04_minus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.04_minus.json",
+      "size_bytes": 19106,
+      "sha256": "e9c840dd27a01de44612088fdb516c77a05dcaafbb7047e158227cf3ffe6a3fb",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.04_plus.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.04_plus.extxyz",
+      "size_bytes": 8471,
+      "sha256": "f928fd34a227b1109a06d4d0780607dd4c7156fc0360f060cddda8270e9dbb88",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.04_plus.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/chain_z_forbidden_0.04_plus.json",
+      "size_bytes": 19131,
+      "sha256": "ae0a94ffed6d279d9800c5ff6abe821af0d32b5111df2cf1d7c9189837286cd6",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/protocol.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/protocol.json",
+      "size_bytes": 46006,
+      "sha256": "8d82f7d17fe3093114afed35f9e8b33587f48bb716889605984516779d1f4100",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/summary.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/directional_probes/summary.json",
+      "size_bytes": 3468,
+      "sha256": "1e54773c1bee15296120bdf43e0af63ed9e538efe7e28d0dfdf01e6525f72bed",
+      "selection_reason": "Small paired displacement single points; not a full Hessian or path calculation"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_diagnose.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_diagnose.py",
+      "size_bytes": 16245,
+      "sha256": "f066c7d9fd163df52afb07c9b3d9d4967647bdb9ec9bfb2417ef02682ec1e176",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_diagnosis.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_diagnosis.json",
+      "size_bytes": 1055062,
+      "sha256": "158a7ae2fbaf53211d52bb99f8aa5eb141a941462f985e5fd44d1d7124d03128",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_phase24.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_phase24.py",
+      "size_bytes": 5206,
+      "sha256": "e69194a192fec485a802a6be147656f45bb2199105faed3f4e1a2b89335c1f24",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_phase24_protocol.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_phase24_protocol.json",
+      "size_bytes": 1755,
+      "sha256": "c38cbe409ba4a715fbc78fedf8a3b10e3a54fbab619ef80bea6bf78b565a47da",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_phase24_summary.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_phase24_summary.json",
+      "size_bytes": 20290,
+      "sha256": "49def456ec28683f7945d06c6813c25f44a9b7b463e91836cbe0a634fa0c0340",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_results.md",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_results.md",
+      "size_bytes": 6279,
+      "sha256": "4a7faa2fbf8763d4c826a89595c6bd20ddb80f3e3ae80e28ed744ee7fca16676",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_tight_diagnosis.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_tight_diagnosis.json",
+      "size_bytes": 1200299,
+      "sha256": "f12e3848dfba087030ad358409eb59559c5a3c5ecc3425ec6ac0ed9b7dea4ff4",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_tight_results.md",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/geometry_tight_results.md",
+      "size_bytes": 2032,
+      "sha256": "d12c78fe68c2a4e917228e24d56ebb337cff01249baa04da642e2ea63f060df7",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/make_diagnosis_report.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/make_diagnosis_report.py",
+      "size_bytes": 10183,
+      "sha256": "1431b9a5ded50a1a4d67d877e9a362830de0fd8074ee9c39531637f2bf0ce381",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/next_validation_protocol.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/next_validation_protocol.json",
+      "size_bytes": 4773,
+      "sha256": "730a9a74b4ceb2cc1fb3cdf1113519cfe1e34563f6f42ec3847c23aafb478ddb",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/run_directional_probes.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/run_directional_probes.py",
+      "size_bytes": 3511,
+      "sha256": "766bcb373aa5a8562dcb748523e49d2c4aa7cf8a72b4bcd18289395e8c0be019",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/sampling_diagnosis.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/sampling_diagnosis.json",
+      "size_bytes": 54400,
+      "sha256": "55b3b88c793cce75b5356a93762490fcc477f9bdb0234ca68a0ddcbea2da1ffd",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/summary.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/summary.json",
+      "size_bytes": 2881,
+      "sha256": "0c8e91da7fbacbb4050c22272cbd12a10ef489d628c8b301dcdf8452fe0fba9d",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/symmetry_diagnosis.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/symmetry_diagnosis.json",
+      "size_bytes": 17148,
+      "sha256": "74e150fd549c354250c8e3694f9ca76664ae39a8a2146858c7b3081c58755f6a",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/symmetry_sampling_diagnose.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/symmetry_sampling_diagnose.py",
+      "size_bytes": 14126,
+      "sha256": "ac44394ba7c4dec22b38219c5fda8bd2caedee330dcb8ce920b571876c4ea253",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/symmetry_sampling_stdout.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/symmetry_sampling_stdout.json",
+      "size_bytes": 20166,
+      "sha256": "4d38bb6e902b63df54dc56604bc0ece84ecb54949f86d28e583d84480a049ec0",
+      "selection_reason": "Diagnosis of registry, actual symmetry, geometry and periodic sensitivity; next protocol is unexecuted"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/final.cif",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/final.cif",
+      "size_bytes": 14117,
+      "sha256": "5f58461d043652db58a6a1206747fd218ac2477642bcaf791930b502018f08ec",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/final.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/final.extxyz",
+      "size_bytes": 8472,
+      "sha256": "790cd28a24d61fa48522039102a7e3f4dbe80b0c92b60c64a4ff6bd32352db62",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/final_raw_results.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/final_raw_results.json",
+      "size_bytes": 19373,
+      "sha256": "25228d3efe44312d7c5ce3b8a10acaf7800e2ae0c6a2c1efdfce16f25d4af93f",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/input.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/input.extxyz",
+      "size_bytes": 8471,
+      "sha256": "b9cc1619e36f6b74c36744a69385580b6bb57d4c5c5b44913ddb8b987918dee8",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/protocol.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/protocol.json",
+      "size_bytes": 1179,
+      "sha256": "0db26d631cd0f8da52e49f24332b9907d9d149349fff36eb3de4eebb34d53ed0",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/result.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/result.json",
+      "size_bytes": 880,
+      "sha256": "60d2da57081c358646b1323948ac86993bd40ecd90ffabf45f60c42cb8c06a43",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/runner_snapshot.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/runner_snapshot.py",
+      "size_bytes": 9435,
+      "sha256": "f2928270ad9c64748b0a0062e4efe68c2c7594cde58a4d6685850b07e7250a1f",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/status.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/status.json",
+      "size_bytes": 880,
+      "sha256": "60d2da57081c358646b1323948ac86993bd40ecd90ffabf45f60c42cb8c06a43",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/symmetry_initialization_change.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/diagnosis_20261030/tight_continuation/symmetry_initialization_change.json",
+      "size_bytes": 99,
+      "sha256": "1599440de84f15bc81fb776c4f049fe5d5c002ad28cf201db2ac9e7722c47c6a",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_cold_tight/input.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_cold_tight/input.extxyz",
+      "size_bytes": 8471,
+      "sha256": "b9cc1619e36f6b74c36744a69385580b6bb57d4c5c5b44913ddb8b987918dee8",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_cold_tight/protocol.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_cold_tight/protocol.json",
+      "size_bytes": 1178,
+      "sha256": "ec6c65457923c5238926d97c41226901d04a865605c2522356b8393b81781865",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_cold_tight/result.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_cold_tight/result.json",
+      "size_bytes": 19095,
+      "sha256": "f96206e4a52a17056b87d9d6b94d1f909be8f3efde8a82e16a12f0a80325eca1",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_cold_tight/runner_snapshot.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_cold_tight/runner_snapshot.py",
+      "size_bytes": 9435,
+      "sha256": "f2928270ad9c64748b0a0062e4efe68c2c7594cde58a4d6685850b07e7250a1f",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_1x1x2/input.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_1x1x2/input.extxyz",
+      "size_bytes": 8471,
+      "sha256": "b9cc1619e36f6b74c36744a69385580b6bb57d4c5c5b44913ddb8b987918dee8",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_1x1x2/protocol.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_1x1x2/protocol.json",
+      "size_bytes": 1178,
+      "sha256": "3729475110f2177e34fe115fd5b3d88e16be264a121f5ebda5597954be6eb646",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_1x1x2/result.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_1x1x2/result.json",
+      "size_bytes": 52755,
+      "sha256": "25c2a4ad1356b35b66e0b9a039f63644b8897568ad0912fa2d172cd771703d14",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_1x1x2/runner_snapshot.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_1x1x2/runner_snapshot.py",
+      "size_bytes": 9435,
+      "sha256": "f2928270ad9c64748b0a0062e4efe68c2c7594cde58a4d6685850b07e7250a1f",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_1x2x1/input.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_1x2x1/input.extxyz",
+      "size_bytes": 8471,
+      "sha256": "b9cc1619e36f6b74c36744a69385580b6bb57d4c5c5b44913ddb8b987918dee8",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_1x2x1/protocol.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_1x2x1/protocol.json",
+      "size_bytes": 1178,
+      "sha256": "0b0d50b7fed21556742c68d1eb005b4c5f181aabc3abda73e97268b802dbd8c8",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_1x2x1/result.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_1x2x1/result.json",
+      "size_bytes": 52730,
+      "sha256": "45d200220f01b2257ad2a7a5247b4fc3a3f6725d0c322279048f38afcd5ea063",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_1x2x1/runner_snapshot.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_1x2x1/runner_snapshot.py",
+      "size_bytes": 9435,
+      "sha256": "f2928270ad9c64748b0a0062e4efe68c2c7594cde58a4d6685850b07e7250a1f",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_2x1x1/input.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_2x1x1/input.extxyz",
+      "size_bytes": 8471,
+      "sha256": "b9cc1619e36f6b74c36744a69385580b6bb57d4c5c5b44913ddb8b987918dee8",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_2x1x1/protocol.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_2x1x1/protocol.json",
+      "size_bytes": 1178,
+      "sha256": "b7988f08472f219b89279ff7d6d11a4d7030ce0e86a2fa13fb0375a9e76b9795",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_2x1x1/result.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_2x1x1/result.json",
+      "size_bytes": 52780,
+      "sha256": "47d54a414b6c2301016e9edd7e0765199e52a8f063697fa45300cffd3b1a99a3",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/final_sampling_2x1x1/runner_snapshot.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/final_sampling_2x1x1/runner_snapshot.py",
+      "size_bytes": 9435,
+      "sha256": "f2928270ad9c64748b0a0062e4efe68c2c7594cde58a4d6685850b07e7250a1f",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/finalize_record.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/finalize_record.py",
+      "size_bytes": 7738,
+      "sha256": "576780bb47798feab3523c0b48b76b20e3ca57ecf2c739c6440584d72b23751b",
+      "selection_reason": "Single-candidate pilot result and analysis source"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/geometry_comparison.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/geometry_comparison.json",
+      "size_bytes": 451191,
+      "sha256": "630054fddb47c003b4b51a76aefa784fde198d9df00e7b26ca2c17e7385d7817",
+      "selection_reason": "Single-candidate pilot result and analysis source"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/input/candidate.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/input/candidate.extxyz",
+      "size_bytes": 8426,
+      "sha256": "8cd8bfa151595a2ea30b1b246af899201ac4368c583219345ee42e2cf2e34814",
+      "selection_reason": "Single pilot input, non-hydrogen-bond selection policy and geometry audit"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/input/candidate.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/input/candidate.json",
+      "size_bytes": 75888,
+      "sha256": "ce218adbce81d9f8094b778c7099fdc09608a9565923a6fc451dfa11bce2fe93",
+      "selection_reason": "Single pilot input, non-hydrogen-bond selection policy and geometry audit"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/input/candidate.validation.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/input/candidate.validation.json",
+      "size_bytes": 35095,
+      "sha256": "bd4e882a61d875360b4400872c17cbd4f7badc5ebd23a6bcda7b94f6a7ed61e9",
+      "selection_reason": "Single pilot input, non-hydrogen-bond selection policy and geometry audit"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/input/select_single_candidate.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/input/select_single_candidate.py",
+      "size_bytes": 7628,
+      "sha256": "12b64aefe71ba1926246aad392567bad4aeebc933b46562d3d4bdf2cc70cf262",
+      "selection_reason": "Single pilot input, non-hydrogen-bond selection policy and geometry audit"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/input/selection_protocol.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/input/selection_protocol.json",
+      "size_bytes": 2528,
+      "sha256": "52ef7921f75d78aefad00e384b1d841cf50e8d750a90c94912e0ce472783e9c2",
+      "selection_reason": "Single pilot input, non-hydrogen-bond selection policy and geometry audit"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/input/selection_record.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/input/selection_record.json",
+      "size_bytes": 1250,
+      "sha256": "30418ef7b8785735570191996812cfbb05c34ae3d8e8fa3f3304db43e4b24353",
+      "selection_reason": "Single pilot input, non-hydrogen-bond selection policy and geometry audit"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/relaxation/final.cif",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/relaxation/final.cif",
+      "size_bytes": 14146,
+      "sha256": "28b3dd9dd79b7a5e191685feec00f1187d1da6783671e5a5d9660da0c4448433",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/relaxation/final.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/relaxation/final.extxyz",
+      "size_bytes": 8471,
+      "sha256": "b9cc1619e36f6b74c36744a69385580b6bb57d4c5c5b44913ddb8b987918dee8",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/relaxation/final_raw_results.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/relaxation/final_raw_results.json",
+      "size_bytes": 18928,
+      "sha256": "0ef21027a870605fcb1b0d4ebe7a1e3e63636bf8bef296bd916817deac244466",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/relaxation/input.extxyz",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/relaxation/input.extxyz",
+      "size_bytes": 8426,
+      "sha256": "8cd8bfa151595a2ea30b1b246af899201ac4368c583219345ee42e2cf2e34814",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/relaxation/protocol.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/relaxation/protocol.json",
+      "size_bytes": 1132,
+      "sha256": "6533d641be4ebbded9b5d19108e73be48e816c6c84434f3cec9c8dee0ed382c1",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/relaxation/result.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/relaxation/result.json",
+      "size_bytes": 862,
+      "sha256": "dbba1226f0617066e8e3915305ba9743d1fb656ead723a319bc22fe3b567f9e6",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/relaxation/runner_snapshot.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/relaxation/runner_snapshot.py",
+      "size_bytes": 8899,
+      "sha256": "85abc73db7b3051f0e062b98e41f4200f9f9adfe8de75d6a8ad2d386cf738774",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/relaxation/status.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/relaxation/status.json",
+      "size_bytes": 862,
+      "sha256": "dbba1226f0617066e8e3915305ba9743d1fb656ead723a319bc22fe3b567f9e6",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/relaxation/symmetry_initialization_change.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/relaxation/symmetry_initialization_change.json",
+      "size_bytes": 99,
+      "sha256": "9f0c6565efd1ca33b2423e7fdde0d97c7592366dca4059556b5e8ce65253abcc",
+      "selection_reason": "Pilot terminal state, force evidence and executed source; optimizer restart and trajectory excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/summarize.py",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/summarize.py",
+      "size_bytes": 3172,
+      "sha256": "f14875eff64a688f5a7317110c58d65163660870d412efd4f1694aa6fbe14f21",
+      "selection_reason": "Single-candidate pilot result and analysis source"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "calculations/gfn2_single_pilot_20261030/summary.json",
+      "path": "snapshot_pa6/calculations/gfn2_single_pilot_20261030/summary.json",
+      "size_bytes": 4238,
+      "sha256": "d107f8f34142ea8195e1019119ad2118dca5ed1073e8cdd93c6980c76ac34859",
+      "selection_reason": "Single-candidate pilot result and analysis source"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "inputs/allowed_literature_inputs.json",
+      "path": "snapshot_pa6/inputs/allowed_literature_inputs.json",
+      "size_bytes": 2046,
+      "sha256": "aa4c1080af5b50805e4227cbd9748c23e0779f0746754080175378c8d335f45f",
+      "selection_reason": "Frozen permitted priors, independent chemistry and no-hydrogen-bond-screening policy"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "inputs/candidate_physical_screen_policy.json",
+      "path": "snapshot_pa6/inputs/candidate_physical_screen_policy.json",
+      "size_bytes": 2203,
+      "sha256": "7332363f98e70bc2df21b2ee623ecd1b3534b49929b743a828893481c0d87a08",
+      "selection_reason": "Frozen permitted priors, independent chemistry and no-hydrogen-bond-screening policy"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "inputs/chemistry_template_manifest.json",
+      "path": "snapshot_pa6/inputs/chemistry_template_manifest.json",
+      "size_bytes": 2048,
+      "sha256": "2e41f0068a5337cb04e6159fba410df276f530d442c1f628ee590a1dff9edf1e",
+      "selection_reason": "Frozen permitted priors, independent chemistry and no-hydrogen-bond-screening policy"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "inputs/independent_template/chain_00.json",
+      "path": "snapshot_pa6/inputs/independent_template/chain_00.json",
+      "size_bytes": 13870,
+      "sha256": "0fc6dd885d2258eafbf6cd0cfc676ab236791971ac8ab195644082bdbb320a3c",
+      "selection_reason": "Independent chain templates and generic chemistry parameters; external RDKit runtime excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "inputs/independent_template/chain_01.json",
+      "path": "snapshot_pa6/inputs/independent_template/chain_01.json",
+      "size_bytes": 13845,
+      "sha256": "012b77cc725969497a3c5ef1e31d1e0969bf6dac3d2941ee42998a20d9e5e992",
+      "selection_reason": "Independent chain templates and generic chemistry parameters; external RDKit runtime excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "inputs/independent_template/mmff94_parameters.json",
+      "path": "snapshot_pa6/inputs/independent_template/mmff94_parameters.json",
+      "size_bytes": 15050,
+      "sha256": "f927fb38bfe5bdb64f422dd7ffc6d19faf40dd3e8c94c01a83b48ab7a43f07a1",
+      "selection_reason": "Independent chain templates and generic chemistry parameters; external RDKit runtime excluded"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "project.json",
+      "path": "snapshot_pa6/project.json",
+      "size_bytes": 7164,
+      "sha256": "b909cfbb9ffc63b189e65e991fabbfa6a8211ba6ad23e7aa135485ccf29c63cc",
+      "selection_reason": "PA6 project scope and dated pilot state; historical paragraphs retain original dates"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "scripts/audit_hbond_filter.py",
+      "path": "snapshot_pa6/scripts/audit_hbond_filter.py",
+      "size_bytes": 12489,
+      "sha256": "f6519a5f8758472b1d95e40c880ed42d88b5243acdda94fbb66422b24ed666cf",
+      "selection_reason": "PA6 construction, geometry validation and pilot source; not all scripts have been executed"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "scripts/audit_phase_followup.py",
+      "path": "snapshot_pa6/scripts/audit_phase_followup.py",
+      "size_bytes": 2710,
+      "sha256": "52a50d22064801bca8b6b8e33b3ca1f9b1c7834a1497de2f453c038c3bbff5be",
+      "selection_reason": "PA6 construction, geometry validation and pilot source; not all scripts have been executed"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "scripts/audit_phase_symmetry.py",
+      "path": "snapshot_pa6/scripts/audit_phase_symmetry.py",
+      "size_bytes": 7780,
+      "sha256": "f61268b74d0c10719620d4fded052734b87ecfacd3ad38e24d024bf845cdcebc",
+      "selection_reason": "PA6 construction, geometry validation and pilot source; not all scripts have been executed"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "scripts/build_ordered_candidates.py",
+      "path": "snapshot_pa6/scripts/build_ordered_candidates.py",
+      "size_bytes": 19226,
+      "sha256": "4296fb911ad73f942efc23f730e8724913d19f681a11ea3f2a0bdc47f3939920",
+      "selection_reason": "PA6 construction, geometry validation and pilot source; not all scripts have been executed"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "scripts/run_gfn2_single_pilot.py",
+      "path": "snapshot_pa6/scripts/run_gfn2_single_pilot.py",
+      "size_bytes": 9435,
+      "sha256": "f2928270ad9c64748b0a0062e4efe68c2c7594cde58a4d6685850b07e7250a1f",
+      "selection_reason": "PA6 construction, geometry validation and pilot source; not all scripts have been executed"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "scripts/run_ordered_pilot.py",
+      "path": "snapshot_pa6/scripts/run_ordered_pilot.py",
+      "size_bytes": 26441,
+      "sha256": "1847ccf6b09b889dc3b92bb51d64774c4042914e71e50040bab9b258b0357ca9",
+      "selection_reason": "PA6 construction, geometry validation and pilot source; not all scripts have been executed"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "scripts/summarize_candidate_audit.py",
+      "path": "snapshot_pa6/scripts/summarize_candidate_audit.py",
+      "size_bytes": 3659,
+      "sha256": "ba04d521f83124e3e634230276ca192d0f0aed08abffac2a4e43aed52f9c3046",
+      "selection_reason": "PA6 construction, geometry validation and pilot source; not all scripts have been executed"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "scripts/validate_ordered.py",
+      "path": "snapshot_pa6/scripts/validate_ordered.py",
+      "size_bytes": 26154,
+      "sha256": "092be56c3265dd809539dae69365ae5829be553e387b0375c0744d908a1bbc15",
+      "selection_reason": "PA6 construction, geometry validation and pilot source; not all scripts have been executed"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "scripts/verify_hbond_audit_examples.py",
+      "path": "snapshot_pa6/scripts/verify_hbond_audit_examples.py",
+      "size_bytes": 3673,
+      "sha256": "acfe7dd8b5aefe6f72a11ace6ed346e53f1656cc0131f5c02ffbf5c88c3307d3",
+      "selection_reason": "PA6 construction, geometry validation and pilot source; not all scripts have been executed"
+    },
+    {
+      "source_root_id": "PA6_DFT",
+      "source_path": "tests/test_validate_ordered.py",
+      "path": "snapshot_pa6/tests/test_validate_ordered.py",
+      "size_bytes": 7386,
+      "sha256": "0d4c0bca0b9f4d748b134ef28ba9d0241c67c2c2c53c4873cc2b8464c74a35b6",
+      "selection_reason": "Existing PA6 geometry validator checks; not rerun for this archive"
+    }
+  ]
+}

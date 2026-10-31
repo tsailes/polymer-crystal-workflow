@@ -1,0 +1,30 @@
+{
+  "status": "coarse_converged",
+  "projected_converged": true,
+  "raw_converged": true,
+  "initial": {
+    "step": 0,
+    "wall_seconds": 2.403061336999997,
+    "energy_eV": -5545.5208208151935,
+    "energy_eV_per_repeat": -693.1901026018992,
+    "raw_fmax_eV_A": 1.3734635142873217,
+    "projected_fmax_eV_A": 1.3734635142871772,
+    "peak_rss_MiB": 126.5234375,
+    "cpu_seconds": 15.290855
+  },
+  "final": {
+    "step": 62,
+    "wall_seconds": 135.36583647,
+    "energy_eV": -5547.900320560969,
+    "energy_eV_per_repeat": -693.4875400701211,
+    "raw_fmax_eV_A": 0.03828449376044,
+    "projected_fmax_eV_A": 0.03828449376034783,
+    "peak_rss_MiB": 136.68359375,
+    "cpu_seconds": 872.603707
+  },
+  "steps": 62,
+  "energy_change_eV": -2.3794997457753198,
+  "wall_seconds": 135.40283232800002,
+  "peak_rss_MiB": 136.68359375,
+  "cpu_seconds": 872.612359
+}
